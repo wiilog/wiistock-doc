@@ -21,6 +21,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mises à jour - Collecte manuelle nomade, Encours de stock & évolution des demandes d'achats](general/mises-a-jour/mises-a-jour-collecte-manuelle-nomade-encours-de-stock-and-evolution-des-demandes-dachats.md)
   * [Mise à jour - Suivi d'OF, Préparation nomade, gestionnaire d'emplacement et évolution dashboard](general/mises-a-jour/mise-a-jour-suivi-dof-preparation-nomade-gestionnaire-demplacement-et-evolution-dashboard.md)
   * [Mise à jour - IoT Urgences 24h - Demandes en cours - Association BR nomade](general/mises-a-jour/mise-a-jour-iot-urgences-24h-demandes-en-cours-association-br-nomade.md)
   * [Mise à jour - Rangement dirigé sur RFID - Arrivages UL - Encours arrivage camion & Imports planifiés](general/mises-a-jour/mise-a-jour-rangement-dirige-sur-rfid-arrivages-ul-encours-arrivage-camion-and-imports-planifies.md)
