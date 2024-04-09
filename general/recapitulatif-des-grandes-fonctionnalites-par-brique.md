@@ -37,6 +37,14 @@ Il s'agit d'une brique qui permet de gérer la planification des vos tournées e
 * Planifier des tournées
 * Planning des transports
 
+## Production
+
+Cette nouvelle brique permet de créer et suivre des ordres de fabrication. Les grandes fonctionnalités de la brique Production:
+
+* Demandes de production
+* Statuts paramétrables
+* Vue planning des OF
+
 ## **Autres fonctionnalités et points forts**
 
 * IoT (Objets connectés)
