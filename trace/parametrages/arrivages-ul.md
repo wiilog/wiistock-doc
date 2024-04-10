@@ -12,7 +12,11 @@ Cette section sert à paramétrer les comportements lors de la création d'un ar
 * **Emplacement de destination des arrivages :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la validation du formulaire des arrivages
 * **Emplacement de dépose des arrivages si champ "douane" coché :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la validation d'un formulaire de création des arrivages sur lequel le switch "Douane" est coché
 * **Emplacement de dépose des arrivages si urgence détectée :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la création d'un arrivage détecté comme urgent
-* **Champs déclenchant une urgence :** réglez ici les champs qui qualifient un arrivage comme urgent. L'application viendra regarder seulement les champs mis ici pour comparer un nouvel arrivage et une urgence renseignée
+* **Emplacement de dépose des arrivages UL si destinataire renseigné:** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la création d'un arrivage qui a le champ "Destinataire" rempli.
+
+Voici l'ordre de priorité des différents emplacements par défaut:
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Etiquettes
 
