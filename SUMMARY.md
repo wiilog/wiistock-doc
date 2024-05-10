@@ -103,6 +103,16 @@
 * [Fonctionnalités borne / tablette](stock/fonctionnalites-borne-tablette/README.md)
   * [Demande collecte et création référence](stock/fonctionnalites-borne-tablette/demande-collecte-et-creation-reference.md)
 
+## PRODUCTION
+
+* [Paramétrages](production/parametrages/README.md)
+  * [Configurations](production/parametrages/configurations.md)
+  * [Types & champs libres](production/parametrages/types-and-champs-libres.md)
+  * [Statuts](production/parametrages/statuts.md)
+  * [Champs fixes](production/parametrages/champs-fixes.md)
+* [Suivi des OF](production/suivi-des-of.md)
+* [Vue planning](production/vue-planning.md)
+
 ## Trace
 
 * [Paramétrages](trace/parametrages/README.md)
