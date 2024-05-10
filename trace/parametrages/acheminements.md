@@ -4,11 +4,12 @@
 
 Cette section sert à paramétrer le comportement de création d'un acheminement et lors de l'ajout de colis dans un acheminement.
 
+* **Obliger la signature groupée pour traiter les acheminements:** paramétrage à activer si vous souhaitez utiliser la fonctionnalité de Signature groupée
 * **Pré-remplir la date du jour dans le champ à échéance Du et échéance Au** : même si vous n'avez pas paramétré d'afficher le champ fixe Date d'échéance sur le formulaire de création d'acheminement, la date d'échéance sera automatiquement remplie avec la date du jour, que cela soit pour la borne basse ou la borne haute des dates d'échéances
 * **Ajouter le numéro d'acheminement en préfixe du colis lors de l'ajout de colis :** lorsque vous ajoutez un colis sur un acheminement, le colis aura automatiquement en préfixe le numéro d'acheminement
 * **Le colis ajouté dans l'acheminement ne peut pas exister en base (doit être nouveau) :** lorsque vous ajouter un colis dans un acheminement, celui-ci doit être nouveau, il ne doit pas déjà être dans la liste des colis
 
-Lorsque vous avez modifié un des paramétrages, n'oubliez pas de cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider vos changements.
+Lorsque vous avez modifié un des paramétrages, n'oubliez pas de cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider vos changements.
 
 ## Statuts
 
