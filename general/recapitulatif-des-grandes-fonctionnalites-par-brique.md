@@ -1,6 +1,6 @@
 # Récapitulatif des grandes fonctionnalités par brique
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-08-24 152447.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Trace**
 
