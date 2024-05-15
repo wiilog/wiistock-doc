@@ -8,21 +8,7 @@ description: Loiciel de gestion d'impression PDF
 
 **Objectif**
 
-Wiispool V3 est l'évolution du système Wiispool V2, conçu pour améliorer encore davantage la gestion des documents à imprimer. L'objectif principal de Wiispool V3 est de fournir une solution plus performante, efficace et conviviale pour optimiser le traitement des travaux d'impression. Cette nouvelle version offre une automatisation renforcée et des paramétrages supplémentaires, réduisant ainsi le besoin d'interventions manuelles et augmentant la productivité globale des utilisateurs.
-
-Grâce à sa configuration simplifiée et son interface intuitive, Wiispool V3 vise à faciliter les tâches quotidiennes et à offrir une expérience utilisateur optimale, sans tracas. Wiispool V3 se révèle particulièrement utile après la génération de divers documents PDF par Wiistock, tels que des étiquettes avec des dimensions personnalisées adaptées à vos besoins logistiques, ou des lettres de voiture destinées à être imprimées sur des feuilles de format A4. Il est même possible d'imprimer automatiquement des fichiers PDF téléchargés depuis votre navigateur internet.
-
-Il est important de noter que ces documents peuvent nécessiter l'utilisation d'imprimantes distinctes pour une impression optimale. Wiispool V3 facilite le processus d'impression en dirigeant automatiquement le document téléchargé vers l'imprimante appropriée, évitant ainsi toute confusion et optimisant l'efficacité de l'impression.
-
-#### Nouveautés de Wiispool V3
-
-Parmi les fonctionnalités supplémentaires offertes par Wiispool V3, vous pouvez désormais bénéficier des options suivantes :
-
-* Lancement automatique de l'écoute : Wiispool V3 peut être configuré pour démarrer l'écoute des documents à imprimer dès son lancement, ce qui permet de gagner du temps et d'améliorer la productivité.
-* Historique des impressions : il est possible de consulter et de réimprimer les 20 dernières impressions lancées par Wiispool V3, offrant ainsi une meilleure traçabilité et un gain de temps considérable en cas de besoin de réimpression.
-* Conservation des fichiers téléchargés : Wiispool V3 permet désormais de conserver les fichiers téléchargés avant de les imprimer, si besoin. Cette fonctionnalité offre une plus grande flexibilité et permet de s'assurer que les documents importants sont conservés pour un traitement ultérieur.
-
-Avec Wiispool V3, bénéficiez d'une gestion des impressions encore plus performante et adaptée à vos besoins.
+L'objectif principal du système Wiispool est de fournir une solution efficace et conviviale pour la gestion des documents à imprimer. Conçu pour optimiser le traitement des travaux d'impression, Wiispool offre une automatisation accrue, réduisant ainsi le besoin d'interventions manuelles et augmentant la productivité globale. Grâce à sa configuration aisée et son interface intuitive, Wiispool vise à simplifier les tâches quotidiennes et à garantir une expérience utilisateur sans tracas. Wiispool se révèle particulièrement utile après la génération de divers documents PDF par Wiistock, notamment des étiquettes avec des dimensions personnalisées adaptées à vos besoins logistiques, ou des lettres de voiture destinées à être imprimées sur des feuilles de format A4, par exemple. Il est essentiel de souligner que ces documents peuvent nécessiter l'utilisation d'imprimantes distinctes pour une impression optimale. Wiispool facilite le processus d'impression en dirigeant automatiquement le document téléchargé vers l'imprimante appropriée, évitant ainsi toute confusion et optimisant l'efficacité de l'impression.
 
 **Configuration**
 
@@ -30,7 +16,7 @@ Avec Wiispool V3, bénéficiez d'une gestion des impressions encore plus perform
 
 ***
 
-Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressions, vous pouvez facilement télécharger le logiciel. Cliquez simplement sur le lien suivant pour accéder au fichier de téléchargement : [Télécharger Wiispool](https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK/wiispool.zip), ou rendez-vous à l'adresse suivante : [https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK](https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK/wiispool.zip) et téléchargez le fichier wiispool.zip
+Pour commencer à utiliser Wiispool et améliorer la gestion de vos impressions, vous pouvez facilement télécharger le logiciel. Cliquez simplement sur le lien suivant pour accéder au fichier de téléchargement : [Télécharger Wiispool](https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK/wiispool.zip), ou rendez-vous à l'adresse suivante : [https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK](https://github.com/wiilog/wiispool/releases/download/ScaleAndOrientationOK/wiispool.zip) et téléchargez le fichier wiispool.zip
 
 * **Installation**
 
