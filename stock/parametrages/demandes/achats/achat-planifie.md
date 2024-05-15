@@ -11,7 +11,7 @@ description: >-
 
 Dans **Stock | Référence | Article de référence,** lorsqu’on attribue une règle de stockage à une référence sur un emplacement, on saisit une <mark style="background-color:blue;">**Quantité de sécurité**</mark> qui **correspond à la quantité minimale d’articles disponibles en stock** et une <mark style="background-color:blue;">**Quantité de conditionnement**</mark> qui **représente le nombre d’article contenu dans un conditionnemen**t. La quantité de sécurité va permettre de déterminer un **seuil de quantité disponible qui ne doit pas être inférieur**, auquel cas il déclenchera une demande d’achat planifiée.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Paramétrage | Stock | Demande | Achats - Planification
 
@@ -25,7 +25,7 @@ Dans la modale de planification il vous faudra remplir les informations suivante
 * **Objet du mail\***
 * **Fréquence**
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Pour chaque demande d’achat planifié vous recevrez un **email** concernant votre demande d'achat avec un tableau des références à réapprovisionner et le détail de celle-ci :&#x20;
 

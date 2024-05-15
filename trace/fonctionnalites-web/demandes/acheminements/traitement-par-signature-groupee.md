@@ -17,7 +17,7 @@ Il vous faudra également dans **Paramétrage | Trace | Acheminements | Configur
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ce code signataire doit comporter au minimum 4 caractères, il est confidentiel et propre à chaque utilisateur donc associé à son nom.&#x20;
 

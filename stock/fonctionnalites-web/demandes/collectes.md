@@ -31,7 +31,7 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 
 Dans le bouton d'action rapide, sélectionnez **Collecte** pour créer une demande de collecte.
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8) (1).png>)
 
 Une modale s'ouvrira alors pour remplir les informations d'entête de la demande :&#x20;
 

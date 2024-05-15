@@ -55,9 +55,9 @@ En passant par la modale <mark style="background-color:blue;">**Ajouter une miss
 * **Demandeur\*** : Par défaut c'est complété par l'utilisateur connecté.&#x20;
 * **Type de mission\*** : Sélectionner <mark style="background-color:blue;">**Aticle sur emplacement**</mark>.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="283"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="283"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Passer cette étape, vous pouvez soit ajouter des zones à inventorier et/ou sélectionner des emplacements. Puis cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark>, votre mission d’inventaire est créée, dans **Stock | Inventaire** vous pouvez voir apparaître le **Pourcentage du taux d’avancement** de votre mission et entrer dans le détail de celle-ci qui affiche par ligne les emplacements à inventorier.
 
@@ -67,7 +67,7 @@ Sur votre TC, dans Stock | Inventaire | Mission, la mission d’inventaire crée
 
 En passant par la modale <mark style="background-color:blue;">**Planificateur d'inventaire**</mark>, vous aurez également la possibilité de planifier vos missions d’inventaire de type Article sur emplacement (_le type Quantité article existait déjà_).
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Etape 4 : L'inventaire
 

@@ -116,7 +116,7 @@ En cliquant sur Planifier, une modale s'ouvrira alors pour remplir les informati
 * **Numéro de tracking** : Numéro de tracking du transporteur. Champ textuel libre.
 * **Date d'enlèvement** : Sélection de la date d'enlèvement de l'expédition par le transporteur.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 Une fois la modale remplis, cliquez sur le bouton <mark style="background-color:blue;">**Valider le transport.**</mark>
 

@@ -8,7 +8,7 @@ La brique Production a pour objectif de permettre aux ordonnanceurs d'organiser 
 
 Vous pouvez créer des demandes de production depuis le bouton + en haut à droite de votre page ou encore en importer via le module d'import unique ou planifié depuis un fichier excel.&#x20;
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption><p>Image tirée d'une instance de recette</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95) (1).png" alt=""><figcaption><p>Image tirée d'une instance de recette</p></figcaption></figure>
 
 Vous devrez remplir l'intégralité des champs obligatoires puis cliquer sur enregistrer pour valider votre demande. Celle-ci apparaitra ensuite dans la page Suivi des OF mais aussi dans la page planning en fonction de vos paramétrages.&#x20;
 

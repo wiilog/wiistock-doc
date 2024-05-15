@@ -199,7 +199,7 @@ Il y a des champs obligatoires à saisir pour créer une référence :&#x20;
 
 Vous pouvez donc ajouter autant d'UL contenant une référence pour chaque dans votre demande. A chaque UL ajoutée, vous avez un **visuel globa**l de votre demande d'acheminent avec les informations générales de celle-ci : Enlèvement, Livraison, Commentaire, Urgence et Type.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ainsi que le contenant de celle-ci avec vos UL, leurs numéros, la nature, la référence contenant et la quantité de celle-ci. En appuyant sur la vignette d'une UL, vous pouvez rentrer dans le détail de celle-ci, modifier ses informations et celles de la références.  Il est possible également de supprimer via l'icône poubelle.&#x20;
 

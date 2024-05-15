@@ -58,7 +58,7 @@ Dès lors que le scan à détecter un tag RFID sur votre étiquette, vous serez 
 
 En scrollant en page de l’écran, vous verrez apparaître des nouveaux champs donnant plus d’informations sur l’article. Vous pourrez soit les saisir manuellement, ou à l’appui du bouton <mark style="background-color:blue;">**Scan 2D**</mark>, les faire remplir automatiquement en scannant un QR Code associé à un datamatrix.&#x20;
 
-![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)![](<../../.gitbook/assets/image (48).png>)
 
 Nous avons pris un modèle de datamatrix qui renseigne les informations suivantes :&#x20;
 

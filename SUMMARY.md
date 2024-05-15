@@ -266,5 +266,6 @@
 
 ## Services externes
 
-* [WiiSpool](services-externes/wiispool.md)
+* [WiiSpool V2](services-externes/wiispool-v2.md)
+* [WiiSpool V3](services-externes/wiispool-v3.md)
 * [StageNow](services-externes/stagenow.md)
