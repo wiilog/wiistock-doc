@@ -18,13 +18,11 @@ Parmi les fonctionnalités supplémentaires offertes par Wiispool V3, vous pouve
 2. Historique des impressions : il est possible de consulter et de réimprimer les 20 dernières impressions lancées par Wiispool V3, offrant ainsi une meilleure traçabilité et un gain de temps considérable en cas de besoin de réimpression.
 3. Conservation des fichiers téléchargés : Wiispool V3 permet désormais de conserver les fichiers téléchargés avant de les imprimer, si besoin. Cette fonctionnalité offre une plus grande flexibilité et permet de s'assurer que les documents importants sont conservés pour un traitement ultérieur.
 
-Avec Wiispool V3, bénéficiez d'une gestion des impressions encore plus performante et adaptée à vos besoins.
-
 **Configuration**
 
 * **Téléchargements**
 
-Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressions, vous pouvez facilement télécharger le logiciel. Cliquez simplement sur le lien suivant pour accéder au fichier de téléchargement : Télécharger Wiispool _**{LIEN A DEFINIR}**_, ou rendez-vous à l'adresse suivante : _**{LIEN A DEFINIR}**_, et téléchargez le fichier wiispool.zip
+Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressions, vous pouvez facilement télécharger le logiciel. Allez simplement dans les Paramètres de votre instance, dans la partie Liens Pratiques et cliquez sur "Wiispool" pour télécharger l'application.
 
 * **Installation**
 
@@ -49,7 +47,7 @@ _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un 
 
 Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3).png>)
 
-Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi des fichiers à imprimer vers la bonne imprimante, sachez que par défaut, le logiciel est paramétré pour écouter le dossier "C:\Users{**UTILISATEUR**}\Downloads". Toutefois, si vous souhaitez modifier ce dossier, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (9).png" alt="" data-size="line"> et de renseigner le chemin absolu vers le dossier où vos téléchargements sont stockés par votre navigateur sur votre poste de travail. Veillez à indiquer le chemin absolu correctement pour assurer le bon fonctionnement de Wiispool V3. Cette personnalisation vous permet d'adapter le fonctionnement du logiciel à votre organisation et à vos besoins spécifiques en matière de gestion des impressions. N'oubliez pas de remplacer {**UTILISATEUR**} par le nom d'utilisateur approprié dans le chemin du dossier.
+Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi des fichiers à imprimer vers la bonne imprimante, sachez que par défaut, le logiciel est paramétré pour écouter le dossier "C:\Users{**UTILISATEUR**}\Downloads". Toutefois, si vous souhaitez modifier ce dossier, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (9).png" alt="" data-size="line"> et de renseigner le chemin absolu vers le dossier où vos téléchargements sont stockés par votre navigateur sur votre poste de travail. Veillez à indiquer le chemin absolu correctement pour assurer le bon fonctionnement de Wiispool V3. N'oubliez pas de remplacer {**UTILISATEUR**} par le nom d'utilisateur approprié dans le chemin du dossier.
 
 **Trouver où le navigateur enregistre les fichiers téléchargés**
 
@@ -67,7 +65,7 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 
 #### Imprimer les fichiers déjà présents dans le dossier
 
-* L'option "Imprimer les fichiers déjà présents dans le dossier" permet à Wiispool V3 de traiter et d'imprimer automatiquement tous les fichiers PDF existants dans le dossier de téléchargement configuré dès que cette fonctionnalité est activée. Cette option est particulièrement utile lorsque vous souhaitez traiter et imprimer tous les documents en attente dans le dossier, sans avoir à les ouvrir et les imprimer manuellement un par un. Ainsi, Wiispool V3 vous offre un gain de temps considérable et simplifie davantage la gestion de vos travaux d'impression. N'oubliez pas de vérifier les paramètres d'impression associés aux préfixes pour vous assurer que les documents seront imprimés correctement.
+* L'option "Imprimer les fichiers déjà présents dans le dossier" permet à Wiispool V3 de traiter et d'imprimer automatiquement tous les fichiers PDF existants dans le dossier de téléchargement configuré dès que cette fonctionnalité est activée. Cette option est particulièrement utile lorsque vous souhaitez traiter et imprimer tous les documents en attente dans le dossier, sans avoir à les ouvrir et les imprimer manuellement un par un. N'oubliez pas de vérifier les paramètres d'impression associés aux préfixes pour vous assurer que les documents seront imprimés correctement.
 
 #### Supprimer le fichier après l'impression
 
@@ -96,7 +94,8 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 **Lancer l'impression automatique**
 
 * Une fois le paramétrage terminé, pour lancer l'exécution de Wiispool, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (12).png" alt="" data-size="original">
-* A partir de la dés que vous téléchargerez un document .PDF préfixé avec  un des préfixes paramétré, ce document sera automatiquement envoyé vers l'imprimante qui est associée avec ce préfixe et le document sera automatiquement supprimé de votre dossier de téléchargement.
+
+A partir de la, dés que vous téléchargerez un document .PDF préfixé avec un des préfixes paramétrés, ce document sera automatiquement envoyé vers l'imprimante qui est associée avec ce préfixe et le document sera automatiquement supprimé de votre dossier de téléchargement.
 
 
 
@@ -106,7 +105,7 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 
 <figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* L'option "Historique d'impression" dans Wiispool V3 permet de consulter et de gérer facilement les informations sur les documents imprimés précédemment. Grâce à cette fonctionnalité, vous pouvez accéder à un journal détaillé des impressions, comprenant des informations telles que le nom du fichier, la date et l'heure d'impression, le préfixe associé, ainsi que le statut de l'impression (réussie ou échouée). L'historique d'impression est un outil précieux pour suivre et contrôler les activités d'impression, résoudre les éventuels problèmes d'impression et retrouver rapidement des documents imprimés récemment. De plus, Wiispool V3 conserve les 20 dernières impressions dans l'historique, ce qui vous permet de bénéficier d'un aperçu complet et pratique de vos activités d'impression récentes.
+* L'option "Historique d'impression" dans Wiispool V3 permet de consulter et de gérer facilement les informations sur les documents imprimés précédemment. Grâce à cette fonctionnalité, vous pouvez accéder à un journal détaillé des impressions, comprenant des informations telles que le nom du fichier, la date et l'heure d'impression, le préfixe associé, ainsi que le statut de l'impression (réussie ou échouée). De plus, Wiispool V3 conserve les 20 dernières impressions dans l'historique, ce qui vous permet de bénéficier d'un aperçu complet et pratique de vos activités d'impression récentes.
 
 #### Vider l'historique
 
