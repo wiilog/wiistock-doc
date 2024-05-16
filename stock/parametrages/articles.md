@@ -75,9 +75,12 @@ Sur le 2e encadré, vous avez la description du type et ces champs libres associ
 
     <table><thead><tr><th width="150">Type</th><th width="150">Format</th><th>Exemple et détail</th></tr></thead><tbody><tr><td>Date</td><td>JJ/MM/AAAA</td><td>25/03/2022 : L'année peut être reprise facilement sous excel</td></tr><tr><td>Texte</td><td>texte de 250 caractères</td><td>Le texte peut être limité en affichage sur la taille des champs</td></tr><tr><td>Oui/Non</td><td>Coche</td><td>Article fragile : "Oui" ou "Non"</td></tr><tr><td>Date et heure</td><td>JJ/MM/AAAA HH:MM</td><td>25/03/2022 17:53</td></tr><tr><td>Liste</td><td>Choix unique</td><td>La donnée se sélectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"</td></tr><tr><td>Liste multiple</td><td>Choix multiple</td><td>La donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgule : "Valeur1;Valeur2"</td></tr><tr><td>Nombre</td><td>NNNN</td><td>Exemple : 12345</td></tr></tbody></table>
 * **Éléments** : Ce champ est disponible que pour les types : liste et liste multiple. Indiquez les valeurs qui vont se retrouver dans votre liste. Attention les mots doivent être séparés par des ";".
+* **Nb caractères (Min)**: Le nombre de caractères minimum du champ.
+* **Nb caractères (Max)**: Le nombre de caractères maximum du champ.
 * **Valeur par défaut** : Ce champ est disponible pour tous les types sauf liste multiple. La  valeur choisie s'affichera en permanence lors de la création d'article, vous pourrez évidement la changer.
 * **Afficher à la création** : Cochez pour afficher ce champ libre à la création d'une référence.
 * **Obligatoire à la création** : Cochez pour rendre ce champ obligatoire à la création d'une référence, l'utilisateur sera obligé de saisir cette donnée.
+* **Affiché à la modification**: Cochez pour afficher ce champ libre à la modification d'une référence.
 * **Obligatoire à la modification** : Cochez pour rendre ce champ obligatoire à la modification de la référence, l'utilisateur sera obligé de saisir cette donnée.
 
 ### Ajouter un type
@@ -107,3 +110,8 @@ Lors de la modification du type expliqué juste au dessus vous avez la possibili
 Vous pouvez les supprimer des champs libres en cliquant sur la poubelle en début de ligne. **Attention : Il est très important de savoir que la suppression d'un champ est irréversible, les données saisies seront perdues.**
 
 Penser à exporter vos données avant d'effectuer une éventuelle suppression de champ.
+
+
+
+## Création nomade RFID
+
