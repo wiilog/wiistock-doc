@@ -97,7 +97,7 @@
   * [Stock I Transfert](stock/fonctionnalites-mobile/stock-i-transfert.md)
   * [Stock I Transfert manuel](stock/fonctionnalites-mobile/stock-i-transfert-manuel.md)
   * [Stock | Inventaire RFID](stock/fonctionnalites-mobile/stock-or-inventaire-rfid.md)
-  * [Stock I Association Article - UL](stock/fonctionnalites-mobile/stock-i-association-article-ul.md)
+  * [Association Articles - UL](stock/fonctionnalites-mobile/association-articles-ul.md)
   * [Stock I Créer Article (RFID)](stock/fonctionnalites-mobile/stock-i-creer-article-rfid.md)
   * [Demande I Livraison](stock/fonctionnalites-mobile/demande-i-livraison.md)
   * [Stock I Inventaire](stock/fonctionnalites-mobile/stock-i-inventaire.md)
@@ -258,6 +258,8 @@
 * [Clients](referentiel/clients.md)
 * [Véhicules](referentiel/vehicules.md)
 * [Projets](referentiel/projets.md)
+* [Clients](referentiel/clients-1.md)
+* [Projet](referentiel/projet.md)
 
 ## Entrepôt de données
 

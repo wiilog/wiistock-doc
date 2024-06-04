@@ -1,7 +1,3 @@
----
-description: Loiciel de gestion d'impression PDF
----
-
 # WiiSpool V2
 
 #### Introduction

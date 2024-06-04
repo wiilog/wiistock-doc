@@ -1,7 +1,3 @@
----
-description: Description du rôle du support Wiilog et moyens de contact.
----
-
 # Support Wiilog et Follow GT
 
 ## L'assistance du support Wiilog pour Follow GT
