@@ -1,10 +1,3 @@
----
-description: >-
-  L'arrivage correspond à l'arriver d'un transporteur sur le site et son
-  déchargement. C'est le point d'entrée de la traçabilité dans Wiilog afin de
-  créer les unités logistiques.
----
-
 # Arrivages
 
 Cette fonctionnalité est uniquement disponible en web.

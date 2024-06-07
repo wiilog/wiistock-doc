@@ -2,10 +2,10 @@
 
 ## Général
 
-* [Follow GT : Les principes fondamentaux](README.md)
+* [Wiilog/Follow GT : Les principes fondamentaux](README.md)
 * [Premiers pas](general/premiers-pas.md)
 * [Récapitulatif des grandes fonctionnalités par brique](general/recapitulatif-des-grandes-fonctionnalites-par-brique.md)
-* [Support Wiilog et Follow GT](general/support-wiilog-et-follow-gt.md)
+* [Support Wiilog/Follow GT](general/support-wiilog-follow-gt.md)
 * [Vidéos explicatives](general/videos-explicatives/README.md)
   * [Amélioration des demandes d'acheminements](general/videos-explicatives/amelioration-des-demandes-dacheminements.md)
   * [Nouvelles fonctionnalités Création article et inventaire RFID](general/videos-explicatives/nouvelles-fonctionnalites-creation-article-et-inventaire-rfid.md)
@@ -273,3 +273,7 @@
 * [WiiSpool V3](services-externes/wiispool-v3.md)
 * [StageNow](services-externes/stagenow.md)
 * [Datawedge](services-externes/datawedge.md)
+
+***
+
+* [Glossaire](glossaire.md)

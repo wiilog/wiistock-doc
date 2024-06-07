@@ -10,7 +10,7 @@ Créez votre premier compte utilisateur en cliquant sur <mark style="background-
 
 ## Création d'utilisateurs
 
-### Via Login page :&#x20;
+### Via la page de connexion:&#x20;
 
 Tout comme vous, un utilisateur a la possibilité d'utiliser l'option "Créer un compte" disponible sur la page de connexion de votre instance. Ensuite, il sera nécessaire de lui assigner un rôle approprié en fonction de son utilisation de l'application. Pour finaliser le processus, il conviendra de valider son compte en utilisant un compte déjà approuvé et ayant les droits requis pour réaliser ces démarches.&#x20;
 

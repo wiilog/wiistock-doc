@@ -1,6 +1,6 @@
-# Support Wiilog et Follow GT
+# Support Wiilog/Follow GT
 
-## L'assistance du support Wiilog pour Follow GT
+## L'assistance du support Wiilog.
 
 Le rôle du support de l'application est essentiel tout au long du cycle de vie d'une application, notamment pendant les phases de recette et de "Run" (production). Le support joue un rôle clé pour assurer le bon fonctionnement, la résolution des problèmes et la satisfaction des utilisateurs.
 
