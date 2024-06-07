@@ -2,7 +2,7 @@
 
 ## L'assistance du support Wiilog.
 
-Le rôle du support de l'application est essentiel tout au long du cycle de vie d'une application, notamment pendant les phases de recette et de "Run" (production). Le support joue un rôle clé pour assurer le bon fonctionnement, la résolution des problèmes et la satisfaction des utilisateurs.
+Le rôle du support de l'application est essentiel tout au long du cycle de vie d'une application, notamment pendant les phases de recette et de production (Run). Le support joue un rôle clé pour assurer le bon fonctionnement, la résolution des problèmes et la satisfaction des utilisateurs.
 
 ### Phase de recette
 
@@ -38,7 +38,9 @@ En résumé, le support de l'application joue un rôle crucial pour garantir le 
 
 Le support Wiilog est joignable au: **05 47 74 20 34** puis faire le **choix 1** pour être redirigé sur le support.
 
-Vous pouvez également choisir d'alerter le support via un ticket sur : **https://wiilog.freshdesk.com**
+Une ligne directe est également disponible au **07 56 10 69 43**
+
+Vous pouvez choisir d'alerter le support via un ticket sur : **https://wiilog.freshdesk.com**
 
 Ou via un mail créant un ticket sur : **support@wiilog.freshdesk.com**\
 
