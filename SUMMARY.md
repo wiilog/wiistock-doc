@@ -254,7 +254,7 @@
 * [Emplacements](referentiel/emplacements.md)
 * [Chauffeurs](referentiel/chauffeurs.md)
 * [Transporteurs](referentiel/transporteurs.md)
-* [Natures de colis](referentiel/natures-de-colis.md)
+* [Natures d'UL](referentiel/natures-dul.md)
 * [Clients](referentiel/clients.md)
 * [Véhicules](referentiel/vehicules.md)
 * [Projets](referentiel/projets.md)

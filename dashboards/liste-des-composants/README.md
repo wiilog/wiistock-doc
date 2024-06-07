@@ -1,8 +1,6 @@
 # Liste des composants
 
-{% embed url="https://www.screencast.com/t/N1dqUSI8UA" %}
-Modale choix composant
-{% endembed %}
+<figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2024-06-07 132619.png" alt=""><figcaption><p>Modale choix composant</p></figcaption></figure>
 
 Chaque paramétrage de composant est constitué :&#x20;
 
