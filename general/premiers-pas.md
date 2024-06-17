@@ -82,6 +82,22 @@ Puis cliquer sur "<mark style="background-color:blue;">Installer</mark>" puis "<
 
 L’application est mise à jour vous pouvez vous connecter. 👌
 
+### **Téléchargement manuel**&#x20;
+
+Pour télécharger manuellement le fichier APK de l'application Follow GT/Wiilog, suivez les étapes suivantes :
+
+1. Ouvrez un navigateur internet sur votre terminal mobile Android.
+2. Rendez-vous à l'adresse suivante : `https://{instance internet que vous souhaitez utiliser}/telecharger/nomade.apk`. Par exemple, si vous souhaitez effectuer les tests sur votre instance de recette, utilisez l'adresse `https://abc1-rec.follow-gt.fr/telecharger/nomade.apk`.
+3. Le téléchargement du fichier APK s'effectue automatiquement.
+
+Une fois les tests sur l'instance de recette terminés et que vous souhaitez réinstaller l'application de production sur votre terminal, procédez comme suit :
+
+1. Désinstallez manuellement l'application de recette de votre terminal.
+2. Ouvrez un navigateur internet sur votre terminal mobile Android.
+3. Rendez-vous à l'adresse suivante : `https://abc1-prod.follow-gt.fr/telecharger/nomade.apk`.
+4. Le téléchargement du fichier APK s'effectue automatiquement.
+5. Une fois le fichier APK téléchargé, vous pouvez [l'installer sur votre terminal](premiers-pas.md#mise-a-jour-manuelle-procedure-de-mise-a-jour-de-lenvironnement-de-recette).
+
 ### Mise à jour à l'aide de Stagenow
 
 La procédure de mise à jour peut être effectuée en utilisant l'application Stagenow, disponible sur les appareils Zebra. Pour mettre à jour via Stagenow, il vous suffira de scanner un QR code spécifique à l'aide de cette application. Ce QR code est accessible depuis la page de connexion de votre instance de production. Il vous suffit de survoler le Code-barres avec votre souris, situé au-dessus du formulaire de connexion. Une fois scanné, le processus de mise à jour sera initié.
