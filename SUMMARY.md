@@ -21,6 +21,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mises à jour - Filtrage web des types des demandes, exports planifié des mouvements & IOT](general/mises-a-jour/mises-a-jour-filtrage-web-des-types-des-demandes-exports-planifie-des-mouvements-and-iot.md)
   * [Mises à jour - Multiborne pour mise en stock, Wiispool V3 et recherche améliorée de référence](general/mises-a-jour/mises-a-jour-multiborne-pour-mise-en-stock-wiispool-v3-et-recherche-amelioree-de-reference.md)
   * [Mises à jour - Génération de bon de commande, demande de devis via email et dépose multiple sur web](general/mises-a-jour/mises-a-jour-generation-de-bon-de-commande-demande-de-devis-via-email-et-depose-multiple-sur-web.md)
   * [Mises à jour - Collecte manuelle nomade, Encours de stock & évolution des demandes d'achats](general/mises-a-jour/mises-a-jour-collecte-manuelle-nomade-encours-de-stock-and-evolution-des-demandes-dachats.md)
