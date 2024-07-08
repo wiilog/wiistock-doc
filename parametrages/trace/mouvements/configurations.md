@@ -7,7 +7,17 @@
 
 **Mails de relance** :&#x20;
 
-* **Déclencher un mail de relance si colis sur point de livraison dropzone à 7j, 15j, 30j, et 42j** : si un colis reste un certain temps sur un point de livraison et est associé à un destinataire, ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis
-* Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage
+* **Déclencher un mail de relance si colis sur point de livraison dropzone à 7j, 15j, 30j, et 42j** :
+
+Si&#x20;
+
+1. Ce paramétrage est coché;
+2. L'emplacement de dépose du colis est paramétré comme "Point de livraison";
+3. Le colis est associé à un destinataire de l'arrivage d'unités logistiques;
+4. Un colis reste un certain temps sur un point de livraison.
+
+alors ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis, tant que le colis sera sur cet emplacement.
+
+* Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
 
 <figure><img src="../../../.gitbook/assets/Capture d&#x27;écran 2024-07-05 093805.png" alt=""><figcaption><p>Paramétrage | Trace | Mouvements | <strong>Configurations</strong></p></figcaption></figure>
