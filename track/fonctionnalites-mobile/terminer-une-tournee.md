@@ -8,7 +8,7 @@ Un bouton <mark style="background-color:blue;">**Terminer la tournée**</mark> 
 Vignette de tournée quand tous les transports sont traités
 {% endembed %}
 
-Vous devez flasher un emplacement de fin de tournée pour la passer en « Terminée ». Une vérification s'éfectue pour valider si c'est le bon emplacement de fin de tournée (voir le paramétrage [Track> tournée](../parametrages/tournees.md#conditions-de-fin-de-tournee))
+Vous devez flasher un emplacement de fin de tournée pour la passer en « Terminée ». Une vérification s'éfectue pour valider si c'est le bon emplacement de fin de tournée (voir le paramétrage [Track> tournée](../../parametrages/track/tournees.md#conditions-de-fin-de-tournee))
 
 Si vous avez eu une livraison annulée en cours de route ou une livraison que vous n’avez pas pu livrer, vous pouvez avoir un écran avant le flash de fin de tournée pour déposer obligatoirement certains colis.
 
@@ -32,7 +32,7 @@ Dépose des colis non livrés ou des objets collectés
 
 #### COLIS NON LIVRES
 
-Vous arrivez sur une page qui liste tous les colis à déposer. Scannez les colis et scannez l’emplacement de dépose de ces colis. Une vérification s'éfectue pour valider si c'est le bon emplacement pour déposer les colis (voir le paramétrage [Track> tournée](../parametrages/tournees.md#depose-des-colis-non-livres))
+Vous arrivez sur une page qui liste tous les colis à déposer. Scannez les colis et scannez l’emplacement de dépose de ces colis. Une vérification s'éfectue pour valider si c'est le bon emplacement pour déposer les colis (voir le paramétrage [Track> tournée](../../parametrages/track/tournees.md#depose-des-colis-non-livres))
 
 #### OBJETS COLLECTES
 
@@ -42,6 +42,6 @@ Vous arrivez sur une page listant toutes les natures d’objets collectés et l
 Dépose des objets collectés
 {% endembed %}
 
-Flashez l’emplacement de dépose des objets collectés sur vos tournées. Une vérification s'éfectue pour valider si c'est le bon emplacement pour déposer les objets (voir le paramétrage [Track> tournée](../parametrages/tournees.md#depose-des-objets-collectes))
+Flashez l’emplacement de dépose des objets collectés sur vos tournées. Une vérification s'éfectue pour valider si c'est le bon emplacement pour déposer les objets (voir le paramétrage [Track> tournée](../../parametrages/track/tournees.md#depose-des-objets-collectes))
 
 Si vous avez tout déposé, et que votre tournée était en « Terminée », elle n’apparait alors plus dans votre liste des tournées.

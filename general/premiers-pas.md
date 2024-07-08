@@ -98,6 +98,19 @@ Une fois les tests sur l'instance de recette terminés et que vous souhaitez ré
 4. Le téléchargement du fichier APK s'effectue automatiquement.
 5. Une fois le fichier APK téléchargé, vous pouvez [l'installer sur votre terminal](premiers-pas.md#mise-a-jour-manuelle-procedure-de-mise-a-jour-de-lenvironnement-de-recette).
 
+### Désinstaller Follow GT/Wiilog
+
+Pour désinstaller l'application Follow GT/Wiilog de votre terminal Android, suivez les étapes suivantes :
+
+1. Ouvrez le menu des applications de votre terminal.
+2. Appuyez de manière prolongée sur l'icône de l'application Follow GT/Wiilog.
+3. Appuyez sur "Désinstaller" pour confirmer la désinstallation de l'application.\
+
+
+
+
+
+
 ### Mise à jour à l'aide de Stagenow
 
 La procédure de mise à jour peut être effectuée en utilisant l'application Stagenow, disponible sur les appareils Zebra. Pour mettre à jour via Stagenow, il vous suffira de scanner un QR code spécifique à l'aide de cette application. Ce QR code est accessible depuis la page de connexion de votre instance de production. Il vous suffit de survoler le Code-barres avec votre souris, situé au-dessus du formulaire de connexion. Une fois scanné, le processus de mise à jour sera initié.
@@ -114,8 +127,8 @@ Lors d'une phase de test d'une nouvelle fonctionnalité sur votre environnement 
 
 &#x20;
 
-1. Désinstallation de Follow-GT : Supprimez la version précédente de Follow-GT de votre appareil.&#x20;
-2. Téléchargement de la version de test : Téléchargez la version de test actuelle de Follow-GT pour votre période de test.&#x20;
+1. [Désinstallation de Follow-GT](premiers-pas.md#desinstaller-follow-gt-wiilog) : Supprimez la version précédente de Follow-GT de votre appareil.&#x20;
+2. [Téléchargement de la version de test](premiers-pas.md#telechargement-manuel) : Téléchargez la version de test actuelle de Follow-GT pour votre période de test.&#x20;
 3. Installation de Follow-GT : Installez la nouvelle version de Follow-GT sur votre appareil.&#x20;
 
 &#x20;

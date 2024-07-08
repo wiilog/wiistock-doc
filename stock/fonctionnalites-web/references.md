@@ -86,17 +86,17 @@ Remplissez les différents champs de la façon suivante :&#x20;
 * **Image** : cliquez sur le bouton avec le stylo pour aller chercher dans votre explorateur de fichier une image correspond à la référence
 * **Référence\*** : rentrez le code de votre référence&#x20;
 * **Libellé\*** : rentrez le libellé de la référence
-* **Type\*** : type de la référence. Des types de référence doivent avoir été au préalable paramétrés (dans [Paramétrage > Stock > Articles > Types & champs libres](../parametrages/articles.md)). Le choix du type donnera une couleur à la référence si vous avez attribué des couleurs lors du paramétrage de vos types
+* **Type\*** : type de la référence. Des types de référence doivent avoir été au préalable paramétrés (dans [Paramétrage > Stock > Articles > Types & champs libres](broken-reference)). Le choix du type donnera une couleur à la référence si vous avez attribué des couleurs lors du paramétrage de vos types
 * **Statut\*** : état de la référence. 3 statuts possibles :&#x20;
   * **Brouillon** : ce statut sert principalement si une personne a des droits de création de référence seulement en brouillon. Ainsi, quand la référence sera créée, elle pourra être créée seulement en brouillon et ne pourra pas être utilisée dans le reste de l'application tant qu'un valideur de référence ne l'aura pas passée en statut Actif. Une création en brouillon d'une référence envoi un mail aux personnes ayant un rôle contenant le droit _Valideur de référence_. Si vous sélectionnez le statut _Brouillon_, les champs suivants seront remplis avec les informations suivantes sans pouvoir les modifier :&#x20;
     * **Référence** : le champ sera rempli avec la valeur ADEFINIRn, n étant le nombre de référence ayant déjà leur code en ADEFINIRn, +1
-    * **Emplacement**, pour les **références en gestion quantité à la référence** : le champ sera rempli avec l'emplacement paramétré (dans [Stock > Configurations](../parametrages/configurations.md))
+    * **Emplacement**, pour les **références en gestion quantité à la référence** : le champ sera rempli avec l'emplacement paramétré (dans [Stock > Configurations](../../parametrages/stock/configurations.md))
     * **Quantité**, pour les **références en gestion quantité à la référence** : le champ sera rempli par 0
   * **Synchronisation nomade** : cochez cette case afin de pouvoir des demandes de livraison hors ligne à partir du terminal mobile
 
 **Zone Informations**
 
-* **Groupe de visibilité** : associez un groupe de visibilité à la référence afin que seul les utilisateurs ayant ce groupe attribué puisse la voir dans la liste des références. Les groupes de visibilité se paramètrent dans [Stock > Paramétrage > Groupe de visibilité](../parametrages/groupes-de-visibilite.md)
+* **Groupe de visibilité** : associez un groupe de visibilité à la référence afin que seul les utilisateurs ayant ce groupe attribué puisse la voir dans la liste des références. Les groupes de visibilité se paramètrent dans [Stock > Paramétrage > Groupe de visibilité](broken-reference)
 * **Pièces jointes** : pour associer des documents à la référence
 * **Nomenclature :** pour mettre un commentaire sur la référence &#x20;
 
@@ -110,7 +110,7 @@ Dans cette zone, les champs ne sont pas les mêmes selon si l'on choisit la gest
 * **Quantité\*** : quantité totale de la référence
 * **Gestionnaires** : gestionnaires de la référence. Ils recevront un mail dans le cas où l'envoi de mail est paramétré lorsque le seuil d'alerte ou de sécurité est atteint
 * **Acheteur** : acheteur en charge de la référence. Pour faire les demandes d'achat&#x20;
-* **Prix unitaire (€)** : prix de chaque unité de la référence. Ce prix est utilisé ensuite pour le calcul de fiabilité monétaire sur les composants de dashboard correspondant (Voir [Dashboard > Liste des composants](../../dashboards/liste-des-composants/))
+* **Prix unitaire (€)** : prix de chaque unité de la référence. Ce prix est utilisé ensuite pour le calcul de fiabilité monétaire sur les composants de dashboard correspondant (Voir [Dashboard > Liste des composants)](../../parametrages/dashboards/liste-des-composants/)
 * **Seuil d'alerte** : premier seuil d'alerte de quantité. Si le seuil est atteint, une alerte est déclenchée dans la page Stock > Alerte et un mail est envoyé au gestionnaire si le paramétrage est activé
 * **Seuil de sécurité** : deuxième seuil d'alerte de quantité. Si le seuil est atteint, une alerte est déclenchée dans la page Stock > Alerte et un mail est envoyé au gestionnaire si le paramétrage est activé
 
@@ -143,7 +143,7 @@ Pour ajouter un fournisseur, il faut remplir :&#x20;
 
 **Zone Inventaires**&#x20;
 
-* **Catégorie d'inventaire** : ce champ va chercher dans la liste des catégories d'inventaire paramétrées ([Paramétrage > Stock > Inventaires](../parametrages/inventaires.md)). Attribuer une catégorie d'inventaire à une référence permet de générer automatiquement des missions d'inventaire en fonction de la fréquence associée à la catégorie. Exemple : si la fréquence est de 2 mois et que la date de dernier inventaire de la référence est supérieure à 2 mois, la référence sera placée sur la prochaine mission d'inventaire générée. Les missions sont générées chaque dimanche soir. Dans le cas d'une référence en gestion quantité article, on vient regarder la date de dernier inventaire de chaque article, et si cette dernière est supérieure à la fréquence, l'article est placé dans la prochaine mission d'inventaire
+* **Catégorie d'inventaire** : ce champ va chercher dans la liste des catégories d'inventaire paramétrées ([Paramétrage > Stock > Inventaires](broken-reference)). Attribuer une catégorie d'inventaire à une référence permet de générer automatiquement des missions d'inventaire en fonction de la fréquence associée à la catégorie. Exemple : si la fréquence est de 2 mois et que la date de dernier inventaire de la référence est supérieure à 2 mois, la référence sera placée sur la prochaine mission d'inventaire générée. Les missions sont générées chaque dimanche soir. Dans le cas d'une référence en gestion quantité article, on vient regarder la date de dernier inventaire de chaque article, et si cette dernière est supérieure à la fréquence, l'article est placé dans la prochaine mission d'inventaire
 
 **Zone Champs libres**
 
@@ -191,7 +191,7 @@ Cet encart vous permet de connaître à un instant T votre quantité en stock (q
 **Zone Inventaires**
 
 * **Date de dernier inventaire** : dernière date d'inventaire de la référence. Pour les références en gestion quantité article, cette date ne sera jamais remplie car la date de dernier inventaire est portée par les articles de la référence
-* **Catégorie d'inventaire :** Indique la catégorie d'inventaire de cette référence [(paramètrage > stock > inventaire)](../parametrages/inventaires.md)
+* **Catégorie d'inventaire :** Indique la catégorie d'inventaire de cette référence [(paramètrage > stock > inventaire)](broken-reference)
 *   **Inventaire à jour** : Dans le cas d'une référence en Gestion quantité par article, remplacer le champ "Date de dernier inventaire" est remplacé pour le champ "Inventaire à jour"
 
     Inventaire à jour :

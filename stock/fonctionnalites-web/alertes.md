@@ -51,7 +51,7 @@ Sur le tableau, vous pouvez également :&#x20;
 
 ### Mails d'alerte de seuil de sécurité et d'alertes
 
-Si le paramétrage est activé ([Paramétrage | Stock | Alertes](../parametrages/alertes.md)), les gestionnaires des références peuvent recevoir des mails lorsqu'une alerte est déclenchée.&#x20;
+Si le paramétrage est activé ([Paramétrage | Stock | Alertes](broken-reference)), les gestionnaires des références peuvent recevoir des mails lorsqu'une alerte est déclenchée.&#x20;
 
 ![Exemple de mail d'alerte de seuil](<../../.gitbook/assets/Seuil de sécurité.PNG>)
 
@@ -69,7 +69,7 @@ Dans le mail vous retrouverez différentes informations :&#x20;
 
 ### Mails d'alerte de péremption
 
-Si un délais d'alerte de péremption est paramétré ([Paramétrage | Stock | Alertes](../parametrages/alertes.md)), un mail sera envoyé aux gestionnaires de la référence x jours avant la date de péremption de l'article.
+Si un délais d'alerte de péremption est paramétré ([Paramétrage | Stock | Alertes](broken-reference)), un mail sera envoyé aux gestionnaires de la référence x jours avant la date de péremption de l'article.
 
 ![Mail d'alerte de péremption](<../../.gitbook/assets/seuil péremption.PNG>)
 

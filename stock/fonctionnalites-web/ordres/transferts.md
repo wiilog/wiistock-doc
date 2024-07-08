@@ -44,7 +44,7 @@ L'entête est constituée des champs :&#x20;
 * **Opérateur** : opérateur ayant traité l'ordre de transfert. Le champ est donc rempli seulement si l'ordre de transfert est traité
 * **Origine** : emplacement d'origine du transfert
 * **Destination** : emplacement de destination sur lequel doivent être déposées les références / articles
-* **Dépose réelle** : si le paramétrage _"Autoriser la dépose des articles sur un emplacement libre"_ est activé (Voir [Fonctionnalités mobiles > Paramétrage Terminal mobile](../../parametrage-terminal-mobile.md)), l'opérateur a la possibilité de déposer les articles sur un autre emplacement que celui renseigné dans Destination. Dans ce cas là, cet emplacement autre que celui de destination sera renseigné dans ce champ. Le champ est donc rempli seulement si l'ordre de transfert est traité
+* **Dépose réelle** : si le paramétrage _"Autoriser la dépose des articles sur un emplacement libre"_ est activé (Voir Fonctionnalités[ mobiles > Paramétrage Terminal mobile](../../../parametrages/terminal-mobile/transfert-a-traiter.md)), l'opérateur a la possibilité de déposer les articles sur un autre emplacement que celui renseigné dans Destination. Dans ce cas là, cet emplacement autre que celui de destination sera renseigné dans ce champ. Le champ est donc rempli seulement si l'ordre de transfert est traité
 * **Date de création** : date de création de l'ordre de transfert
 * **Date de transfert** : date à laquelle l'ordre de collecte a été transfert
 

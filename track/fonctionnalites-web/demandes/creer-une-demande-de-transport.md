@@ -8,7 +8,7 @@ Le formulaire est distingué en 5 parties (les champs obligatoires sont indiqué
 
 **Les informations Patient** : Renseignez l'identité du patient, sont numéro de dossier, son adresse, le contact, personne à prévenir puis la remarque.
 
-**Service** : choix du type de livraison (selon ce que vous avez renseigné dans votre [paramétrage](../../parametrages/demandes.md#livraisons-types-et-champs-libres)). Cliquez sur le service souhaité afin de faire apparaître les natures de colis possibles à la livraison pour ce service.
+**Service** : choix du type de livraison (selon ce que vous avez renseigné dans votre [paramétrage](../../../parametrages/track/demandes/livraison-types-and-champs-libres.md)). Cliquez sur le service souhaité afin de faire apparaître les natures de colis possibles à la livraison pour ce service.
 
 **Date** : choix de quand la livraison doit être effectuée ainsi que de son niveau d’urgence. Rentrez la date à laquelle la livraison doit être effectuée ainsi que l’heure. Si la livraison est urgente, sélectionnez le niveau d’urgence dans la liste déroulante « Urgence »
 
@@ -17,7 +17,7 @@ Le formulaire est distingué en 5 parties (les champs obligatoires sont indiqué
 * &#x20;Si vos colis sont déjà préparés, cochez « Imprimer les étiquettes » pour être redirigé vers la modale de colisage pour indiquer le nombre de colis de chaque nature et avoir les étiquettes correspondantes.
 * Si vos colis ne sont pas préparés, ne cochez pas « Imprimer les étiquettes ». Vous pourrez indiquer le nombre de colis par nature et imprimer les étiquettes plus tard
 
-**Autres informations** : informations complémentaires sur la livraison. Complétez les champs. Ils ne sont pas tous obligatoires. (selon ce que vous avez renseigné dans votre [paramétrage](../../parametrages/demandes.md#livraisons-types-et-champs-libres)).
+**Autres informations** : informations complémentaires sur la livraison. Complétez les champs. Ils ne sont pas tous obligatoires. (selon ce que vous avez renseigné dans votre [paramétrage](../../../parametrages/track/demandes/livraison-types-and-champs-libres.md)).
 
 {% embed url="https://www.screencast.com/t/YkkFma9GX" %}
 Demande de livraison
@@ -36,14 +36,14 @@ Le formulaire, comme celui de livraison, est distingué en 5 parties (les champ
 
 **Les informations Patient** : Renseignez l'identité du patient, sont numéro de dossier, son adresse, le contact, personne à prévenir puis la remarque.
 
-**Service** : choix du type de collecte (selon ce que vous avez renseigné dans votre [paramétrage](../../parametrages/demandes.md#collectes-types-et-champs-libres)). Cliquez sur le service souhaité afin de faire apparaître les natures de colis possibles à la collecte pour ce service.
+**Service** : choix du type de collecte (selon ce que vous avez renseigné dans votre [paramétrage](../../../parametrages/track/demandes/collectes-types-et-champs-libres.md)). Cliquez sur le service souhaité afin de faire apparaître les natures de colis possibles à la collecte pour ce service.
 
 **Date** : choix de quand la collecte doit être effectuée. Cette date est purement indicative. Elle devra être validée ensuite avec le patient. Il n’y a pas d’heure à indiquer contrairement aux livraisons, ou de niveau d’urgence. Vous ne pouvez pas sélectionner une date dans le passé.
 
 **Colis** : choisissez les différents éléments qui seront à collecter.\
 Lorsque vous cochez une nature de colis à collecter, un compteur apparaît. Si vous connaissez le nombre d’éléments à récupérer de la nature, vous pouvez donner l’indication au livreur. Si vous ne connaissez pas la quantité à collecter, laissez le champ vide
 
-**Autres informations** : informations complémentaires sur la collecte. Complétez les champs. Ils ne sont pas tous obligatoires. (selon ce que vous avez renseigné dans votre [paramétrage](../../parametrages/demandes.md#collectes-types-et-champs-libres)).
+**Autres informations** : informations complémentaires sur la collecte. Complétez les champs. Ils ne sont pas tous obligatoires. (selon ce que vous avez renseigné dans votre [paramétrage](../../../parametrages/track/demandes/collectes-types-et-champs-libres.md)).
 
 {% embed url="https://www.screencast.com/t/aNY5WuQx1" %}
 Demande de collecte

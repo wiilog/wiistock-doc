@@ -4,9 +4,9 @@ Les préparations via le planning changent légèrement de flux comparé aux Pr�
 
 ## **Paramétrage pour accéder et utiliser le planning**
 
-Pour afficher la page planning, allez dans le paramétrage de votre [rôle](../../../parametrages/utilisateurs/roles/), onglet **Ordre** puis **Préparations** et activer **Afficher préparations - planning**, vous pouvez aussi activer **Modifier la date de préparation** pour afficher le bouton <mark style="background-color:blue;">**Modifier**</mark> dans le détail d'une préparation et ainsi modifier la date de préparation de votre livraison, par défaut la date de préparation sera le même jour que la date attendue.
+Pour afficher la page planning, allez dans le paramétrage de votre [rôle](broken-reference), onglet **Ordre** puis **Préparations** et activer **Afficher préparations - planning**, vous pouvez aussi activer **Modifier la date de préparation** pour afficher le bouton <mark style="background-color:blue;">**Modifier**</mark> dans le détail d'une préparation et ainsi modifier la date de préparation de votre livraison, par défaut la date de préparation sera le même jour que la date attendue.
 
-Deux autres paramétrages sont à activer sur la demande de livraison, dans [Stock > Demande > Livraisons](../../parametrages/demandes/livraisons.md#livraisons) activer **Réaliser une demande de livraison sans quantité en stock (lancement de préparation)** et dans Livraisons - Champs fixes afficher **Date attendue** à la création.
+Deux autres paramétrages sont à activer sur la demande de livraison, dans [Stock > Demande > Livraisons](broken-reference) activer **Réaliser une demande de livraison sans quantité en stock (lancement de préparation)** et dans Livraisons - Champs fixes afficher **Date attendue** à la création.
 
 ## Page Préparation - Planning
 

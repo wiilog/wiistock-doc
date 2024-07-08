@@ -14,7 +14,7 @@ Vous avez la liste sous forme de "carte" avec plusieurs informations :&#x20;
 * **Numéro** (ex : P-20230414170506-01) : Numéro de la préparation avec le format P-aaaammjjhhmmss-n
 * **Flux** : Indication du type de livraison
 * **Commentaire** : commentaire de la livraison
-* **Date attendue** : Date souhaitée de livraison (en fonction de la date la couleur de l'entête change voir [Paramétrage > Terminal mobile > Préparations/Livraisons](../parametrage-terminal-mobile.md#preparation-livraison))
+* **Date attendue** : Date souhaitée de livraison (en fonction de la date la couleur de l'entête change voir [Paramétrage > Terminal mobile > Préparations/Livraisons](../../parametrages/terminal-mobile/preparation-livraison.md))
 * **Projet** : Indication du projet de la livraison issu du référentiel projet
 
 {% embed url="https://www.screencast.com/t/ndmrtxBS" %}
@@ -53,7 +53,7 @@ Préparation d'article
 
 Après le scan de votre référence vous devez choisir l'article, puis confirmer la quantité à sortir du stock.
 
-Selon le paramétrage dans [Terminal mobile > Préparation](../parametrage-terminal-mobile.md#preparation),  Afficher l'écran de suggestion d'article sans sélection manuelle de l'article coché, vous ne pourrez pas sélectionner manuellement un article dans la liste (écran du milieu), il faudra le scanner ou prendre en photo l'article.
+Selon le paramétrage dans [Terminal mobile > Préparation](../../parametrages/terminal-mobile/preparations.md),  Afficher l'écran de suggestion d'article sans sélection manuelle de l'article coché, vous ne pourrez pas sélectionner manuellement un article dans la liste (écran du milieu), il faudra le scanner ou prendre en photo l'article.
 
 {% embed url="https://www.screencast.com/t/lqZKuVOMsWot" %}
 Écran de sélection d'article sans sélection manuelle

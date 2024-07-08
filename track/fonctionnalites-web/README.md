@@ -42,7 +42,7 @@ Il est possible que le livreur n’arrive pas à livrer les colis. Dans ce cas, 
 
 ### **Livraison à faire sur un jour et/ou un horaire non ouvré**
 
-Si vous faites une demande sur une journée ou un horaire non travaillé, la demande sera automatiquement passée en statut «<mark style="background-color:orange;">Sous-traitée</mark>». Il est toujours possible de venir imprimer les étiquettes si nécessaires via le bouton Imprimer les étiquettes. Les horaires non ouvrés sont des horaires [paramétrés](../../parametrages/global.md#heures-travaillees) dans l’application.
+Si vous faites une demande sur une journée ou un horaire non travaillé, la demande sera automatiquement passée en statut «<mark style="background-color:orange;">Sous-traitée</mark>». Il est toujours possible de venir imprimer les étiquettes si nécessaires via le bouton Imprimer les étiquettes. Les horaires non ouvrés sont des horaires [paramétrés](broken-reference) dans l’application.
 
 Pour continuer ce workflow il faut allez dans la page [Ordre / sous-traitance](ordres/sous-traitance.md)
 

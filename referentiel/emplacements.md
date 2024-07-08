@@ -90,7 +90,7 @@ Sur chaque ligne de groupe peut aussi apparaître un logo wifi si le groupe d'em
 
 Si la ligne a un logo wifi, un bouton <mark style="background-color:blue;">**Historique des données**</mark> est présent en plus sous les <img src="../.gitbook/assets/3points" alt="" data-size="line">
 
-Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à ce groupe d'emplacements (Voir la partie [IoT](../iot/introduction.md) de la documentation).
+Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à ce groupe d'emplacements (Voir la partie [IoT](broken-reference) de la documentation).
 
 ### Ajouter un groupe d'emplacements
 

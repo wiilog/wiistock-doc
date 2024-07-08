@@ -12,9 +12,9 @@ Vous avez la liste sous forme de "carte" avec plusieurs informations :&#x20;
 
 * **Demandeur** : Utilisateur qui a créé la demande de transfert
 * **Numéro** (ex : OT-202305100002) : Numéro de l'ordre de transfert avec le format OT-aaaammjj000n
-* **Origine** : Emplacement de stockage des référenc ou article
+* **Origine** : Emplacement de stockage des références ou article
 * **Destination** : Emplacement de destination souhaité
-* **Références contenues** _(option à afficher)_ : Liste des références du transfert. Elle peut être affiché avec le paramétrage "Afficher les références contenues sur les étiquettes de transfert" dans [Paramétrage > Terminal Mobile > Transferts à traiter](../parametrage-terminal-mobile.md#transferts-a-traiter)
+* **Références contenues** _(option à afficher)_ : Liste des références du transfert. Elle peut être affiché avec le paramétrage "Afficher les références contenues sur les étiquettes de transfert" dans [parametrages/terminal-mobile/gestion-des-validations](../../parametrages/terminal-mobile/gestion-des-validations.md)
 
 {% embed url="https://www.screencast.com/t/ytjuxcO2t37e" %}
 
@@ -40,7 +40,7 @@ Rentrer dans le détail d'un ordre de transfert, vous retrouvez le numéro de l'
 
 Au fur et à mesure que vous scannez vos références, elles vont se transférer dans "Transféré". Cela indique que vous les avez bien déplacés. Pour passer une référence / articles de "Transféré" à "À transférer" vous pouvez scanner ou prendre en photo (via ![](<../../.gitbook/assets/Capture d’écran 2023-04-18 à 14.37.51.png>)) le Code barre. Vous pouvez aussi utiliser la flèche, si vous ne pouvez pas utiliser le scan ou la photo.
 
-La dernière étape est d'indiquer l'emplacement de destination. Il peut être différent de l'emplacement de destination si vous avez cocher "Autoriser la dépose des articles sur un emplacement libre" dans le paramétrage  [Paramétrage > Terminal Mobile > Transferts à traiter](../parametrage-terminal-mobile.md#transferts-a-traiter).
+La dernière étape est d'indiquer l'emplacement de destination. Il peut être différent de l'emplacement de destination si vous avez cocher "Autoriser la dépose des articles sur un emplacement libre" dans le paramétrage  [Paramétrage > Terminal Mobile > Transferts à traiter.](../../parametrages/terminal-mobile/transfert-a-traiter.md)
 
 {% embed url="https://www.screencast.com/t/hRUoKk9f" %}
 

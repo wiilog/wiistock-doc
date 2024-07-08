@@ -2,7 +2,7 @@
 
 Pour donner accès aux managers ou opérateurs sur l'application, vous devez leur créer des comptes utilisateurs. Vous pouvez soit créer tous les comptes utilisateurs 1 à 1, soit les importer en masse via les import, soit demander aux utilisateurs de valider le fomulaire de création de compte disponible depuis l'écran d'authentification de l'application.
 
-Le compte utilisateur est ensuite rattaché à un rôle lui permettant d'accéder à certaines fonctionnalités de l'application. (voir [roles](roles/ "mention"))
+Le compte utilisateur est ensuite rattaché à un rôle lui permettant d'accéder à certaines fonctionnalités de l'application. (voir [Broken link](broken-reference "mention"))
 
 ### Créer un nouvelle utilisateur
 

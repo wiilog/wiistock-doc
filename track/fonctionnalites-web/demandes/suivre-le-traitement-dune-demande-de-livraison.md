@@ -18,7 +18,7 @@ Si vous faites une demande sur une journée ou un horaire non travaillé, la d
 
 Vous n’avez pas d’actions à effectuer dans ce cas. Il est néanmoins toujours possible de venir imprimer les étiquettes si nécessaires via le bouton Imprimer les étiquettes (voir plus bas pour l’explication plus poussée de la fonctionnalité).
 
-Les horaires non ouvrés sont des horaires [paramétrés](../../../parametrages/global.md#heures-travaillees) dans l’application.
+Les horaires non ouvrés sont des horaires [paramétrés](../../../parametrages/global/heures-travaillees.md#heures-travaillees) dans l’application.
 
 Lorsqu’une demande est sous-traitée, le responsable vient renseigner directement à la main la date et l’horaire du démarrage de livraison, ainsi que la date et l’horaire du traitement de la livraison, ou de la non-livraison si le sous-traitant a rencontré un souci. Il peut également venir ajouter des documents tel que le relevé des températures pour la livraison. Tout sera mis à disposition sur le détail de votre demande dans l’historique des transports.
 
@@ -94,7 +94,7 @@ Il se peut qu’au chargement, le livreur écarte un colis car celui-ci est abî
 Pour savoir qu’un colis a été écarté, vous aurez l’indication à 3 endroits :
 
 * Sur la liste des demandes de transport (Demande | Transport) : un logo <img src="../../../.gitbook/assets/colis-écarté.png" alt="" data-size="line">apparaîtra en haut à droite de la vignette pour indiquer que la demande contient un colis écarté**.**
-* Sur le détail d’une demande (Demande | Transport | Détails) : dans la section colis le même logo apparaîtra + sur la ligne du colis écarté, il sera marqué « oui » dans la colonne « Ecarté » ainsi que la raison de son écartement dans la colonne « Motif écartement ». Les colis non écartés auront « non » dans la colonne « Ecarté ». (motifs [paramétrable](../../parametrages/tournees.md#colis-ecartes))
+* Sur le détail d’une demande (Demande | Transport | Détails) : dans la section colis le même logo apparaîtra + sur la ligne du colis écarté, il sera marqué « oui » dans la colonne « Ecarté » ainsi que la raison de son écartement dans la colonne « Motif écartement ». Les colis non écartés auront « non » dans la colonne « Ecarté ». (motifs [paramétrable](../../../parametrages/track/tournees.md#colis-ecartes))
 
 {% embed url="https://www.screencast.com/t/CWjuWtw393" %}
 Colis écatrés

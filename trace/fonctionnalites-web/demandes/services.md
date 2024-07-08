@@ -64,16 +64,16 @@ Afin de créer une nouvelle demande de service, il suffit cliquer sur le bouton 
 * Les **pièces jointes**
 
 {% hint style="info" %}
-Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](../../parametrages/services.md#statuts).
+Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](broken-reference).
 {% endhint %}
 
 Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark>, ce qui créera la demande de service. Il sera possible de retrouver cette dernière dans le tableau présent sur la page.
 
 ### Visualiser une demande de service et changer son statut
 
-Cliquez sur la ligne du service, vous allez arriver sur une page avec 2 colonnes. Sur la 1er, vous avez en haut le numéro de la demande et la personne qui l'a créé. Ensuite, vous avez les différents champs ([gestions des champs fixes](../../parametrages/services.md#champs-fixes)) que vous avez remplis lors de la création de votre demande, puis en dessous se situe une catégorie champs libres ([gestion des champs libres](../../parametrages/services.md#types-et-champs-libres)).
+Cliquez sur la ligne du service, vous allez arriver sur une page avec 2 colonnes. Sur la 1er, vous avez en haut le numéro de la demande et la personne qui l'a créé. Ensuite, vous avez les différents champs ([gestions des champs fixes](broken-reference)) que vous avez remplis lors de la création de votre demande, puis en dessous se situe une catégorie champs libres ([gestion des champs libres](broken-reference)).
 
-Sur la 2e colonne, vous avez une timeline qui reprend les différents statuts par lesquels est passé votre demande. Pour modifier le statut de votre demande cliqué sur <mark style="background-color:blue;">**Changer le statut**</mark>, une fenêtre va s'ouvrir et vous allez pouvoir sélectionner un nouveau statut. La liste des statuts proposés sont ceux renseigner dans le paramétrage ([gestion des statuts](../../parametrages/services.md#statuts)). <mark style="background-color:blue;">**Enregistrer**</mark> et la timeline va automatiquement s'actualiser. Une fois la demande traité, il est impossible de changer son statuts.
+Sur la 2e colonne, vous avez une timeline qui reprend les différents statuts par lesquels est passé votre demande. Pour modifier le statut de votre demande cliqué sur <mark style="background-color:blue;">**Changer le statut**</mark>, une fenêtre va s'ouvrir et vous allez pouvoir sélectionner un nouveau statut. La liste des statuts proposés sont ceux renseigner dans le paramétrage ([gestion des statuts](broken-reference)). <mark style="background-color:blue;">**Enregistrer**</mark> et la timeline va automatiquement s'actualiser. Une fois la demande traité, il est impossible de changer son statuts.
 
 {% embed url="https://www.screencast.com/t/SrtUV3N9" %}
 Visualisation et changement de statut

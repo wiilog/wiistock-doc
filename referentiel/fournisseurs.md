@@ -22,8 +22,8 @@ Pour créer un nouveau fournisseur, cliquez sur <mark style="background-color:bl
 
 * Le **nom** du fournisseur, obligatoire
 * Le **code de référence** du fournisseur, obligatoire
-* La checkbox **Possible douane** : si elle est cochée, à la validation d'un arrivage avec ce fournisseur, une modale va apparaître demandant si l'arrivage doit être modifié (voir [Arrivages](../trace/parametrages/arrivages-ul.md))
-* La checkbox **Urgent** : si elle cochée, à la validation d'un arrivage avec ce fournisseur, une modale va apparaître signifiant que les colis de ce fournisseur sont à traiter en urgence, plus l'arrivage est affiché en urgence (voir [Arrivages](../trace/parametrages/arrivages-ul.md))
+* La checkbox **Possible douane** : si elle est cochée, à la validation d'un arrivage avec ce fournisseur, une modale va apparaître demandant si l'arrivage doit être modifié (voir [Arrivages](broken-reference))
+* La checkbox **Urgent** : si elle cochée, à la validation d'un arrivage avec ce fournisseur, une modale va apparaître signifiant que les colis de ce fournisseur sont à traiter en urgence, plus l'arrivage est affiché en urgence (voir [Arrivages](broken-reference))
 
 Cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider l'ajout du fournisseur. Il pourra ainsi être utilisé sur tous les formulaires de l'application où un fournisseur est demandé.
 

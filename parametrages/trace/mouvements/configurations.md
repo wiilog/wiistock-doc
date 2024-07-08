@@ -1,0 +1,13 @@
+# Configurations
+
+* **Vider et rester sur la modale de création de mouvement** : si ce paramétrage est coché, lorsque vous créez des mouvements via la supervision, la modale de création de mouvement restera toujours ouverte à la création d'un mouvement et se videra
+*   **Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement** : si ce paramétrage est coché, lorsque vous réaliser un mouvement de prise d'une Unité Logistique, sur Web ou Nomade, vous aurez un message pour vous prévenir si l'Unité Logistique n'a pas été prise sur un emplacement sur lequel elle avait été déposée.&#x20;
+
+    _Par exemple : Je fais mon arrivage UL sur l'emplacement RECEPTION, si je prends l'UL que je viens de déposer sur un autre emplacement que RECEPTION, alors j'aurais un message pour me prévenir que cette UL n'était pas posée sur cet emplacement._&#x20;
+
+**Mails de relance** :&#x20;
+
+* **Déclencher un mail de relance si colis sur point de livraison dropzone à 7j, 15j, 30j, et 42j** : si un colis reste un certain temps sur un point de livraison et est associé à un destinataire, ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis
+* Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage
+
+<figure><img src="../../../.gitbook/assets/Capture d&#x27;écran 2024-07-05 093805.png" alt=""><figcaption><p>Paramétrage | Trace | Mouvements | <strong>Configurations</strong></p></figcaption></figure>

@@ -22,7 +22,7 @@ Chaque service est représenté par un vignette rectangulaire qui contient les i
 
 Les services sont présentés de celui à faire le plus rapidement à celui le moins pressant.&#x20;
 
-Chaque vignette a une entête colorée. Cette couleur peut varier en fonction de la date d'échéance renseignée sur l'acheminement. Cette couleur se paramètre au préalable dans [Terminal mobile > Services](../parametrage-terminal-mobile/mobile-services.md)
+Chaque vignette a une entête colorée. Cette couleur peut varier en fonction de la date d'échéance renseignée sur l'acheminement. Cette couleur se paramètre au préalable dans [Terminal mobile > Services](../../parametrages/terminal-mobile/services.md)
 
 Sur l'exemple montré en bas, les services dont la date attendue est une date dans le passé sont en rouges, ceux dont la date attendue est pour le jour même sont en bleu, et ceux à faire dans le futur sont en vert clair.&#x20;
 
@@ -52,7 +52,7 @@ Il vous serez alors proposé une liste de statut en état _En cours_ ou _Traité
 
 Sélectionnez un statut en état _En cours,_ renseignez les autres champs si besoin_,_ et appuyez sur <mark style="background-color:blue;">**VALIDER**</mark>. Le service sera toujours disponible sur la liste des services sur le nomade.
 
-Selon le paramétrage du statut (voir [Paramétrages > Services](../parametrages/services.md)) , il est possible qu'il soit obligatoire de saisir un commentaire pour valider le changement de statut et d'informations du service.&#x20;
+Selon le paramétrage du statut (voir [Paramétrages > Services](broken-reference)) , il est possible qu'il soit obligatoire de saisir un commentaire pour valider le changement de statut et d'informations du service.&#x20;
 
 Sur la supervision, vous verrez le changement de statut sur le détail du service.&#x20;
 

@@ -1,3 +1,0 @@
-# Paramétrages
-
-Configurations
