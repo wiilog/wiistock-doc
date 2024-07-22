@@ -13,17 +13,17 @@ Pour la section "Référence/Articles", le paramétrage des champs s'applique da
 
 Pour personnaliser les champs de saisie lors de la création ou de l'édition d'une demande de livraison, vous pouvez choisir pour chaque champ les éléments suivants :
 
-Formulaire de création :
+**Formulaire de création :**
 
 * Afficher : cochez la case pour que le champ soit présent sur le formulaire de création d'une demande de livraison.
 * Obligatoire : cochez la case pour qu'il ne soit pas possible de créer une demande de livraison sans que ce champ soit renseigné sur le formulaire.
 
-Formulaire d'édition :
+**Formulaire d'édition :**
 
 * Afficher : cochez la case pour que le champ soit présent sur le formulaire de modification d'une demande de livraison.
 * Obligatoire : cochez la case pour qu'il ne soit pas possible de valider la modification d'une demande de livraison sans que ce champ soit renseigné sur le formulaire.
 
-Sur les filtres :
+**Sur les filtres :**
 
 * Afficher : cochez la case pour que le champ soit présent dans la barre de filtres de la page des demandes de livraison. Si la case est grisée, cela signifie que ce champ n'est pas disponible au filtrage
 
