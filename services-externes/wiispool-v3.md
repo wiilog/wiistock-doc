@@ -32,7 +32,7 @@ Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressio
 
 Après avoir téléchargé le fichier Wiispool.exe, suivez les étapes suivantes pour l'installation et la configuration de votre système :
 
-* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (1).png>)
+* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (1) (1).png>)
 * Lors de l'installation la fenêtre suivante peut apparaitre :&#x20;
 
 
@@ -41,7 +41,7 @@ Après avoir téléchargé le fichier Wiispool.exe, suivez les étapes suivantes
 
 _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un composant de sécurité intégré à Windows. Il a pour objectif de protéger votre ordinateur en empêchant l'exécution d'applications non reconnues ou potentiellement dangereuses. Ce message apparaît car Wiispool est récemment développé et n'est pas largement utilisé, et peut ne pas être reconnue par SmartScreen. Pour contourner cette alerte vous pouvez cliquer sur "Informations complémentaires" puis sélectionner "Exécuter quand même"._
 
-* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1).png>)
+* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1) (1).png>)
 *   Création d'un raccourci sur le bureau Windows
 
     * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2).png>)que vous avez précédemment exécuté.
