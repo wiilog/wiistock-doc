@@ -223,6 +223,7 @@
     * [Saisies d'inventaire](stock/fonctionnalites-web/inventaires/saisies-dinventaire.md)
   * [Alertes](stock/fonctionnalites-web/alertes.md)
 * [Fonctionnalités mobile](stock/fonctionnalites-mobile/README.md)
+  * [Stock | Réception](stock/fonctionnalites-mobile/stock-or-reception.md)
   * [Stock I Préparation](stock/fonctionnalites-mobile/stock-i-preparation.md)
   * [Stock I Livraison](stock/fonctionnalites-mobile/stock-i-livraison.md)
   * [Stock I Livraison manuelle](stock/fonctionnalites-mobile/stock-i-livraison-manuelle.md)
