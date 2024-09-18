@@ -17,11 +17,9 @@ L'équipe du site de l'AIA CF à remonter le besoin de suivre précisément sur 
 
 Pour obtenir le T0 du flux entrant depuis des arrivées de camions, nous avons modifier les paramétrages de la fonctionnalité Arrivage camion afin de rendre le numéro de tracking non obligatoire au scan puis ajouter des liens entre la création d'arrivage camion et d'arrivage UL pour améliorer l'expérience utilisateur.&#x20;
 
-<div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-13 100033.png" alt=""><figcaption></figcaption></figure>
 
-</div>
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-18 151915.png" alt=""><figcaption></figcaption></figure>
 
 <div data-full-width="true">
 
