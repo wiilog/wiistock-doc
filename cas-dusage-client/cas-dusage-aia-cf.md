@@ -4,11 +4,11 @@ description: >-
   CF.
 ---
 
-# Cas d'usage AIA CF
+# Cas d'usage "Surveillance des délais de livraison"
 
 ## 0. Contexte client&#x20;
 
-L'équipe du site de l'AIA CF à remonter le besoin de suivre précisément sur Follow les temps des colis de leur arrivée au quai jusqu'à leur livraison finale. Le projet portait les contraintes suivantes :&#x20;
+L'équipe du site client à remonter le besoin de suivre précisément sur Follow les temps des colis de leur arrivée au quai jusqu'à leur livraison finale. Le projet portait les contraintes suivantes :&#x20;
 
 * plusieurs flux aux fonctionnements variés.
 * pas de continuité dans les identifiants scannés pour un même objet (parfois des UL, parfois des OT).
@@ -91,8 +91,10 @@ Prenons le cas des paramétrages suivants :&#x20;
 
 
 
+### Les délais de livraison sans arrivage camion
+
+Une UL peut être inconnue du système, sa création se fera alors via un mouvement de prise sur un emplacement.&#x20;
+
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-18 141256.png" alt=""><figcaption></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-18 151120.png" alt=""><figcaption></figcaption></figure>

@@ -246,7 +246,7 @@
 
 ## Cas d'usage client
 
-* [Cas d'usage "Surveillance des délais de livraison"](cas-dusage-client/cas-dusage-surveillance-des-delais-de-livraison.md)
+* [Cas d'usage "Surveillance des délais de livraison"](cas-dusage-client/cas-dusage-aia-cf.md)
 
 ## Trace
 
