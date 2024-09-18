@@ -244,6 +244,10 @@
 * [Suivi des OF](production/suivi-des-of.md)
 * [Vue planning](production/vue-planning.md)
 
+## Cas d'usage client
+
+* [Cas d'usage AIA CF](cas-dusage-client/cas-dusage-aia-cf.md)
+
 ## Trace
 
 * [Fonctionnalités web](trace/fonctionnalites-web/README.md)
