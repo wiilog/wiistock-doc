@@ -1,7 +1,7 @@
 ---
 description: >-
-  Description du cas d'utilisation des fonctionnalités Follow dédiées à l'AIA
-  CF.
+  Description du cas d'utilisation des fonctionnalités Follow dédiées au client
+  A.
 ---
 
 # Cas d'usage "Surveillance des délais de livraison"
