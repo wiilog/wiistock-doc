@@ -8,7 +8,7 @@ Cliquez sur <mark style="background-color:blue;">**Ajouter un dashboard**</mark>
 
 Vous pouvez changer le nom de votre dashboard à tout moment, en cliquant sur l'icône ![](<../../.gitbook/assets/image (67).png>)à côté du nom du dashboard et en cliquant sur le bouton <mark style="background-color:blue;">**Paramétrage**</mark>. Complétez le champ _**Nom du dashboard**_ et <mark style="background-color:blue;">**Enregistrer**</mark> pour valider le nouveau nom.&#x20;
 
-Nous expliquerons le paramétrage "_Pour les composants «Quantité encours sur n emplacement(s)»_" présent sur cette modale dans la partie "_Liste des composants_", sur le composant ["_Quantité en cours sur n emplacement(s)_"](broken-reference).
+Nous expliquerons le paramétrage "_Pour les composants «Quantité encours sur n emplacement(s)»_" présent sur cette modale dans la partie "_Liste des composants_", sur le composant ["_Quantité en cours sur n emplacement(s)_"](liste-des-composants/tracabilite/quantite-en-cours-sur-n-emplacement-s.md).
 
 Si votre dashboard ne vous convient plus, accédez au bouton <mark style="background-color:blue;">**Supprimer**</mark> via le même chemin que pour changer de nom. Une modale de confirmation de suppression apparaîtra alors.&#x20;
 
@@ -92,4 +92,4 @@ Pour avoir plus de détails sur l'utilité du composant, survolez l'icône ![](<
 
 Cliquez sur le composant que vous souhaitez paramétré.
 
-Le paramétrage de chaque composant et leur utilité sont expliqués dans la section [Liste des composants. ](broken-reference)
+Le paramétrage de chaque composant et leur utilité sont expliqués dans la section [Liste des composants. ](liste-des-composants/)
