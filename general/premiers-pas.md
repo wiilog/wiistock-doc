@@ -39,8 +39,8 @@ L’installation de Follow gt s’effectue en utilisant Stagenow et le QR code s
 
 Vous pouvez télécharger les documents au format PDF que vous pouvez alors scanner.&#x20;
 
-Création du profil Datawedge : [Cliquer ici](https://ftp.wiilog.fr/stageNow/CreateDwProfilWiistock.pdf) \
-Première installation de Follow gt : [Cliquer ici](https://ftp.wiilog.fr/stageNow/installFGTMx8.0.pdf)&#x20;
+Création du profil Datawedge : [Cliquer ici](https://drive.google.com/file/d/14IyqFfVxQQ6\_1if0KbcFSTGhjc83TSWn/view?usp=sharing) \
+Première installation de Follow gt : [Cliquer ici](https://drive.google.com/file/d/12I1\_bXOy\_yd6fOjxDHE3BcI8-ChoDAcQ/view?usp=sharing)&#x20;
 
 ## Mise à jour de l’application nomade sur un terminal Android Zebra
 

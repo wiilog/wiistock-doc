@@ -78,7 +78,7 @@ En fonction du point d'entrée de l'unité logistique, le T0 variera :&#x20;
 Prenons le cas des paramétrages suivants :&#x20;
 
 * Liste des emplacements et paramétrages :&#x20;
-  * "Arrivage" : Emplacement de "prise initiale".&#x20;
+  * "Arrivage" : Emplacement sans paramétrage spécifique.
   * "Gare A": Emplacement de dépose "pause".
   * "Gare B": Emplacement de "dépose finale" et de "prise initiale".
   * "Gare C" : Emplacement de "prise initiale" et "dépose pause".&#x20;
