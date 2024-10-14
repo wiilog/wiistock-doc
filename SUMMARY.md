@@ -80,7 +80,6 @@
     * [Achats](parametrages/stock/demandes/achats/README.md)
       * [Statuts](parametrages/stock/demandes/achats/statuts.md)
       * [Planification](parametrages/stock/demandes/achats/planification.md)
-    * [Achats](parametrages/stock/demandes/achats-1.md)
     * [Expéditions](parametrages/stock/demandes/expeditions.md)
     * [Transferts](parametrages/stock/demandes/transferts.md)
     * [Expéditions](parametrages/stock/demandes/expeditions-1.md)
