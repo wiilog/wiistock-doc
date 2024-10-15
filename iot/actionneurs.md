@@ -8,7 +8,7 @@ Pour créer un nouvel actionneur, cliquez sur <mark style="background-color:blue
 
 Renseignez une température dans le champ "**Si température supérieure à \_ °C**" et "**Si température inférieure à \_ °C**". Choisissez le type de modèle qui va se déclencher si ces limites sont atteintes, vous avez le choix entre Alerte ou Demande.&#x20;
 
-* Les **alertes** sont paramétrable dans [paramétrage > Modèles de notification > Alertes](broken-reference), vous avez le choix entre créer une alerte mail, SMS ou web.
+* Les **alertes** sont paramétrable dans [paramétrage > IOT > Modèles de notification > Alertes](../parametrages/iot/modeles-de-notifications/alertes.md), vous avez le choix entre créer une alerte mail, SMS ou web.
 * Pour les **demandes**, vous avez 3 choix possibles de demande (vous pouvez créer des modèles qui se retrouveront ici) :&#x20;
   * Livraison : à paramétrer dans [Livraisons - Modèles de demande](../parametrages/stock/demandes/livraisons/modeles-de-demande.md)
   * Collecte : à paramétrer dans [Collectes - Modèle de demande](../parametrages/stock/demandes/collectes/modele-de-demande.md)
@@ -18,7 +18,7 @@ Cliquer sur <mark style="background-color:blue;">**Ajouter**</mark> pour enregis
 
 {% hint style="warning" %}
 La demande ou l'alerte ne se déclenchera pas à l'instant T où la température dépasse le seuil. Elle se déclenchera au moment où l'information est reçue.\
-Si on veut que la demande ou l'alerte se déclenche à l'instant T, ce paramétrage doit être fait nativement sur le device par Wiilog.
+Si on veut que la demande ou l'alerte se déclenche à l'instant T, ce paramétrage doit être fait nativement sur le capteur par Wiilog.
 {% endhint %}
 
 {% embed url="https://www.screencast.com/t/h3eCphlgshg" %}
