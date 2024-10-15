@@ -10,9 +10,9 @@ Renseignez une température dans le champ "**Si température supérieure à \_ �
 
 * Les **alertes** sont paramétrable dans [paramétrage > Modèles de notification > Alertes](broken-reference), vous avez le choix entre créer une alerte mail, SMS ou web.
 * Pour les **demandes**, vous avez 3 choix possibles de demande (vous pouvez créer des modèles qui se retrouveront ici) :&#x20;
-  * Livraison : à paramétrer dans [Livraisons - Modèles de demande](broken-reference)
-  * Collecte : à paramétrer dans [Collectes - Modèle de demande](broken-reference)
-  * Services : à paramétrer dans [Services - Modèles de demande](broken-reference)
+  * Livraison : à paramétrer dans [Livraisons - Modèles de demande](../parametrages/stock/demandes/livraisons/modeles-de-demande.md)
+  * Collecte : à paramétrer dans [Collectes - Modèle de demande](../parametrages/stock/demandes/collectes/modele-de-demande.md)
+  * Services : à paramétrer dans [Services - Modèles de demande](../parametrages/trace/services/modeles-de-demande.md)
 
 Cliquer sur <mark style="background-color:blue;">**Ajouter**</mark> pour enregistrer votre actionneur, il se retrouvera dans la liste.
 
@@ -27,10 +27,10 @@ Si on veut que la demande ou l'alerte se déclenche à l'instant T, ce paramétr
 
 Sélectionner sur le schéma quel bouton vous voulez paramétrer. Choisissez le type de modèle qui va se déclencher si ce bouton est actionné, vous avez le choix entre Alerte ou Demande.&#x20;
 
-* Les **alertes** sont paramétrable dans [paramétrage > Modèles de notification > Alertes](broken-reference), vous avez le choix entre créer une alerte mail, SMS ou web.
+* Les **alertes** sont paramétrable dans [paramétrage > Modèles de notification > Alertes](../parametrages/iot/modeles-de-notifications/alertes.md), vous avez le choix entre créer une alerte mail, SMS ou web.
 * Pour les **demandes**, vous avez 3 choix possibles de demande (vous pouvez créer des modèles qui se retrouveront ici) :&#x20;
-  * Livraison : à paramétrer dans [Livraisons - Modèles de demande](broken-reference)
-  * Collecte : à paramétrer dans [Collectes - Modèle de demande](broken-reference)
-  * Services : à paramétrer dans [Services - Modèles de demande](broken-reference)
+  * Livraison : à paramétrer dans [Livraisons - Modèles de demande](../parametrages/stock/demandes/livraisons/modeles-de-demande.md)
+  * Collecte : à paramétrer dans [Collectes - Modèle de demande](../parametrages/stock/demandes/collectes/modele-de-demande.md)
+  * Services : à paramétrer dans [Services - Modèles de demande](../parametrages/trace/services/modeles-de-demande.md)
 
 Cliquer sur <mark style="background-color:blue;">**Ajouter**</mark> pour enregistrer votre actionneur, il se retrouvera dans la liste.
