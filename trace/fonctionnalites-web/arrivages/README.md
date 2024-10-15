@@ -114,7 +114,7 @@ Création d'un arrivage
 ![Fournisseur urgent](<../../../.gitbook/assets/image (63).png>)
 
 * Si le fournisseur a les 2 paramétrages cochés, la modale de douane apparaît d'abord.
-* **Numéro de commande urgent** :  Si le numéo de commande est renseigné comme déclanchant une urgence dans [Traçabilité > urgences](../urgences.md). Au clic sur Enregistrer, la modale ci-dessous apparait. Cliquez sur <mark style="background-color:blue;">**Continuer**</mark> pour valider la création de l'arrivage et la génération des étiquettes. L'arrivage sera mis en urgence.
+* **Numéro de commande urgent** :  Si le numéro de commande est renseigné comme déclenchant une urgence dans [Traçabilité > urgences](../urgences.md). Au clic sur Enregistrer, la modale ci-dessous apparait. Cliquez sur <mark style="background-color:blue;">**Continuer**</mark> pour valider la création de l'arrivage et la génération des étiquettes. L'arrivage sera mis en urgence.
 
 {% embed url="https://www.screencast.com/t/ilEKklna9yf" %}
 Arrivage urgent
