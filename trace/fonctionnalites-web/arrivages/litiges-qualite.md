@@ -18,9 +18,9 @@ Les champs suivants sont présents sur la modale de création de litige :&#x20;
 * Le **numéro de l'arrivage** : numéro de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Le **numéro de commande / BL** : les numéros de commande de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Les **acheteurs** : les acheteurs de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
-* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Types</mark>](broken-reference))
+* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Trace > Arrivages UL > Litiges - Types</mark>](../../../parametrages/trace/arrivages-ul/litiges-types.md))
 * Le **déclarant** : par défaut, la personne ayant créée le litige. Une autre personne peut être renseignée
-* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](broken-reference)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
+* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](../../../parametrages/trace/arrivages-ul/litiges-statuts.md)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
 * Le/les **unité(s) logistique(s)** : le ou les unité(s) logistique(s) qui sont concernés par les litiges
 * **Commentaire** : vous pouvez ajouter un complétement d'information sur le litige
 * Switch **Urgence ?** : si vous l'activez, la ligne du litige apparaîtra en rouge
@@ -52,7 +52,7 @@ Pour modifier le litige, cliquez sur la ligne du litige. La modale de modificati
 * Le **statut** : modifier le statut du litige pour le faire évoluer. Sélectionnez un statut en état Traité pour le clôturer. En fonction du paramétrage des statuts, un mail peut être envoyer à l'acheteur et/ou au déclarant du litige pour l'informer du changement de statut du litige
 * Le/les **colis** : colis concerné(s) par le litige. Vous pouvez enlever un colis ou en ajouter
 * Le **commentaire** : inscrivez un commentaire et cliquez sur Ajouter pour mettre le commentaire dans le tableau Historique, et créer ainsi potentiellement une conversation pour résoudre le litige
-* Les **pièces jointes** : vous pouvez ajouter des pièces-jointes tels qu'une photo d'un colis abîmé par exemple&#x20;
+* Les **pièces jointes** : vous pouvez ajouter des pièces jointes tels qu'une photo d'un colis abîmé par exemple&#x20;
 * Le tableau **Historique** : ce tableau retrace tout l'historique du litige, avec une ligne par modification, et les colonnes suivantes :&#x20;
   * **Utilisateur** : personne ayant réalisée la modification
   * **Date** : date et heure auxquels la modification a eu lieu
