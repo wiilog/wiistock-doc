@@ -86,7 +86,7 @@ Remplissez les différents champs de la façon suivante :&#x20;
 * **Image** : cliquez sur le bouton avec le stylo pour aller chercher dans votre explorateur de fichier une image correspond à la référence
 * **Référence\*** : rentrez le code de votre référence&#x20;
 * **Libellé\*** : rentrez le libellé de la référence
-* **Type\*** : type de la référence. Des types de référence doivent avoir été au préalable paramétrés (dans [Paramétrage > Stock > Articles > Types & champs libres](broken-reference)). Le choix du type donnera une couleur à la référence si vous avez attribué des couleurs lors du paramétrage de vos types
+* **Type\*** : type de la référence. Des types de référence doivent avoir été au préalable paramétrés (dans [Paramétrage > Stock > Articles > Types & champs libres](../../parametrages/stock/articles/types-et-champs-libres.md)). Le choix du type donnera une couleur à la référence si vous avez attribué des couleurs lors du paramétrage de vos types
 * **Statut\*** : état de la référence. 3 statuts possibles :&#x20;
   * **Brouillon** : ce statut sert principalement si une personne a des droits de création de référence seulement en brouillon. Ainsi, quand la référence sera créée, elle pourra être créée seulement en brouillon et ne pourra pas être utilisée dans le reste de l'application tant qu'un valideur de référence ne l'aura pas passée en statut Actif. Une création en brouillon d'une référence envoi un mail aux personnes ayant un rôle contenant le droit _Valideur de référence_. Si vous sélectionnez le statut _Brouillon_, les champs suivants seront remplis avec les informations suivantes sans pouvoir les modifier :&#x20;
     * **Référence** : le champ sera rempli avec la valeur ADEFINIRn, n étant le nombre de référence ayant déjà leur code en ADEFINIRn, +1
@@ -96,7 +96,7 @@ Remplissez les différents champs de la façon suivante :&#x20;
 
 **Zone Informations**
 
-* **Groupe de visibilité** : associez un groupe de visibilité à la référence afin que seul les utilisateurs ayant ce groupe attribué puisse la voir dans la liste des références. Les groupes de visibilité se paramètrent dans [Stock > Paramétrage > Groupe de visibilité](broken-reference)
+* **Groupe de visibilité** : associez un groupe de visibilité à la référence afin que seul les utilisateurs ayant ce groupe attribué puisse la voir dans la liste des références. Les groupes de visibilité se paramètrent dans [Paramétrage >  Stock > Groupe de visibilité](../../parametrages/stock/groupes-de-visibilite.md)
 * **Pièces jointes** : pour associer des documents à la référence
 * **Nomenclature :** pour mettre un commentaire sur la référence &#x20;
 
@@ -191,7 +191,7 @@ Cet encart vous permet de connaître à un instant T votre quantité en stock (q
 **Zone Inventaires**
 
 * **Date de dernier inventaire** : dernière date d'inventaire de la référence. Pour les références en gestion quantité article, cette date ne sera jamais remplie car la date de dernier inventaire est portée par les articles de la référence
-* **Catégorie d'inventaire :** Indique la catégorie d'inventaire de cette référence [(paramètrage > stock > inventaire)](broken-reference)
+* **Catégorie d'inventaire :** Indique la catégorie d'inventaire de cette référence [(paramètrage > stock > inventaire)](../../parametrages/stock/inventaires.md)
 *   **Inventaire à jour** : Dans le cas d'une référence en Gestion quantité par article, remplacer le champ "Date de dernier inventaire" est remplacé pour le champ "Inventaire à jour"
 
     Inventaire à jour :
