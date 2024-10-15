@@ -52,7 +52,7 @@ Il vous serez alors proposé une liste de statut en état _En cours_ ou _Traité
 
 Sélectionnez un statut en état _En cours,_ renseignez les autres champs si besoin_,_ et appuyez sur <mark style="background-color:blue;">**VALIDER**</mark>. Le service sera toujours disponible sur la liste des services sur le nomade.
 
-Selon le paramétrage du statut (voir [Paramétrages > Services](broken-reference)) , il est possible qu'il soit obligatoire de saisir un commentaire pour valider le changement de statut et d'informations du service.&#x20;
+> Selon le paramétrage du statut (voir [Paramétrages > Trace >  Services > Statuts](../../parametrages/trace/services/statuts.md) ) , il est possible qu'il soit obligatoire de saisir un commentaire pour valider le changement de statut et d'informations du service.&#x20;
 
 Sur la supervision, vous verrez le changement de statut sur le détail du service.&#x20;
 
