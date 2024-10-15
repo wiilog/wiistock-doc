@@ -81,8 +81,6 @@
       * [Statuts](parametrages/stock/demandes/achats/statuts.md)
       * [Planification](parametrages/stock/demandes/achats/planification.md)
     * [Expéditions](parametrages/stock/demandes/expeditions.md)
-    * [Transferts](parametrages/stock/demandes/transferts.md)
-    * [Expéditions](parametrages/stock/demandes/expeditions-1.md)
   * [Groupes de visibilité](parametrages/stock/groupes-de-visibilite.md)
   * [Inventaires](parametrages/stock/inventaires.md)
   * [Réceptions](parametrages/stock/receptions.md)
