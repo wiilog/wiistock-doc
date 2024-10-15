@@ -91,7 +91,7 @@ Afin de pouvoir planifier une collecte sur une tournée, il vous faut valider l
 
 Pour cela, allez dans Ordre | Transport et filtrez sur le statut « Patient à contacter » pour avoir toutes les collectes qui n’ont pas de date validée avec le patient.
 
-Cliquez ensuite sur la vignette d’une collecte, et une fois que vous avez convenu sur de la date et du créneau avec le patient, cliquez sur <mark style="background-color:blue;">**Renseigner date patient**</mark>. Une modale s’ouvrira alors. Renseignez la date validée avec le patient et le créneau de passage. Les créneaux sont ceux qui sont renseignés dans le [paramétrage](broken-reference) (Global > Heures travaillées > Créneaux horaires).
+Cliquez ensuite sur la vignette d’une collecte, et une fois que vous avez convenu sur de la date et du créneau avec le patient, cliquez sur <mark style="background-color:blue;">**Renseigner date patient**</mark>. Une modale s’ouvrira alors. Renseignez la date validée avec le patient et le créneau de passage. Les créneaux sont ceux qui sont renseignés dans le paramétrage ([Global > Heures travaillées > Créneaux horaires](../../../../parametrages/global/heures-travaillees.md#creneaux-horaires)).
 
 {% embed url="https://www.screencast.com/t/logEIO7KoV" %}
 Validation de la date de collecte avec le patient
