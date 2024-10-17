@@ -64,7 +64,7 @@ Afin de créer une nouvelle demande de service, il suffit cliquer sur le bouton 
 * Les **pièces jointes**
 
 {% hint style="info" %}
-Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](broken-reference).
+Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](../../../parametrages/trace/services/statuts.md).
 {% endhint %}
 
 Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark>, ce qui créera la demande de service. Il sera possible de retrouver cette dernière dans le tableau présent sur la page.
