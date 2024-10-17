@@ -109,7 +109,7 @@ Cliquez sur <mark style="background-color:blue;">**Valider mon panier**</mark> e
 
 Lorsque votre demande est sur un statut en état _Brouillon_, et que vous cliquez sur <mark style="background-color:blue;">**Valider**</mark>, une modale "_Valider une demande d'achat_" s'ouvre afin que vous puissiez valider un premier statut comme quoi la demande est à traiter.
 
-Ainsi tous les statuts proposés sont les statuts paramétrés qui sont en état _A traiter_ (voir [Stock > Paramétrages > Demandes > Achat](broken-reference)).
+Ainsi tous les statuts proposés sont les statuts paramétrés qui sont en état _A traiter_ (voir [Paramétrages >  Stock >Demandes > ](../../../parametrages/stock/demandes/achats/statuts.md)[Achat](../../../parametrages/stock/demandes/achats/statuts.md)[ > ](../../../parametrages/stock/demandes/achats/statuts.md)[Statuts](../../../parametrages/stock/demandes/achats/statuts.md)).
 
 La date de validation est alors complétée et le bouton <mark style="background-color:blue;">**Valider**</mark> est transformé en bouton <mark style="background-color:blue;">**Prendre en compte**</mark>.
 
