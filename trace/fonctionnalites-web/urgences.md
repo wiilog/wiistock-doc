@@ -48,7 +48,7 @@ Afin de créer une nouvelle urgence, il suffit cliquer sur le bouton <mark style
 * La **date de fin**
 * Le **numéro de commande**
 * Le **numéro de poste**
-* L'**acheteur**, lié au [référentiel Utilisateurs](broken-reference)
+* L'**acheteur**, lié au [référentiel Utilisateurs](../../parametrages/utilisateurs/utilisateurs.md)
 * Le **fournisseur**, lié au [référentiel Fournisseurs](../../referentiel/fournisseurs.md)
 * Le **transporteur**, lié au [référentiel Transporteurs](../../referentiel/transporteurs.md)
 * Le **numéro de tracking transporteur**
