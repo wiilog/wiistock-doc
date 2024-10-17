@@ -30,7 +30,7 @@
 * **Accès association articles-ul :** Ce paramètre actif permet à l'utilisateur qui dispose du rôle lié à ce paramètre d'accéder à la fonctionnalité Association articles-ul sur un terminal mobile.
 * **Accès réception :** Ce paramètre actif permet à l'utilisateur qui dispose du rôle lié à ce paramètre d'accéder à la fonctionnalité Réception sur un terminal mobile.
 
-### Demandes
+### Demandes <a href="#demandesnomade" id="demandesnomade"></a>
 
 * &#x20;**Mode hors ligne pour les demandes d'acheminement et la signature groupée :** Ce paramètre permet d'activer le workflow d'acheminement hors ligne en utilisant les signatures groupées.
 * **Accès services :** Ce paramètre actif permet à l'utilisateur qui dispose du rôle lié à ce paramètre d'accéder à la fonctionnalité Services sur un terminal mobile.
