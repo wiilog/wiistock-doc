@@ -52,7 +52,7 @@ Dans le bouton d'action rapide, sélectionnez <mark style="background-color:blue
 Une modale s'ouvrira alors pour remplir les informations d'entête de la demande :&#x20;
 
 * **Demandeur** : personne créant la demande. Il n'est pas possible de changer ce champ une fois la demande validée. Par défaut, ce champ se remplit avec la personne connectée
-* **Type** : type de la demande. Le type permet de venir définir plus précisément le flux de demande. Sa sélection permet de faire apparaître les champs libres associés au type de livraison (pour paramétrer les champs libres : [<mark style="color:blue;">Paramétrage > Stock > Demandes > Livraisons - Types et champs libres</mark>](broken-reference)). Le choix de type conditionne aussi le choix de la destination de 2 façons : l'affichage d'un emplacement par défaut par type de demande de livraison si un paramétrage dans ce sens a été fait ([Paramétrage > Stock > Demandes > Livraisons](../../../parametrages/stock/demandes/livraisons/)) ; la restriction des emplacements possibles à sélectionner. Selon le type, il sera possible de sélectionner seulement les emplacements autorisés sur le type (à aller paramétrer directement sur l'emplacement : [Référentiel > Emplacements](../../../referentiel/emplacements.md)). Le type n'est plus modifiable une fois la demande validée
+* **Type** : type de la demande. Le type permet de venir définir plus précisément le flux de demande. Sa sélection permet de faire apparaître les champs libres associés au type de livraison (pour paramétrer les champs libres : [<mark style="color:blue;">Paramétrage > Stock > Demandes > Livraisons - Types et champs libres</mark>](../../../parametrages/track/demandes/livraison-types-and-champs-libres.md)). Le choix de type conditionne aussi le choix de la destination de 2 façons : l'affichage d'un emplacement par défaut par type de demande de livraison si un paramétrage dans ce sens a été fait ([Paramétrage > Stock > Demandes > Livraisons](../../../parametrages/stock/demandes/livraisons/)) ; la restriction des emplacements possibles à sélectionner. Selon le type, il sera possible de sélectionner seulement les emplacements autorisés sur le type (à aller paramétrer directement sur l'emplacement : [Référentiel > Emplacements](../../../referentiel/emplacements.md)). Le type n'est plus modifiable une fois la demande validée
 * **Destination** : une fois le type sélectionné, vous pouvez choisir l'emplacement de livraison. Pour cela, commencez à taper la première lettre de l'emplacement souhaité. Vous pouvez directement faire apparaître les emplacements possibles aussi si le paramétrage "Gérer le champ "Destination" en liste déroulante" est activé ([Paramétrage > Stock > Demandes > Livraisons](../../../parametrages/stock/demandes/livraisons/))
 * **Champs libres :** remplissez les champs libres s'il y en a de paramétrés
 * **Commentaire :** vous avez également la possibilité d'ajouter un commentaire
@@ -121,7 +121,7 @@ Demande de livraison via le panier
 
 ### Via import et mise à jour
 
-Vous pouvez créer des livraisons via import grâce à l'outil d'import [(Voir Paramétrage > Données > Import & mises à jour)](broken-reference)
+Vous pouvez créer des livraisons via import grâce à l'outil d'import [(Voir Paramétrage > Données > Import & mises à jour)](../../../parametrages/donnees/imports-and-mises-a-jour.md)
 
 ### Modifier une demande de livraison
 
