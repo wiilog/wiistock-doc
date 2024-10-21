@@ -170,7 +170,7 @@ Les champs suivants apparaissent ensuite :&#x20;
 
 Lorsque vous avez fini votre conditionnement et que vous cliquez sur <mark style="background-color:blue;">**Enregistrer.**</mark> Selon votre paramétrage la demande de livraison aura différent impact.&#x20;
 
-Dans le [paramétrage](broken-reference) des demandes de livraison vous avez 3 choix :
+Dans le [paramétrage](../../../../parametrages/stock/demandes/livraisons/) des demandes de livraison vous avez 3 choix :
 
 * **Création seulement de la demande de livraison en "A traiter"** : Il est possible que la demande de livraison soit créée sans une préparation en suivant.
 * **Création de la demande de livraison avec sa préparation** : la demande sera automatiquement créée au statut A traiter avec l'ordre de préparation associé aussi au statut À traiter.
