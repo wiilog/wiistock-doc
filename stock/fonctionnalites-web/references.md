@@ -143,7 +143,7 @@ Pour ajouter un fournisseur, il faut remplir :&#x20;
 
 **Zone Inventaires**&#x20;
 
-* **Catégorie d'inventaire** : ce champ va chercher dans la liste des catégories d'inventaire paramétrées ([Paramétrage > Stock > Inventaires](broken-reference)). Attribuer une catégorie d'inventaire à une référence permet de générer automatiquement des missions d'inventaire en fonction de la fréquence associée à la catégorie. Exemple : si la fréquence est de 2 mois et que la date de dernier inventaire de la référence est supérieure à 2 mois, la référence sera placée sur la prochaine mission d'inventaire générée. Les missions sont générées chaque dimanche soir. Dans le cas d'une référence en gestion quantité article, on vient regarder la date de dernier inventaire de chaque article, et si cette dernière est supérieure à la fréquence, l'article est placé dans la prochaine mission d'inventaire
+* **Catégorie d'inventaire** : ce champ va chercher dans la liste des catégories d'inventaire paramétrées ([Paramétrage > Stock > Inventaires](../../parametrages/stock/inventaires.md)). Attribuer une catégorie d'inventaire à une référence permet de générer automatiquement des missions d'inventaire en fonction de la fréquence associée à la catégorie. Exemple : si la fréquence est de 2 mois et que la date de dernier inventaire de la référence est supérieure à 2 mois, la référence sera placée sur la prochaine mission d'inventaire générée. Les missions sont générées chaque dimanche soir. Dans le cas d'une référence en gestion quantité article, on vient regarder la date de dernier inventaire de chaque article, et si cette dernière est supérieure à la fréquence, l'article est placé dans la prochaine mission d'inventaire
 
 **Zone Champs libres**
 
