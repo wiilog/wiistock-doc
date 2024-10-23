@@ -21,6 +21,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Type de document sur demande d'acheminement, Prêt de matériel Stock, etc](general/mises-a-jour/mise-a-jour-type-de-document-sur-demande-dacheminement-pret-de-materiel-stock-etc.md)
   * [Mises à jour - Mouvements de stock rapides, dupliquer des exports planifiés et avertisseur MEP](general/mises-a-jour/mises-a-jour-mouvements-de-stock-rapides-dupliquer-des-exports-planifies-et-avertisseur-mep.md)
   * [Mises à jour - Champs libres mutualisés par type, vue modulaire sur les demandes de productions, ...](general/mises-a-jour/mises-a-jour-champs-libres-mutualises-par-type-vue-modulaire-sur-les-demandes-de-productions-....md)
   * [Mises à jour - Réception nomade et changement de fonctionnement Articles RFID](general/mises-a-jour/mises-a-jour-reception-nomade-et-changement-de-fonctionnement-articles-rfid.md)
