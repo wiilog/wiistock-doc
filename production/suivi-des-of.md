@@ -12,7 +12,7 @@ Vous pouvez créer des demandes de production depuis le bouton + en haut à droi
 
 Vous devrez remplir l'intégralité des champs obligatoires puis cliquer sur enregistrer pour valider votre demande. Celle-ci apparaitra ensuite dans la page Suivi des OF mais aussi dans la page planning en fonction de vos paramétrages.&#x20;
 
-<figure><img src="../.gitbook/assets/image (96) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Depuis votre page de liste des OF, vous pouvez filtrer et trier vos demandes mais aussi les exporter via fichier csv. Vous pouvez également visualiser l'intégralité de votre demande et de son historique en cliquant sur la ligne de votre demande.&#x20;
 
