@@ -62,7 +62,7 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 <figure><img src="../.gitbook/assets/image (113).png" alt="" width="238"><figcaption></figcaption></figure>
 
 * &#x20;Dans le champ "Ajouter un préfixe" renseignez le préfixe que vous voulez associer. _("ETQ" dans mon exemple)_
-* Dans le champ _"Sélectionner un e imprimante", s_électionnez l'imprimante que vous voulez associée au préfixe renseigné dans le champ du dessus._(L'imprimante doit déjà être accessible sur votre poste de travail)_
+* Dans le champ _"Sélectionner un e imprimante", &#x73;_&#xE9;lectionnez l'imprimante que vous voulez associée au préfixe renseigné dans le champ du dessus._(L'imprimante doit déjà être accessible sur votre poste de travail)_
 * Enregistrer cette nouvelle association en cliquant sur "_Ajouter un préfixe_".
 
 **Modification d'une association préfixe/imprimante**

@@ -6,7 +6,7 @@ Pour préparer votre inventaire en RFID, nous avons intégré un espace de Confi
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-Il est important de remplir le <mark style="background-color:blue;">**Préfixe**</mark>** de tag RFID** visible sur vos étiquettes RFID transmises par votre fournisseur, cela permet au lecteur de filtrer les résultat suivant ce préfixe.
+Il est important de remplir le <mark style="background-color:blue;">**Préfixe**</mark>**&#x20;de tag RFID** visible sur vos étiquettes RFID transmises par votre fournisseur, cela permet au lecteur de filtrer les résultat suivant ce préfixe.
 
 On peut également saisir une <mark style="background-color:blue;">**Tranche pourcentage KPI**</mark> **mettant en avant les emplacements à rescanner en RFID.** Par exemple, si l’on détermine une tranche entre 0% et 70%, lors du premier balayage RFID de votre inventaire il apparaîtra uniquement le pourcentage de chaque emplacement ayant un indicateur inférieur à 70%, c'est à dire pour lesquelles il manque des articles.
 

@@ -48,7 +48,7 @@ _Sur mon exemple j'ai changé un libellé français (Traçabilité) pour un autr
 Anglais > Anglais
 {% endembed %}
 
-_Sur mon exemple j'ai changé un libellé anglais (_Traceability_) pour un autre libellé mais toujours en anglais (Trace). Dans mon menu il sera bien écrit Trace à la place de_ Traceability pour les utilisateurs en anglais_._
+_Sur mon exemple j'ai changé un libellé anglais (_&#x54;raceabilit&#x79;_) pour un autre libellé mais toujours en anglais (Trace). Dans mon menu il sera bien écrit Trace à la place de_ Traceability pour les utilisateurs en anglai&#x73;_._
 
 ### Ajout de langues
 

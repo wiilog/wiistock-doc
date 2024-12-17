@@ -53,62 +53,62 @@ En fonction de la demande ou de l'ordre sélectionné, des variables vous sont p
 {% tabs %}
 {% tab title="Ordre de préparation" %}
 _@numordrepreparation_ : Numéro de l'ordre \
-_@typelivraison_ : Type de la livraison \
-_@destination_ : Destination de la livraison \
-_@demandeur_ : Utilisateur ayant créé la livraison \
-_@datevalidation_ : Date de validation de la demande de livraison
+&#xNAN;_@typelivraison_ : Type de la livraison \
+&#xNAN;_@destination_ : Destination de la livraison \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la livraison \
+&#xNAN;_@datevalidation_ : Date de validation de la demande de livraison
 {% endtab %}
 
 {% tab title="Ordre de livraison" %}
 _@numordrelivraison_ : Numéro de l'ordre \
-_@typelivraison_ : Type de la livraison \
-_@destination_ : Destination de la livraison \
-_@demandeur_ : Utilisateur ayant créé la livraison \
-_@datevalidation_ : Date de validation de la demande de livraison
+&#xNAN;_@typelivraison_ : Type de la livraison \
+&#xNAN;_@destination_ : Destination de la livraison \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la livraison \
+&#xNAN;_@datevalidation_ : Date de validation de la demande de livraison
 {% endtab %}
 
 {% tab title="Ordre de collecte" %}
 _@numordrecollecte_ : Numéro de l'ordre de collecte \
-_@typecollecte_ : Type de la collecte \
-_@destination_ : Mise en stock ou destruction \
-_@demandeur_ : Utilisateur ayant créé la collecte \
-_@pointdecollecte_ : Emplacement où collecter les références demandées \
-_@objet_ : Objet de la collecte \
-_@datevalidation_ : Date de validation de la demande de collecte
+&#xNAN;_@typecollecte_ : Type de la collecte \
+&#xNAN;_@destination_ : Mise en stock ou destruction \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la collecte \
+&#xNAN;_@pointdecollecte_ : Emplacement où collecter les références demandées \
+&#xNAN;_@objet_ : Objet de la collecte \
+&#xNAN;_@datevalidation_ : Date de validation de la demande de collecte
 {% endtab %}
 
 {% tab title="Ordre de transfert" %}
 _@numordretransfert_ : Numéro de l'ordre de transfert \
-_@origine_ : Origine du transfert \
-_@destination_ : Destination du transfert \
-_@demandeur_ : Utilisateur ayant créé la demande \
-_@datevalidation_ : Date de validation de la demande de transfert
+&#xNAN;_@origine_ : Origine du transfert \
+&#xNAN;_@destination_ : Destination du transfert \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la demande \
+&#xNAN;_@datevalidation_ : Date de validation de la demande de transfert
 {% endtab %}
 
 {% tab title="Demande d'acheminement" %}
 _@numacheminement_ : Numéro de l'acheminement \
-_@typeacheminement_ : Type de l'acheminement \
-_@statut_ : Statut de la demande d'acheminement \
-_@empprise_ : Emplacement prise \
-_@empdepose_ : Emplacement dépose \
-_@demandeur_ : Utilisateur ayant créé la demande d'acheminement \
-_@datevalidation_ : Date de validation de la demande d'acheminement \
-_@dateecheance_ : Date d'échéance de la demande d'acheminement \
-_@numcommande_ : Numéro de commande de la demande d'acheminement \
-_@nbcolis_ : Nombre de colis (lignes) dans la demande d'acheminement
+&#xNAN;_@typeacheminement_ : Type de l'acheminement \
+&#xNAN;_@statut_ : Statut de la demande d'acheminement \
+&#xNAN;_@empprise_ : Emplacement prise \
+&#xNAN;_@empdepose_ : Emplacement dépose \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la demande d'acheminement \
+&#xNAN;_@datevalidation_ : Date de validation de la demande d'acheminement \
+&#xNAN;_@dateecheance_ : Date d'échéance de la demande d'acheminement \
+&#xNAN;_@numcommande_ : Numéro de commande de la demande d'acheminement \
+&#xNAN;_@nbcolis_ : Nombre de colis (lignes) dans la demande d'acheminement
 {% endtab %}
 
 {% tab title="Demande de service" %}
 _@numservice_ : Numéro de la demande de service \
-_@typeservice_ : Type de service \
-_@statut_ : Statut de la demande de service \
-_@chargemen_t : Endroit de chargement \
-_@dechargement_ : Endroit de déchargement \
-_@demandeur_ : Utilisateur ayant créé la demande de service \
-_@datecreation_ : Date de création de la demande de service \
-_@dateattendue_ : Date attendue de la demande de service \
-_@objet_ : Objet de la demande de service \
-_@nboperations_ : Nombre d'opérations à réaliser
+&#xNAN;_@typeservice_ : Type de service \
+&#xNAN;_@statut_ : Statut de la demande de service \
+&#xNAN;_@chargeme&#x6E;_&#x74; : Endroit de chargement \
+&#xNAN;_@dechargement_ : Endroit de déchargement \
+&#xNAN;_@demandeur_ : Utilisateur ayant créé la demande de service \
+&#xNAN;_@datecreation_ : Date de création de la demande de service \
+&#xNAN;_@dateattendue_ : Date attendue de la demande de service \
+&#xNAN;_@objet_ : Objet de la demande de service \
+&#xNAN;_@nboperations_ : Nombre d'opérations à réaliser
 {% endtab %}
 {% endtabs %}
 

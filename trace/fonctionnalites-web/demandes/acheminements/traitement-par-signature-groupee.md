@@ -39,7 +39,7 @@ Pour rappel, lors de la création d'une demande d'acheminement il est obligatoir
 
 Dans le fonctionnel de signature groupée, on ajoute au workflow un état <mark style="background-color:blue;">**Partiel**</mark> qui intervient après l'état A traiter. Pour donner un exemple, cet état Partiel on lui a attribué comme libellé de statut "Validé". En appliquant le paramétrage de la Signature groupée sur ce statut, cette action traduit une validation de l'enlèvement des unités logistiques sur l'emplacement de prise.&#x20;
 
-On peut le voir également comme une vérification, ou un contrôle d'autrui**\*** attestant que cette demande d'acheminement est A traiter et prête à transiter vers son emplacement de dépose.
+On peut le voir également comme une vérification, ou un contrôle d'autru&#x69;**\*** attestant que cette demande d'acheminement est A traiter et prête à transiter vers son emplacement de dépose.
 
 Pour poursuivre notre exemple, vous pouvez également appliquer cette signature lors du passage de votre demande en état Traité, confirmant la dépose des unités logistiques sur l'emplacement de dépose. Cela renforce la confirmation du traitement, qui dans le standard nécessite uniquement la sélection du statut.&#x20;
 
@@ -49,7 +49,7 @@ Voici un exemple de paramétrage de statut possible pour un contrôle total de c
 
 <figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-**\***Autrui, car le signataire de cette vérification peut être différent de l'utilisateur qui a créé la demande d'expédition.&#x20;
+**\***&#x41;utrui, car le signataire de cette vérification peut être différent de l'utilisateur qui a créé la demande d'expédition.&#x20;
 
 Après avoir paramétré vos statuts en fonction du type de vos acheminement. Il vous faut **définir des signataires sur emplacement.**
 

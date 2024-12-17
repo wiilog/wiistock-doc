@@ -75,8 +75,8 @@ Il est possible de traiter l'ordre de collecte sur la supervision, ce que nous a
 
 Avant de traiter l'ordre de collecte, vous pouvez venir modifier la quantité de chaque ligne de référence à collecter. Pour cela, cliquez sur les<img src="../../../.gitbook/assets/3-points.png" alt="" data-size="line">à gauche de la ligne de la référence dont vous souhaitez modifier la quantité et cliquez sur <mark style="background-color:blue;">**Modifier**</mark>. Plusieurs cas peuvent se présenter :&#x20;
 
-* **Référence en gestion quantité par article + ajout de la référence sur la demande par un utilisateur en ajout quantité par article + collecte de **_**Mise en stock**_ : dans ce cas, l'utilisateur a directement choisi l'article qui était sorti du stock à remettre en stock ou alors a généré un nouvel article à mettre en stock. Il n'est pas possible alors de modifier la quantité à collecter
-* **Référence en gestion quantité par article ou référence + ajout de la référence sur la demande par un utilisateur en ajout quantité par référence + collecte de **_**Mise en stock**_** ou **_**Destruction**_** :** une modale _Modifier la quantité_ vous permet de choisir une quantité différente à collecter. Il est seulement possible de changer cette quantité pour une quantité inférieure.
+* **Référence en gestion quantité par article + ajout de la référence sur la demande par un utilisateur en ajout quantité par article + collecte de&#x20;**_**Mise en stock**_ : dans ce cas, l'utilisateur a directement choisi l'article qui était sorti du stock à remettre en stock ou alors a généré un nouvel article à mettre en stock. Il n'est pas possible alors de modifier la quantité à collecter
+* **Référence en gestion quantité par article ou référence + ajout de la référence sur la demande par un utilisateur en ajout quantité par référence + collecte de&#x20;**_**Mise en stock**_**&#x20;ou&#x20;**_**Destruction**_**&#x20;:** une modale _Modifier la quantité_ vous permet de choisir une quantité différente à collecter. Il est seulement possible de changer cette quantité pour une quantité inférieure.
 
 ### Valider la quantité de la référence à collecter
 
