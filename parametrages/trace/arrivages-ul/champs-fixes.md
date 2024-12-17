@@ -9,6 +9,7 @@ Pour chaque champ, choisissez les éléments suivants :&#x20;
 * **Formulaire de création :**&#x20;
   * **Afficher** : cochez la case pour que le champ soit présent sur le formulaire de création d'arrivage
   * **Obligatoire** : cochez la case pour qu'il ne soit pas possible de créer un arrivage sans que ce champ soit renseigné sur le formulaire de création d'arrivage
+  * **Garder en mémoire**: fonctionne en parallèle avec le paramétrage de "Garder la modale de création de l'arrivage UL ouverte", et permet de garder en mémoire la saisie précédente. Exemple: garde le fournisseur rempli sur l'arrivage UL précédent
 * **Formulaire d'édition :**&#x20;
   * **Afficher** : cochez la case pour que le champ soit présent sur le formulaire de modification d'arrivage
   * **Obligatoire** : cochez la case pour qu'il ne soit pas possible de valider la modification d'un arrivage sans que ce champ soit renseigné sur le formulaire de modification d'arrivage
