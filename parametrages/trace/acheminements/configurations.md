@@ -10,10 +10,14 @@ Cette section sert à paramétrer le comportement de création d'un acheminement
 * **Pré-remplir la date du jour dans le champ à échéance Du et échéance Au** : même si vous n'avez pas paramétré d'afficher le champ fixe Date d'échéance sur le formulaire de création d'acheminement, la date d'échéance sera automatiquement remplie avec la date du jour, que cela soit pour la borne basse ou la borne haute des dates d'échéances
 * **Ajouter le numéro d'acheminement en préfixe de l'UL lors de l'UL :** lorsque vous ajoutez un colis sur un acheminement, le colis aura automatiquement en préfixe le numéro d'acheminement
 * **L'UL ajouté dans l'acheminement ne peut pas exister en base (doit être nouveau) :** lorsque vous ajouter un colis dans un acheminement, celui-ci doit être nouveau, il ne doit pas déjà être dans la liste des colis.
-* Format du numéro d'acheminement : Vous allez définir le format de vos numéros d'acheminement selon les choix suivants :
-  * aaaammjjxxxx : année-mois-jour-numéro d'ordre
-  * aaaammjjhhmmss-xxxx : "année-mois-jour-heure-minute-seconde-numéro d'ordre
-  * aammjjhhmmssxx : année sur deux chiffres-mois-jour-heure-minute-seconde-numéro d'ordre
+* **Garder la fenêtre modale ouverte après validation et vider les champs pour les rôles: rôle(s) à sélectionner** - paramétrage qui permet de garder la modale de création de l'acheminement tout le temps ouverte, de vider les champs après chaque saisie et d'attribuer ce fonctionnement uniquement à des rôles spécifiques
+*   **Format du numéro d'acheminement** : Vous allez définir le format de vos numéros d'acheminement selon les choix suivants :
+
+    * aaaammjjxxxx : année-mois-jour-numéro d'ordre
+    * aaaammjjhhmmss-xxxx : "année-mois-jour-heure-minute-seconde-numéro d'ordre
+    * aammjjhhmmssxx : année sur deux chiffres-mois-jour-heure-minute-seconde-numéro d'ordre
+
+
 
 ### Création de référence :&#x20;
 
@@ -21,7 +25,7 @@ Lors de l'ajout d'une référence à une unité logistique vous avez la possibil
 
 **Sélection du Type :**
 
-* Vous devez sélectionner le type de référence à partir du menu déroulant qui vous proposera en choix les types de références déja créées sur votre instance.
+* Vous devez sélectionner le type de référence à partir du menu déroulant qui vous proposera en choix les types de références déjà créées sur votre instance.
 
 **Définition de l'État de la Référence :**
 
@@ -35,9 +39,7 @@ L'utilisateur doit choisir l'état de la référence parmi les options "Brouillo
 
 * L'utilisateur doit définir comment la quantité de la référence créée dans l'acheminement sera gérée. Les options disponibles sont "Référence" et "Article".
 
-Ce paramétrage permet aux utilisateurs de définir rapidement et facilement les valeurs par défaut et les champs obligatoires lors de la création de nouvelles références dans le système, assurant ainsi une cohérence et une gestion efficace des données logistiques.
 
-Lorsque vous avez modifié un des paramétrages, n'oubliez pas de cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider vos changements.
 
 ### **Filtres via champs fixes sur la page demande**
 
@@ -48,6 +50,8 @@ Dans ce champ vous allez pouvoir paramétrer les filtres sur les champs fixes qu
 ### Validation d'un acheminement
 
 Le paramètre "Validation d'un acheminement => Créer automatiquement un mouvement de dépose sur l'emplacement de prise de l'acheminement à sa validation pour les types" permet de définir les types d'acheminement pour lesquels un mouvement de dépose sera automatiquement créé sur l'emplacement de prise de l'acheminement à sa validation.
+
+
 
 ### Bon de surconsommation
 
