@@ -12,7 +12,7 @@ StageNow est une application disponible sur les terminaux mobiles représentée 
 
 * Vous allez devoir scanner un QR code que vous pouvez trouver sur la page de connexion de l'application Follow GT Web en survolant le logo du code-barres avec votre curseur.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Quand StageNow a reconnu un QR code contenant des instructions qui le concernent, l'écran passe à :
 

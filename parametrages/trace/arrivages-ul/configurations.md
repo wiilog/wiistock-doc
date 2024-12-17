@@ -16,5 +16,5 @@ Cette section sert à paramétrer les comportements lors de la création d'un ar
 
 Voici l'ordre de priorité des différents emplacements par défaut:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
