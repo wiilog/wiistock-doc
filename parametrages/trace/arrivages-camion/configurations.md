@@ -6,3 +6,5 @@
 
 {% embed url="https://www.screencast.com/t/iDRd0iOwz6l" %}
 
+* **Sur l'étiquette d'arrivage camion/ Imprimer une étiquette automatiquement pour chaque arrivage camion:** permet d'activer l'impression automatique d'une étiquette lors de la création d'un arrivage camion sur le WEB
+
