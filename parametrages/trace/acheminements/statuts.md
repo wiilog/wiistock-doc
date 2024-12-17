@@ -2,10 +2,10 @@
 
 Pour traiter un acheminement, il faut le faire passer par une succession de statuts. Ces statuts sont paramétrables par type d'acheminement.
 
-Lorsque vous arrivez sur la partie Statuts, vous avez 2 partie :&#x20;
+Lorsque vous arrivez sur la partie Statuts, vous avez 2 parties :&#x20;
 
 * une section en haut avec les types des acheminements (vous ne pouvez pas paramétrer les statuts si vous n'avez pas paramétré les types). Cliquez sur un type pour filtrer les statuts par rapport au type
-* une section avec la liste des statuts. La liste des statuts est tous types confondus si vous n'avez pas cliquez sur un type. Vous pouvez faire une recherche rapide sur la liste si elle contient plus de 10 lignes. Les colonnes du tableau sont triables.&#x20;
+* une section avec la liste des statuts. La liste des statuts est tous types confondus si vous n'avez pas cliqué sur un type. Vous pouvez faire une recherche rapide sur la liste si elle contient plus de 10 lignes. Les colonnes du tableau sont triables.&#x20;
 
 {% embed url="https://www.screencast.com/t/mM5mCCskkI" %}
 Page statuts
@@ -24,10 +24,10 @@ Pour ajouter des statuts, cliquez sur le bouton <mark style="background-color:bl
 * **Type\*** : type de l'acheminement. Les statuts dépendent du type, ce qui permet d'avoir des workflow différents en fonction du type de l'acheminement
 * **Envoi d'emails au demandeur** : si ce paramétrage est cochée, un mail est envoyé au demandeur (personne ayant créée la demande) lorsque l'acheminement passe à ce statut
 * **Envoi d'emails aux destinataires** : si ce paramétrage est cochée, un mail est envoyé aux destinataires de l'acheminement (destinataires renseignés sur l'acheminement au moment de sa création) lorsque l'acheminement passe à ce statut
+* **Autorisation de créer au statut par rôle**: Ce paramétrage permet d'assigner à certains rôles spécifiques la création d'acheminement à un statut particulier. Par défaut, tous les rôles peuvent créer des acheminements au statut "Brouillon". Grâce à ce paramètre, vous pourrez créer des acheminements à d'autres statuts/ états comme "A traiter", "Partiel" ou même "Traité".
+* **Passage au statut à la génération du bon de surconsommation**: Pour les statuts où on sélectionne "Oui" - lors de la génération du bon d'acheminement, il y aura un passage automatique à ce statut dans l'acheminement
 * **Synchronisation nomade** : si ce paramétrage est coché, un acheminement qui est à ce statut sera visible sur le nomade. Ce paramétrage n'est disponible que pour les statuts en état A traiter ou Partiel
 * **Ordre\*** : ordre dans la liste des statuts sur le paramétrage
-
-Pour qu'un acheminement ait un workflow cohérent, il faut au minimum un statut en état Brouillon, un A traiter, et un Traité. S'il est possible qu'une partie seulement des colis soient acheminés sur une demande, il faut faudra avoir un statut en état Partiel.
 
 Une fois que vous avez ajouté tous les statuts que vous souhaitez, cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark>. Ils s'ajouteront dans la liste des statuts.
 
