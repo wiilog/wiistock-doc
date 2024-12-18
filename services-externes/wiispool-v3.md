@@ -32,7 +32,7 @@ Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressio
 
 Après avoir téléchargé le fichier Wiispool.exe, suivez les étapes suivantes pour l'installation et la configuration de votre système :
 
-* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 * Lors de l'installation la fenêtre suivante peut apparaitre :&#x20;
 
 
@@ -41,17 +41,17 @@ Après avoir téléchargé le fichier Wiispool.exe, suivez les étapes suivantes
 
 _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un composant de sécurité intégré à Windows. Il a pour objectif de protéger votre ordinateur en empêchant l'exécution d'applications non reconnues ou potentiellement dangereuses. Ce message apparaît car Wiispool est récemment développé et n'est pas largement utilisé, et peut ne pas être reconnue par SmartScreen. Pour contourner cette alerte vous pouvez cliquer sur "Informations complémentaires" puis sélectionner "Exécuter quand même"._
 
-* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 *   Création d'un raccourci sur le bureau Windows
 
-    * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1).png>)que vous avez précédemment exécuté.
+    * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1) (1).png>)que vous avez précédemment exécuté.
 
 
 
 **Configuration Initiale**\
 &#x20;
 
-Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3).png>)
+Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1).png>)
 
 Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi des fichiers à imprimer vers la bonne imprimante, sachez que par défaut, le logiciel est paramétré pour écouter le dossier "C:\Users{**UTILISATEUR**}\Downloads". Toutefois, si vous souhaitez modifier ce dossier, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (9).png" alt="" data-size="line"> et de renseigner le chemin absolu vers le dossier où vos téléchargements sont stockés par votre navigateur sur votre poste de travail. Veillez à indiquer le chemin absolu correctement pour assurer le bon fonctionnement de Wiispool V3. N'oubliez pas de remplacer {**UTILISATEUR**} par le nom d'utilisateur approprié dans le chemin du dossier.
 
@@ -67,7 +67,7 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 ![captured screen](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2Fhojp6sKJ2FhUBigg2hta%2Fimage.png?alt=media\&token=089c11c2-4cc5-471b-a618-2752416f992f)
 
 * Ensuite recopier le chemin de l'emplacement où sont stockés vos téléchargements.\
-  ![](<../.gitbook/assets/image (5).png>)
+  ![](<../.gitbook/assets/image (5) (1).png>)
 
 #### Imprimer les fichiers déjà présents dans le dossier
 

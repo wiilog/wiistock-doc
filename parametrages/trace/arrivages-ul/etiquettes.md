@@ -4,7 +4,7 @@
 
 Cette section sert à paramétrer ce qui s'affiche sur les étiquettes des unités de manutention générées suite à un arrivage.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Afficher le destinataire** : si ce paramétrage est activé et qu'un destinataire est mis sur un arrivage, le nom de ce destinataire sera renseigné sur l'étiquette des unités de manutention de l'arrivage
 * **Afficher le numéro de l'unité logistique dans l'arrivage** : activez ce paramétrage pour que sur chaque étiquette soit affiché le numéro du l'unité logistique sur le numéro total d'unité logistique de l'arrivage (1/3,2/3,3/3,...)
