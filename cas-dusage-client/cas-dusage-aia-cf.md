@@ -15,51 +15,46 @@ L'équipe du site client à remonter le besoin de suivre précisément sur Follo
 
 ## 1. L'arrivage camion - arrivage UL
 
-Pour obtenir le T0 du flux entrant depuis des arrivées de camions, nous avons modifier les paramétrages de la fonctionnalité Arrivage camion afin de rendre le numéro de tracking non obligatoire au scan puis ajouter des liens entre la création d'arrivage camion et d'arrivage UL pour améliorer l'expérience utilisateur.&#x20;
+Pour obtenir le T0 du flux entrant depuis des arrivées de camions, nous avons modifié les paramétrages de la fonctionnalité **Arrivage camion** afin de rendre le numéro de tracking non obligatoire au scan puis ajouter des liens entre la création d'arrivage camion et d'arrivage UL pour améliorer l'expérience utilisateur.&#x20;
 
 
 
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-18 151915.png" alt=""><figcaption></figcaption></figure>
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2024-09-13 100358.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2024-09-13 100505.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/Capture d’écran 2024-09-13 100358.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Capture d’écran 2024-09-13 100505.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
-## 2. Le suivi des mouvements de traçabilité et association&#x20;
+## 2. Le suivi des mouvements de traçabilité et groupage
 
-Pour assurer la traçabilité des unités logistique de A à Z, nous avons utilisé la fonctionnalité Association BR. Les unités logistiques peuvent donc être associées depuis un TC ou un PC à d'autres numéros de suivi comme les OT. Les associations vont permettre de regrouper les prises et déposes d'unités logistiques et donc de faciliter la traçabilité.
+Pour assurer la traçabilité des unités logistique de A à Z, nous avons utilisé la fonctionnalité Groupage. Les unités logistiques peuvent donc être associées depuis un TC ou un PC à d'autres numéros de suivi comme les OT. Les groupages vont permettre de regrouper les prises et déposes d'unités logistiques et donc de faciliter la traçabilité.
 
 {% hint style="info" %}
-La différence entre groupage et association : Une association permet d'identifier une ou plusieures unités logistiques sous un autre identifiant si l'étiquette d'UL n'est plus la donnée à suivre. L'association n'a pas de fin, l'unité logistique pourra toujours être déplacée avec son association. Le groupage, peut être dégroupé, et est donc supposé temporaire.&#x20;
+La différence entre groupage et association : Une association permet d'identifier une ou plusieurs unités logistiques sous un autre identifiant si l'étiquette d'UL n'est plus la donnée à suivre. L'association n'a pas de fin, l'unité logistique pourra toujours être déplacée avec son association. Le groupage, peut être dégroupé, et est donc supposé temporaire.&#x20;
 {% endhint %}
 
-<div>
+L'identifiant utilisé lors du groupage peut être recherché depuis la barre des filtres des unités logistiques.&#x20;
 
-<figure><img src="../.gitbook/assets/Média (3).jfif" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Média (4).jfif" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-L'identifiant utilisé lors de l'association peut être recherché depuis la barre des filtres des unités logistiques.&#x20;
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2024-09-13 104712.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2025-01-17 122341.png" alt=""><figcaption></figcaption></figure>
 
 Enfin, pour faciliter le management visuel et la recherche dans la vie d'une unité logistique, nous avons ajouter un historique de traçabilité sur chaque UL. Vous pouvez donc voir l'ensemble des mouvements de l'unité logistique de son arrivée du camion jusqu'à sa livraison finale.&#x20;
 
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2024-09-13 105055.png" alt=""><figcaption></figcaption></figure>
 
-## 3. Les délais de livraison&#x20;
+## 3. Les divisions d'UL par groupage
+
+Une UL peut être divisée en deux UL : une UL parente et une UL enfant (.1).&#x20;
+
+Pour diviser deux UL, il faut :&#x20;
+
+* Qu'une ULA soit inclue dans un groupe A
+* Que l'ULA soit scannée dans un groupe B, et valider la division.&#x20;
+
+Ainsi, deux UL seront obtenues : Une ULA dans le groupe A et une ULA.1 dans le groupe B.&#x20;
+
+L'ULA.1 portera l'historique de traçabilité de l'UL parent.
+
+## 4. Les délais de livraison&#x20;
 
 Des règles ont étés mises en place pour suivre les délais de livraison des unités logistiques en fonction des paramètres suivants :&#x20;
 
