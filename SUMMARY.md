@@ -21,6 +21,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Nouveau modèle de document pour les acheminements](general/mises-a-jour/mise-a-jour-nouveau-modele-de-document-pour-les-acheminements.md)
   * [Mise à jour - Evolution page des Unités logistiques / Groupes, acheminements & dashboard](general/mises-a-jour/mise-a-jour-evolution-page-des-unites-logistiques-groupes-acheminements-and-dashboard.md)
   * [Mise à jour - Evolutions des demandes de production,  acheminements & vue planning.](general/mises-a-jour/mise-a-jour-evolutions-des-demandes-de-production-acheminements-and-vue-planning..md)
   * [Mise à jour - Type de document sur demande d'acheminement, Prêt de matériel Stock, etc](general/mises-a-jour/mise-a-jour-type-de-document-sur-demande-dacheminement-pret-de-materiel-stock-etc.md)

@@ -4,7 +4,7 @@ description: Mise en production du 18/12/2024
 
 # Mise à jour - Evolution page des Unités logistiques / Groupes, acheminements & dashboard
 
-## Evolutions des la page des Unités logistiques & des Groupes
+## Evolutions de la page des Unités logistiques & des Groupes
 
 Evolution de la page des unités logistiques pour mutualiser les informations des groupes et des UL sur un même tableau.&#x20;
 
