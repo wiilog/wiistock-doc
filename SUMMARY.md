@@ -6,6 +6,7 @@
 * [Premiers pas](general/premiers-pas.md)
 * [Récapitulatif des grandes fonctionnalités par brique](general/recapitulatif-des-grandes-fonctionnalites-par-brique.md)
 * [Support Wiilog/Follow GT](general/support-wiilog-follow-gt.md)
+* [Politique RGPD Wiilog](general/politique-rgpd-wiilog.md)
 * [Vidéos explicatives](general/videos-explicatives/README.md)
   * [Amélioration des demandes d'acheminements](general/videos-explicatives/amelioration-des-demandes-dacheminements.md)
   * [Nouvelles fonctionnalités Création article et inventaire RFID](general/videos-explicatives/nouvelles-fonctionnalites-creation-article-et-inventaire-rfid.md)
