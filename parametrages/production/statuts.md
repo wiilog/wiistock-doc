@@ -18,3 +18,15 @@ Il est possible d'ajouter autant de statuts que l'on veut. Les états proposés 
 * A traiter
 * En cours
 * Traité
+
+## Lien entre production et acheminement
+
+Dans le menu Paramétrage ⎪Production⎪Paramétrage complet⎪Status
+
+\
+Il est possible, en fonction du statut sélectionné, d'associer une génération de demande d'acheminement à une demande de production.
+
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-03-12 à 12.13.09.png" alt=""><figcaption></figcaption></figure>
+
+Une fois le paramétrage enregistré, vous pouvez effectuer votre demande de production classique.&#x20;
+

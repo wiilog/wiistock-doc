@@ -21,3 +21,19 @@ Depuis votre page de liste des OF, vous pouvez filtrer et trier vos demandes mai
 Chaque changement sur une demande est remonté dans la partie historique. Vous pouvez ensuite faire avancer la demande depuis le bouton "Avancer la demande" en haut à droite. En changeant le statut, vous pouvez ajouter un commentaire, prendre une photo en direct, ou encore ajouter une pièce jointe.&#x20;
 
 <figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Création de demande d'acheminement depuis une demande de production
+
+En fonction du statut pour lequel se génère une demande d'acheminement (défini dans le paramétrage), une fenêtre pop-up apparaît avec la confirmation de création de demande d'acheminement.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-03-12 à 12.17.32.png" alt=""><figcaption></figcaption></figure>
+
+Vous serez ensuite renvoyés vers le formulaire classique de création de demande d'acheminement, avec la possibilité de "créer une nouvelle demande" ou "ajouter à une demande existante".&#x20;
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-03-12 à 12.17.44.png" alt=""><figcaption></figcaption></figure>
+
+La demande créée, il faudra renseigner dans la" Liste des UL", le code de(s) l'UL à acheminer.&#x20;
+
+Faire avancer la [demande d'acheminement](../trace/fonctionnalites-mobile/demande-i-acheminement/).
