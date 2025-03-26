@@ -10,3 +10,17 @@ Le projet à pour but de surveiller des références du stock qui ne seraient pa
 
 
 
+## Evolution lien date attendue production - acheminement
+
+L'évolution à pour objectif de faciliter le remplissage d'une demande d'acheminement depuis une demande de production en préremplissant les dates d'échéances de la demande d'acheminement avec la date attendue de la demande de production.
+
+
+
+## Evolution de l'ordre des paramétrages pour mise en cohérence - Projet interne
+
+Objectif : Rationnaliser le fonctionnement des paramétrages dans l'ordre des pages à paramétré pour une installation d'instance.&#x20;
+
+1. Types et champs libres
+2. Statuts
+3. Champs fixes
+4. Configuration&#x20;
