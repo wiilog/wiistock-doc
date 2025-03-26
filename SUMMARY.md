@@ -22,6 +22,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Stock dormant, lien dates attendues production - acheminement](general/mises-a-jour/mise-a-jour-stock-dormant-lien-dates-attendues-production-acheminement.md)
   * [Mise à jour - Numéro de commande sur Encours, Traçabilité via RFID & nouveaux dashboards](general/mises-a-jour/mise-a-jour-numero-de-commande-sur-encours-tracabilite-via-rfid-and-nouveaux-dashboards.md)
   * [Mise à jour - Nouveau modèle de document pour les acheminements](general/mises-a-jour/mise-a-jour-nouveau-modele-de-document-pour-les-acheminements.md)
   * [Mise à jour - Evolution page des Unités logistiques / Groupes, acheminements & dashboard](general/mises-a-jour/mise-a-jour-evolution-page-des-unites-logistiques-groupes-acheminements-and-dashboard.md)
