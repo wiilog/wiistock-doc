@@ -327,8 +327,6 @@
 ## Entrepôt de données
 
 * [Cartographie des données](entrepot-de-donnees/cartographie-des-donnees.md)
-* [Paramétrages](entrepot-de-donnees/parametrages.md)
-* [Tutoriels](entrepot-de-donnees/tutoriels.md)
 
 ## Services externes
 
