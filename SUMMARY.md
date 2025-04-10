@@ -320,7 +320,6 @@
 * [Natures d'UL](referentiel/natures-dul.md)
 * [Clients](referentiel/clients.md)
 * [Véhicules](referentiel/vehicules.md)
-* [Projets](referentiel/projets.md)
 * [Clients](referentiel/clients-1.md)
 * [Projet](referentiel/projet.md)
 
