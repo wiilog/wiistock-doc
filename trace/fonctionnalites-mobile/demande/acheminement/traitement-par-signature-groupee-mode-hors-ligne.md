@@ -55,23 +55,23 @@ Voici les conditions d'affichage et de modification pour chaque état des demand
 * Voir le détail de l'acheminement
 * Pour supprimer une demande d'acheminement en état A traiter, il vous faudra aller sur le web dans le détail de la demande d'acheminement, **la passer en état Brouillon** via les trois petits points afin de pouvoir la supprimer.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 ### Menu
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-Dans l'écran de la liste des demandes d'acheminement, pour le mode hors ligne le bouton ![](<../../../.gitbook/assets/image (55).png>) donne accès à un menu pour avoir accès à trois actions :&#x20;
+Dans l'écran de la liste des demandes d'acheminement, pour le mode hors ligne le bouton ![](<../../../../.gitbook/assets/image (55).png>) donne accès à un menu pour avoir accès à trois actions :&#x20;
 
-* ![](<../../../.gitbook/assets/image (62).png>) **Création d'une demande** d'acheminement en mode hors ligne. Vous serez donc dirigé vers le formulaire de création de demande d'acheminement.
-* ![](<../../../.gitbook/assets/image (41).png>) **Traitement des demandes d'acheminement par signature groupé**e en mode hors ligne. Vous serez dirigé vers l'écran de filtrage et de sélection des demandes d'acheminement pour la signature groupée.&#x20;
-* ![](<../../../.gitbook/assets/image (77).png>) **Synchronisation** des demandes d'acheminement. Mise à jour de la liste des demandes d'acheminement.&#x20;
+* ![](<../../../../.gitbook/assets/image (62).png>) **Création d'une demande** d'acheminement en mode hors ligne. Vous serez donc dirigé vers le formulaire de création de demande d'acheminement.
+* ![](<../../../../.gitbook/assets/image (41).png>) **Traitement des demandes d'acheminement par signature groupé**e en mode hors ligne. Vous serez dirigé vers l'écran de filtrage et de sélection des demandes d'acheminement pour la signature groupée.&#x20;
+* ![](<../../../../.gitbook/assets/image (77).png>) **Synchronisation** des demandes d'acheminement. Mise à jour de la liste des demandes d'acheminement.&#x20;
 
 ## La synchronisation
 
 La synchronisation des données a pour objectif de **faire correspondre les données stockées en local sur un serveur.** Grâce à cette action les données sont mises à jour. Dans le cas de notre application, la synchronisation peut se faire soit :&#x20;
 
-* Via l'appuie du bouton ![](<../../../.gitbook/assets/image (43).png>) Synchroniser
+* Via l'appuie du bouton ![](<../../../../.gitbook/assets/image (43).png>) Synchroniser
 * Automatiquement via la désactivation du mode avion si vous êtes dans un lieu avec du réseau.
 * Automatiquement via la désactivation du mode avion et activation du wifi s'il est présent.&#x20;
 * Automatiquement en désactivant le mode avion et via la connexion éthernet au branchement d'un câble.
@@ -86,7 +86,7 @@ La synchronisation des données a pour objectif de **faire correspondre les donn
 
 L'action de synchroniser s'affiche via un loading de synchronisation qui peut durer plusieurs secondes en fonction du nombre de demande d'acheminement à mettre à jour.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 **La synchronisation met à jour la liste des demandes d'acheminement** :&#x20;
 
@@ -109,7 +109,7 @@ _Synchronisation sur le web_ :&#x20;
 
 ## Création d'une demande d'acheminement en mode hors ligne
 
-Dans le menu **Demande | Acheminement** appuyer sur le bouton ![](<../../../.gitbook/assets/image (35).png>) et vous serez dirigé vers l'écran **Demande | Acheminement | Création | Mode hors ligne**. **Même fonctionnel que le mode en ligne,** il vous faudra remplir le formulaire de création de demande d'acheminement. **Les paramétrages qui s'appliquent sur le mode en ligne, s'applique également sur le mode hors ligne.**&#x20;
+Dans le menu **Demande | Acheminement** appuyer sur le bouton ![](<../../../../.gitbook/assets/image (35).png>) et vous serez dirigé vers l'écran **Demande | Acheminement | Création | Mode hors ligne**. **Même fonctionnel que le mode en ligne,** il vous faudra remplir le formulaire de création de demande d'acheminement. **Les paramétrages qui s'appliquent sur le mode en ligne, s'applique également sur le mode hors ligne.**&#x20;
 
 * **Type\*** : Type d'acheminement paramétré dans **Paramétrage | Trace | Acheminements | Types et champs libres.**&#x20;
 * **Enlèvement\*** : Emplacement de prise. Vous avez la possibilité lors de l'ajout d'un nouveau Type de saisir un emplacement de prise par défaut ou encore définir un ou plusieurs emplacements de prise suggérés. Ce paramétrage permettra de bloquer la saisie d'autres emplacements qui ne sont pas associés au type.&#x20;
@@ -124,13 +124,13 @@ Cliquer sur <mark style="background-color:blue;">**Valider**</mark>, vous serez 
 
 **Même fonctionnel que le mode en ligne**, vous pouvez ajouter des unités logistiques via scan du code barre/ QR Code ou par entrée manuelle.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 Par scan, flasher le code barre / QR code de votre UL et vous serez automatiquement dirigé vers le formulaire d'ajout de référence.
 
 Par entrée manuelle, saisissez votre UL puis appuyer sur <mark style="background-color:blue;">**+**</mark> et vous serez dirigé vers le formulaire d'ajout de référence.
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 Dans ce formulaire, vous pouvez renseignez des informations sur votre unité logistique : &#x20;
 
@@ -164,7 +164,7 @@ Champs propres à une demande d'acheminement à saisir : &#x20;
 
 Les autres champs sont pré remplis s'ils sont renseignés dans la fiche de référence. Ils sont **modifiables via le formulaire d'ajout de référence**. Vous pourrez voir leurs modifications dans **Stock | Références | Article de référence | Description après avoir synchronisé votre demande d'acheminement.**
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 * **Matériel hors format** : Champ de type Switch, sélectionné Off par défaut.&#x20;
 * **Code fabricant\*** : Code fabriquant de la référence. Champ textuel libre.
@@ -199,11 +199,11 @@ Il y a des champs obligatoires à saisir pour créer une référence :&#x20;
 
 Vous pouvez donc ajouter autant d'UL contenant une référence pour chaque dans votre demande. A chaque UL ajoutée, vous avez un **visuel globa**l de votre demande d'acheminent avec les informations générales de celle-ci : Enlèvement, Livraison, Commentaire, Urgence et Type.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ainsi que le contenant de celle-ci avec vos UL, leurs numéros, la nature, la référence contenant et la quantité de celle-ci. En appuyant sur la vignette d'une UL, vous pouvez rentrer dans le détail de celle-ci, modifier ses informations et celles de la références.  Il est possible également de supprimer via l'icône poubelle.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 #### Générer une lettre de voiture en mode hors ligne
 
@@ -239,11 +239,11 @@ Lorsque vous estimez que la création de votre demande d'acheminement est compl�
 
 ## Traitement par signature groupée
 
-Après avoir créer un ou plusieurs demandes d'acheminements prête à être enlevées sur leur emplacement de prise, il vous faut les traiter dans le même menu **Demande | Acheminement** en appuyant sur le bouton ![](<../../../.gitbook/assets/image (61).png>)Signature groupée.
+Après avoir créer un ou plusieurs demandes d'acheminements prête à être enlevées sur leur emplacement de prise, il vous faut les traiter dans le même menu **Demande | Acheminement** en appuyant sur le bouton ![](<../../../../.gitbook/assets/image (61).png>)Signature groupée.
 
 **Le traitement par signature groupée en mode hors ligne s'applique uniquement sur les demandes d'acheminement créées par l'utilisateur connecté**. Il a été pensé dans le cas du traitement de plusieurs demandes dans le même temps. Mais il est tout à fait possible d'utiliser la signature pour une seule demande d'acheminement.&#x20;
 
-Après avoir appuyé sur le bouton ![](<../../../.gitbook/assets/image (61).png>)Signature groupée, vous serez directement dirigé sur l'écran de sélection et filtrage des demandes d'acheminement de l'utilisateur.&#x20;
+Après avoir appuyé sur le bouton ![](<../../../../.gitbook/assets/image (61).png>)Signature groupée, vous serez directement dirigé sur l'écran de sélection et filtrage des demandes d'acheminement de l'utilisateur.&#x20;
 
 Les paramétrages utilisés pour le mode en ligne ; **Paramétrage | Utilisateurs | Rôles | Demande | Acheminements** "<mark style="background-color:blue;">**Signature groupée"**</mark> et "<mark style="background-color:blue;">**Obliger la signature groupée pour traiter les acheminements"**</mark> dans **Paramétrage | Trace | Acheminements | Configuration s'appliquent également en mode hors ligne.**&#x20;
 
@@ -260,7 +260,7 @@ Cet enregistrement des filtres permet de :&#x20;
 * Scanner ou transférer uniquement des demandes d'acheminements ayant les mêmes caractéristiques.&#x20;
 * Définir si la signature groupée est en situation d'enlèvement ou de livraison. Cela implique à l'étape suivante, la sélection des statuts postérieurs selon l'ordre défini dans le paramétrage des statuts.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 Dans cet exemple sur la capture ci-dessus, les filtres appliqués après avoir scanné 3 UL, sont :&#x20;
 
@@ -274,7 +274,7 @@ Après avoir sélectionné vos demandes d'acheminement, appuyer sur <mark style=
 
 Comme expliqué précédemment, dans mon exemple toutes mes demandes d'acheminement sont au statut A signer (en état A traiter), donc dans ma sélection de statut sera affiché uniquement le ou les statuts postérieurs selon l'ordre défini dans le paramétrage des statuts. Ici, mon seul choix possible c'est le statut Validé que j'ai paramétré en état partiel.
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -290,6 +290,6 @@ Pour valider la signature et le changement de statut de mes demandes d'acheminem
 * Les champs Trigramme signataire, Code signataire et Commentaire (s'il a été paramétré comme tel) sont obligatoires, auquel cas, un message d'erreur apparaîtra après avoir cliqué sur <mark style="background-color:blue;">**Valider.**</mark>&#x20;
 * Uniquement le ou les signataire attribués à l'emplacement de prise (en situation d'enlèvement) ou à l'emplacement de dépose (en situation de livraison) qui peuvent valider cet étape, auquel cas, un message d'erreur apparaîtra après avoir cliqué sur <mark style="background-color:blue;">**Valider.**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 Appuyer sur <mark style="background-color:blue;">**Valider**</mark>, et vos demandes d'acheminements passeront au statut A signer (état A traiter) au statut Validé (étant Partiel), le modification du statut est enregistrée en local. Pour communiquer les mises à jours de la demande au serveur il faudra synchroniser, et de ce fait les comptes rendus et mails seront envoyés aux destinataires paramétrés, le détail de vos demandes d'acheminement sur le web sera mis à jour et les mouvements de traçabilité seront créés.

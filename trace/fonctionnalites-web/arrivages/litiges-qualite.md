@@ -18,9 +18,9 @@ Les champs suivants sont présents sur la modale de création de litige :&#x20;
 * Le **numéro de l'arrivage** : numéro de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Le **numéro de commande / BL** : les numéros de commande de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Les **acheteurs** : les acheteurs de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
-* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Trace > Arrivages UL > Litiges - Types</mark>](../../../parametrages/trace/arrivages-ul/litiges-types.md))
+* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Trace > Arrivages UL > Litiges - Types</mark>](../../parametrage/arrivages-ul/litiges-types.md))
 * Le **déclarant** : par défaut, la personne ayant créée le litige. Une autre personne peut être renseignée
-* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](../../../parametrages/trace/arrivages-ul/litiges-statuts.md)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
+* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](../../parametrage/arrivages-ul/litiges-statuts.md)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
 * Le/les **unité(s) logistique(s)** : le ou les unité(s) logistique(s) qui sont concernés par les litiges
 * **Commentaire** : vous pouvez ajouter un complétement d'information sur le litige
 * Switch **Urgence ?** : si vous l'activez, la ligne du litige apparaîtra en rouge

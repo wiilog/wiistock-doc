@@ -82,15 +82,11 @@ Ils sont aussi utilisés sur les dropzone des utilisateurs pour l'envoi de mail 
 
 Sur chaque ligne de groupe peut aussi apparaître un logo wifi si le groupe d'emplacement est lié à un objet connecté.&#x20;
 
-<div align="center">
-
-<img src="../.gitbook/assets/image (75).png" alt="">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/image (75).png" alt=""></div>
 
 Si la ligne a un logo wifi, un bouton <mark style="background-color:blue;">**Historique des données**</mark> est présent en plus sous les <img src="../.gitbook/assets/3points" alt="" data-size="line">
 
-Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à ce groupe d'emplacements (Voir la partie [IoT](../parametrages/iot/) de la documentation).
+Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à ce groupe d'emplacements (Voir la partie [IoT](../iot/parametrage/) de la documentation).
 
 ### Ajouter un groupe d'emplacements
 

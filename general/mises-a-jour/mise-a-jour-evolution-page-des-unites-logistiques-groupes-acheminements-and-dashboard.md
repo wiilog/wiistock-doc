@@ -13,11 +13,11 @@ Evolution de la page des unités logistiques pour mutualiser les informations de
 * Une nouvelle page de détail est disponible pour visualiser l'intégralité des informations portées par le groupe.&#x20;
 * L'icône loupe permettra de voir rapidement le contenu du groupe.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="308"><figcaption><p>Contenu d'un groupe</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="308"><figcaption><p>Contenu d'un groupe</p></figcaption></figure>
 
 * Nouvelles options sur la page de détail d'une unité logistique pour imprimer, modifier l'UL, supprimer l'UL et voir ses mouvements de traçabilité (redirection vers la page des mouvements). Le numéro de l'UL devient également cliquable: il suffit d'un click pour le copier dans votre presse-papier!
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Options sur détail d'une UL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Options sur détail d'une UL</p></figcaption></figure>
 
 * Sur NOMADE, lors de la prise d'une UL contenue dans un groupe, l'opérateur aura ces nouveaux choix:
 
@@ -27,7 +27,7 @@ Evolution de la page des unités logistiques pour mutualiser les informations de
 
 * Nouvel export unique et planifié disponible, sur les unités logistiques:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Nouvel export</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Nouvel export</p></figcaption></figure>
 
 
 

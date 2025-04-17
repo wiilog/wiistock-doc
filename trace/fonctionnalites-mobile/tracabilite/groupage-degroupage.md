@@ -1,4 +1,4 @@
-# Traçabilité I Groupage/Dégroupage
+# Groupage/Dégroupage
 
 Le groupage permet de venir associer plusieurs unités logistiques à un contenant afin de venir déplacer seulement ce contenant pour déplacer en même temps les unités logistiques contenues. Ainsi pour bouger 3 unités logistiques qui sont groupées dans un groupe A, de l'emplacement B à C, il suffira d'une prise et d'une dépose du groupe pour déplacer d'un seul coup les 3 unités logistiques.
 
@@ -18,7 +18,7 @@ Lorsque vous avez scanné votre groupe, vous aurez les informations suivantes su
 * **Nombre colis** : nombre de colis/unités logistiques contenu déjà dans le groupe
 * **Nature** : nature du groupe, si vous en avez mis une
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 Maintenant que vous avez scanné le groupe, vous pouvez scanner toutes les unités logistiques qui doivent aller dans ce groupe.&#x20;
 
@@ -29,11 +29,11 @@ Chaque unité logistique est dans un rectangle qui contient les informations sui
 * **Date/Heure** : date et heure du scan de l'UL pour le mettre dans le groupe
 * **Nature** : nature de l'unité logistique
 
-Si vous vous êtes trompés en scannant, enlevez l'unité logistique en appuyant sur <img src="../../.gitbook/assets/image (50).png" alt="" data-size="line">
+Si vous vous êtes trompés en scannant, enlevez l'unité logistique en appuyant sur <img src="../../../.gitbook/assets/image (50).png" alt="" data-size="line">
 
-Validez ensuite en appuyant sur <img src="../../.gitbook/assets/image (39).png" alt="" data-size="line">
+Validez ensuite en appuyant sur <img src="../../../.gitbook/assets/image (39).png" alt="" data-size="line">
 
-![](<../../.gitbook/assets/Screenshot\_20220914-155240\_Follow GT.jpg>)
+![](<../../../.gitbook/assets/Screenshot_20220914-155240_Follow GT.jpg>)
 
 ### Mouvements résultants sur la supervision
 
@@ -61,7 +61,7 @@ Vous aurez ensuite la visualisation des caractéristiques du groupe et des unit�
 
 Validez le dégroupage en appuyant sur <mark style="background-color:blue;">**VALIDER DEGROUPAGE**</mark>.&#x20;
 
-<figure><img src="../../.gitbook/assets/degroupage.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/degroupage.PNG" alt=""><figcaption></figcaption></figure>
 
 ### Mouvements résultants sur la supervision
 
@@ -71,4 +71,4 @@ Pour un dégroupage, vous aurez à chaque fois un mouvement de dégroupage et de
 
 Vous pouvez aussi aller dans la page _**Traçabilité | Unités logistiques**_, onglet _Groupes_ pour voir que le groupe ne contient plus d'unités logistiques.&#x20;
 
-Vous pouvez faire un dégroupage sur la supervision dans la page _**Traçabilité | Unités logistiques**_, onglet _Groupes_, en cliquant sur les <img src="../../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16.png" alt="" data-size="line">du groupe que vous voulez dégrouper et sur le bouton <mark style="background-color:blue;">**Dégrouper**</mark>.&#x20;
+Vous pouvez faire un dégroupage sur la supervision dans la page _**Traçabilité | Unités logistiques**_, onglet _Groupes_, en cliquant sur les <img src="../../../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16.png" alt="" data-size="line">du groupe que vous voulez dégrouper et sur le bouton <mark style="background-color:blue;">**Dégrouper**</mark>.&#x20;

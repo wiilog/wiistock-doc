@@ -63,7 +63,7 @@ Néanmoins, le fait de scanner via le flash ou l’appareil photo est fortement
 
 Si un des colis que vous devez charger à un souci ou est inexistant, vous avez la possibilité de l’écarter pour qu’il ne soit pas pris en compte pour la tournée.
 
-Pour cela, dans la liste des colis à charger, sur la vignette du colis à écarter, faite un glisser de la gauche vers la droite pour faire apparaître un bouton <mark style="background-color:blue;">**Ecarter**</mark>. Appuyez sur le bouton Ecarter. Une modale apparaîtra alors avec les différents motifs possibles de pourquoi le colis doit être écarté. Sélectionnez le motif et validez (la liste doit être paramétré dans [Track/tournées](../../parametrages/track/tournees.md#colis-ecartes)). Le colis n’apparaîtra plus alors dans la liste des colis à charger. Sur les demandes de transport, l’information que le colis a été écarté et le motif remontera.
+Pour cela, dans la liste des colis à charger, sur la vignette du colis à écarter, faite un glisser de la gauche vers la droite pour faire apparaître un bouton <mark style="background-color:blue;">**Ecarter**</mark>. Appuyez sur le bouton Ecarter. Une modale apparaîtra alors avec les différents motifs possibles de pourquoi le colis doit être écarté. Sélectionnez le motif et validez (la liste doit être paramétré dans [Track/tournées](../parametrage/tournees.md#colis-ecartes)). Le colis n’apparaîtra plus alors dans la liste des colis à charger. Sur les demandes de transport, l’information que le colis a été écarté et le motif remontera.
 
 {% embed url="https://www.screencast.com/t/vJIhwpY1nTzI" %}
 

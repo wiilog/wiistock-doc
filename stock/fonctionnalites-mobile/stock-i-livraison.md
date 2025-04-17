@@ -51,7 +51,7 @@ Sur une carte d'article vous avez comme info :&#x20;
 * **Emplacement** : Emplacement de préparation de l'article&#x20;
 * **Quantité** : Quantité demandée
 
-Avec l'activation du paramétrage _"Afficher le code référence et le rendre scannable. Enlever le code article."_ dans [Pramétrage > Terminal mobile > Livraison](../../parametrages/stock/demandes/livraisons/)  vous pourrez scanner le code de référence à la place du code barre.
+Avec l'activation du paramétrage _"Afficher le code référence et le rendre scannable. Enlever le code article."_ dans [Pramétrage > Terminal mobile > Livraison](../parametrage/demandes/livraisons/)  vous pourrez scanner le code de référence à la place du code barre.
 
 ### Unités logistiques (avec Articles)
 

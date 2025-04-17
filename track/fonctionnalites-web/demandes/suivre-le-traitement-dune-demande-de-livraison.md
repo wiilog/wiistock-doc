@@ -94,7 +94,7 @@ Il se peut qu’au chargement, le livreur écarte un colis car celui-ci est abî
 Pour savoir qu’un colis a été écarté, vous aurez l’indication à 3 endroits :
 
 * Sur la liste des demandes de transport (Demande | Transport) : un logo <img src="../../../.gitbook/assets/colis-écarté.png" alt="" data-size="line">apparaîtra en haut à droite de la vignette pour indiquer que la demande contient un colis écarte&#x301;**.**
-* Sur le détail d’une demande (Demande | Transport | Détails) : dans la section colis le même logo apparaîtra + sur la ligne du colis écarté, il sera marqué « oui » dans la colonne « Ecarté » ainsi que la raison de son écartement dans la colonne « Motif écartement ». Les colis non écartés auront « non » dans la colonne « Ecarté ». (motifs [paramétrable](../../../parametrages/track/tournees.md#colis-ecartes))
+* Sur le détail d’une demande (Demande | Transport | Détails) : dans la section colis le même logo apparaîtra + sur la ligne du colis écarté, il sera marqué « oui » dans la colonne « Ecarté » ainsi que la raison de son écartement dans la colonne « Motif écartement ». Les colis non écartés auront « non » dans la colonne « Ecarté ». (motifs [paramétrable](../../parametrage/tournees.md#colis-ecartes))
 
 {% embed url="https://www.screencast.com/t/CWjuWtw393" %}
 Colis écatrés

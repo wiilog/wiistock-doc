@@ -41,7 +41,7 @@ Ajouter à une demande de livraison
 Si vous choisissez de **créer une nouvelle demande**, les champs suivants apparaitront :&#x20;
 
 * **Type\*** : type de la demande de livraison
-* **Destination** : emplacement de livraison. Le champ n'est pas disponible tant que le type de la livraison n'est pas sélectionné, car selon le type sélectionné, seuls certains emplacements peuvent être autorisés. A la sélection du type, la destination peut être automatiquement renseignée si un emplacement de livraison par défaut a été paramétré pour ce type ([Paramétrages > Stock > Demandes > Livraisons](../../parametrages/stock/demandes/livraisons/))
+* **Destination** : emplacement de livraison. Le champ n'est pas disponible tant que le type de la livraison n'est pas sélectionné, car selon le type sélectionné, seuls certains emplacements peuvent être autorisés. A la sélection du type, la destination peut être automatiquement renseignée si un emplacement de livraison par défaut a été paramétré pour ce type ([Paramétrages > Stock > Demandes > Livraisons](../parametrage/demandes/livraisons/))
 * **Champs libres** : champs libres du type de la demande de livraison
 * **Commentaire** : commentaire sur la demande de livraison
 

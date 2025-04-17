@@ -19,7 +19,7 @@ Le détail d’une tournée est constitué de 3 zones :
 5. **Dernier** **statut** de la tournée
 6. **Historique des statuts de la tournée.** Si le statut est vert, cela signifie que c’est le statut actuel. Si le statut est bleu, cela signifie qu’il est passé. S’il est gris, cela signifie que la tournée n’est pas encore passée par ce statut, il n’y aura aucun horodate face à ce statut dans ce cas. L’horodatage correspond à la date et heure auxquelles la tournée est passée sur le statut
 7.  **Indication du temps estimé** lors de la planification de la tournée et **temps réel** calculé de la tournée lorsque la tournée est terminée.\
-    L’estimation est calculée depuis le point de départ calcul horaire jusqu’au point de fin de tournée. Le temps pris en compte chez le patient dépend du [paramétrage](../../../../parametrages/track/tournees.md).
+    L’estimation est calculée depuis le point de départ calcul horaire jusqu’au point de fin de tournée. Le temps pris en compte chez le patient dépend du [paramétrage](../../../parametrage/tournees.md).
 
     Le temps réel se base sur l’horodate de début de tournée (horodatage devant le statut « En cours ») et sur l’horodatage de fin de tournée (horodatage devant le statut « Terminée »)
 8. **Indication du kilométrage estimé** lors de la planification de la tournée et **kilométrage réel** lorsque la tournée est terminée.\

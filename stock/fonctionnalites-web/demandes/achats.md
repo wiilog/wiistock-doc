@@ -42,7 +42,7 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 
 Dans le bouton d'action rapide, sélectionnez **Achat** pour créer une demande d'achat.
 
-![](<../../../.gitbook/assets/2022-05-30 15\_23\_54-FollowGT \_ Demande \_ Achat.png>)
+![](<../../../.gitbook/assets/2022-05-30 15_23_54-FollowGT _ Demande _ Achat.png>)
 
 Contrairement aux autres demandes, la demande d'achat ne passe pas par une modale permettant de renseigner des champs fixes ou des champs libres. Au clic sur <mark style="background-color:blue;">**+**</mark>, vous êtes redirigés directement vers le détail d'une demande d'achat qui est directement créé au statut Brouillon.
 
@@ -109,7 +109,7 @@ Cliquez sur <mark style="background-color:blue;">**Valider mon panier**</mark> e
 
 Lorsque votre demande est sur un statut en état _Brouillon_, et que vous cliquez sur <mark style="background-color:blue;">**Valider**</mark>, une modale "_Valider une demande d'achat_" s'ouvre afin que vous puissiez valider un premier statut comme quoi la demande est à traiter.
 
-Ainsi tous les statuts proposés sont les statuts paramétrés qui sont en état _A traiter_ (voir [Paramétrages >  Stock >Demandes > ](../../../parametrages/stock/demandes/achats/statuts.md)[Achat](../../../parametrages/stock/demandes/achats/statuts.md)[ > ](../../../parametrages/stock/demandes/achats/statuts.md)[Statuts](../../../parametrages/stock/demandes/achats/statuts.md)).
+Ainsi tous les statuts proposés sont les statuts paramétrés qui sont en état _A traiter_ (voir [Paramétrages >  Stock >Demandes > ](../../parametrage/demandes/achats/statuts.md)[Achat](../../parametrage/demandes/achats/statuts.md)[ > ](../../parametrage/demandes/achats/statuts.md)[Statuts](../../parametrage/demandes/achats/statuts.md)).
 
 La date de validation est alors complétée et le bouton <mark style="background-color:blue;">**Valider**</mark> est transformé en bouton <mark style="background-color:blue;">**Prendre en compte**</mark>.
 

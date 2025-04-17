@@ -34,7 +34,7 @@ La livraison passe alors tout en bas de la liste des points de passage avec un c
 
 Si vous n’êtes pas en mesure de livrer des colis pour un patient, allez sur la livraison, et au lieu de sélectionner Déposer les colis, appuyez sur <mark style="background-color:blue;">**Non livrée**</mark>.
 
-Vous devez alors indiquer impérativement un motif de non-livraison. Les motifs de non livraison sont paramétable dans le paramétrage ([Track>tournée](../../parametrages/track/tournees.md)). Vous pouvez également mettre un commentaire ou encore prendre une photo si cela permet d’illustrer pourquoi vous ne pouvez pas livrer.
+Vous devez alors indiquer impérativement un motif de non-livraison. Les motifs de non livraison sont paramétable dans le paramétrage ([Track>tournée](../parametrage/tournees.md)). Vous pouvez également mettre un commentaire ou encore prendre une photo si cela permet d’illustrer pourquoi vous ne pouvez pas livrer.
 
 {% embed url="https://www.screencast.com/t/GHdTdcT6qT2G" %}
 Livraison impossible
@@ -80,7 +80,7 @@ La collecte se positionne alors en bas des points de passage à traiter.
 
 Si vous n’êtes pas en mesure de collecter les objets chez un patient, allez sur la collecte, et au lieu de sélectionner Collecter les objets, appuyez sur <mark style="background-color:blue;">**Non collectée**</mark>.
 
-Vous devez alors indiquer impérativement un motif de non-collecte. Les motifs sont paramétable depuis le paramétrage ([Track>tournée](../../parametrages/track/tournees.md#collectes-livraisons)). Vous pouvez également mettre un commentaire ou prendre une photo si cela permet d’illustrer pourquoi vous ne pouvez pas collecter. S’il n’y a rien à collecter chez le patient, sélectionnez le motif renseigné dans "Fin du workflow collecte" pour indiquer que la collecte a déjà été effectué par une autre personne.
+Vous devez alors indiquer impérativement un motif de non-collecte. Les motifs sont paramétable depuis le paramétrage ([Track>tournée](../parametrage/tournees.md#collectes-livraisons)). Vous pouvez également mettre un commentaire ou prendre une photo si cela permet d’illustrer pourquoi vous ne pouvez pas collecter. S’il n’y a rien à collecter chez le patient, sélectionnez le motif renseigné dans "Fin du workflow collecte" pour indiquer que la collecte a déjà été effectué par une autre personne.
 
 {% embed url="https://www.screencast.com/t/M2qVGhm4" %}
 Collecte impossible

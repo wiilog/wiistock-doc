@@ -16,5 +16,9 @@ Cette section sert à paramétrer les comportements lors de la création d'un ar
 
 Voici l'ordre de priorité des différents emplacements par défaut:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+* Prio 1 : Douane
+* Prio 2 : Urgence
+* Prio 3 : Dernier élément rempli sur la modale (si emplacement affiché sur la modale)
+* Prio 4 : Destinataire
+* Prio 5 : Emplacement par défaut
 

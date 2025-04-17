@@ -1,4 +1,4 @@
-# Traçabilité I Acheminements
+# Acheminements
 
 Pour accéder à la liste des acheminements à traiter, appuyez sur le menu <mark style="background-color:blue;">**Traçabilité**</mark> puis <mark style="background-color:blue;">**Acheminements**</mark>
 
@@ -20,13 +20,13 @@ Chaque acheminement est représenté par un vignette rectangulaire qui contient 
 
 Les acheminements sont présentés de celui à faire le plus rapidement à celui le moins pressant.&#x20;
 
-Chaque vignette a une entête colorée. Cette couleur peut varier en fonction de la date d'échéance renseignée sur l'acheminement. Cette couleur se paramètre au préalable dans [Terminal mobile > Acheminements](../../parametrages/terminal-mobile/acheminements.md)
+Chaque vignette a une entête colorée. Cette couleur peut varier en fonction de la date d'échéance renseignée sur l'acheminement. Cette couleur se paramètre au préalable dans [Terminal mobile > Acheminements](../../../parametrages/terminal-mobile/acheminements.md)
 
 Sur l'exemple montré en bas, les acheminements dont la date d'échéance est une date dans le passé sont en rouges, ceux dont la date d'échéance est pour le jour même sont en bleu, et ceux à faire dans le futur sont en vert clair.&#x20;
 
 Les acheminements n'ayant pas de date d'échéance auront une entête couleur vert sapin.
 
-![](../../.gitbook/assets/ach.jpg)
+![](../../../.gitbook/assets/ach.jpg)
 
 **Filtre sur numéro**
 

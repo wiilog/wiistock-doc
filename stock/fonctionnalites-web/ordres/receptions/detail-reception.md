@@ -22,7 +22,7 @@ Elle contient également les boutons suivants :&#x20;
 
 * **Réception :** disponible seulement si la réception n'est pas en statut _Réception totale_. Ce bouton ouvre la modale de conditionnement des articles (voir explications plus bas sur le conditionnement)
 * **Fin Réception :** disponible seulement si la réception n'est pas en statut _Réception totale_. Ce bouton sert à indiquer que la réception est terminée et ainsi à la passer en statut Réception totale. La date de fin est alors remplie avec l'horodatage de passage à ce statut
-* **Modifier :** sous la flèche à droite de **Fin Réception**. Disponible seulement si la réception n'est pas en statut Réception totale. Ce bouton ouvre une modale permettant de modifier les champs fixes et libres de la réception. La modification des champs libres est soumise à des paramétrages ([Paramétrage | Stock | Réceptions | Champs fixes](../../../../parametrages/stock/receptions.md#champs-fixes)). Ainsi, vous pouvez décider de ne pas rendre modifiable certains champs ou alors de les rendre obligatoires.&#x20;
+* **Modifier :** sous la flèche à droite de **Fin Réception**. Disponible seulement si la réception n'est pas en statut Réception totale. Ce bouton ouvre une modale permettant de modifier les champs fixes et libres de la réception. La modification des champs libres est soumise à des paramétrages ([Paramétrage | Stock | Réceptions | Champs fixes](../../../parametrage/receptions.md#champs-fixes)). Ainsi, vous pouvez décider de ne pas rendre modifiable certains champs ou alors de les rendre obligatoires.&#x20;
 * **Voir les demandes de livraison :** sous la flèche à droite de **Fin Réception**. Apparaît seulement si la réception à générer une ou des demandes de livraison. En cliquant dessus vous serez redirigé vers la liste des demandes de réceptions créées suite à la livraison
 * **Supprimer :** sous la flèche à droite de **Fin Réception**. Disponible seulement si la réception n'est pas en statut _Réception totale._ Cliquez dessus pour supprimer la réception. Vous ne pouvez pas supprimer la réception si elle contient des articles, ils doivent être supprimés au préalable
 * **Annuler cette réception** : sous la flèche. Disponible seulement si la réception est en statut _Réception totale_. Permet de passer la réception en Statut Réception partielle et de pouvoir la modifier à nouveau, et réceptionner des nouvelles références et/ou articles
@@ -170,7 +170,7 @@ Les champs suivants apparaissent ensuite :&#x20;
 
 Lorsque vous avez fini votre conditionnement et que vous cliquez sur <mark style="background-color:blue;">**Enregistrer.**</mark> Selon votre paramétrage la demande de livraison aura différent impact.&#x20;
 
-Dans le [paramétrage](../../../../parametrages/stock/demandes/livraisons/) des demandes de livraison vous avez 3 choix :
+Dans le [paramétrage](../../../parametrage/demandes/livraisons/) des demandes de livraison vous avez 3 choix :
 
 * **Création seulement de la demande de livraison en "A traiter"** : Il est possible que la demande de livraison soit créée sans une préparation en suivant.
 * **Création de la demande de livraison avec sa préparation** : la demande sera automatiquement créée au statut A traiter avec l'ordre de préparation associé aussi au statut À traiter.

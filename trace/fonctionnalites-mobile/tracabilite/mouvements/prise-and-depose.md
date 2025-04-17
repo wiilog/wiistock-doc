@@ -1,4 +1,4 @@
-# Traçabilité I Mouvements I Prise & Dépose
+# Prise & Dépose
 
 La prise et la dépose sont les fonctionnalités de base de la traçabilité dans Wiilog afin de mouvementer les unités logistiques d'emplacement en emplacement.&#x20;
 
@@ -16,7 +16,7 @@ Vous devez d'abord venir scanner un emplacement pour indiquer où vous venez ré
 
 Si le scanner à un souci, vous pouvez appuyer sur l'icône d'appareil photo avec un code barre pour accéder à l'appareil photo du terminal mobile et scanner le code barre ou le QR Code de l'emplacement avec celui-ci.&#x20;
 
-<img src="../../.gitbook/assets/Screenshot_20220713-145349_Follow GT (1).jpg" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/Screenshot_20220713-145349_Follow GT (1).jpg" alt="" data-size="original">
 
 Si vous n'avez pas accès à un code barre ou QR Code, appuyez sur la loupe pour accéder à la sélection manuelle de l'emplacement. Vous accédez alors à l'écran de sélection d'emplacement. Vous pouvez rechercher l'emplacement concerné en tapant dans le champ Rechercher au moins 3 caractères. Appuyez sur le nom de l'emplacement voulu pour le sélectionner et passer à l'écran de sélection de l'unité logistique.&#x20;
 
@@ -26,7 +26,7 @@ Si vous n'avez pas accès à un code barre ou QR Code, appuyez sur la loupe pour
 
 Sur cet écran, scannez les codes barres ou les QR Codes des unités logistiques que vous souhaitez prendre sur cet emplacement.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220713-150332\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-150332_Follow GT.jpg>)
 
 De même que pour la sélection de l'emplacement, vous pouvez scanner avec l'appareil photo en appuyant sur l'icône avec l'appareil photo et le code barre, ou taper à la main le nom de l'unité logistique souhaitée dans la zone "_Entrée manuelle ..._".
 
@@ -39,7 +39,7 @@ Lorsqu'une unité logistique est scannée, elle apparaît dans une rectangle ave
 * **Date / Heure** : date et heure du scan de l'unité logistique
 * **nature** : nature de l'unité logistique. Ce champ apparaît si l'unité logistique est connue par l'application. Si l'unité logistique n'est pas connue, le champ n'apparaît pas. S'il y a une nature, à gauche du rectangle, un bandeau de couleur correspondant à la couleur de la nature apparaît.
 
-![](<../../.gitbook/assets/Screenshot\_20220713-154223\_Follow GT2.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-154223_Follow GT2.jpg>)
 
 
 
@@ -53,7 +53,7 @@ Attention, pour des raisons de performance, il n'est pas conseillé d'activer ce
 
 Vous aurez alors sur l'écran de sélection de prise, une zone _ENCOURS_ qui apparaîtra avec les unités logistiques disponibles sur cet emplacement.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220722-113522\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220722-113522_Follow GT.jpg>)
 
 #### Supprimer une unité logistique
 
@@ -73,13 +73,13 @@ Appuyez sur <mark style="background-color:blue;">**Valider**</mark> pour valider
 
 Toutes les informations ajoutées ici pourront être visualisées sur la supervision sur la page _**Traçabilité | Mouvements**_.
 
-![](<../../.gitbook/assets/Screenshot\_20220713-153139\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-153139_Follow GT.jpg>)
 
 ### Sélectionner un groupe&#x20;
 
 #### Flash d'un groupe
 
-Pour voir comment faire un groupe, voir [Groupage & Dégroupage](tracabilite-i-groupage-degroupage.md).&#x20;
+Pour voir comment faire un groupe, voir [Groupage & Dégroupage](../groupage-degroupage.md).&#x20;
 
 Lorsque vous scannez un groupe, les informations dans le rectangle sont les suivantes :&#x20;
 
@@ -90,7 +90,7 @@ Lorsque vous scannez un groupe, les informations dans le rectangle sont les suiv
 
 La prise d'un groupe va entrainer la prise de tous les éléments contenus dans le groupe.
 
-![](<../../.gitbook/assets/Screenshot\_20220713-154223\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-154223_Follow GT.jpg>)
 
 
 
@@ -100,13 +100,13 @@ Vous pouvez aussi prendre seulement une unité logistique présente dans le grou
 
 Appuyez sur le rectangle du groupe pour accéder au même écran que celui décrit précédemment. Pour le groupe, vous ne pouvez pas changer la quantité.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220713-160024\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-160024_Follow GT.jpg>)
 
 #### Voir le contenu du groupe
 
 Appuyez sur le rectangle du groupe. Lorsque vous êtes sur la page pour ajouter des informations sur le mouvement, sélectionnez l'onglet _**Contenu colis**_ pour visualiser les unités logistiques contenues dans le groupe.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220713-160017\_Follow GT (1).jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220713-160017_Follow GT (1).jpg>)
 
 ### Sélection d'une unité logistique présente dans un groupe
 
@@ -114,7 +114,7 @@ Vous pouvez flasher directement une unité logistique qui est dans un groupe.&#x
 
 A ce moment-là, vous aurez une modale d'avertissement qui vous préviendra que l'unité logistique scannée sera alors enlevée du groupe. Appuyez sur <mark style="background-color:blue;">**Confirmer**</mark> pour confirmer la prise.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220809-104320\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220809-104320_Follow GT.jpg>)
 
 Le fonctionnement est ensuite le même que pour une prise d'une unité logistique classique.
 
@@ -144,13 +144,13 @@ Si vous n'avez pas accès à un code barre ou QR Code, appuyez sur la loupe pour
 
 Sur cet écran, vous disposez de la liste des unités logistiques en prise. Scannez le code barre ou QR Code de l'UL pour la passer dans la section _DEPOSE_.&#x20;
 
-![](<../../.gitbook/assets/Screenshot\_20220722-112947\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220722-112947_Follow GT.jpg>)
 
 De même que pour la sélection de l'emplacement, vous pouvez scanner avec l'appareil photo en appuyant sur l'icône avec l'appareil photo et le code barre, ou taper à la main le nom de l'unité logistique souhaitée dans la zone "_Entrée manuelle ..._". Vous pouvez aussi appuyez sur la flèche présente sur l'unité logistique ou bien appuyez sur la grande flèche à droite de l'appareil photo pour tout passer dans la section _DEPOSE_.&#x20;
 
 Il peut y avoir des contraintes de dépose sur certains emplacements en fonction de la nature des unités logistiques. Si vous avez paramétré seulement quelques natures autorisées sur certains emplacements, si l'unité logistique n'a pas la bonne nature, un message d'erreur apparaîtra avec un avertissement sonore.
 
-![](<../../.gitbook/assets/Screenshot\_20220722-120132\_Follow GT.jpg>)
+![](<../../../../.gitbook/assets/Screenshot_20220722-120132_Follow GT.jpg>)
 
 #### Supprimer une unité logistique
 

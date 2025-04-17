@@ -11,4 +11,4 @@ Exemples de réserves sur numéro de tracking :&#x20;
 * "Réserve qualité"
 * "Réserve douane"
 
-Il est également possible de créer une réserve qui va désactiver le numéro de tracking lorsque celui-ci est refusé dès l'arrivage du camion. Il ne sera pas pris en compte comme tracking à associé à un arrivage d'unité logistique. Il pourra être scanné une nouvelle fois lors d'un prochain arrivage camion.
+Il est également possible de créer une réserve qui va **désactiver le numéro de tracking** lorsque celui-ci est refusé dès l'arrivage du camion. Il ne sera pas pris en compte comme tracking à associé à un arrivage d'unité logistique. Il pourra être scanné une nouvelle fois lors d'un prochain arrivage camion.

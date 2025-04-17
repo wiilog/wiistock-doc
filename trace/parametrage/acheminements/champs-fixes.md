@@ -13,9 +13,9 @@ Pour chaque champ, choisissez les éléments suivants :&#x20;
 * **Sur les filtres :**&#x20;
   * **Afficher** : cochez la case pour que le champ soit présent dans la barre de filtres de la page des acheminements. Si la case est grisée, cela signifie que ce champ n'est pas disponible au filtrage
 
-Les champs fixes sont maintenant paramétrables par Type: cliquez sur le Type souhaité pour paramétrer les champs à afficher/ rendre obligatoire.
+Les champs fixes sont paramétrables par Type: cliquez sur le Type souhaité pour paramétrer les champs à afficher/ rendre obligatoire.
 
-<figure><img src="../../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d&#x27;écran 2025-04-17 141817.png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -36,4 +36,4 @@ Vous serez ensuite renvoyés vers le formulaire classique de création de demand
 
 La demande créée, il faudra renseigner dans la" Liste des UL", le code de(s) l'UL à acheminer.&#x20;
 
-Faire avancer la [demande d'acheminement](../trace/fonctionnalites-mobile/demande-i-acheminement/).
+Faire avancer la [demande d'acheminement](../trace/fonctionnalites-mobile/demande/acheminement/).

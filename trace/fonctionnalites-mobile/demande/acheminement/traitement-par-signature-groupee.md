@@ -11,7 +11,7 @@ description: >-
 
 Dans le menu **Demande | Acheminement** appuyer sur <mark style="background-color:blue;">**+**</mark> et vous serez dirigé vers l'écran **Demande | Acheminement | Création**. Il vous faudra remplir le formulaire de création de demande d'acheminement avec les champs suivants :&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 * **Type\*** : Type d'acheminement paramétré dans **Paramétrage | Trace | Acheminements | Types et champs libres.**&#x20;
 * **Enlèvement\*** : Emplacement d'enlèvement. Vous avez la possibilité lors de l'ajout d'un nouveau Type de saisir un emplacement de prise par défaut ou encore définir un ou plusieurs emplacements de prise suggérés. Ce paramétrage permettra de bloquer la saisie d'autres emplacements qui ne sont pas associés au type.&#x20;
@@ -26,13 +26,13 @@ Cliquer sur <mark style="background-color:blue;">**Valider**</mark>, vous serez 
 
 Vous pouvez ajouter des unités logistiques via scan du code barre ou par entrée manuelle.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 Par scan, flasher le code barre / QR code de votre UL et vous serez automatiquement dirigé vers le formulaire d'ajout de référence.
 
 Par entrée manuelle, saisissez votre UL puis appuyer sur <mark style="background-color:blue;">**+**</mark> et vous serez dirigé vers le formulaire d'ajout de référence.
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 Dans ce formulaire, vous pouvez renseigner des informations sur votre unité logistique : &#x20;
 
@@ -64,7 +64,7 @@ Champs propres à une demande d'acheminement à saisir : &#x20;
 
 Les autre champs seront pré remplis s'ils sont renseignés dans la fiche de référence. Ils sont **modifiables via le formulaire d'ajout de référence**. Vous pourrez voir leurs modifications dans **Stock | Références | Article de référence | Description.**&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 * **Matériel hors format** : Champ de type Switch, sélectionné Off par défaut.&#x20;
 * **Code fabricant\*** : Code fabricant de la référence. Champ textuel libre.
@@ -99,11 +99,11 @@ Il y a des champs obligatoires à saisir pour créer une référence :&#x20;
 
 Vous pouvez donc ajouter autant d'UL contenant une référence pour chaque dans votre demande. A chaque UL ajoutée, vous avez un **visuel global** de votre demande d'acheminent avec les informations générales de celle-ci : Numéro de demande d'acheminement, Enlèvement, Livraison, Commentaire, Urgence et Type.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 Ainsi que le contenant de celle-ci avec vos UL, leurs numéros, la nature de l'UL, la référence contenant et la quantité de celle-ci. En appuyant sur la vignette d'une UL, vous pouvez rentrer dans le détail de celle-ci, modifier ses informations et celles de la référence.  Il est possible également de la supprimer via l'icône poubelle.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 #### Générer une lettre de voiture
 
@@ -154,7 +154,7 @@ Cet enregistrement des filtres permet de :&#x20;
 * Scanner ou transférer uniquement des demandes d'acheminements ayant les mêmes caractéristiques.&#x20;
 * Définir si la signature groupée est en situation d'enlèvement ou de livraison. Cela implique à l'étape suivante, la sélection des statuts postérieurs selon l'ordre défini dans le paramétrage des statuts.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 Dans cet exemple sur la capture ci-dessus, les filtres appliqués après avoir scanné 3 UL, sont :&#x20;
 
@@ -168,7 +168,7 @@ Après avoir sélectionné vos demandes d'acheminements, appuyer sur <mark style
 
 Comme expliqué précédemment, dans mon exemple toutes mes demandes d'acheminement sont au statut A signer (en état A traiter), donc dans ma sélection de statut sera affichée uniquement le ou les statuts postérieurs selon l'ordre défini dans le paramétrage des statuts. Ici, mon seul choix possible c'est le statut Validé que j'ai paramétré en état partiel.
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -182,6 +182,6 @@ Pour valider la signature et le changement de statut de mes demandes d'acheminem
 * Les champs Trigramme signataire, Code signataire et Commentaire (s'il a été paramétré comme tel) sont obligatoires, auquel cas, un message d'erreur apparaîtra après avoir cliqué sur <mark style="background-color:blue;">**Valider.**</mark>&#x20;
 * Uniquement le ou les signataire attribués à l'emplacement de prise (en situation d'enlèvement) ou à l'emplacement de dépose (en situation de livraison) qui peuvent valider cet étape, auquel cas, un message d'erreur apparaîtra après avoir cliqué sur <mark style="background-color:blue;">**Valider.**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 Appuyer sur <mark style="background-color:blue;">**Valider**</mark>, et vos demandes d'acheminements passeront au statut A signer (état A traiter) au statut Validé (étant Partiel). Les comptes rendus et mails seront envoyés aux destinataires paramétrés, et le détail de de vos demandes d'acheminements sur le web sera mis à jour.&#x20;
