@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # WiiSpool V3
 
 ### Introduction
