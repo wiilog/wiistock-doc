@@ -25,7 +25,7 @@ Les capteurs remontent des coordonnées GPS permettant de suivre le chemin des v
 * NOMADE - Mouvements :&#x20;
   * Un nouveau menu de prise et dépose en une page est disponible. Pour activer l'affichage de ce nouveau menu nomade, vous devrez l'afficher dans le paramétrage des rôles.
 
-
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 ### Nouveau fonctionnel Référentiel Projet
 
