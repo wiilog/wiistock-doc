@@ -41,8 +41,8 @@ Le composant "Demandes à traiter" devient cliquable pour les demandes de servic
 
 * Ce nouveau paramétrage des statuts d'acheminement vous permet de choisir quels rôles peuvent créer des acheminements à des statuts autre que "Brouillon". Par défaut, tous les rôles sont dans le statut "Brouillon"
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * La modale des acheminements peut également rester ouverte pour la saisie, pour des rôles bien précis et attribués ici:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

@@ -41,6 +41,20 @@ Cliquez sur <mark style="background-color:blue;">**Associer un capteur**</mark>,
 
 Vous ne pouvez pas associer le même élément sur 2 capteurs.
 
+## Codes couleurs associations
+
+Le nom du capteur va s'afficher en rouge lorsque la température détectée dépasse les 25°C.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Le nom du capteur est affiché en noir lorsque la température est entre 10°C et 25°C.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Le nom du capteur est bleu clair si la température descend en dessous de 10°C.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ## Détails capteur
 
 _à venir_

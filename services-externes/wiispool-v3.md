@@ -55,7 +55,7 @@ _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un 
 **Configuration Initiale**\
 &#x20;
 
-Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1).png>)
+Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi des fichiers à imprimer vers la bonne imprimante, sachez que par défaut, le logiciel est paramétré pour écouter le dossier "C:\Users{**UTILISATEUR**}\Downloads". Toutefois, si vous souhaitez modifier ce dossier, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (9).png" alt="" data-size="line"> et de renseigner le chemin absolu vers le dossier où vos téléchargements sont stockés par votre navigateur sur votre poste de travail. Veillez à indiquer le chemin absolu correctement pour assurer le bon fonctionnement de Wiispool V3. N'oubliez pas de remplacer {**UTILISATEUR**} par le nom d'utilisateur approprié dans le chemin du dossier.
 
@@ -71,7 +71,7 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 ![captured screen](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2Fhojp6sKJ2FhUBigg2hta%2Fimage.png?alt=media\&token=089c11c2-4cc5-471b-a618-2752416f992f)
 
 * Ensuite recopier le chemin de l'emplacement où sont stockés vos téléchargements.\
-  ![](<../.gitbook/assets/image (5) (1).png>)
+  ![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 #### Imprimer les fichiers déjà présents dans le dossier
 

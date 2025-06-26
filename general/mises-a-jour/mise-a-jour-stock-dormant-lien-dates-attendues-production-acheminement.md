@@ -20,7 +20,7 @@ L'administrateur devra renseigner les informations suivante sur chaque type de r
 
 * Paramétrage | Stock | Demandes | Livraisons - Modèle de demande : Nouveau modèle de type "stock dormant" pour créer des demandes de livraisons sans références précise avec une icone.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Paramétrage | Stock | Articles | Alerte stock dormant :&#x20;
   * Possibilité dans ce paramétrage d'ajouter des boutons d'actions depuis la liste de modèles créés à l'étape d'avant.&#x20;

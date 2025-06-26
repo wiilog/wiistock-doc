@@ -41,6 +41,6 @@ Utiliser StageNow : \
    3. Sélectionnez "Supprimer le profil".
    4. Scannez le QR code suivant en utilisant Stagenow : &#x20;
 
-&#x20;                          ![](<../.gitbook/assets/image (148).png>)
+&#x20;                          ![](<../.gitbook/assets/image (148) (1).png>)
 
 5. Le profil WIISTOCKtab a été ajouté dans Datawedge.

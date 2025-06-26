@@ -16,11 +16,11 @@ StageNow est une application disponible sur les terminaux mobiles représentée 
 
 * Quand StageNow a reconnu un QR code contenant des instructions qui le concernent, l'écran passe à :
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="106"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="106"><figcaption></figcaption></figure>
 
 * Une fois la procédure automatique de mise à jour terminée, vous êtes automatiquement renvoyé dans l'application Follow GT, qui vous demande de renseigner l'URL de l'instance à laquelle vous avez besoin de vous connecter.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="106"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="106"><figcaption></figcaption></figure>
 
 * Une fois votre URL enregistrée, vous devez renseigner votre clé de connexion nomade.
 * Une fois connecté, vous pouvez utiliser Follow GT.

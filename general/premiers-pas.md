@@ -25,7 +25,7 @@ Si votre rôle vous le permet, vous avez la possibilité de créer un nouvel uti
 
 ## Première installation sur un terminal Android Zebra.
 
-Avant de profiter des fonctionnalités liées au scanner sur les terminaux Zebra lors de l'utilisation de l'application Follow GT, vous devez importer le profil Datawedge. Ce profil permettra de relier les données capturées par le terminal. Pour ce faire, veuillez scanner le QR code ci-dessous en utilisant l'application StageNow, qui est disponible nativement sur les terminaux Zebra.![](../.gitbook/assets/image.png)
+Avant de profiter des fonctionnalités liées au scanner sur les terminaux Zebra lors de l'utilisation de l'application Follow GT, vous devez importer le profil Datawedge. Ce profil permettra de relier les données capturées par le terminal. Pour ce faire, veuillez scanner le QR code ci-dessous en utilisant l'application StageNow, qui est disponible nativement sur les terminaux Zebra.![](<../.gitbook/assets/image (148).png>)
 
 Lorsque cette étape est achevée, le profil WIISTOCK est désormais disponible et configuré dans l'application Datawedge.
 
