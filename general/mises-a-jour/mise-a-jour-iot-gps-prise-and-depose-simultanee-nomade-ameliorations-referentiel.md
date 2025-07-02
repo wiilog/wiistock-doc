@@ -7,7 +7,7 @@ description: Mise en production du 25/06/2025
 ### Nouveaux IOT GPS
 
 **Objectif** : Suivre les trajets de véhicules.\
-Nous avons intégré de nouveau capteurs GPS équipés de carte SIM et branchés sur prise OBD sur Follow.
+Nous avons intégré sur Follow de nouveau capteurs GPS équipés de carte SIM et branchés sur prise OBD du véhicule.
 
 ![](<../../.gitbook/assets/image (152).png>)\
 Les capteurs remontent des coordonnées GPS permettant de suivre le chemin des véhicules sur lesquels ils sont branchés sur Follow.
