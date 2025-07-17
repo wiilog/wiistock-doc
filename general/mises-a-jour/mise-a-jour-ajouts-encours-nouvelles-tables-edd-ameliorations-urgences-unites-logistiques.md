@@ -4,9 +4,9 @@ description: Mise en production du 23/07/2025
 
 # Mise à jour - Ajouts Encours, nouvelles tables EDD, améliorations Urgences, Unités logistiques
 
-### Ajouts Traçabilité > Encours
+### Nouvelles colonnes sur la page Traçabilité | Encours
 
-_Objectif: plus de visibilité sur la page des encours de traçabilité avec l'ajout de nouvelles colonnes_
+_Objectif: Plus de visibilité sur la page des encours de traçabilité avec l'ajout de nouvelles colonnes_
 
 2 nouvelles colonnes ont été ajoutés sur la page Traçabilité > Encours:
 
@@ -77,14 +77,22 @@ _Objectif: plus de flexibilité dans la création et modification des urgences_
 
 
 
-### Améliorations Traçabilité > Unités logistiques
+### Améliorations Traçabilité | Unités logistiques
 
-Sur la page des Unités logistiques, il est maintenant possible de faire des recherches sur les champs libres.
+Sur la page des Unités logistiques, il est maintenant possible de faire des recherches sur les champs libres via la recherche rapide.&#x20;
 
 
 
 ### Ajout nouveau Champ fixe sur Arrivages UL
 
 Un nouveau champ fixe a été ajouté sur les arrivages d'unités logistiques: "Impression UL". Il peut être affiché/ obligatoire à la création et/ ou affiché/ obligatoire à la modification, pour plus de flexibilité.
+
+
+
+### Borne de collecte
+
+Le champ "Suiveur" a été rendu facultatif sur la borne de collecte en stock.
+
+
 
 
