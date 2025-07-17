@@ -22,6 +22,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Ajouts Encours, nouvelles tables EDD, améliorations Urgences, Unités logistiques](general/mises-a-jour/mise-a-jour-ajouts-encours-nouvelles-tables-edd-ameliorations-urgences-unites-logistiques.md)
   * [Mise à jour - IOT GPS, Prise & Dépose simultanée NOMADE, Améliorations Référentiel](general/mises-a-jour/mise-a-jour-iot-gps-prise-and-depose-simultanee-nomade-ameliorations-referentiel.md)
   * [Mise à jour - Urgences stock et trace](general/mises-a-jour/mise-a-jour-urgences-stock-et-trace.md)
   * [Mise à jour - Evolution des rôles, filtres, demandes de services & dashboard](general/mises-a-jour/mise-a-jour-evolution-des-roles-filtres-demandes-de-services-and-dashboard.md)
