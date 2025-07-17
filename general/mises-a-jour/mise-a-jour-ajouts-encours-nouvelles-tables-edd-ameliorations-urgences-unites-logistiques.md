@@ -87,12 +87,4 @@ Sur la page des Unités logistiques, il est maintenant possible de faire des rec
 
 Un nouveau champ fixe a été ajouté sur les arrivages d'unités logistiques: "Impression UL". Il peut être affiché/ obligatoire à la création et/ ou affiché/ obligatoire à la modification, pour plus de flexibilité.
 
-
-
-### Borne de collecte
-
-Le champ "Suiveur" a été rendu facultatif sur la borne de collecte en stock.
-
-
-
 
