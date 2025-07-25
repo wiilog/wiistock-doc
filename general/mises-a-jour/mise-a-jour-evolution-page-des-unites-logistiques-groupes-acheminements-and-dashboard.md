@@ -27,7 +27,7 @@ Evolution de la page des unités logistiques pour mutualiser les informations de
 
 * Nouvel export unique et planifié disponible, sur les unités logistiques:
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Nouvel export</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Nouvel export</p></figcaption></figure>
 
 
 
@@ -41,7 +41,7 @@ Le composant "Demandes à traiter" devient cliquable pour les demandes de servic
 
 * Ce nouveau paramétrage des statuts d'acheminement vous permet de choisir quels rôles peuvent créer des acheminements à des statuts autre que "Brouillon". Par défaut, tous les rôles sont dans le statut "Brouillon"
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * La modale des acheminements peut également rester ouverte pour la saisie, pour des rôles bien précis et attribués ici:
 

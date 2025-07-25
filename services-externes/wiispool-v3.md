@@ -48,14 +48,14 @@ _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un 
 * Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 *   Création d'un raccourci sur le bureau Windows
 
-    * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1).png>)que vous avez précédemment exécuté.
+    * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)que vous avez précédemment exécuté.
 
 
 
 **Configuration Initiale**\
 &#x20;
 
-Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1) (1).png>)
+Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi des fichiers à imprimer vers la bonne imprimante, sachez que par défaut, le logiciel est paramétré pour écouter le dossier "C:\Users{**UTILISATEUR**}\Downloads". Toutefois, si vous souhaitez modifier ce dossier, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (9).png" alt="" data-size="line"> et de renseigner le chemin absolu vers le dossier où vos téléchargements sont stockés par votre navigateur sur votre poste de travail. Veillez à indiquer le chemin absolu correctement pour assurer le bon fonctionnement de Wiispool V3. N'oubliez pas de remplacer {**UTILISATEUR**} par le nom d'utilisateur approprié dans le chemin du dossier.
 

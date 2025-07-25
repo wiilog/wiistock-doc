@@ -78,5 +78,5 @@ Vous pouvez supprimer une UL en cliquant sur les<img src="../../.gitbook/assets/
 
 Vous devez avoir au préalable supprimé tous les mouvements et éléments associés a l'UL avant de le supprimer. Si ce n'est pas le cas, vous obtiendrez un message d'erreur.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
