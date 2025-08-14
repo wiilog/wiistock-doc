@@ -31,7 +31,7 @@ Ces derniers sont consultables dans l'onglet **Traçabilité**, puis **Mouvement
 | **Unités logistiques** | L'unité logistique/article mouvementée                  |
 | **Référence**          | La référence de l'article ou de la référence mouvementé |
 | **Libellé**            | Le libellé de l'article ou de la référence mouvementé   |
-| **Groupe**             | Le groupe associé à l'unité mogistique                  |
+| **Groupe**             | Le groupe associé à l'unité logistique                  |
 | **Quantité**           | La quantité mouvementée                                 |
 | **Emplacement**        | L'emplacement du mouvement                              |
 | **Type**               | Le type du mouvement                                    |
@@ -54,7 +54,9 @@ Afin de créer un nouveau mouvement de traçabilité, il suffit cliquer sur le b
 * La **quantité** à mouvementer, par défaut initialisée à 1
 * Le **commentaire**
 * Les **pièces jointes**
-* Les **champs libres**
+* Les **champs libres** (possible de rendre obligatoire depuis les paramètres)
+
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 12.20.51 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 L'action conditionne l'affichage des autres champs du formulaire. Ainsi, sélectionner l'action **Prise(s) et dépose(s)** affichera les champs **Emplacement de prise**, **Unités logistiques** et **Emplacement de dépose**.
@@ -67,9 +69,14 @@ Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouto
 Si une erreur a été commise lors de la création du mouvement de traçabilité, il reste toujours la possibilité de le modifier. Pour se faire, il suffit simplement de cliquer sur la ligne dans le tableau. Une modale d'édition va s'ouvrir, permettant de modifier quelques champs. Néanmoins, il n'est pas possible de modifier les informations suivantes :&#x20;
 
 * La **date**
+* **L'opérateur**
 * L'**unité logistique**
+* **La quantité**
+* **Pièce jointe**
 * L'**action**
 * L'**emplacement**
+
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 13.47.48.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Si vous activez le droit "Modifier l'ensemble de la modale mouvement" (dans Traçabilité>Mouvements) vous pourrez modifier tous les champs de la modale.
@@ -81,6 +88,6 @@ Il est également possible de supprimer un mouvement de traçabilité en cliquan
 
 ### Visualiser un mouvement
 
-Enfin, il y a également la possibilité de seulement visualiser un mouvement de traçabilité Pour se faire, il faut cliquer sur les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">à gauche d'une ligne, puis <mark style="background-color:blue;">**Voir**</mark>. Les différentes caractéristiques du mouvement vont alors apparaitre dans une modale, sans possibilité de modification.
+Enfin, il y a également la possibilité de seulement visualiser un mouvement de traçabilité Pour se faire, il faut cliquer sur les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">à gauche d'une ligne, puis <mark style="background-color:blue;">**Détails**</mark>. Les différentes caractéristiques du mouvement vont alors apparaitre dans une modale, sans possibilité de modification.
 
-{% embed url="https://www.screencast.com/t/zI80VjQVR7Fu" %}
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 13.52.23.png" alt=""><figcaption></figcaption></figure>

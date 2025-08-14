@@ -1,42 +1,43 @@
-# Arrivages
+# Arrivages Unités Logistiques
 
 Cette fonctionnalité est uniquement disponible en web.
 
-Pour accéder à la page, vous devez aller dans le menu **Traçabilité**, puis choisir **flux-arrivages**.
+Pour accéder à la page, vous devez aller dans le menu **Traçabilité**, puis choisir **arrivage unités logistiques**.
 
-La page des arrivages contient plusieurs éléments :&#x20;
+La page des arrivages UL contient plusieurs éléments :&#x20;
 
 * Une **barre de filtre**, permettant de filtrer les données qui sont affichées dans le tableau
 * Une **recherche rapide**, permettant également de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Nouvel arrivage**</mark>, destiné à la création d'arrivage
-* Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, sous le bouton **Nouvel arrivage**, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
-* Un bouton <mark style="background-color:blue;">**Gestion des colonnes**</mark>, sous la bouton **Nouvel arrivage**, permettant de choisir les colonnes à afficher dans le tableau
+* Un bouton <mark style="background-color:blue;">**Nouvel arrivage UL**</mark>, destiné à la création d'arrivage
+* Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, sous le bouton **Nouvel arrivage UL**, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
+* Un bouton <mark style="background-color:blue;">**Gestion des colonnes**</mark>, à côté du bouton **Nouvel arrivage**, permettant de choisir les colonnes à afficher dans le tableau
 * Un bouton <mark style="background-color:blue;">**Acheminer**</mark>
 * Un **tableau**, regroupant les différents arrivages créés
 
-{% embed url="https://www.screencast.com/t/vmGBUqpYO" %}
-page arrivages
-{% endembed %}
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 10.26.04.png" alt=""><figcaption></figcaption></figure>
 
 ### Contenu des filtres
 
-Les filtres affichés sont paramétrables dans [<mark style="color:blue;">Paramétrage > Trace > Arrivage > Champs fixes</mark>](../../parametrage/arrivages-ul/champs-fixes.md)<mark style="color:blue;">.</mark> Le tableau ci-dessous récapitule tous les filtres disponibles.
+Les filtres affichés sont paramétrables dans [<mark style="color:blue;">Paramétrage > Trace > Arrivage UL > Champs fixes</mark>](../../parametrage/arrivages-ul/champs-fixes.md)<mark style="color:blue;">.</mark> Le tableau ci-dessous récapitule tous les filtres disponibles.
 
 Une fois que vous avez renseigné vos filtres, cliquez sur <mark style="background-color:blue;">**Filtrer**</mark>. Les filtres sont conservés d'une session à l'autre (ils seront toujours actifs si vous changez de page ou que vous vous déconnectez et reconnectez).
 
-| Filtre                     | Description                                                                                                                                                                                                                                                                                                                              |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Du**                     | La tranche basse filtrant sur la date de création de l'arrivage                                                                                                                                                                                                                                                                          |
-| **Au**                     | La tranche haute filtrant sur la date de création de l'arrivage                                                                                                                                                                                                                                                                          |
-| **Statuts**                | Statut de l'arrivage. Vous pouvez mettre plusieurs statuts pour filtrer sur les arrivages ayant ces statuts assignés (voir [paramétrage des statuts](../../parametrage/arrivages-ul/statuts.md))                                                                                                                                         |
-| **n° d'arrivage**          | Tapez précisément le numéro de l'arrivage que vous cherchez pour afficher celui-ci                                                                                                                                                                                                                                                       |
-| **Douane ?**               | Cliquez sur le switch si vous souhaitez visualiser les arrivages sur lesquels a été activé le switch Douane                                                                                                                                                                                                                              |
-| **Congelé ?**              | Cliquez sur le switch si vous souhaitez visualiser les arrivages sur lesquels a été activé le switch Congelé ?                                                                                                                                                                                                                           |
-| **Urgence ?**              | Cliquez sur le switch si vous souhaitez visualiser les arrivages identifiés en urgence (Fournisseur urgent ou urgence renseignée au préalable. Voir les pages [<mark style="color:blue;">Référentiel > Fournisseurs</mark>](../../../referentiel/fournisseurs.md) ou [<mark style="color:blue;">Trace > Urgence</mark>](../urgences.md)) |
-| **Fournisseurs**           | Pour filtrer par fournisseur renseigné sur l'arrivage. Vous pouvez mettre plusieurs fournisseurs. Ce filtre va chercher dans le [référentiel des fournisseurs](../../../referentiel/fournisseurs.md). Vous devez taper une première lettre pour avoir une suggestion de fournisseurs contenant cette lettre                              |
-| **Transporteurs**          | Pour filtrer par transporteur renseigné sur l'arrivage. Vous pouvez mettre plusieurs transporteurs. Ce filtre va chercher dans le référentiel des transporteurs. Vous devez taper une première lettre pour avoir une suggestion de transporteurs contenant cette lettre                                                                  |
-| **Utilisateurs**           | Pour filtrer sur la personne ayant créée l'arrivage. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre                                            |
-| **Emplacements de dépose** | Emplacement sur lequel les unités logistiques  sont créés suite à l'arrivage ont été automatiquement déposés                                                                                                                                                                                                                             |
+| Filtre                            | Description                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Du**                            | La tranche basse filtrant sur la date de création de l'arrivage                                                                                                                                                                                                                                                                          |
+| **Au**                            | La tranche haute filtrant sur la date de création de l'arrivage                                                                                                                                                                                                                                                                          |
+| **Statuts**                       | Statut de l'arrivage. Vous pouvez mettre plusieurs statuts pour filtrer sur les arrivages ayant ces statuts assignés (voir [paramétrage des statuts](../../parametrage/arrivages-ul/statuts.md))                                                                                                                                         |
+| **n° d'arrivage**                 | Tapez précisément le numéro de l'arrivage que vous cherchez pour afficher celui-ci                                                                                                                                                                                                                                                       |
+| **Douane ?**                      | Cliquez sur le switch si vous souhaitez visualiser les arrivages sur lesquels a été activé le switch Douane                                                                                                                                                                                                                              |
+| **Congelé ?**                     | Cliquez sur le switch si vous souhaitez visualiser les arrivages sur lesquels a été activé le switch Congelé ?                                                                                                                                                                                                                           |
+| **Urgence ?**                     | Cliquez sur le switch si vous souhaitez visualiser les arrivages identifiés en urgence (Fournisseur urgent ou urgence renseignée au préalable. Voir les pages [<mark style="color:blue;">Référentiel > Fournisseurs</mark>](../../../referentiel/fournisseurs.md) ou [<mark style="color:blue;">Trace > Urgence</mark>](../urgences.md)) |
+| **Fournisseurs**                  | Pour filtrer par fournisseur renseigné sur l'arrivage. Vous pouvez mettre plusieurs fournisseurs. Ce filtre va chercher dans le [référentiel des fournisseurs](../../../referentiel/fournisseurs.md). Vous devez taper une première lettre pour avoir une suggestion de fournisseurs contenant cette lettre                              |
+| **Transporteurs**                 | Pour filtrer par transporteur renseigné sur l'arrivage. Vous pouvez mettre plusieurs transporteurs. Ce filtre va chercher dans le référentiel des transporteurs. Vous devez taper une première lettre pour avoir une suggestion de transporteurs contenant cette lettre                                                                  |
+| **Destinataires**                 | Pour filtrer sur la personne ayant créée l'arrivage. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre                                            |
+| **Emplacements de dépose**        | Emplacement sur lequel les unités logistiques  sont créés suite à l'arrivage ont été automatiquement déposés                                                                                                                                                                                                                             |
+| **Business Unit**                 | La business Unit à laquelle l'arrivage UL est rattachée. Il faut taper un premier caractère pour que la liste des BU s'affiche                                                                                                                                                                                                           |
+| **Numéro commande/ Réservation**  | Permet de renseigner les informations et de retrouver les arrivages associés.                                                                                                                                                                                                                                                            |
+| **Numéro de Tracking**            | Si numéro de tracking renseigné lors de la création de l'arrivage, alors possible de les filtrer via ce champ                                                                                                                                                                                                                            |
 
 ### Contenu du tableau
 
@@ -70,7 +71,7 @@ En fonction du nombre de champs sélectionnés, une barre horizontale de défile
 
 Afin de créer un nouvel arrivage, il suffit de cliquer sur le bouton <mark style="background-color:blue;">**Nouvel arrivage**</mark>. Une modale va alors s'ouvrir, permettant ainsi de renseigner plusieurs champs.&#x20;
 
-Les champs affichés sur le formulaire sont paramétrables dans [<mark style="color:blue;">Paramétrage > Trace > Arrivages > Champs fixes</mark>](../../parametrage/arrivages-ul/champs-fixes.md), où vous pouvez choisir de les afficher ou non, ou de les rendre obligatoires ou non.&#x20;
+Les champs affichés sur le formulaire sont paramétrables dans [<mark style="color:blue;">Paramétrage > Trace > Arrivages UL > Champs fixes</mark>](../../parametrage/arrivages-ul/champs-fixes.md), où vous pouvez choisir de les afficher ou non, ou de les rendre obligatoires ou non.&#x20;
 
 Vous pouvez renseigner les champs suivants :&#x20;
 
@@ -134,9 +135,7 @@ Le bouton nouvel arrivage est remplacer par <mark style="background-color:blue;"
 
 Sur le tableau, les<img src="../../../.gitbook/assets/3points" alt="" data-size="line">on disparu pour laisser place à des checkbox qui vous permettent de sélectionner des arrivages à acheminer. L'icône avec les doubles flèches vous indique que cet arrivage a déjà été acheminé.
 
-{% embed url="https://www.screencast.com/t/1yhScfA6bi0" %}
-Arrivages en mode acheminer
-{% endembed %}
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 10.48.48.png" alt=""><figcaption></figcaption></figure>
 
 Une fois les arrivages sélectionnés, cliqués sur <mark style="background-color:blue;">**Valider arrivages à acheminer**</mark> une modale va vous permettre de **créer une demande d'acheminement** ou d'**ajouter à une demande existante.** Pour ajouter à une demande existante, elle doit être créée par vous et en statut brouillon.
 

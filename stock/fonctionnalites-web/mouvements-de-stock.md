@@ -15,9 +15,7 @@ description: >-
 * Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, sous le bouton Nouveau mouvement, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
 * Un **tableau**, regroupant les différents mouvements
 
-{% embed url="https://www.screencast.com/t/2mAcbOlv" %}
-Page mouvements de stock
-{% endembed %}
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 09.30.51.png" alt=""><figcaption></figcaption></figure>
 
 ## Contenu des filtres
 
@@ -36,6 +34,7 @@ Page mouvements de stock
 | **Destination**       | Emplacement de destination du mouvement. Selon le mouvement il peut être vide                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Type**              | <p>Type du mouvement. Les types de mouvements de stock possible sont les suivants : <br>- <em><strong>entrée</strong></em> : entrée d'article ou de référence. Incrément de la quantité en stock<br>- <em><strong>entrée inventaire</strong></em> : correction de quantité positive suite à un inventaire<br>- <em><strong>sortie</strong></em> : sortie d'article ou de référence. Décrément de la quantité en stock<br>- <em><strong>sortie inventaire</strong></em> : correction de quantité négative suite à un inventaire<br>- <em><strong>transfert</strong></em> : déplacement de référence ou d'un article d'un emplacement à un autre. Pas de changement de quantité en stock</p>                                                                                                                                                                                                                                                                                                        |
 | **Opérateur**         | Opérateur ayant réalisé le mouvement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Prix Unitaire**     | Prix pouvant être renseigné ou non par article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Nouveau mouvement de stock
 
@@ -68,9 +67,7 @@ Si la **référence choisie est en gestion quantité par article**, les champs s
 * **Quantité entrée/sortie\***, _apparaît quand le code barre article est sélectionné et que le type entrée ou sortie est sélectionné_ : quantité à entrer ou à sortir de l'article
 * **Emplacement\***, _apparaît quand le code barre article est sélectionné et que le type entrée ou sortie est sélectionné_ : emplacement sur lequel transférer l'article
 
-{% embed url="https://www.screencast.com/t/sOkjqioUDnmN" %}
-Mouvement d'entrée de stock
-{% endembed %}
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 09.33.48.png" alt=""><figcaption></figcaption></figure>
 
 Une fois les informations remplies, <mark style="background-color:blue;">**Enregistrez**</mark> votre mouvement. Vous le retrouverez en haut du tableau, horodaté à l'heure à laquelle vous l'avez créé
 

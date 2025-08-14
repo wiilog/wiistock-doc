@@ -14,17 +14,17 @@ La création d'un arrivage camion sur le module Web peut être découpé en 2 pa
 
 1. **Créer l'arrivage camion**
 
-Pour identifier un arrivage camion, vous devez remplir les champs obligatoires paramétrés en amont, soit le transporteur, le chauffeur, la plaqued 'immatriculaion du camion et l'emplacement de déchargement.&#x20;
+Pour identifier un arrivage camion, vous devez remplir les champs obligatoires paramétrés en amont, soit le transporteur, le chauffeur, la plaque d 'immatriculaion du camion, le fournisseur, le numéro de commande et l'emplacement de déchargement.&#x20;
 
 Vous pouvez ensuite scanner l'ensemble des numéros de tracking transporteur. Un compteur vous aidera à vérifier que l'ensemble des numéros à été scanné.
 
 Enfin, vous pouvez identifier une réserve générale ou une réserve quantité sur l'arrivage dans sa globalité.&#x20;
 
-<figure><img src="../../.gitbook/assets/arrivage_camion_web.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 09.39.08.png" alt=""><figcaption></figcaption></figure>
 
 Pour finir l'enregistrement de l'arrivage camion, vous avez deux options,
 
-* Si vous cliquez sur le bouton "<mark style="background-color:blue;">Enregistrer</mark>", la pop up de création de l'arrivage camion se fermera et vous verez qu"une nouvelle ligne d'arrivage camion s'est ajouté à votre tableau récapitulatif des arrivages camions. Pour modifier des informations sur cet arrivage camion, il faudra cliquer sur la ligne et vous aure accès aux détails de cet arriavge camion.
+* Si vous cliquez sur le bouton "<mark style="background-color:blue;">Enregistrer</mark>", la pop up de création de l'arrivage camion se fermera et vous verrez qu"une nouvelle ligne d'arrivage camion s'est ajouté à votre tableau récapitulatif des arrivages camions. Pour modifier des informations sur cet arrivage camion, il faudra cliquer sur la ligne et vous aurez accès aux détails de cet arrivage camion.
 * Si vous cliquez sur le bouton "<mark style="background-color:blue;">Aller vers Arrivage UL</mark>", vous serez rediriger vers la page d'arrivage UL préremplie avec les informations de cet arrivage camion.&#x20;
 
 2. **Identifier des réserves sur numéro de tracking**

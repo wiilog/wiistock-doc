@@ -2,13 +2,13 @@
 
 Si les marchandises livrées sur votre arrivage ont des éléments non conforme, vous pouvez créer un litige et le suivre dans Wiilog.&#x20;
 
-Pour créer un litige, il faut le faire dans le détail d'un arrivage.&#x20;
+**Pour créer un litige, il faut le faire dans le détail d'un arrivage UL.**&#x20;
 
-Pour le suivre, vous avez la possibilité de le faire dans le détail de l'arrivage ou alors dans la page Qualité > Litiges
+Pour le suivre, vous avez la possibilité de le faire dans le détail de l'arrivage UL ou alors dans la page Qualité > Litiges
 
 ## Créer un litige
 
-Pour créer un litige, allez dans la zone **Liste des litiges** du détail de l'arrivage et cliquez sur le bouton <mark style="background-color:blue;">**Nouveau litige**</mark>.&#x20;
+Pour créer un litige, allez dans la zone **Liste des litiges** du détail de l'arrivage UL et cliquez sur le bouton <mark style="background-color:blue;">**Nouveau litige**</mark>.&#x20;
 
 Les champs suivants sont présents sur la modale de création de litige :&#x20;
 
@@ -18,9 +18,9 @@ Les champs suivants sont présents sur la modale de création de litige :&#x20;
 * Le **numéro de l'arrivage** : numéro de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Le **numéro de commande / BL** : les numéros de commande de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
 * Les **acheteurs** : les acheteurs de l'arrivage. Le champ ne peut pas être modifié. Allez modifier l'arrivage pour modifier le champ sur cette fenêtre
-* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Trace > Arrivages UL > Litiges - Types</mark>](../../parametrage/arrivages-ul/litiges-types.md))
+* Le **type** : le type du litige. Pour indiquer le type du litige. Les types sont paramétrables ([<mark style="color:blue;">Paramétrages > Trace > Arrivages UL > Litiges - Types</mark>](../parametrage/arrivages-ul/litiges-types.md))
 * Le **déclarant** : par défaut, la personne ayant créée le litige. Une autre personne peut être renseignée
-* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](../../parametrage/arrivages-ul/litiges-statuts.md)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
+* Le **statut** : statut du litige, pour voir où en est le litige. Le workflow des litiges n'est pas dépendant des types et est paramétrable ([<mark style="color:blue;">Paramétrages > Arrivages > Litiges - Statuts</mark>](../parametrage/arrivages-ul/litiges-statuts.md)). Le statut d'un litige peut déclencher, en fonction du paramétrage, un envoi de mail à l'acheteur pour l'informer de l'ouverture du litige.
 * Le/les **unité(s) logistique(s)** : le ou les unité(s) logistique(s) qui sont concernés par les litiges
 * **Commentaire** : vous pouvez ajouter un complétement d'information sur le litige
 * Switch **Urgence ?** : si vous l'activez, la ligne du litige apparaîtra en rouge
@@ -28,9 +28,7 @@ Les champs suivants sont présents sur la modale de création de litige :&#x20;
 
 Lorsque vous créez un litige sur un arrivage, celui-ci se retrouve automatiquement dans la page Qualité > Litiges
 
-{% embed url="https://www.screencast.com/t/lSEBuo6udrv" %}
-Création d'un litige
-{% endembed %}
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 11.14.09 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Suivre/Modifier un litige
 
@@ -62,9 +60,7 @@ Pour modifier le litige, cliquez sur la ligne du litige. La modale de modificati
 
 Cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider vos modification.
 
-{% embed url="https://www.screencast.com/t/9OmTi9sQXMMc" %}
-Modification d'un litige
-{% endembed %}
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 11.46.33.png" alt=""><figcaption></figcaption></figure>
 
 ### Dans la page Qualité > Litiges
 
@@ -95,6 +91,7 @@ Une fois que vous avez renseigné vos filtres, cliquez sur <mark style="backgrou
 | **Déclarant**        | Pour filtrer sur la personne ayant créée le litige. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
 | **Type**             | Type du litige                                                                                                                                                                                                                                                                               |
 | **Urgence ?**        | Pour afficher seulement les litiges identifiés comme urgents                                                                                                                                                                                                                                 |
+| Acheteur             | Afficher les Litiges associés à l'acheteur                                                                                                                                                                                                                                                   |
 
 **Contenu du tableau**
 
@@ -108,7 +105,7 @@ En fonction du nombre de champs sélectionnés, une barre horizontale de défile
 | **Type**               | Type du litige                                                                                                                                                                                          |
 | **Fournisseur**        | Fournisseur de l'arrivage concerné par le litige                                                                                                                                                        |
 | **n° de réception**    | _Voir les litiges sur réception_                                                                                                                                                                        |
-| **n° d'arrivage**      | Numéro de l'arrivage sur lequel a été créé le litige                                                                                                                                                    |
+| **n° d'arrivage UL**   | Numéro de l'arrivage sur lequel a été créé le litige                                                                                                                                                    |
 | **Déclarant**          | Personne ayant créé le litige                                                                                                                                                                           |
 | **Acheteur**           | Acheteur(s) associé(s) à l'arrivage sur lequel a été créé le litige                                                                                                                                     |
 | **N° commande/BL**     | Numéro de commande renseigné sur l'arrivage sur lequel a été créé le litige                                                                                                                             |
@@ -118,6 +115,8 @@ En fonction du nombre de champs sélectionnés, une barre horizontale de défile
 | **Modifié le**         | Date de dernière modification du litige                                                                                                                                                                 |
 | **Statut**             | Statut actuel du litige                                                                                                                                                                                 |
 | **Dernier historique** | Dernier commentaire mis sur le litige avec sa date et son heure                                                                                                                                         |
+| **Fournisseur**        | Le fournisseur de l'arrivage UL                                                                                                                                                                         |
+| **Référence**          | La référence de l'article si renseignée                                                                                                                                                                 |
 
 Pour **modifier un litige**, cliquez sur la ligne du litige à modifier. La même modale de modification de litige décrite précédemment s'ouvrira alors.
 
@@ -129,8 +128,8 @@ Modification d'un litige
 
 ### Dans le détail d'un arrivage
 
-Vous pouvez supprimer un litige en cliquant sur<img src="../../../.gitbook/assets/3points" alt="" data-size="line">et en cliquant sur le bouton <mark style="background-color:blue;">**Supprimer**</mark>.
+Vous pouvez supprimer un litige en cliquant sur<img src="../../.gitbook/assets/3points" alt="" data-size="line">et en cliquant sur le bouton <mark style="background-color:blue;">**Supprimer**</mark>.
 
 ### Dans la page Qualité > Litiges
 
-Vous pouvez supprimer un litige en cliquant sur les<img src="../../../.gitbook/assets/3points" alt="" data-size="line">de la ligne du litige à supprimer et en cliquant sur le bouton <mark style="background-color:blue;">**Supprimer**</mark>. Il sera aussi supprimé de l'arrivage.
+Vous pouvez supprimer un litige en cliquant sur les<img src="../../.gitbook/assets/3points" alt="" data-size="line">de la ligne du litige à supprimer et en cliquant sur le bouton <mark style="background-color:blue;">**Supprimer**</mark>. Il sera aussi supprimé de l'arrivage.
