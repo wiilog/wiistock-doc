@@ -6,6 +6,8 @@
     _Par exemple : Je fais mon arrivage UL sur l'emplacement RECEPTION, si je prends l'UL que je viens de déposer sur un autre emplacement que RECEPTION, alors j'aurais un message pour me prévenir que cette UL n'était pas posée sur cet emplacement._&#x20;
 * **Afficher le champ "Début de délai manuel" :** si coché, vous pourrez lors de vos mouvements, modifier le T0 de vos chrono sur vos UL. Ne fonctionne que si vous utilisez des chrono sur vos flux d'UL.&#x20;
 * **Utilisation RFID Prise / Dépose mobile :** si coché, vous pourrez faire des scans de tags rfid en prise et en dépose via vos nomades. Attention, vos nomades doivent être compatibles aves les technologies RFID.
+* **Dépose des groupes automatiquement sur l'emplacement des ULs du groupage et association de la nature de l'UL sur le groupe :** lors de la création d'un groupe sur mouvement de groupage, si au moins une UL a un traitement de délais en cours, le groupe est déposé sur l'emplacement de L'UL dont le chropno est plus court ou en retard et prend sa nature.
+* **Remontée des délais de traitement des unités logistique sur leur groupe :** La nature et le délai de traitement d'une UL remontent sur le groupe si cette UL a le délai le plus court des UL présentent dans ce groupe.
 
 
 
@@ -24,4 +26,4 @@ alors ce destinataire recevra des mails aux intervalles décrits pour venir réc
 
 * Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
 
-<figure><img src="../../../.gitbook/assets/Capture d&#x27;écran 2024-07-05 093805.png" alt=""><figcaption><p>Paramétrage | Trace | Mouvements | <strong>Configurations</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 14.54.51.png" alt=""><figcaption></figcaption></figure>
