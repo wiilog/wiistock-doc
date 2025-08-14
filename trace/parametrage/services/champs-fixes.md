@@ -1,8 +1,8 @@
 # Champs fixes
 
-<figure><img src="../../../.gitbook/assets/image (129).png" alt=""><figcaption><p>Paramétrage | Trace | Services | Champs fixes</p></figcaption></figure>
-
 Les champs fixes permettent de choisir quels champs sont disponibles sur le formulaire de création d'un service, de modification, et s'il est possible de filtrer sur ce champ ou non.
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.30.20.png" alt=""><figcaption></figcaption></figure>
 
 Pour chaque champ, choisissez les éléments suivants :&#x20;
 

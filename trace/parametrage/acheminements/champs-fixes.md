@@ -25,6 +25,6 @@ Certains champs fixes possèdent également un paramétrage des valeurs disponib
 
 Sur les unités logistiques, dans l'acheminement WEB, on a le choix d'afficher ou rendre obligatoire les champs suivants (ce paramétrage s'applique à tous les types):
 
-<figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.14.49.png" alt=""><figcaption></figcaption></figure>
 
 N'oubliez pas de cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark> pour valider votre modification

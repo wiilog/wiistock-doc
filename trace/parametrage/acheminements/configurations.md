@@ -62,3 +62,11 @@ Le paramètre "Logo des bons de surconsommation" vous permet de définir le logo
 
 Il est important de noter que l'image ne doit pas dépasser la taille maximale de 1000px\*1000px
 
+
+
+## Groupage
+
+L'option : Dégroupage automatique à la dépose sur l'emplacement de dépose de l'acheminement pour les types : choisir les types
+
+permet de dégrouper les UL d'un groupe lorsqu'il est déposé sur un emplacement de dépose d'acheminement de type "sélectionner le type que vous souhaitez".
+

@@ -10,7 +10,7 @@ La page des types et champs libres est constituée de 3 zones :&#x20;
 * Les caractéristiques du type et le bouton <mark style="background-color:blue;">**Modifier**</mark>, pour modifier les caractéristiques et les champs libres
 * La liste des champs libres du type
 
-<figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.08.29.png" alt=""><figcaption></figcaption></figure>
 
 ### **Ajouter un type**
 

@@ -4,7 +4,7 @@ Les types permettent de venir différencier des flux différents de demande de s
 
 Chaque type possède également des champs libres, qui sont des champs permettant d'amener de l'information supplémentaire propre à chaque flux.
 
-<figure><img src="../../../.gitbook/assets/image (132).png" alt=""><figcaption><p>Paramétrage | Trace | Services | Types et champs libres</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.22.44.png" alt=""><figcaption></figcaption></figure>
 
 La page des types et champs libres est constituée de 3 zones :&#x20;
 
@@ -54,3 +54,4 @@ La page passe alors en mode modification. Vous pouvez modifier les caractéristi
 Vous pouvez supprimer un type et ses champs libres grâce aux poubelles : une à gauche des caractéristiques du type pour supprimer le type, une sur chaque ligne de champs libres pour supprimer un champ libre. Ces poubelles sont présentes en mode visualisation et mode modification.
 
 Pour supprimer un type, le type ne doit plus avoir des champs libres et ne pas être utilisé sur les services.&#x20;
+

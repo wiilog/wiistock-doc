@@ -93,6 +93,7 @@
     * [Configurations](trace/parametrage/services/configurations.md)
     * [Modèles de demande](trace/parametrage/services/modeles-de-demande.md)
   * [Urgences](trace/parametrage/urgences/README.md)
+    * [Types et Champs libres](trace/parametrage/urgences/types-et-champs-libres.md)
     * [Configurations](trace/parametrage/urgences/configurations.md)
     * [Champs fixes](trace/parametrage/urgences/champs-fixes.md)
   * [Association BR](trace/parametrage/association-br.md)
