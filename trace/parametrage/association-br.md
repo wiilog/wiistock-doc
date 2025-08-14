@@ -5,4 +5,4 @@ L'activation de ce paramétrage vous permet de créer des mouvements de traçabi
 * **Emplacement de dépose des unités logistiques**: Emplacement par défaut pour le mouvement issu de l'association BR, pour les ULs
 * **Emplacement de dépose des numéros de réception**: Emplacement par défaut pour le mouvement issu de l'association BR, pour la/ les réceptions
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.58.53.png" alt=""><figcaption></figcaption></figure>

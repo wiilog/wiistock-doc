@@ -1,6 +1,6 @@
 # Configurations
 
-<figure><img src="../../../.gitbook/assets/urgence_param.png" alt=""><figcaption><p>Paramétrage | Trace | Urgences | Configurations</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.34.45 (1).png" alt=""><figcaption></figcaption></figure>
 
 Il est possible de sélectionner parmi les champs "Fournisseurs", "Transporteurs" et "Numéro de commande" le champ qui déclenchera l'urgence sur l'arrivage d'unités logistiques.&#x20;
 
