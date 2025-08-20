@@ -10,7 +10,7 @@ Deux autres paramétrages sont à activer sur la demande de livraison, dans [Sto
 
 ## Page Préparation - Planning
 
-Cette fonctionnalité est disponible dans le menu <mark style="background-color:blue;">**Ordres**</mark>, puis <mark style="background-color:blue;">**Préparation - Planning**</mark>. Cette page contient plusieurs éléments :&#x20;
+Cette fonctionnalité est disponible dans le menu <mark style="background-color:blue;">**Ordres**</mark>, puis <mark style="background-color:blue;">**Planning**</mark>. Cette page contient plusieurs éléments :&#x20;
 
 * Une **barre de filtre**, permettant de filtrer les données qui sont affichées dans le tableau
 * un **planning**, permettant d'afficher l'ensemble des préparations aux différents statuts

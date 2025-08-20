@@ -13,15 +13,18 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 * Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
 * Un **tableau**, regroupant les différentes demandes d'achat créées
 
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-19 à 15.10.05.png" alt=""><figcaption></figcaption></figure>
+
 ### Contenu des filtres
 
-| Filtre         | Description                                                                                                                                                                                                                                                                                           |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Du**         | La tranche basse filtrant sur la date de création de la demande d'achat                                                                                                                                                                                                                               |
-| **Au**         | La tranche haute filtrant sur la date de création de la demande d'achat                                                                                                                                                                                                                               |
-| **Statuts**    | Le(s) statut(s) des demandes d'achat à filtrer                                                                                                                                                                                                                                                        |
-| **Demandeurs** | Pour filtrer sur la personne ayant créée la demande d'achat. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
-| **Acheteurs**  | Pour filtrer sur l'acheteur identifié de la demande d'achat. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
+| Filtre           | Description                                                                                                                                                                                                                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Du**           | La tranche basse filtrant sur la date de création de la demande d'achat                                                                                                                                                                                                                               |
+| **Au**           | La tranche haute filtrant sur la date de création de la demande d'achat                                                                                                                                                                                                                               |
+| **Statuts**      | Le(s) statut(s) des demandes d'achat à filtrer                                                                                                                                                                                                                                                        |
+| **Demandeurs**   | Pour filtrer sur la personne ayant créée la demande d'achat. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
+| **Acheteurs**    | Pour filtrer sur l'acheteur identifié de la demande d'achat. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
+| **Fournisseurs** | Pour filtrer par fournisseurs identifié sur la demande d'achat.                                                                                                                                                                                                                                       |
 
 ### Contenu du tableau
 
@@ -35,6 +38,8 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 | **Demandeur**               | Personne ayant créée la demande                                                                                         |
 | **Statut**                  | Statut actuel de la demande                                                                                             |
 | **Acheteur**                | Acheteur de la demande                                                                                                  |
+| **Fournisseur**             | Fournisseur de la demande                                                                                               |
+| **Frais de livraison**      | frais de livraison si renseigné                                                                                         |
 
 ## Créer une demande d'achat
 

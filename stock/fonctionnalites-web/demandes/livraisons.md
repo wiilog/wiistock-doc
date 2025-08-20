@@ -14,19 +14,18 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 * Un bouton **Gestion des colonnes**, sous le bouton Exporter au format CSV, pour choisir les colonnes à afficher dans le tableau
 * Un **tableau**, regroupant les différentes demandes de livraison créées
 
-{% embed url="https://www.screencast.com/t/IhGictNlQQ" %}
-Page demande de livraison
-{% endembed %}
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-19 à 14.46.11.png" alt=""><figcaption></figcaption></figure>
 
 ### Contenu des filtres
 
-| Filtre           | Description                                                                                                                                                                                                                                                                                                |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Du**           | La tranche basse filtrant sur la date de création de la demande de livraison                                                                                                                                                                                                                               |
-| **Au**           | La tranche haute filtrant sur la date de création de la demande de livraison                                                                                                                                                                                                                               |
-| **Statuts**      | Le(s) statut(s) des demandes de livraison à filtrer                                                                                                                                                                                                                                                        |
-| **Utilisateurs** | Pour filtrer sur la personne ayant créée la demande de livraison. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
-| **Type**         | Le type des demandes de livraison à filtrer                                                                                                                                                                                                                                                                |
+| Filtre            | Description                                                                                                                                                                                                                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Du**            | La tranche basse filtrant sur la date de création de la demande de livraison                                                                                                                                                                                                                               |
+| **Au**            | La tranche haute filtrant sur la date de création de la demande de livraison                                                                                                                                                                                                                               |
+| **Statuts**       | Le(s) statut(s) des demandes de livraison à filtrer                                                                                                                                                                                                                                                        |
+| **Utilisateurs**  | Pour filtrer sur la personne ayant créée la demande de livraison. Vous pouvez renseigner plusieurs utilisateurs. Ce filtre va chercher dans la liste des utilisateurs renseignées dans l'application. Vous devez taper une première lettre pour avoir une suggestion d'utilisateurs contenant cette lettre |
+| **Type**          | Le type des demandes de livraison à filtrer                                                                                                                                                                                                                                                                |
+| **Destinataires** | Filtrer par Destinataire, liste détoulante.                                                                                                                                                                                                                                                                |
 
 ### Contenu du tableau
 

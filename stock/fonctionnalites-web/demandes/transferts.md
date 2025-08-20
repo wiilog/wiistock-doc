@@ -13,9 +13,7 @@ description: >-
 * Un bouton **Exporter au format CSV**, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
 * Un **tableau**, regroupant les différentes demandes de transfert créées
 
-{% embed url="https://www.screencast.com/t/cVniCJqGMh" %}
-Page demande de transfert
-{% endembed %}
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-19 à 14.50.31.png" alt=""><figcaption></figcaption></figure>
 
 ### Contenu des filtres
 

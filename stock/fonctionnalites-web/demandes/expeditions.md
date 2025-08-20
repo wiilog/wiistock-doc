@@ -25,7 +25,7 @@ Cette fonctionnalité est disponible dans le menu <mark style="background-color:
 * Un **tableau**, regroupant les différentes demandes d'expédition créées
 * Une **gestion des colonnes** du tableau
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-19 à 15.17.27.png" alt=""><figcaption></figcaption></figure>
 
 ## Créer une demande d'expédition
 
