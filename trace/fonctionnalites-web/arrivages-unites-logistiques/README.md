@@ -95,7 +95,7 @@ Vous pouvez renseigner les champs suivants :&#x20;
 * Le switch **Congelé**. Sélectionnez ce switch pour indiquer que votre arrivage contient des colis congelés
 * Le champ **Commentaire**, pour ajouter des informations
 * Le champ **Pièces jointes**, pour ajouter des pièces-jointes à l'arrivage
-* La zone **Nombre de colis** **à ajouter**. Cette zone contient différents champs correspondants chacun à une nature de colis. Les natures de colis sont paramétrables ([Référentiel > Nature de colis](../../../referentiel/natures-dul.md)) et permettent d'identifier différentes types d'unité logistique. Renseignez dans chaque champ le nombre d'unité logistique que vous souhaitez créer par nature.
+* La zone **Nombre de colis** **à ajouter**. Cette zone contient différents champs correspondants chacun à une nature de colis. Les natures de colis sont paramétrables ([Référentiel > Nature de colis](../../../referentiel/natures.md)) et permettent d'identifier différentes types d'unité logistique. Renseignez dans chaque champ le nombre d'unité logistique que vous souhaitez créer par nature.
 * La zone des **champs libres**. Tous les champs libres que vous aurez paramétré apparaîtront sous la mention Champs libres
 
 Une fois les champs renseignés, cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark>.&#x20;

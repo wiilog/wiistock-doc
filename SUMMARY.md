@@ -338,11 +338,11 @@
 * [Emplacements](referentiel/emplacements.md)
 * [Chauffeurs](referentiel/chauffeurs.md)
 * [Transporteurs](referentiel/transporteurs.md)
-* [Natures d'UL](referentiel/natures-dul.md)
+* [Natures](referentiel/natures.md)
 * [Clients](referentiel/clients.md)
 * [Véhicules](referentiel/vehicules.md)
+* [Projets](referentiel/projets.md)
 * [Clients](referentiel/clients-1.md)
-* [Projet](referentiel/projet.md)
 
 ## Entrepôt de données
 
