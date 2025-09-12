@@ -1,7 +1,7 @@
 ---
 description: >-
   La page des emplacements contient tous les emplacements de l'application,
-  ainsi que les groupes d'emplacement.
+  ainsi que les groupes d'emplacement et les zones.
 ---
 
 # Emplacements
@@ -11,29 +11,17 @@ Pour accéder à la page, vous devez aller dans le menu **Référentiel**, puis 
 La page des colis contient plusieurs éléments :&#x20;
 
 * Une **recherche rapide**, permettant de filtrer les données affichées dans les tableaux
-* 2 **onglets** Emplacements et Groupes
+* 3 **onglets:** Emplacements, Groupes et Zones
+  * Emplacements: emplacements de prise/ dépose ou stockage au sein d'un entrepôt
+  * Groupe: groupe d'emplacements à valeur informative
+  * Zone: par défaut, votre zone dans le logiciel est "Activité standard". Pour le fonctionnement des inventaires RFID, d'autres zones peuvent être créées. Contactez Wiilog pour en savoir plus sur le fonctionnement des inventaires RFID.
 * Un bouton <mark style="background-color:blue;">**Nouvel emplacement**</mark> pour l'**onglet Emplacements** pour ajouter un emplacement, contenant dessous 2 boutons
   * Bouton <mark style="background-color:blue;">**Imprimer les étiquettes**</mark> : faites d'abord une recherche rapide pour avoir une liste d'emplacements dont vous souhaitez avoir les étiquettes et cliquez sur le bouton pour sortir les étiquettes des emplacements. Vous pouvez aussi imprimer individuellement les étiquettes emplacement en cliquant sur<img src="../.gitbook/assets/3points" alt="" data-size="line">d'une ligne emplacement et en cliquant sur <mark style="background-color:blue;">**Imprimer**</mark>
   * Bouton <mark style="background-color:blue;">**Statut emplacement actif**</mark> : cliquez sur le bouton pour avoir seulement dans la liste les emplacements actifs
 * Un bouton <mark style="background-color:blue;">**Nouveau groupe**</mark> pour l'**onglet Groupes** pour ajouter un groupe d'emplacements
-* Un **tableau** dans chaque onglet, l'un avec la liste des emplacements, l'un avec la liste des groupes d'emplacements
+* Un **tableau** dans chaque onglet, l'un avec la liste des emplacements, l'un avec la liste des groupes d'emplacements et le dernier avec la liste des zones.
 
-{% embed url="https://www.screencast.com/t/w0JA2TNbKA3e" %}
-Page référentiel emplacements
-{% endembed %}
-
-## Contenu du tableau - Onglet Emplacements
-
-| Colonne                         | Description                                                                                                                                      |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Nom**                         | Nom de l'emplacement                                                                                                                             |
-| **Description**                 | Description de l'emplacement                                                                                                                     |
-| **Point de livraison**          | <p>Si l'emplacement est un point de livraison<br>Oui/Non</p>                                                                                     |
-| **Encours visible**             | <p>Affichage de l'encours à la prise sur cet emplacement sur le terminal mobile<br>Oui/Non</p>                                                   |
-| **Délai maximum**               | Délai maximum autorisé pour un colis sur cet emplacement                                                                                         |
-| **Actif/Inactif**               | Statut de l'emplacement                                                                                                                          |
-| **Natures de colis autorisées** | Natures des colis pouvant être déposées sur cet emplacement                                                                                      |
-| **Températures autorisées**     | Ne pourront être accepté sur cet emplacement que des colis avec une plage de température correspondante (utilisé pour les demandes de transport) |
+<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
 ### Ajouter un emplacement
 
@@ -41,19 +29,26 @@ Pour ajouter un emplacement, cliquez le bouton <mark style="background-color:blu
 
 * **Nom\*** : nom/code de l'emplacement. Ce nom peut contenir des lettres minuscules et/ou majuscules, des nombres de 0 à 9, les caractères \_, /, - et espace. Tous les autres caractères ne sont pas autorisés ainsi que les accents. Le nom doit avoir maximum 24 caractères et être unique.
 * **Description\*** : description de l'emplacement. Cette description est utile notamment si votre nom est un code pour expliciter le code
-* **Délais traça HH:MM** : temps maximum durant lequel un colis doit rester sur cet emplacement. Ce temps permet de mettre des indications visuelles dans l'application si un colis dépasse ce temps
+* **Délai maximum de traçabilité HH:MM** : temps maximum durant lequel un colis doit rester sur cet emplacement. Ce temps permet de mettre des indications visuelles dans l'application si un colis dépasse ce temps et d'afficher l'emplacement dans la page Traçabilité > Encours.
+* **Zone**: par défaut, tous les emplacement peuvent être attribués à la zone "Activité standard". D'autres zones peuvent être créées à titre indicatif ou pour les inventaires RFID.
 * **Natures de colis autorisées** : ne mettez rien si toutes les natures de colis sont autorisées. Si vous mettez des natures de colis autorisées sur cet emplacement, il sera seulement possible de déposer des colis ayant ces natures sur cet emplacement
 * **Températures autorisées** :  ne mettez rien si toutes les températures sont autorisées. Si vous mettez des températures autorisées sur cet emplacement, il sera seulement possible de déposer des colis ayant la même température sur cet emplacement
 * **Types de livraisons autorisés** : lors de la création d'une demande de livraison, cet emplacement sera proposé dans les emplacements de destination pour les types autorisés sur cet emplacement
 * **Types de collectes autorisés** : lors de la création d'une demande de collecte, cet emplacement sera proposé dans les points de collecte pour les types autorisés sur cet emplacement
-* **Point de livraison ?** : activez ce paramétrage pour que, suite à un arrivage avec un destinataire, un mail soit envoyé au destinataire de cet arrivage quand les colis de cet arrivage sont déposés sur un emplacement identifié comme point de livraison via un mouvement de prise/ dépose NOMADE
 * **Encours visible nomade ?** : activez ce paramétrage pour que lors d'une prise sur le nomade sur cet emplacement, l'encours de cet emplacement, c'est-à-dire tous les colis présents sur cet emplacement, apparaisse. Attention, si cet emplacement a un encours important, il n'est pas conseillé d'activer ce paramétrage car cela risque de causer des ralentissements
 
 <figure><img src="../.gitbook/assets/Photo sélectionnée (1).jpg" alt=""><figcaption><p>Vision de l'encours via activation du paramétrage "Encours visible nomade" depuis mouvement de prise</p></figcaption></figure>
 
-Cliquez sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark> pour valider la création de l'emplacement.
+* **Signataires et Email:** paramétrages utilisés pour signer les acheminements.
+* **Point de livraison ?** : activez ce paramétrage pour que, suite à un arrivage avec un destinataire, un mail soit envoyé au destinataire de cet arrivage quand les colis de cet arrivage sont déposés sur un emplacement identifié comme point de livraison via un mouvement de prise/ dépose NOMADE. Ce paramétrage peut également servir à déclencher les emails de relance à 7, 15, 30 et 42 jours.
+* **Envoi d'email à chaque dépose aux responsables d'emplacement & Responsables:** remplissez ces informations si vous souhaitez qu'un email soit envoyé à chaque dépose sur cet emplacement.
+* **Emplacement de prise initiale**: déclenche de chrono lors de la prise d'une UL
+* **Emplacement de dépose finale**: stoppe le chrono lors de la dépose sur cet emplacement
+* **Emplacement de pause**: Met en pause le chrono lors de la dépose sur cet emplacement
+* **Activer le changement de nature à la prise**: Change automatiquement la nature d'une UL lors de la prise sur cet emplacement
+* **Activer le changement de nature à la dépose:** Change automatiquement la nature d'une UL lors de la dépose sur cet emplacement
 
-{% embed url="https://www.screencast.com/t/b2pci9ub2" %}
+Cliquez sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark> pour valider la création de l'emplacement.
 
 ### Modifier un emplacement
 
