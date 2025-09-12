@@ -22,8 +22,6 @@ Certains champs fixes possèdent également un paramétrage des valeurs disponib
 
 N'oubliez pas de cliquer sur **Enregistrer** pour valider votre paramétrage.
 
-
-
 ### Liste des champs fixes disponibles
 
-<figure><img src="../../../.gitbook/assets/Capture d&#x27;écran 2025-04-17 141052.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
