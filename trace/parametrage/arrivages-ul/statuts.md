@@ -4,10 +4,10 @@
 
 Le statut sur un arrivage permet de venir indiquer son état. Ces statuts sont paramétrables.
 
-Lorsque vous arrivez sur la partie Statuts, vous avez 2 partie :&#x20;
+Lorsque vous arrivez sur la partie Statuts, vous avez 2 parties :&#x20;
 
 * une section en haut avec les types des arrivages (vous ne pouvez pas paramétrer les statuts si vous n'avez pas paramétré les types). Cliquez sur un type pour filtrer les statuts par rapport au type
-* une section avec la liste des statuts. La liste des statuts est tous types confondus si vous n'avez pas cliquez sur un type. Vous pouvez faire une recherche rapide sur la liste si elle contient plus de 10 lignes. Les colonnes du tableau sont triables.&#x20;
+* une section avec la liste des statuts. La liste des statuts est tous types confondus, si vous n'avez pas cliqué sur un type. Vous pouvez faire une recherche rapide sur la liste si elle contient plus de 10 lignes. Les colonnes du tableau sont triables.&#x20;
 
 ### **Ajouter des statuts**
 
@@ -18,7 +18,7 @@ Pour ajouter des statuts, cliquez sur le bouton **Ajouter des statuts**. La page
   * _**A traiter**_ : l'arrivage n'est pas finalisé
   * _**Traité**_ : l'arrivage est terminé
   * _**Litige**_ : un litige a été détecté sur l'arrivage ou alors un litige a été ouvert sur l'arrivage
-* **Type\*** : type de l'acheminement. Les statuts dépendent du type, ce qui permet d'avoir des workflow différents en fonction du type de l'acheminement
+  * **Type\*** : type de l'arrivage. Les statuts dépendent du type, ce qui permet d'avoir des workflow différents en fonction du type de l'arrivage
 * **Statut par défaut** : cochez ce paramétrage pour que quand un arrivage est créé, il soit mis à ce statut par défaut
 * **Ordre\*** : ordre dans la liste des statuts sur le paramétrage
 
