@@ -12,4 +12,3 @@ Ce paramétrage est ainsi structuré :
 * Étiquettes
 * Heures travaillées
 * Jours non travaillés
-* Serveur mail
