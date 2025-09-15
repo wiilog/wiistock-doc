@@ -21,7 +21,7 @@ Pour faire fonctionner le projet de délai de traitement sur les unités logisti
 
 De nouveaux paramétrages sur le référentiel emplacement ont étés ajoutés : l'encart "Typologie d'emplacement".&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Emplacement de prise initiale : Permettra d'afficher un délai de traitement sur l'UL prise à cet emplacement à la condition que celui-ci ait une nature avec un délai de traitement renseigné. Le délai prendra en compte le temps passé de l'UL sur cet emplacement, sauf si l'emplacement est également un emplacement de pause.&#x20;
@@ -39,7 +39,7 @@ Activer le changement de nature à la dépose : Ce paramétrage changera la natu
 
 De nouveaux paramétrages sur le référentiel nature ont étés ajoutés : l'encart "Délai de traitement" et "Segments horaires".&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Délai de traitement de la nature : Ce champs doit être rempli en heures et minutes "00h00" et permet de positionner un temps de traitement théorique en fonction de la nature de l'unité logistique.&#x20;
