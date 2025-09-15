@@ -2,7 +2,7 @@
 
 Ce composant permet de savoir le nombre total d'unités logistiques présent sur les emplacements sélectionnés.&#x20;
 
-Sur ce composant, il faut obligatoirement renseigné le champ **Choix des emplacements** qui permet de sélectionner les emplacements sur lesquels on vient compter les unités logistiques présentes.
+Sur ce composant, il faut obligatoirement renseigner le champ **Choix des emplacements** qui permet de sélectionner les emplacements sur lesquels on vient compter les unités logistiques présentes.
 
 D'autres paramétrages sont disponibles :&#x20;
 
