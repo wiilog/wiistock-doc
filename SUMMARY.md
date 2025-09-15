@@ -257,11 +257,9 @@
 
 * [Global](parametrages/global/README.md)
   * [Apparence du site](parametrages/global/apparence-du-site.md)
-  * [Client application](parametrages/global/client-application.md)
   * [Étiquettes](parametrages/global/etiquettes.md)
   * [Heures travaillées](parametrages/global/heures-travaillees.md)
   * [Jours non travaillés](parametrages/global/jours-non-travailles.md)
-  * [Serveur mail](parametrages/global/serveur-mail.md)
 * [Terminal mobile](parametrages/terminal-mobile/README.md)
   * [Acheminements](parametrages/terminal-mobile/acheminements.md)
   * [Services](parametrages/terminal-mobile/services.md)
