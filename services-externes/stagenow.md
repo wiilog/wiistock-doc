@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # StageNow
 
 StageNow est une application disponible sur les terminaux Android Zebra. Elle simplifie la transmission d'instructions à l'appareil en utilisant des QR codes spécifiques, et ce, de manière très intuitive. Il vous suffit d'utiliser le lecteur laser intégré aux terminaux Zebra pour scanner le QR code correspondant. Cela permet une configuration rapide et facile de l'appareil, sans besoin de saisie manuelle ou de procédures complexes. StageNow rend ainsi la gestion des terminaux Zebra plus efficace et accessible, offrant une expérience utilisateur fluide et simplifiée. Dans notre utilisation à destination des utilisateurs finaux, nous utiliserons StageNow pour effectuer les mises à jour de Follow GT sur les appareils Android Zebra..

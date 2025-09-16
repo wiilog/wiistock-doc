@@ -2,6 +2,7 @@
 description: >-
   DataWedge de Zebra permet de capturer des données à partir de codes-barres et
   de QR codes, puis de les convertir en un format utilisable par Follow-GT.
+hidden: true
 ---
 
 # Datawedge
