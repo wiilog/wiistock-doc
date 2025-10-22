@@ -41,7 +41,7 @@ Si un utilisateur n'a aucun groupe de visibilité, il peut voir toutes les réf�
 * **Code signataire**: Permet de définir le code PIN à 4 caractères pour signer les acheminements groupés.
 * **Livreur**: permet d'indiquer si l'utilisateur est un chauffeur-livreur utilisant le module Track
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Depuis l'interface de connexion
 
