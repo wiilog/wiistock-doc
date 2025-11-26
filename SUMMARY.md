@@ -22,6 +22,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Tournées récurrentes, évolution dashboard Demandes à traiter, ...](general/mises-a-jour/mise-a-jour-tournees-recurrentes-evolution-dashboard-demandes-a-traiter-....md)
   * [Mise à jour - Renommages pour Arrivage UL, Evolution mouvement RFID et déplacement arrivage camion](general/mises-a-jour/mise-a-jour-renommages-pour-arrivage-ul-evolution-mouvement-rfid-et-deplacement-arrivage-camion.md)
   * [Mise à jour - Ajouts traduction des Productions, IOT et évolution arrivage camion](general/mises-a-jour/mise-a-jour-ajouts-traduction-des-productions-iot-et-evolution-arrivage-camion.md)
   * [Mise à jour - Ajouts Encours, nouvelles tables EDD, améliorations Urgences, Unités logistiques](general/mises-a-jour/mise-a-jour-ajouts-encours-nouvelles-tables-edd-ameliorations-urgences-unites-logistiques.md)
