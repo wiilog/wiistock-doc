@@ -66,3 +66,111 @@ De même pour sélectionner un emplacement, il doit le scanner.
 
 {% file src="../../../.gitbook/assets/Vidéo Tournée.mov" %}
 
+
+
+***
+
+## Mode opératoire — Fonctionnalité « Tournée » — Fonctionnalité « Tournée » (voir vidéo ci-dessus)
+
+Ce document décrit étape par étape le déroulement d’une tournée telle qu’elle est réalisée dans cette vidéo, avec la **Vue WEB** (à gauche) et la **Vue NOMADE** (à droite). Il sert de mode d’emploi utilisateur pour comprendre le fonctionnement complet : navigation, exécution d’opérations (déposer, prendre, passage à vide) et consultation du récapitulatif final.
+
+***
+
+#### 1. Démarrage de la tournée
+
+1. L’opérateur ouvre l’application **NOMADE** et sélectionne la tournée assignée depuis Traçabilité > Tournée puis clique sur démarrer la tournée.&#x20;
+2. La **Vue WEB** affiche simultanément la tournée en cours, avec la liste des étapes et leurs statuts initiaux (_non commencé_ ou _en attente_).
+
+***
+
+#### 2. Arrivée sur un emplacement
+
+1. Sur NOMADE, l’opérateur sélectionne l'emplacement suivant en scannant. Chaque emplacement peut donner lieu à une ou plusieurs actions.
+2. Sur WEB, l’emplacement passe automatiquement en état **En cours**.
+
+***
+
+#### 3. Déposer une unité logistique
+
+1. Depuis l’emplacement sur NOMADE, sélectionner **Déposer**.
+2. Choisir l’unité logistique à déposer (ex. : _cadeau1_).
+3. Confirmer l’opération.
+4. Un message confirme la réussite.
+
+**Effet côté WEB** :
+
+* l’étape affiche le statut **Déposé**,
+* l’unité est enregistrée dans l’historique de la tournée avec l’heure et le nom de l’opérateur.
+
+***
+
+#### 3.2. Prendre une unité logistique
+
+1. Depuis l’écran de l’emplacement, sélectionner **Prendre**.
+2. Choisir ou scanner l’unité à récupérer.
+3. Confirmer l’opération.
+4. L’application affiche une confirmation.
+
+**Effet côté WEB** :
+
+* le système enregistre une opération **Prise**,
+* l’unité apparaît comme récupérée dans le récapitulatif.
+
+***
+
+#### 3.3. Effectuer un passage à vide
+
+1. Dans l’emplacement, sélectionner **Passage à vide**.
+2. Valider l’opération.
+
+**Effet côté WEB** :
+
+* le stop est marqué comme **Visité – Passage à vide**,
+* aucune unité logistique n’est associée à l’étape.
+
+***
+
+### 4. Validation de l’étape
+
+Après avoir réalisé les opérations prévues :
+
+1. L’opérateur clique sur **Terminer l’étape**.
+2. La NOMADE passe automatiquement à l’emplacement suivant.
+3. La WEB met à jour le statut (_Réalisé_, _Déposé_, _Pris_ ou _Passage à vide_ selon le cas).
+
+***
+
+### 5. Fin de la tournée
+
+#### 5.1. Clôture sur NOMADE
+
+1. Lorsque toutes les étapes sont traitées, l’application affiche un bouton **Terminer la tournée**.
+2. L’opérateur confirme la fermeture.
+3. La tournée bascule en statut **Terminée**.
+
+#### 5.2. Visualisation du récapitulatif sur WEB
+
+La Vue WEB présente un ensemble d’informations utiles :
+
+**• Liste complète des emplacements**
+
+* Statut final de chaque étape
+* Heure d’arrivée
+* Type d’action : Dépôt, Prise, Passage à vide
+* Unités logistiques manipulées
+
+**• Détails chronologiques**
+
+* Historique horodaté de toutes les opérations
+* Identification de l’opérateur ayant réalisé chaque action
+
+
+
+{% hint style="info" %}
+Toutes les actions et tous les mouvements sont archivés dans le menu Traçabilité > mouvements
+{% endhint %}
+
+###
+
+***
+
