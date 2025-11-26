@@ -26,20 +26,20 @@ Cette page contient :
 | **Statut**                             | Statut de la demande de tournée                                                                                                                                        |
 | **Type**                               | Type de la demande de tournée                                                                                                                                          |
 | **Traité par**                         | L'utilisateur qui à traité la demande de tournée                                                                                                                       |
-| Demandeur                              | Le demandeur de la demande de tournée                                                                                                                                  |
-| Urgence                                | Si la demande est classée urgence et sous quel délai                                                                                                                   |
-| Commentaire                            | Le commentaire associé à la demande de tournée                                                                                                                         |
-| Emplacement de la tournée              | L'emplacement sur lequel l'opérateur va faire sa tournée (ex: chariot\_01)                                                                                             |
+| **Demandeur**                          | Le demandeur de la demande de tournée                                                                                                                                  |
+| **Urgence**                            | Si la demande est classée urgence et sous quel délai                                                                                                                   |
+| **Commentaire**                        | Le commentaire associé à la demande de tournée                                                                                                                         |
+| **Emplacement** de la tournée          | L'emplacement sur lequel l'opérateur va faire sa tournée (ex: chariot\_01)                                                                                             |
 
 ### Créer une demande de tournée
 
 #### Via le bouton "+"
 
-
-
 <div align="left"><figure><img src="../../../.gitbook/assets/Capture d’écran 2025-11-26 à 14.46.18.png" alt=""><figcaption></figcaption></figure></div>
 
 Au clic sur la tournée une modale "Nouvelle demande de tournée" s'ouvrira comprenant :
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-11-26 à 16.13.51.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -81,14 +81,9 @@ Ce document décrit étape par étape le déroulement d’une tournée telle qu�
 1. L’opérateur ouvre l’application **NOMADE** et sélectionne la tournée assignée depuis Traçabilité > Tournée puis clique sur démarrer la tournée.&#x20;
 2. La **Vue WEB** affiche simultanément la tournée en cours, avec la liste des étapes et leurs statuts initiaux (_non commencé_ ou _en attente_).
 
-***
-
 #### 2. Arrivée sur un emplacement
 
 1. Sur NOMADE, l’opérateur sélectionne l'emplacement suivant en scannant. Chaque emplacement peut donner lieu à une ou plusieurs actions.
-2. Sur WEB, l’emplacement passe automatiquement en état **En cours**.
-
-***
 
 #### 3. Déposer une unité logistique
 
@@ -128,8 +123,6 @@ Ce document décrit étape par étape le déroulement d’une tournée telle qu�
 * le stop est marqué comme **Visité – Passage à vide**,
 * aucune unité logistique n’est associée à l’étape.
 
-***
-
 ### 4. Validation de l’étape
 
 Après avoir réalisé les opérations prévues :
@@ -137,8 +130,6 @@ Après avoir réalisé les opérations prévues :
 1. L’opérateur clique sur **Terminer l’étape**.
 2. La NOMADE passe automatiquement à l’emplacement suivant.
 3. La WEB met à jour le statut (_Réalisé_, _Déposé_, _Pris_ ou _Passage à vide_ selon le cas).
-
-***
 
 ### 5. Fin de la tournée
 
@@ -156,7 +147,7 @@ La Vue WEB présente un ensemble d’informations utiles :
 
 * Statut final de chaque étape
 * Heure d’arrivée
-* Type d’action : Dépôt, Prise, Passage à vide
+* Type d’action : Dépose, Prise, Passage à vide
 * Unités logistiques manipulées
 
 **• Détails chronologiques**
