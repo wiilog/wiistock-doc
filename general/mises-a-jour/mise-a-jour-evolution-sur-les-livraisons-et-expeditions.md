@@ -24,8 +24,7 @@ description: 29/05/2023
 
 **+ (**_**Demande**_**) | Expédition :**&#x20;
 
-* Créer des demandes d'expédition : choisir un ou plusieurs demandeurs, un ou plusieurs numéros de téléphone, un numéro de commande client, des cases à cocher "Livraison à titre gracieux" et "Articles conformes", Des informations liées au destinataire depuis le référentiel Client (client, téléphone, adresse de livraison), des informations sur l'expédition (date de prise en charge souhaitée, transporteur, envoi national / international, payé ou dû et un champ commentaire final.\
-
+* Créer des demandes d'expédition : choisir un ou plusieurs demandeurs, un ou plusieurs numéros de téléphone, un numéro de commande client, des cases à cocher "Livraison à titre gracieux" et "Articles conformes", Des informations liées au destinataire depuis le référentiel Client (client, téléphone, adresse de livraison), des informations sur l'expédition (date de prise en charge souhaitée, transporteur, envoi national / international, payé ou dû et un champ commentaire final.<br>
 * Remplir des demandes d'expédition : Ajouter des références déjà existantes ou créer de nouvelles références à intégrer dans la demande d'expédition, avec les quantités, les prix unitaires, le poids net.
 * Planifier des demandes d'expédition (Colisage) : Intégrer le nombre de colis, le transporteur, le numéro de tracking, les références dans chaque colis et la date d'enlèvement.
 * Clôturer des demandes d'expéditions : Bouton Expédier pour finaliser le flux de la demande d'expédition.

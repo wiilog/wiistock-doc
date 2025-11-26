@@ -16,8 +16,7 @@ Modification horaires de travail
 
 ### **Créneaux horaires**
 
-**Créneaux horaires** : Ce paramétrage à un impact sur les heures estimées des demandes de transport. Notamment pour les demandes de collecte, les créneaux horaires vont servir à renseigner un créneau de passage chez un client.\
-
+**Créneaux horaires** : Ce paramétrage à un impact sur les heures estimées des demandes de transport. Notamment pour les demandes de collecte, les créneaux horaires vont servir à renseigner un créneau de passage chez un client.<br>
 
 {% embed url="https://www.screencast.com/t/Ebf1eoyxcMX" %}
 Création et modification des créneaux horaires

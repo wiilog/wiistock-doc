@@ -12,8 +12,7 @@ Cette partie sert à paramétrer le comportement de création d'une livraison
 * **La livraison est directement préparée à sa validation** : L'ordre de livraison est directement mis en préparé et l'ordre de livraison est généré à la validation de la demande de livraison, sauf si les références / articles sur la demande sont sur des emplacements différents au moment de la validation de la demande livraison.
 * **Ne pas gérer les quantités en stock** : Aucun contrôle de quantité ne sera effectué sur aucune des étapes de la livraison. Des articles seront générés automatiquement à la validation de la demande de livraison.
 * **Faire le contrôle de la quantité au lancement de préparation :** Lorsque ce paramétrage est activé, les préparations créées seront visibles\
-  uniquement sur la page **Ordre | Préparation - Planning**.\
-
+  uniquement sur la page **Ordre | Préparation - Planning**.<br>
 
 ### **Création livraison après réception**
 

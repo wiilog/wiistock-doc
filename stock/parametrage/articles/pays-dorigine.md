@@ -6,13 +6,11 @@ description: >-
 
 # Pays d'origine
 
-Cette page contient les valeurs possible pour le champs fixe "Pays d'origine" sous forme d'un tableau éditable. Ce tableau contient les 3 colonnes suivantes : \
-
+Cette page contient les valeurs possible pour le champs fixe "Pays d'origine" sous forme d'un tableau éditable. Ce tableau contient les 3 colonnes suivantes : <br>
 
 * **Code** : Code ISO du pays.
 * **Libellé** : Nom du pays.
-* **Actif** : Statut indiquant si le pays est Actif/disponible ou non pour la sélection.\
-
+* **Actif** : Statut indiquant si le pays est Actif/disponible ou non pour la sélection.<br>
 
 **Ajouter un Pays d'origine** : Cliquez sur le bouton "+" pour ajouter un nouveau pays d'origine.\
 \

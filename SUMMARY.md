@@ -179,6 +179,7 @@
     * [Transferts](stock/fonctionnalites-web/demandes/transferts.md)
     * [Achats](stock/fonctionnalites-web/demandes/achats.md)
     * [Expéditions](stock/fonctionnalites-web/demandes/expeditions.md)
+    * [Tournée](stock/fonctionnalites-web/demandes/tournee.md)
   * [Ordres](stock/fonctionnalites-web/ordres/README.md)
     * [Collectes](stock/fonctionnalites-web/ordres/collectes.md)
     * [Livraisons](stock/fonctionnalites-web/ordres/livraisons.md)

@@ -29,12 +29,10 @@ Si vous souhaitez modifier le comportement de saisie des données, vous devrez m
 
 
 
-Méthode 2 :\
+Méthode 2 :<br>
+---------------
 
-
-
-Utiliser StageNow : \
-
+Utiliser StageNow : <br>
 
 1. Supprimez le profil WIISTOCK déjà présent dans DataWedge en suivant les étapes suivantes :
    1. Ouvrez DataWedge.

@@ -39,21 +39,18 @@ _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un 
   &#x20;
 
 Lors du premier lancement de Wiispool l'interface est la suivante : ![](<../.gitbook/assets/image (105).png>)\
-&#x20; Vous devez sélectionner le dossier que Wiispool va écouter pour effectuer l'envoie des fichiers à imprimer vers la bonne imprimante. Cliquer sur "Parcourir" et renseigner le chemin vers le dossier ou vos téléchargements sont stocker par votre navigateur sur votre poste de travail.\
-
+&#x20; Vous devez sélectionner le dossier que Wiispool va écouter pour effectuer l'envoie des fichiers à imprimer vers la bonne imprimante. Cliquer sur "Parcourir" et renseigner le chemin vers le dossier ou vos téléchargements sont stocker par votre navigateur sur votre poste de travail.<br>
 
 **Trouver où le navigateur enregistre les fichiers téléchargés**
 
-_(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est très ressemblante sur les autres navigateurs)._\
-
+_(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est très ressemblante sur les autres navigateurs)._<br>
 
 * Cliquer sur les 3 points ![](<../.gitbook/assets/image (106).png>) en haut a droite de la fenêtres de votre navigateur. Puis cliquer sur paramètres.\
   ![](<../.gitbook/assets/image (107).png>)
 * Aller dans le menu Téléchargements
 * Ensuite recopier le chemin de l'emplacement où sont stockés vos téléchargements.
 
-![captured screen](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2Fhojp6sKJ2FhUBigg2hta%2Fimage.png?alt=media\&token=089c11c2-4cc5-471b-a618-2752416f992f)\
-
+![captured screen](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2Fhojp6sKJ2FhUBigg2hta%2Fimage.png?alt=media\&token=089c11c2-4cc5-471b-a618-2752416f992f)<br>
 
 **Création d'association préfixe/imprimante**
 

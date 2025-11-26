@@ -15,8 +15,7 @@ description: Mise en production du 11/09/2023 - Version 7.0.2
   * Client
   * A l'attention de
   * Téléphone client
-  * Adresse de livraison\
-
+  * Adresse de livraison<br>
 *   **Paramétrages | Trace | Acheminements | Champs fixes** - Nouveaux champs fixes liés au Unités logistiques
 
     * Hauteur (m)

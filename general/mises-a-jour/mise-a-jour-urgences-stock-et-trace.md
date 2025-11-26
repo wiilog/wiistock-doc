@@ -36,8 +36,7 @@ Composant dashboard : "Urgences à recevoir"&#x20;
 
 * Possibilité de filtrer les urgences à recevoir par type d'urgence.&#x20;
 
-\
-
+<br>
 
 ### Changement de la liste des unités logistiques et groupage &#x20;
 

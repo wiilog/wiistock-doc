@@ -32,7 +32,7 @@ Remplissez ensuite les champs des caractéristiques de cette façon :&#x20;
 
 ### Définition des Règles pour le Paramétrage des Emplacements de Prise et Dépose Suggérés
 
-#### **Emplacements de Prise Suggérés et Emplacements de Dépose Suggérés** 
+#### **Emplacements de Prise Suggérés et Emplacements de Dépose Suggérés**<br>
 
 1.  **Aucun Champ Saisi** :&#x20;
 

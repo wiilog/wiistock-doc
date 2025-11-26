@@ -53,7 +53,7 @@ Sur chaque ligne d'UL peut aussi apparaître un logo wifi si l'UL est lié ou a 
 
 ![](<../../.gitbook/assets/image (82).png>)
 
-Si la ligne a un logo wifi, un bouton <mark style="background-color:blue;">**Historique des données**</mark> est présent en plus sous les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">. Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à cette UL (Voir la partie [IoT](broken-reference)).
+Si la ligne a un logo wifi, un bouton <mark style="background-color:blue;">**Historique des données**</mark> est présent en plus sous les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">. Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à cette UL (Voir la partie [IoT](/broken/pages/6gUcky5Y42edcD7KrntT)).
 
 #### Modifier une unité logistique
 

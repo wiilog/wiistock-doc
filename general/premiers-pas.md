@@ -20,8 +20,7 @@ Si votre rôle le permet, vous avez la possibilité de créer des utilisateurs e
 
 ### Via Paramétrage | Utilisateurs :&#x20;
 
-Si votre rôle vous le permet, vous avez la possibilité de créer un nouvel utilisateur en accédant au module "Paramétrage | Utilisateurs" et en cliquant sur le bouton "<mark style="background-color:blue;">Nouvel utilisateur</mark>". Le formulaire de création s'affichera, vous permettant de saisir les informations nécessaires. Assurez-vous de cocher la case "<mark style="background-color:blue;">Statut actif</mark>" et d'attribuer le rôle approprié en fonction de l'utilisation prévue de l'application. \
-
+Si votre rôle vous le permet, vous avez la possibilité de créer un nouvel utilisateur en accédant au module "Paramétrage | Utilisateurs" et en cliquant sur le bouton "<mark style="background-color:blue;">Nouvel utilisateur</mark>". Le formulaire de création s'affichera, vous permettant de saisir les informations nécessaires. Assurez-vous de cocher la case "<mark style="background-color:blue;">Statut actif</mark>" et d'attribuer le rôle approprié en fonction de l'utilisation prévue de l'application. <br>
 
 ## Première installation sur un terminal Android Zebra.
 
@@ -97,8 +96,7 @@ Pour désinstaller l'application Follow GT/Wiilog de votre terminal Android, sui
 
 1. Ouvrez le menu des applications de votre terminal.
 2. Appuyez de manière prolongée sur l'icône de l'application Follow GT/Wiilog.
-3. Appuyez sur "Désinstaller" pour confirmer la désinstallation de l'application.\
-
+3. Appuyez sur "Désinstaller" pour confirmer la désinstallation de l'application.<br>
 
 
 

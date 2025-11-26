@@ -61,8 +61,7 @@ Pour configurer le dossier que Wiispool V3 va écouter afin d'effectuer l'envoi 
 
 **Trouver où le navigateur enregistre les fichiers téléchargés**
 
-_(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est très ressemblante sur les autres navigateurs)._\
-
+_(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est très ressemblante sur les autres navigateurs)._<br>
 
 * Cliquer sur les 3 points ![](<../.gitbook/assets/image (106).png>) en haut a droite de la fenêtres de votre navigateur. Puis cliquer sur paramètres.\
   ![](<../.gitbook/assets/image (107).png>)
@@ -121,6 +120,5 @@ A partir de la, dés que vous téléchargerez un document .PDF préfixé avec un
 
 * L'option "Vider l'historique" dans Wiispool V3 vous permet de supprimer l'ensemble des entrées de l'historique d'impression en un seul clic. Cette fonctionnalité est particulièrement utile lorsque vous souhaitez libérer de l'espace, nettoyer votre journal d'impression ou préserver la confidentialité de vos activités d'impression. En utilisant cette option, vous pouvez effacer rapidement et facilement toutes les informations sur les documents imprimés précédemment, y compris le nom du fichier, la date et l'heure d'impression, le préfixe associé, ainsi que le statut de l'impression. Ainsi, l'option "Vider l'historique" vous offre un moyen simple et efficace de maintenir un environnement d'impression organisé et sécurisé.\
   \
-  ![](<../.gitbook/assets/image (16).png>)\
-
+  ![](<../.gitbook/assets/image (16).png>)<br>
 

@@ -2,12 +2,11 @@
 description: Mise en production du 17/07/2024
 ---
 
-# Mises à jour - Réception nomades et changement de fonctionnement Articles RFID
+# Mises à jour - Réception nomade et changement de fonctionnement Articles RFID
 
 ### Réception nomade
 
-_Ce projet permet de compléter des attendus de réceptions crées depuis le web. Vous pourrez confirmer les réceptions et quantités des références depuis votre nomade._\
-
+_Ce projet permet de compléter des attendus de réceptions crées depuis le web. Vous pourrez confirmer les réceptions et quantités des références depuis votre nomade._<br>
 
 * Nouveau droit nomade sur les rôles pour afficher le module Réception.
 * Nouveau menu nomade avec liste des réceptions à réceptionner.&#x20;

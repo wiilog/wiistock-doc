@@ -1,7 +1,6 @@
 # Champs fixes
 
-Les champs fixes sont des champs de saisie qui sont toujours visibles à l'écran, quel que soit l'endroit où vous vous trouvez dans l'application. Contrairement aux champs libres, ils ne peuvent pas être supprimés ou ajoutés, mais vous pouvez paramétrer leur visibilité et leur caractère obligatoire. Le formulaire ci-dessous permet de choisir quels champs sont disponibles sur le formulaire de création , de modification d'une demande de livraison et s'il est possible de filtrer sur ce champ ou non.\
-
+Les champs fixes sont des champs de saisie qui sont toujours visibles à l'écran, quel que soit l'endroit où vous vous trouvez dans l'application. Contrairement aux champs libres, ils ne peuvent pas être supprimés ou ajoutés, mais vous pouvez paramétrer leur visibilité et leur caractère obligatoire. Le formulaire ci-dessous permet de choisir quels champs sont disponibles sur le formulaire de création , de modification d'une demande de livraison et s'il est possible de filtrer sur ce champ ou non.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Les champs fixes des demandes de livraison</p></figcaption></figure>
 

@@ -33,4 +33,4 @@ Nomade
 * Nomade | Stock | Inventaire – Traitement
 * Balayage RFID  sur emplacement pour faire un inventaire.
 
-\
+<br>

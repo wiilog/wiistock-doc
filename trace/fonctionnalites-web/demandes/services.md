@@ -63,7 +63,7 @@ Afin de créer une nouvelle demande de service, il suffit cliquer sur le bouton 
 * Le **commentaire**
 * Les **pièces jointes**
 
-{% hint style="info" %}
+{% hint style="danger" %}
 Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](../../parametrage/services/statuts.md).
 {% endhint %}
 

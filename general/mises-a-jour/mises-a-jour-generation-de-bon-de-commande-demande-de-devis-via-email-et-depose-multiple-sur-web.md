@@ -36,4 +36,4 @@ description: Mise en production du 17/04/2024
 
     * Possibilité de mettre plusieurs unités logistiques sur la dépose sur emplacement.&#x20;
 
-    \
+    <br>

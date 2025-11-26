@@ -56,4 +56,4 @@ description: >-
 \
 **Zebra** : Zebra propose des solutions de traçabilité et de mobilité professionnelles pour améliorer l'efficacité et la visibilité de la chaîne logistique. Dans le cadre d'une solution logicielle de gestion de stock SaaS, les produits Zebra tels que les scanners de codes-barres et les terminaux mobiles peuvent être utilisés pour améliorer la précision et la rapidité de la saisie des données, ainsi que pour faciliter le suivi et la traçabilité des stocks en temps réel.\
 \
-\
+<br>

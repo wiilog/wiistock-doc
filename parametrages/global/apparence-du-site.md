@@ -4,4 +4,4 @@ Dans un premier temps, vous pouvez personnaliser les logos sur des différents d
 
 Dans un second temps, le choix de police vous est proposé, vous avez le choix entre Myriad (typo par défaut), Tahoma et Montserra.
 
-Vous pouvez également déterminer le temps d'inactivité maximum en minutes avant que l'utilisateur ne soit déconnecté. (Le paramétrage ne prendra effet qu'à la prochaine connexion de l'utilisateur.)\
+Vous pouvez également déterminer le temps d'inactivité maximum en minutes avant que l'utilisateur ne soit déconnecté. (Le paramétrage ne prendra effet qu'à la prochaine connexion de l'utilisateur.)<br>

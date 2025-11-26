@@ -31,8 +31,7 @@ Le rôle du support de l'application pendant la phase de "Run" inclut :&#x20;
 * Mettre en œuvre des correctifs d'urgence pour maintenir la disponibilité et la performance de l'application.&#x20;
 * Surveiller les performances de l'application et anticiper les problèmes potentiels.&#x20;
 
-En résumé, le support de l'application joue un rôle crucial pour garantir le bon fonctionnement de l'application pendant les phases de recette et de "Run". Il agit en tant que lien entre les utilisateurs, les équipes de développement et les équipes d'exploitation pour assurer une expérience utilisateur optimale, résoudre les problèmes rapidement et maintenir la qualité de l'application tout au long de son cycle de vie. \
-
+En résumé, le support de l'application joue un rôle crucial pour garantir le bon fonctionnement de l'application pendant les phases de recette et de "Run". Il agit en tant que lien entre les utilisateurs, les équipes de développement et les équipes d'exploitation pour assurer une expérience utilisateur optimale, résoudre les problèmes rapidement et maintenir la qualité de l'application tout au long de son cycle de vie. <br>
 
 ## Contacter le support ?​
 
@@ -42,8 +41,7 @@ Une ligne directe est également disponible au **07 56 10 69 43**
 
 Vous pouvez choisir d'alerter le support via un ticket sur : **https://wiilog.freshdesk.com**
 
-Ou via un mail créant un ticket sur : **support@wiilog.freshdesk.com**\
-
+Ou via un mail créant un ticket sur : **support@wiilog.freshdesk.com**<br>
 
 Le support Wiilog est ouvert de **8h à 12h30**, puis de **13h30 à 17h** en jour ouvré (du lundi au vendredi).
 
