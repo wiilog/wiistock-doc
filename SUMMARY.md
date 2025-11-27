@@ -124,6 +124,7 @@
     * [Groupage/Dégroupage](trace/fonctionnalites-mobile/tracabilite/groupage-degroupage.md)
     * [Acheminements](trace/fonctionnalites-mobile/tracabilite/acheminements.md)
     * [Lecture](trace/fonctionnalites-mobile/tracabilite/lecture.md)
+    * [Tournée](trace/fonctionnalites-mobile/tracabilite/tournee.md)
   * [Demande](trace/fonctionnalites-mobile/demande/README.md)
     * [Acheminement](trace/fonctionnalites-mobile/demande/acheminement/README.md)
       * [Traitement par signature groupée](trace/fonctionnalites-mobile/demande/acheminement/traitement-par-signature-groupee.md)

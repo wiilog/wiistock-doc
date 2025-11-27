@@ -161,7 +161,5 @@ La Vue WEB présente un ensemble d’informations utiles :
 Toutes les actions et tous les mouvements sont archivés dans le menu Traçabilité > mouvements
 {% endhint %}
 
-###
-
 ***
 
