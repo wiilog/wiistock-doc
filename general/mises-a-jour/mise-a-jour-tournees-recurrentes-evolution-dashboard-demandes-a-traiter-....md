@@ -1,3 +1,7 @@
+---
+description: Mise en production du 26/11/2025
+---
+
 # Mise à jour - Tournées récurrentes, évolution dashboard Demandes à traiter, ...
 
 ## Projet Tournées récurrentes
