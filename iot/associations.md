@@ -45,7 +45,7 @@ Vous ne pouvez pas associer le même élément sur 2 capteurs.
 
 Le nom du capteur va s'afficher en rouge lorsque la température détectée dépasse les 25°C.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Le nom du capteur est affiché en noir lorsque la température est entre 10°C et 25°C.
 

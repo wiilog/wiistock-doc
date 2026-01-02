@@ -2,7 +2,7 @@
 
 ## Général
 
-* [Wiilog/Follow GT : Les principes fondamentaux](README.md)
+* [Wiilog & Follow  : Les fondamentaux](README.md)
 * [Premiers pas](general/premiers-pas.md)
 * [Récapitulatif des grandes fonctionnalités par brique](general/recapitulatif-des-grandes-fonctionnalites-par-brique.md)
 * [Support Wiilog/Follow GT](general/support-wiilog-follow-gt.md)
@@ -100,6 +100,12 @@
     * [Types et Champs libres](trace/parametrage/urgences/types-et-champs-libres.md)
     * [Configurations](trace/parametrage/urgences/configurations.md)
     * [Champs fixes](trace/parametrage/urgences/champs-fixes.md)
+  * [Tournées](trace/parametrage/tournees/README.md)
+    * [Types et champs libres](trace/parametrage/tournees/types-et-champs-libres.md)
+    * [Champs fixes](trace/parametrage/tournees/champs-fixes.md)
+    * [Planificateur de tournées](trace/parametrage/tournees/planificateur-de-tournees.md)
+    * [Litiges - Statuts](trace/parametrage/tournees/litiges-statuts.md)
+    * [Litiges - Types](trace/parametrage/tournees/litiges-types.md)
   * [Association BR](trace/parametrage/association-br.md)
 * [Fonctionnalités web](trace/fonctionnalites-web/README.md)
   * [Arrivages Camion](trace/fonctionnalites-web/arrivages-camion.md)

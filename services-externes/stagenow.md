@@ -6,17 +6,17 @@ hidden: true
 
 StageNow est une application disponible sur les terminaux Android Zebra. Elle simplifie la transmission d'instructions à l'appareil en utilisant des QR codes spécifiques, et ce, de manière très intuitive. Il vous suffit d'utiliser le lecteur laser intégré aux terminaux Zebra pour scanner le QR code correspondant. Cela permet une configuration rapide et facile de l'appareil, sans besoin de saisie manuelle ou de procédures complexes. StageNow rend ainsi la gestion des terminaux Zebra plus efficace et accessible, offrant une expérience utilisateur fluide et simplifiée. Dans notre utilisation à destination des utilisateurs finaux, nous utiliserons StageNow pour effectuer les mises à jour de Follow GT sur les appareils Android Zebra..
 
-StageNow est une application disponible sur les terminaux mobiles représentée par l'icone suivant : ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)\
+StageNow est une application disponible sur les terminaux mobiles représentée par l'icone suivant : ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)\
 \
 &#x20;**Comment faire une mise à jour en utilisant StageNow** **?**
 
 * Ouvrir l'application StageNow.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="132"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="132"><figcaption></figcaption></figure>
 
 * Vous allez devoir scanner un QR code que vous pouvez trouver sur la page de connexion de l'application Follow GT Web en survolant le logo du code-barres avec votre curseur.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Quand StageNow a reconnu un QR code contenant des instructions qui le concernent, l'écran passe à :
 
