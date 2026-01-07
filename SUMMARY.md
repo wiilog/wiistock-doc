@@ -340,6 +340,7 @@
 ## Cas d'usage client
 
 * [Cas d'usage "Surveillance des délais de livraison"](cas-dusage-client/cas-dusage-aia-cf.md)
+* [Cas d'usage "Tournée automatisée"](cas-dusage-client/cas-dusage-tournee-automatisee.md)
 
 ## Référentiel
 
