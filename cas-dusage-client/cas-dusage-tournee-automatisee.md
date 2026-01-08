@@ -37,4 +37,21 @@ Lors de la création de tournée, il faut selectioner le type de tournée qui ne
 
 On arrive donc sur la page des détails de la tournée avec un seul emplacement, celui où se trouve les UL de l'arrivage.
 
-L'opérateur va démarrer sa tournée puis&#x20;
+#### Vue nomade
+
+Pour démarrer sa tournée l'opérateur va la sélectionner depuis son nomade : Traçabilité > tournée > sélectionne sa tournée.
+
+Dans cet exemple, l'emplacement où se situent les UL sont sur "ARRIVAGE TOURNEE". L'opérateur va scanner l'emplacement, scanner ses UL pour les récupérer sur son chariot. Pour rappel, le chariot est l'emplacement de tournée, les UL sont en encours sur cet emplacement sur leur temps de "prise".&#x20;
+
+Ensuite, l''opérateur va, selon les emplacements écrit sur les étiquettes, ajouter des emplacements de dépose sur sa tournée via le menu burger en bas à droite du nomade, puis le bouton "+".
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-08 à 11.02.46.png" alt=""><figcaption></figcaption></figure>
+
+L'opérateur va ensuite faire sa tournée classique.
+
+&#x20;Au besoin sur ses emplacements de dépose, il pourra récupérer des colis et encore ajouter des emplacements pour les déposer.
+
+Une fois terminé, il cloture sa tournée nomade et on pourra retrouver le détails sur le web avec l'ensemble des prise/dépose et emplacements de l'opérateur.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-08 à 11.12.43.png" alt=""><figcaption></figcaption></figure>
+
