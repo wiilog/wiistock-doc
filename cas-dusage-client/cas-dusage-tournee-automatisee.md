@@ -14,7 +14,13 @@ Il est important que les étiquettes des UL soient bien paramétrées pour faire
 
 Dans Paramétrage > Trace > Arrivage UL > Étiquettes, il faut cocher la ligne "Afficher l'emplacement de dropzone".&#x20;
 
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-08 à 11.41.24.png" alt=""><figcaption></figcaption></figure>
+
+
+
 L'emplacement de dropzone est associé au destinataire. Il est paramétrable depuis l'utilisateur > dropzone.&#x20;
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-08 à 11.42.45.png" alt=""><figcaption></figcaption></figure>
 
 Cet emplacement servira de destination finale à l'UL. C'est à dire qu'à réception d'UL, cette dernière sera posée sur un emplacment ype : arrivage. Et sa destination correspond  au destinataire, donc sa dropzone.&#x20;
 
