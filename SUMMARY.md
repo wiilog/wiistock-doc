@@ -22,6 +22,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Multi image sur référence, date de création des UL & évolution dashboard externes](general/mises-a-jour/mise-a-jour-multi-image-sur-reference-date-de-creation-des-ul-and-evolution-dashboard-externes.md)
   * [Mise à jour - Litiges sur tournées récurrentes, évolution icones sur transfert nomade, etc](general/mises-a-jour/mise-a-jour-litiges-sur-tournees-recurrentes-evolution-icones-sur-transfert-nomade-etc.md)
   * [Mise à jour - Tournées récurrentes, évolution dashboard Demandes à traiter, ...](general/mises-a-jour/mise-a-jour-tournees-recurrentes-evolution-dashboard-demandes-a-traiter-....md)
   * [Mise à jour - Renommages pour Arrivage UL, Evolution mouvement RFID et déplacement arrivage camion](general/mises-a-jour/mise-a-jour-renommages-pour-arrivage-ul-evolution-mouvement-rfid-et-deplacement-arrivage-camion.md)
