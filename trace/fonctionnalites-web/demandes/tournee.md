@@ -155,6 +155,34 @@ La Vue WEB présente un ensemble d’informations utiles :
 * Historique horodaté de toutes les opérations
 * Identification de l’opérateur ayant réalisé chaque action
 
+## Page des détails d'une tournée
+
+#### Tournée
+
+Le module tourrnée permet de voir l'avancée des statuts de la tournée . Pour rappel, les statuts sotn paramétrables depuis les parametres de la tournée. Les 3 points à gauche permettent de modifier, supprimer ou terminer la tournée.&#x20;
+
+On retrouve sous ce module les Pièces jointes ou les commentaires associés. Ces derniers ont été ajouté sur nomade pendant la tournée de l'opérateur
+
+#### Chemin opérateur
+
+Le chemin opérateur correspond aux emplacements paramétrés par type de tournée. On retrouve également le nombre d'UL prises ou déposées par emplacement.
+
+#### Historique
+
+On retrouve l'historique des actions faites par l'opérateur (date/heure/emplacement/quantité). Si l'opérateur ajoute un emplacment lors de sa tournée, l'information est remontée dans cet historique.
+
+#### Information
+
+Les informations conernées par la création de cette tournée. Date de démarrage / de traitement / de création et Emplacmeent de Tournée (chariot de l'opérateur).
+
+#### UL sur emplacement
+
+LA liste des UL sur l'emplacement de tournée. Les encours sur cet emplacement doivent être vide à la fin de la tournée pour pouvoir la terminer
+
+
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-02-18 à 16.42.22.png" alt=""><figcaption></figcaption></figure>
+
 
 
 {% hint style="info" %}
