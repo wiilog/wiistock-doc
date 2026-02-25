@@ -8,6 +8,8 @@
 * **Utilisation RFID Prise / Dépose mobile :** si coché, vous pourrez faire des scans de tags RFID en prise et en dépose via vos nomades. Attention, vos nomades doivent être compatibles aves les technologies RFID: contacter Wiilog si besoin, pour plus d'informations.
 * **Dépose des groupes automatiquement sur l'emplacement des ULs du groupage et association de la nature de l'UL sur le groupe :** lors de la création d'un groupe sur mouvement de groupage, si au moins une UL a un délai de traitement en cours, le groupe est déposé sur l'emplacement de l'UL dont le chrono est le plus court ou en retard et prend sa nature.
 * **Remontée des délais de traitement des unités logistique sur leur groupe :** La nature et le délai de traitement d'une UL remontent sur le groupe si cette UL a le délai le plus court des ULs présentes dans ce groupe.
+* **Transformer un groupe en UL lorsqu'il est vide :** Une fois coché, le groupe contenant se transforme en UL s'il est vidé de toutes ses UL contenues ou bien que ses UL sont dégroupées.&#x20;
+* **Groupage d'un groupe autorisé :** Si je créé un groupe 1, contenant des UL. Je peux dans un groupe 2 venir grouper ce groupe 1. Les UL appartiendront alors au groupe 2 et mon groupe 1 se transforme en UL à part entière.&#x20;
 
 
 
