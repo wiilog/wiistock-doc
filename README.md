@@ -11,10 +11,10 @@ Follow est une application que vous pouvez utiliser pour tracer stocker ou gére
 
 Pour ce faire vous pourrez utiliser selon vos besoins un ou plusieurs modules de l’application.&#x20;
 
-* **Traçabilité** : Ce module vous permet de localiser et d'identifier vos produits. Vous pouvez également ajouter vos informations et règles métiers associés pour une gestion optimale.
+* **Traçabilité** : Ce module vous permet de localiser, d'identifier et de suivre les mouvements de vos unités logistiques (colis, palettes, caisses etc.).
 * **Production** : Ce module permet le suivi d'ordre de fabrication.&#x20;
-* **Stock** : Le module Stock offre une solution complète pour gérer l'ensemble du processus de stockage, de la réception à la livraison sur les lignes de production. Il simplifie la préparation des commandes et leur expédition, tout en optimisant les mouvements de marchandises. Cette approche vise à améliorer l'efficacité et la précision des opérations de stockage et de distribution, renforçant ainsi la performance globale de la chaîne logistique.&#x20;
-* **Track** : Le module Track vous permet la gestion des opérations de livraison. Vous pourrez localiser vos transports, les acheminer de manière optimale, tout en consultant en temps réel l'avancement de ces opérations. En utilisant ce module, vous pourrez suivre et contrôler l'état de vos transports de façon précise et efficace. Il facilite également la gestion des rendez-vous et permet de mettre en place des workflows adaptés à vos besoins spécifiques. Cela contribue à une gestion globale et optimisée de vos opérations de livraison, améliorant ainsi votre efficacité opérationnelle. <br>
+* **Stock** : Le module Stock offre une solution complète pour gérer l'ensemble du processus de stockage, de la réception à la livraison sur les lignes de production et aux inventaires.
+* **Track** : Le module Track vous permet la gestion des opérations de livraison et collecte de matériel médical, ainsi que l'organisation et la gestion des tournées.<br>
 
 ## Instances de Production et de Recette dans l'Écosystème de l'Application
 
