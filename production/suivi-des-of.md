@@ -24,6 +24,18 @@ Chaque changement sur une demande est remonté dans la partie historique. Vous p
 
 
 
+#### Dupliquer une demande de production <a href="#dupliquer-une-demande-de-production" id="dupliquer-une-demande-de-production"></a>
+
+_Ce projet permet de dupliquer jusqu'à 10 fois une demande de production. Vous pourrez modifier l'ensemble des champs fixes et champs libres remplis pour générer vos nouvelles demandes. Seul le type ne peut pas être modifier._
+
+Cette fonctionnalité est à activer dans les droits des rôles de vos utilisateurs.
+
+<figure><img src="https://wiilog.gitbook.io/wiilog-tracabilite-et-stock-pour-lindustrie/~gitbook/image?url=https%3A%2F%2F806097355-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fid6mpmGgIXZ3CFWUO3AX%252Fuploads%252FcyyYWHvuMUgcGWnPGMcg%252FCapture%2520d%27%25C3%25A9cran%25202024-08-20%2520084059.png%3Falt%3Dmedia%26token%3D40529210-b24e-460e-a63a-ccd4b4e2a42c&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=4ee3bd2e&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Modale de duplication d'une demande de production
+
+Lorsqu'on duplique une demande de production, l'ensemble des champs fixes et libres se dupliquent **à l'exception de la pièce jointe.**
+
 ## Création de demande d'acheminement depuis une demande de production
 
 En fonction du statut pour lequel se génère une demande d'acheminement (défini dans le paramétrage), une fenêtre pop-up apparaît avec la confirmation de création de demande d'acheminement.
