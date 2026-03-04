@@ -128,6 +128,7 @@
     * [Arrivage camion](trace/fonctionnalites-mobile/tracabilite/arrivage-camion.md)
     * [Mouvements](trace/fonctionnalites-mobile/tracabilite/mouvements/README.md)
       * [Prise & Dépose](trace/fonctionnalites-mobile/tracabilite/mouvements/prise-and-depose.md)
+      * [Association](trace/fonctionnalites-mobile/tracabilite/mouvements/association.md)
       * [Traçabilité I Mouvements I Passage à vide](trace/fonctionnalites-mobile/tracabilite/mouvements/tracabilite-i-mouvements-i-passage-a-vide.md)
     * [Groupage/Dégroupage](trace/fonctionnalites-mobile/tracabilite/groupage-degroupage.md)
     * [Acheminements](trace/fonctionnalites-mobile/tracabilite/acheminements.md)
