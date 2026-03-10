@@ -1,3 +1,7 @@
+---
+description: Mise en production du 28/02/2026
+---
+
 # Mise à jour - Multi image sur référence, date de création des UL & évolution dashboard externes
 
 ## Projet Multi images et zoom sur image&#x20;

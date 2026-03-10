@@ -20,7 +20,7 @@ _Vous pouvez renommer ce texte pour faire passer le message que vous souhaitez a
 
 _Vous pouvez donc proposer des rôles utilisateurs dédiés à l'usage de la RFID. Permet de limiter les messages de connexion au matériel RFID lorsque les flux sont traités hors RFID._&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
