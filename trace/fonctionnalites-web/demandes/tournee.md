@@ -191,3 +191,9 @@ Toutes les actions et tous les mouvements sont archivés dans le menu Traçabili
 
 ***
 
+> UTILISATION #2 détournée des tournées&#x20;
+>
+> [https://youtu.be/AD\_YqqyXbZ4 ](https://youtu.be/AD_YqqyXbZ4)
+
+
+
