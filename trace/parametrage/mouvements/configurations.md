@@ -29,3 +29,11 @@ alors ce destinataire recevra des mails aux intervalles décrits pour venir réc
 * Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 14.54.51.png" alt=""><figcaption></figcaption></figure>
+
+#### Groupage Dégroupage
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-03-24 à 09.42.25.png" alt=""><figcaption></figcaption></figure>
+
+**Groupage d'un groupe autorisé** : Ce paramétrage permet d'intégrer un groupe contenant des UL, à un autre groupe. Par exemple : le _**groupe\_1**_ contenant _**UL\_1**_ et _**UL\_2**_ Si on créé un _**groupe\_2**_ on peut alors grouper le _**groupe\_1**_ dans le _**groupe\_2**_, les _**UL\_1**_ et _**UL\_2**_ seront alors contenues dans le _**groupe\_2**_, et le _**groupe\_1**_ se transformera en unité logistique et sera contenue dans le _**groupe\_2**_.
+
+**Transformer un groupe en UL lorsqu'il est vide** : Ce paramétrage permet comme il l'indique de transformer un groupe en unité logistique dès qu'il devient vide. Dès qu'on sort la dernière unité logistique, legroupe se transforme en unité logistique, ce changement apparaît dans l'historique de traçabilité du groupe/UL.&#x20;
