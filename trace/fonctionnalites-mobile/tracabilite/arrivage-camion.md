@@ -1,4 +1,4 @@
-# Traçabilité | Arrivage camion
+# Arrivage camion
 
 L'arrivage camion est une fonctionnalité de base de la traçabilité dans Wiilog permettant de suivre l'arrivée de colis/livraison dès la sortie du camion.&#x20;
 
@@ -49,6 +49,12 @@ Une fois scanné, le dernier numéro de tracking s'affiche en haut de la liste.
 Il peut être supprimé via l'icône poubelle  🗑️
 
 {% embed url="https://www.screencast.com/t/jHOgIYIFbr" %}
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-03-24 à 16.22.31.png" alt=""><figcaption></figcaption></figure>
+
+Sur la réserve d'un numéro de tracking, il est possible de paramétrer plusieurs type. Ici, le type sélectionné est : Réserve qualité.&#x20;
+
+On retrouve le numéro tracking associé ainsi que la possibilité d'y ajouter un commentaire et une photo.&#x20;
 
 #### Création de réserve sur numéro de tracking transporteur
 
