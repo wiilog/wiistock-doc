@@ -23,7 +23,7 @@ Si&#x20;
 2. L'emplacement de dépose du colis est paramétré comme "Point de livraison";
 3. Le colis est associé à un destinataire dans l'arrivage d'unités logistiques;
 4. Un colis reste un certain temps sur un emplacement "point de livraison".
-5. Si le colis est sur un emplacment appartenant au même groupe que l'emplacment de dépose initial "point de livraison".
+5. Si le colis est sur un emplacement appartenant au même groupe que l'emplacment de dépose initial "point de livraison".
 
 5.5 Ainsi :&#x20;
 
