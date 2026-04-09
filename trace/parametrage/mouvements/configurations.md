@@ -23,8 +23,23 @@ Si&#x20;
 2. L'emplacement de dépose du colis est paramétré comme "Point de livraison";
 3. Le colis est associé à un destinataire dans l'arrivage d'unités logistiques;
 4. Un colis reste un certain temps sur un emplacement "point de livraison".
+5. Si le colis est sur un emplacment appartenant au même groupe que l'emplacment de dépose initial "point de livraison".
 
-alors ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis, tant que le colis sera sur cet emplacement.
+5.5 Ainsi :&#x20;
+
+• Le colis est sur **le groupe d'emplacement de l'emplacement de dépose** depuis 7 jours : on envoi un 1er mail de relance
+
+• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 15 jours : on envoi un 2ème mail de relance
+
+• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 30 jours : on envoi un 3ème mail de relance
+
+• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 42 jours : on envoi un 4ème mail de relance
+
+• Après 42 jours : plus d'envoi de mail
+
+Alors ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis, tant que le colis sera sur cet emplacement.
+
+Vous pouvez gérer les groupes d'emplacements depuis : Référentiel > Emplacements > Groupes.
 
 * Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
 
