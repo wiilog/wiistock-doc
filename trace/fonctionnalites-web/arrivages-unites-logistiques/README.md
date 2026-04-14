@@ -125,6 +125,20 @@ La génération des étiquettes PDF se lancent alors si "Imprimer colis" était 
 
 Vous pouvez relancer l'impression des étiquettes en cliquant sur les<img src="../../../.gitbook/assets/3points" alt="" data-size="line">de la ligne d'un arrivage et en cliquant sur <mark style="background-color:blue;">**Imprimer**</mark>. Vous pouvez relancer l'impression aussi en allant voir le [détail de l'arrivage](details-arrivage.md).
 
+### Recevoir la liste des UL par mail&#x20;
+
+Il est possible que le destinataire renseigné lors d'un arrivage UL reçoive la liste des UL dans un mail sous forme de QrCode permettant aux opérateurs de flasher ces QrCode avec le menu Lecture du nomade et donc de retrouver l'ensemble des informations associées à l'UL.&#x20;
+
+&#x20;Pour ça il faut aller dans Paramétrage > Trace > Arrivage UL > Configuration puis cocher "Envoyer email après nouvel arrivage".&#x20;
+
+La liste des UL dans le mail se présentera comme ci-dessous.&#x20;
+
+
+
+<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+
+À noter : au delà de 15 UL, le QrCode ne sera plus affiché.&#x20;
+
 ### Acheminer un ou plusieurs arrivages
 
 Vous pouvez réaliser des acheminements à partir des arrivages ([pour en savoir plus sur les acheminements](../demandes/acheminements/)).
