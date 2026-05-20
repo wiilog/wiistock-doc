@@ -107,3 +107,10 @@ Dans le workflow du traitement d'une demande d'acheminement par signature group�
 Ce format PDF est issu d'un modèle Word personnalisable en fonction des variables que vous souhaitez faire apparaître. L'objectif de ce document était de reprendre les informations générales de la demande d'acheminement, un tableau des unités logistiques et les références avec leurs informations.
 
 Vous pouvez retrouvez notre modèle par défaut ainsi que les variables disponibles dans **Paramétrage | Modèle de document | Acheminements | Compte rendu.**
+
+Le compte rendu est envoyé à:
+
+* l'email sur l'emplacement de prise section "Acheminements - Signature groupée" (si paramétrage statut "envoi compte rendu" activé)
+* l'email sur l'emplacement de dépose section "Acheminements - Signature groupée" (si paramétrage statut "envoi compte rendu" activé)
+* l'utilisateur signataire (si paramétrage statut "envoi compte rendu" activé)
+* destinataire si création d'acheminement sur le nomade (si paramétrage statut "envoi compte rendu" activé)
