@@ -1,7 +1,5 @@
 # Récapitulatif des grandes fonctionnalités par brique
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
-
 ## **Trace**
 
 La brique Trace vous permet de faire la traçabilité de vos unités logistiques (colis, palettes etc.). Les grandes fonctionnalités de la brique Trace:
@@ -11,6 +9,7 @@ La brique Trace vous permet de faire la traçabilité de vos unités logistiques
 * Mouvements (prise/ dépose)
 * Acheminements
 * Services
+* Tournées
 * Gestion des urgences
 * Gestion des litiges
 
@@ -27,7 +26,8 @@ Grâce à la brique Stock de Wiilog, gérez toutes vos opérations de stockage, 
 * Demandes de collecte bord de ligne
 * Expéditions
 * Demandes d'achat/ approvisionnement
-* Litiges
+* Gestion des urgences
+* Gestion des litiges
 
 ## **Track**
 
