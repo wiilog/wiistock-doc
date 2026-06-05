@@ -26,4 +26,17 @@ L'instance de production est l'environnement dans lequel l'application est acces
 
 ### Instance de Recette  &#x20;
 
-L'instance de recette, quant à elle, sert de terrain d'essai pour évaluer et valider les nouvelles fonctionnalités, les corrections de bugs et les améliorations avant qu'elles ne soient introduites dans l'instance de production. C'est un environnement contrôlé où les tests complets sont effectués pour s'assurer que les changements n'affectent pas négativement les performances de l'application ou ne provoquent pas de dysfonctionnements. Cette phase de test rigoureux permet de repérer et de résoudre les problèmes avant qu'ils n'impactent les utilisateurs finaux.&#x20;
+L'instance de recette, quant à elle, sert de terrain d'essai pour évaluer et valider les nouvelles fonctionnalités, les corrections de bugs et les améliorations avant qu'elles ne soient introduites dans l'instance de production. C'est un environnement contrôlé où les tests complets sont effectués pour s'assurer que les changements n'affectent pas négativement les performances de l'application ou ne provoquent pas de dysfonctionnements. Cette phase de test rigoureux permet de repérer et de résoudre les problèmes avant qu'ils n'impactent les utilisateurs finaux.
+
+
+
+## Composantes
+
+**Application Web**: compatible navigateurs Chromium
+
+**Application mobile**: compatible Android 8 à 14
+
+**Entrepôt de données**
+
+**Wiispool**: gestion automatisée des impressions
+
