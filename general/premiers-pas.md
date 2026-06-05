@@ -32,20 +32,8 @@ Lorsqu'une mise à jour est nécessaire sur les appareils nomades, la page suiva
 
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-23 113102.png" alt=""><figcaption></figcaption></figure>
 
-Le message suivant peut apparaître. Dans ce cas, il vous suffira de cliquer sur "<mark style="background-color:blue;">Télécharger quand même</mark>".
-
-<figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-23 113156.png" alt=""><figcaption></figcaption></figure>
-
-#### Note concernant la sécurité lors du téléchargement de l'application :&#x20;
-
-Lorsque vous effectuez le téléchargement de notre application, il est possible que vous rencontriez le message "Fichier potentiellement dangereux". Nous tenons à vous informer que ce message est une procédure de sécurité standard mise en place par le système d'exploitation Android. Son objectif principal est de protéger les utilisateurs contre tout risque lié au téléchargement de fichiers pouvant compromettre la sécurité de leurs appareils.&#x20;
-
-&#x20;Nous comprenons que cette notification puisse susciter des interrogations et des inquiétudes. Cependant, nous souhaitons vous rassurer en vous affirmant que Follow a été développée en conformité avec les meilleures pratiques en matière de sécurité informatique. En tant que développeurs de l'application, nous avons le contrôle total sur la source de téléchargement et nous sommes en mesure de garantir l'intégrité et la sécurité de notre application. Nous tenons à préciser que les seuls fichiers que nous recommandons et garantissons sont ceux hébergés sur notre serveur FTP officiel.&#x20;
-
-&#x20;La sécurité de nos utilisateurs est une priorité absolue pour nous. Si vous avez d'autres questions ou préoccupations relatives à la sécurité ou à l'utilisation de Follow, n'hésitez pas à nous contacter. Votre confiance est essentielle, et nous sommes là pour vous fournir toutes les informations nécessaires.&#x20;
-
 {% hint style="info" %}
-&#x20;Dans le cas où ce n'est pas la première fois qu'une mise à jour est effectuée sur cet appareil Android, si vous souhaitez réinstaller le fichier, il vous suffira de cliquer sur le bouton "Retélécharger". Une fois le téléchargement terminé, la fenêtre suivante apparaîtra. Pour ouvrir le fichier téléchargé, il vous suffira simplement de cliquer sur le bouton "<mark style="background-color:blue;">Ouvrir</mark>".&#x20;
+Dans le cas où ce n'est pas la première fois qu'une mise à jour est effectuée sur cet appareil Android, si vous souhaitez réinstaller le fichier, il vous suffira de cliquer sur le bouton "Retélécharger". Une fois le téléchargement terminé, la fenêtre suivante apparaîtra. Pour ouvrir le fichier téléchargé, il vous suffira simplement de cliquer sur le bouton "<mark style="background-color:blue;">Ouvrir</mark>".
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Capture d&#x27;écran 2023-08-23 113332.png" alt=""><figcaption></figcaption></figure>
