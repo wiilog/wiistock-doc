@@ -1,3 +1,7 @@
+---
+description: Mise en production du 11/06/2026
+---
+
 # Mise à jour - Améliorations diverses, projet détrompeur & EDD
 
 ## Améliorations UX
