@@ -11,7 +11,7 @@ De nouveaux paramétrages ont étés ajoutés sur la page des mouvements afin de
 * Transformer un groupe en UL lors du dégroupage
 * Grouper un groupe dans un autre
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

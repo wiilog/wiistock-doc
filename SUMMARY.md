@@ -22,6 +22,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Evolution sur l'arrivage camion, nouveau référentiel Contact et connexion SSO](general/mises-a-jour/mise-a-jour-evolution-sur-larrivage-camion-nouveau-referentiel-contact-et-connexion-sso.md)
   * [Mise à jour - Détrompeurs web, filtres sur type de production et tournées & IOT](general/mises-a-jour/mise-a-jour-detrompeurs-web-filtres-sur-type-de-production-et-tournees-and-iot.md)
   * [Mise à jour - Améliorations diverses, projet détrompeur & EDD](general/mises-a-jour/mise-a-jour-ameliorations-diverses-projet-detrompeur-and-edd.md)
   * [Mise à jour - Groupes et liens de redirection](general/mises-a-jour/mise-a-jour-groupes-et-liens-de-redirection.md)
