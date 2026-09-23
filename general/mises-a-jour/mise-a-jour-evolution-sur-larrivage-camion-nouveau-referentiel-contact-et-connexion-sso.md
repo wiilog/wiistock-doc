@@ -1,5 +1,5 @@
 ---
-description: Mise en production du 16/09/2026
+description: Mise en production du 23/09/2026
 ---
 
 # Mise à jour - Evolution sur l'arrivage camion, nouveau référentiel Contact et connexion SSO
