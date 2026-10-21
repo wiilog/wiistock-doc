@@ -29,9 +29,7 @@ Le rôle du support de l'application pendant la phase de "Run" inclut :&#x20;
 
 ## Contacter le support ?​
 
-Le support Wiilog est joignable au: **05 47 74 20 34** puis faire le **choix 1** pour être redirigé sur le support.
-
-Une ligne directe est également disponible au **07 56 10 69 43**
+Le support Wiilog est joignable au: **07 56 10 69 43**
 
 Vous pouvez choisir d'alerter le support via un ticket sur : **https://wiilog.freshdesk.com**
 
