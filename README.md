@@ -32,11 +32,8 @@ L'instance de recette, quant à elle, sert de terrain d'essai pour évaluer et v
 
 ## Composantes
 
-**Application Web**: compatible navigateurs Chromium
-
-**Application mobile**: compatible Android 8 à 14
-
-**Entrepôt de données**
-
-**Wiispool**: gestion automatisée des impressions
+1. **Application Web**: compatible navigateurs Chromium
+2. **Application mobile**: compatible Android 8 à 14
+3. **Entrepôt de données**
+4. **Wiispool**: gestion automatisée des impressions
 
