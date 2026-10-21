@@ -1,6 +1,6 @@
 # Récapitulatif des grandes fonctionnalités par brique
 
-## **Trace**
+## **Trace/ Traçabilité**
 
 La brique Trace vous permet de faire la traçabilité de vos unités logistiques (colis, palettes etc.). Les grandes fonctionnalités de la brique Trace:
 
