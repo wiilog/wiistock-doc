@@ -1,15 +1,11 @@
 # Configurations
 
 * **Vider et rester sur la modale de création de mouvement** : si ce paramétrage est coché, lorsque vous créez des mouvements via la supervision, la modale de création de mouvement restera toujours ouverte à la création d'un mouvement et se videra
-*   **Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement** : si ce paramétrage est coché, lorsque vous réalisez un mouvement de prise d'une Unité Logistique, sur Web ou Nomade, vous aurez un message pour vous prévenir si l'Unité Logistique n'a pas été prise sur un emplacement sur lequel elle avait été déposée.&#x20;
-
-    _Par exemple : Je fais mon arrivage UL sur l'emplacement RECEPTION, si je prends l'UL que je viens de déposer sur un autre emplacement que RECEPTION, alors j'aurais un message pour me prévenir que cette UL n'était pas posée sur cet emplacement._&#x20;
-* **Afficher le champ "Début de délai manuel" :** si coché, vous pourrez lors de vos mouvements, modifier le T0 de vos chrono sur vos UL. Ne fonctionne que si vous utilisez des chrono sur vos flux d'UL.&#x20;
-* **Utilisation RFID Prise / Dépose mobile :** si coché, vous pourrez faire des scans de tags RFID en prise et en dépose via vos nomades. Attention, vos nomades doivent être compatibles aves les technologies RFID: contacter Wiilog si besoin, pour plus d'informations.
+* **Afficher le champ "Début de délai manuel" :** si coché, vous pourrez lors de vos mouvements, modifier le T0 de vos chrono sur vos UL. Ne fonctionne que si vous utilisez des chrono sur vos flux d'UL.
 * **Dépose des groupes automatiquement sur l'emplacement des ULs du groupage et association de la nature de l'UL sur le groupe :** lors de la création d'un groupe sur mouvement de groupage, si au moins une UL a un délai de traitement en cours, le groupe est déposé sur l'emplacement de l'UL dont le chrono est le plus court ou en retard et prend sa nature.
 * **Remontée des délais de traitement des unités logistique sur leur groupe :** La nature et le délai de traitement d'une UL remontent sur le groupe si cette UL a le délai le plus court des ULs présentes dans ce groupe.
-* **Transformer un groupe en UL lorsqu'il est vide :** Une fois coché, le groupe contenant se transforme en UL s'il est vidé de toutes ses UL contenues ou bien que ses UL sont dégroupées.&#x20;
-* **Groupage d'un groupe autorisé :** Si je créé un groupe 1, contenant des UL. Je peux dans un groupe 2 venir grouper ce groupe 1. Les UL appartiendront alors au groupe 2 et mon groupe 1 se transforme en UL à part entière.&#x20;
+* **Groupage d'un groupe autorisé** : Ce paramétrage permet d'intégrer un groupe contenant des UL, à un autre groupe. Par exemple : le _**groupe\_1**_ contenant _**UL\_1**_ et _**UL\_2**_ Si on créé un _**groupe\_2**_ on peut alors grouper le _**groupe\_1**_ dans le _**groupe\_2**_, les _**UL\_1**_ et _**UL\_2**_ seront alors contenues dans le _**groupe\_2**_, et le _**groupe\_1**_ se transformera en unité logistique et sera contenue dans le _**groupe\_2**_.
+* **Transformer un groupe en UL lorsqu'il est vide** : Ce paramétrage permet comme il l'indique de transformer un groupe en unité logistique dès qu'il devient vide. Dès qu'on sort la dernière unité logistique, legroupe se transforme en unité logistique, ce changement apparaît dans l'historique de traçabilité du groupe/UL.&#x20;
 
 
 
@@ -23,7 +19,7 @@ Si&#x20;
 2. L'emplacement de dépose du colis est paramétré comme "Point de livraison";
 3. Le colis est associé à un destinataire dans l'arrivage d'unités logistiques;
 4. Un colis reste un certain temps sur un emplacement "point de livraison".
-5. Si le colis est sur un emplacement appartenant au même groupe que l'emplacment de dépose initial "point de livraison".
+5. Si le colis est sur un emplacement appartenant au même groupe que l'emplacement de dépose initial "point de livraison".
 
 5.5 Ainsi :&#x20;
 
@@ -43,12 +39,5 @@ Vous pouvez gérer les groupes d'emplacements depuis : Référentiel > Emplaceme
 
 * Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 14.54.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
 
-#### Groupage Dégroupage
-
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-03-24 à 09.42.25.png" alt=""><figcaption></figcaption></figure>
-
-**Groupage d'un groupe autorisé** : Ce paramétrage permet d'intégrer un groupe contenant des UL, à un autre groupe. Par exemple : le _**groupe\_1**_ contenant _**UL\_1**_ et _**UL\_2**_ Si on créé un _**groupe\_2**_ on peut alors grouper le _**groupe\_1**_ dans le _**groupe\_2**_, les _**UL\_1**_ et _**UL\_2**_ seront alors contenues dans le _**groupe\_2**_, et le _**groupe\_1**_ se transformera en unité logistique et sera contenue dans le _**groupe\_2**_.
-
-**Transformer un groupe en UL lorsqu'il est vide** : Ce paramétrage permet comme il l'indique de transformer un groupe en unité logistique dès qu'il devient vide. Dès qu'on sort la dernière unité logistique, legroupe se transforme en unité logistique, ce changement apparaît dans l'historique de traçabilité du groupe/UL.&#x20;
