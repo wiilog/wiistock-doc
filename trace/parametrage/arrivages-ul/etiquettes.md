@@ -18,6 +18,10 @@ Cette section sert à paramétrer ce qui s'affiche sur les étiquettes des unit�
 * **Afficher la date et heure de l'arrivage camion**: pour inclure sur l'étiquette ces informations issues de l'arrivage camion
 * **Afficher la date et heure de l'arrivage camion scannable**: ajoutera un QR code avec la date et heure de l'arrivage camion
 * **Afficher nature UL**: pour imprimer la nature de chaque UL
+* **Afficher la date limite de traitement**: Si un délai de traitement a été activé sur la nature de cette unité logistique, sa date limite de traitement (calculée selon les heures travailées de l'instance) sera affichée sur l'étiquette
+
+<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+
 * **Afficher "Urgence" si une urgence est détectée dans un arrivage** : activez ce paramétrage pour ajouter des indications visuelles d'urgence sur les étiquettes des colis d'arrivage en urgence, à paramétrer :&#x20;
   * **Intitulé urgence sur étiquette** : libellé à afficher sur l'étiquette&#x20;
   * **Zone logo** : logo à afficher
