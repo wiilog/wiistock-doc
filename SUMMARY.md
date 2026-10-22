@@ -90,6 +90,7 @@
     * [Litiges Statuts](trace/parametrage/arrivages-ul/litiges-statuts.md)
   * [Mouvements](trace/parametrage/mouvements/README.md)
     * [Configurations](trace/parametrage/mouvements/configurations.md)
+    * [Détrompeurs](trace/parametrage/mouvements/detrompeurs.md)
     * [Champs libres](trace/parametrage/mouvements/champs-libres.md)
   * [Acheminements](trace/parametrage/acheminements/README.md)
     * [Types et champs libres](trace/parametrage/acheminements/types-et-champs-libres.md)
