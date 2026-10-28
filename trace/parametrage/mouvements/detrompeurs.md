@@ -34,7 +34,3 @@ Sur le web comme sur le nomade, une pop-up s'affiche dès qu'un détrompeur se d
 | Blocage + Confirmation      | Seul le message de blocage s'affiche.                               |
 | Confirmation + Confirmation | Une pop-up liste les messages, avec un seul bouton de confirmation. |
 | Blocage + Blocage           | Une pop-up liste les messages, avec un seul bouton **OK**.          |
-
-{% hint style="info" %}
-L'option « Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement », dans [Configurations](configurations.md), est un contrôle plus simple qui ne se paramètre pas par rôle.
-{% endhint %}
