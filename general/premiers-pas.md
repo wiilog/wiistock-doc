@@ -9,23 +9,23 @@ Wiilog crée deux instances pour vous :
 | Production | `https://abc1-prod.follow-gt.fr` | Utilisation quotidienne      |
 | Recette    | `https://abc1-rec.follow-gt.fr`  | Tests des nouvelles versions |
 
-Sur le web, l'identifiant est votre **adresse email**. Sur l'application nomade, c'est votre **nom d'utilisateur**.
+Sur le web, l'identifiant est votre **adresse email**. Sur l'application nomade, c'est votre **clé de connexion nomade**.
 
 {% hint style="info" %}
-**Connexion SSO** : si votre entreprise utilise un fournisseur d'identité, saisissez votre adresse email : vous êtes redirigé vers sa page de connexion. La création de compte et le « mot de passe oublié » sont alors gérés par votre fournisseur d'identité. Voir [Connexion SSO](../parametrages/utilisateurs/connexion-sso.md).
+**Connexion SSO** : si votre entreprise utilise un fournisseur d'identité et que la connexion SSO est paramétrée sur votre instance, saisissez votre adresse email : vous êtes redirigé vers sa page de connexion. La création de compte et le « mot de passe oublié » sont alors gérés par votre fournisseur d'identité. Voir [Connexion SSO](../parametrages/utilisateurs/connexion-sso.md).
 {% endhint %}
 
-Pour votre premier compte (hors SSO), cliquez sur **Créer un compte** sur la page de connexion, puis demandez à Wiilog de vous attribuer un rôle.
+Pour votre premier compte (hors SSO), cliquez sur **"Demandez-en un maintenant"** sur la page de connexion. Votre administrateur recevra votre demande, vous attribue un rôle et vous informe de l'activation de votre compte utilisateur.
 
-{% embed url="https://www.screencast.com/t/qqKcGidIT" %}
+<figure><img src="../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Créer des utilisateurs
 
-| Méthode                                                 | Quand l'utiliser                                                                                                              |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Créer un compte** sur la page de connexion (hors SSO) | L'utilisateur crée lui-même son compte. Il reçoit le rôle _Aucun accès_ jusqu'à ce qu'un administrateur lui attribue un rôle. |
-| **Paramétrage › Utilisateurs › Nouvel utilisateur**     | Création d'un seul utilisateur                                                                                                |
-| **Paramétrage › Données › Imports & mises à jour**      | Création en masse (fichier CSV encodé en UTF-8)                                                                               |
+| Méthode                                                    | Quand l'utiliser                                                                               |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Demander un compte** sur la page de connexion (hors SSO) | L'utilisateur demande lui-même son compte. L'administrateur l'active et lui attribue un rôle.  |
+| **Paramétrage › Utilisateurs › Nouvel utilisateur**        | Création d'un seul utilisateur                                                                 |
+| **Paramétrage › Données › Imports & mises à jour**         | Création en masse (fichier CSV encodé en UTF-8)                                                |
 
 Le détail des champs et des procédures se trouve dans [Utilisateurs](../parametrages/utilisateurs/utilisateurs.md).
 
