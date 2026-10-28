@@ -157,8 +157,7 @@
 
 ## URGENCES
 
-* [Paramétrage](urgences/parametrage/README.md)
-  * [Stock | Urgences](urgences/parametrage/stock-or-urgences.md)
+* [Paramétrage](urgences/parametrage.md)
 * [Urgences](urgences/urgences.md)
 
 ## Stock
@@ -187,6 +186,7 @@
     * [Expéditions](stock/parametrage/demandes/expeditions.md)
   * [Groupes de visibilité](stock/parametrage/groupes-de-visibilite.md)
   * [Inventaires](stock/parametrage/inventaires.md)
+  * [Urgences](stock/parametrage/urgences.md)
   * [Réceptions](stock/parametrage/receptions.md)
 * [Fonctionnalités web](stock/fonctionnalites-web/README.md)
   * [Demandes](stock/fonctionnalites-web/demandes/README.md)
