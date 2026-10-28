@@ -56,6 +56,17 @@ Sur la réserve d'un numéro de tracking, il est possible de paramétrer plusieu
 
 On retrouve le numéro tracking associé ainsi que la possibilité d'y ajouter un commentaire et une photo.&#x20;
 
+#### Générer des numéros de tracking
+
+Si le transporteur n'a pas de numéro de tracking (taxi, coursier…) ou si un code est endommagé, vous pouvez générer des numéros de tracking pour comptabiliser les éléments manquants.
+
+1. Renseignez les champs obligatoires de l'arrivage camion.
+2. Sur l'écran de scan des numéros de tracking, appuyez sur **+**.
+
+Les numéros générés se comportent comme des numéros scannés (réserves sur tracking, etc.).
+
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FvQgY1d4qSJ6gpifi2Suj%2Fimage.png?alt=media&#x26;token=39f417b1-005f-42b4-ab06-1a2deafb7e00" alt="Génération de numéros de tracking"><figcaption></figcaption></figure>
+
 #### Création de réserve sur numéro de tracking transporteur
 
 Chaque numéro de tracking transporteur peut porter une réserve afin de signaler un problème dans l'arrivage. Vous pouvez associer des photos et un commentaire pour chaque réserve enregistrée. Par la suite, ces réserves pourront entrainer la mise en place de litiges. Lorsque une réserve est bien prise en compte sur le numéro de tracking, un point d'exclamation apparaît "**!**".&#x20;

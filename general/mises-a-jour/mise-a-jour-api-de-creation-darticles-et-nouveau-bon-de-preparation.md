@@ -10,7 +10,7 @@ description: Mise en production du 28/10/2026
 
 **Fonctionnement** : Il est possible de générer une clé API valable 1 an qui autorise la génération d'un token valable 1 jour pour créer des articles. Les articles dépendant des référentiels, il est également possible de créer les référentiels manquants (projet, emplacement, référence, fournisseur) tant que l'ensemble des champs obligatoires à la création de ses informations sont remplis.&#x20;
 
-Si vous souhaitez mettre en place l'utilisation de cette API, une réunion doit être organisée avec votre client pour assurer sa collaboration / autorisation car le bon fonctionnement dépend des informations envoyés par le client à notre API.&#x20;
+Si vous souhaitez utiliser cette API, contactez Wiilog pour organiser une réunion de lancement avec l'équipe qui gère votre ERP : le bon fonctionnement dépend des données que votre ERP envoie à l'API.
 
 
 

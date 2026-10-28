@@ -67,6 +67,8 @@ Dans le mail vous retrouverez différentes informations :&#x20;
 * **Champs libres**
 * **Fournisseurs** : tableau des fournisseurs de la référence avec le nom de la référence chez le fournisseur
 
+**Demander un devis au fournisseur** : le mail d'alerte contient un bouton qui prépare un email de demande de devis au fournisseur. Les informations de la référence et l'adresse du fournisseur sont préremplies. L'adresse provient du référentiel [Fournisseurs](../../referentiel/fournisseurs.md), qui comporte les colonnes email, destinataire, téléphone et adresse.
+
 ### Mails d'alerte de péremption
 
 Si un délais d'alerte de péremption est paramétré ([Paramétrage | Stock | Alertes](../parametrage/alertes.md)), un mail sera envoyé aux gestionnaires de la référence x jours avant la date de péremption de l'article.

@@ -1,39 +1,33 @@
-# Wiilog & Follow  : Les fondamentaux
+# Wiilog & Follow GT : les fondamentaux
 
 
 
 <figure><img src=".gitbook/assets/site industriel-vidéo (1).jpg" alt=""><figcaption></figcaption></figure>
 
-## Follow c’est quoi ?&#x20;
+Follow GT est l'application web et mobile de Wiilog pour la traçabilité, le stock, la production et les tournées. Vous n'activez que les modules dont vous avez besoin.
 
-&#x20;\
-Follow est une application que vous pouvez utiliser pour tracer stocker ou gérer vos opérations de livraison au dernier kilomètre.&#x20;
+### Les modules
 
-Pour ce faire vous pourrez utiliser selon vos besoins un ou plusieurs modules de l’application.&#x20;
+| Module         | Usage                                                                           | Fonctionnalités principales                                                                                      |
+| -------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Trace**      | Localiser et suivre vos unités logistiques (colis, palettes, caisses)           | Arrivages camion et UL, prises/déposes, groupage, acheminements, services, tournées, urgences, litiges           |
+| **Stock**      | Gérer le stock de la réception au bord de ligne                                 | Références et articles, réceptions, livraisons, collectes, transferts, expéditions, achats, inventaires, alertes |
+| **Production** | Suivre les ordres de fabrication                                                | Demandes de production, statuts paramétrables, vue planning                                                      |
+| **Track**      | Livraisons et collectes au dernier kilomètre (ex. : hospitalisation à domicile) | Demandes de transport, tournées, planning                                                                        |
 
-* **Traçabilité** : Ce module vous permet de localiser, d'identifier et de suivre les mouvements de vos unités logistiques (colis, palettes, caisses etc.).
-* **Production** : Ce module permet le suivi d'ordre de fabrication.&#x20;
-* **Stock** : Le module Stock offre une solution complète pour gérer l'ensemble du processus de stockage, de la réception à la livraison sur les lignes de production et aux inventaires.
-* **Track** : Le module Track vous permet la gestion des opérations de livraison et collecte de matériel médical, ainsi que l'organisation et la gestion des tournées.<br>
+Fonctions transverses : IoT, RFID, dashboards, imports/exports, [API](interfacage/api-creation-articles.md), entrepôt de données (BI).
 
-## Instances de Production et de Recette dans l'Écosystème de l'Application
+### Vos deux instances
 
-Les instances de production et de recette sont des environnements distincts au sein d'une application ou d'un système informatique, conçus pour différents stades du processus de développement et de déploiement. Leur rôle principal est de garantir la stabilité, la qualité et la performance des fonctionnalités avant leur mise en production pour les utilisateurs finaux.
+* **Production** (`abc1-prod.follow-gt.fr`) : l'environnement utilisé au quotidien.
+* **Recette** (`abc1-rec.follow-gt.fr`) : pour tester les nouvelles versions avant leur mise en production.
 
-### Instance de Production  &#x20;
+### Composants
 
-L'instance de production est l'environnement dans lequel l'application est accessible aux utilisateurs finaux ou clients. C'est l'endroit où les utilisateurs interagissent avec l'application pour accomplir leurs tâches et atteindre leurs objectifs. Les mises à jour déployées dans l'instance de production doivent être soigneusement testées et validées dans l'instance de recette avant d'être diffusées. L'objectif principal de l'instance de production est de fournir une expérience fluide et fiable aux utilisateurs tout en minimisant les interruptions et les dysfonctionnements.&#x20;
+* **Application web** : navigateurs Chromium (Chrome, Edge)
+* **Application nomade** : Android 8 à 14
+* **Entrepôt de données** : voir [Cartographie des données](entrepot-de-donnees/cartographie-des-donnees.md)
+* **Wiispool** : impressions automatisées, voir [WiiSpool V3](services-externes/wiispool-v3.md)
 
-### Instance de Recette  &#x20;
-
-L'instance de recette, quant à elle, sert de terrain d'essai pour évaluer et valider les nouvelles fonctionnalités, les corrections de bugs et les améliorations avant qu'elles ne soient introduites dans l'instance de production. C'est un environnement contrôlé où les tests complets sont effectués pour s'assurer que les changements n'affectent pas négativement les performances de l'application ou ne provoquent pas de dysfonctionnements. Cette phase de test rigoureux permet de repérer et de résoudre les problèmes avant qu'ils n'impactent les utilisateurs finaux.
-
-
-
-## Composantes
-
-1. **Application Web**: compatible navigateurs Chromium
-2. **Application mobile**: compatible Android 8 à 14
-3. **Entrepôt de données**
-4. **Wiispool**: gestion automatisée des impressions
+👉 Pour démarrer : [Premiers pas](general/premiers-pas.md)
 

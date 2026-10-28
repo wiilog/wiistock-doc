@@ -154,6 +154,16 @@ Si le statut sélectionné ne crée pas de réception derrière, il peut clôtur
 
 La date de traitement de la demande est alors renseignée, et si une ou plusieurs réceptions sont créées, vous pouvez voir la réception en question en cliquant sur <mark style="background-color:blue;">**Aller vers les réceptions**</mark> sous la flèche.&#x20;
 
+## Générer un bon de commande
+
+Depuis le détail d'une demande d'achat, le bouton **Générer bon de commande** produit un bon de commande à partir de votre modèle. Ce modèle se paramètre dans [Modèles de document › Achats – Bon de commande](../../../parametrages/modeles-de-document.md#achats-bon-de-commande).
+
+La génération peut faire passer automatiquement la demande au statut suivant : cochez l'option correspondante sur le statut, dans **Paramétrage | Stock | Demandes | Achats | Statuts**.
+
+{% hint style="info" %}
+Le rôle de l'utilisateur doit avoir le droit **Afficher achats**.
+{% endhint %}
+
 ## Modifier une demande d'achat
 
 Vous pouvez modifier une demande d'achat tant qu'elle n'est pas clôturée.&#x20;

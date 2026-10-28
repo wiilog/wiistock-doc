@@ -1,33 +1,50 @@
 # Capteurs
 
 {% hint style="info" %}
-Afin d'ajouter un capteur dans Wiilog, il doit au préalable avoir été paramétré par notre service informatique.
+Un capteur doit d'abord être paramétré par Wiilog avant de pouvoir être ajouté dans Follow GT.
 {% endhint %}
 
-Une fois le capteur paramétré par wiilog vous pouvez les provisionner, ces derniers sont consultables dans l'onglet **Iot**, puis **Capteurs**. Cette page contient plusieurs éléments :&#x20;
-
-* Une **recherche rapide**, permettant de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Provisionner un capteur**</mark>, pour ajouter un capteur
-* Un **tableau**, regroupant l'ensemble des capteurs disponible sur une instance
+Les capteurs sont consultables dans le menu **IoT | Capteurs**. La page contient une recherche rapide, le bouton **Provisionner un capteur** et le tableau des capteurs de l'instance.
 
 {% embed url="https://www.screencast.com/t/A2l5mOXmgRd" %}
-Page capteur
+Page capteurs
 {% endembed %}
 
-## Contenu tableau
+### Types de capteurs
 
-<table><thead><tr><th width="258.5">Colonne</th><th>Description</th></tr></thead><tbody><tr><td><strong>Type</strong></td><td>Type de capteur : Action / Température / GPS </td></tr><tr><td><strong>Profil</strong></td><td>Le profil dépend du type du capteur et du device maker</td></tr><tr><td><strong>Nom</strong></td><td>Nom que vous donnez au capteur (il doit être unique)</td></tr><tr><td><strong>Code</strong></td><td>Code du capteur (non modifiable)</td></tr><tr><td><strong>Dernière remontée</strong></td><td>Date et heure de la dernière remontées d'information du capteur</td></tr><tr><td><strong>Niveau de batterie</strong></td><td>Information sur la baterie du capteur</td></tr><tr><td><strong>Gestionnaire</strong></td><td><p>Utilisateur de l'application, Envoi de mails à ce gestionnaire si :<br>• batterie faible</p><p>• pas d'envoi de message depuis x temps</p></td></tr></tbody></table>
+| Type            | Usage                                                                                                                                       |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Action**      | Capteur qui déclenche une action                                                                                                            |
+| **Température** | Suivi de la température                                                                                                                     |
+| **Hygrométrie** | Suivre l'humidité. Des capteurs température et hygrométrie **étalonnables** (Symes) sont disponibles sur commande.                          |
+| **GPS**         | Suivre le trajet d'un véhicule. Le capteur, équipé d'une carte SIM, se branche sur la prise OBD du véhicule et remonte ses coordonnées GPS. |
 
-Vous avez accès à plusieurs actions depuis les ![](<../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16 (1).png>) d'une ligne de capteur :&#x20;
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FugJjg9oXsF0p6jVVX5DQ%2Fimage.png?alt=media&#x26;token=a2df5922-a6b5-4b33-b63a-ad46a4e0be06" alt="Trajet d&#x27;un véhicule suivi par capteur GPS"><figcaption><p>Trajet d'un véhicule suivi par capteur GPS</p></figcaption></figure>
 
-* **Voir les messages** : renvoi vers une nouvelle page pour consulter toutes les remonté d'information du capteur
-* **Voir les objets associés** : Ensemble des éléments associés au capteur avec la date de début et de fin d'association
-  * Depuis les ![](<../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16 (1).png>) d'un objet vous pouvez voir **l'historique des données**
-* **Modifier :** pour modifier le nom ou le gestionnaire d'un capteur
-* **Supprimer :** pour supprimer un capteur de la liste
+### Contenu du tableau
 
-## Provisionner un capteur
+| Colonne                | Description                                                                                             |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Type**               | Type de capteur (voir ci-dessus)                                                                        |
+| **Profil**             | Dépend du type de capteur et du fabricant                                                               |
+| **Nom**                | Nom unique donné au capteur                                                                             |
+| **Code**               | Code du capteur (non modifiable)                                                                        |
+| **Dernière remontée**  | Date et heure du dernier message reçu                                                                   |
+| **Niveau de batterie** | Niveau de batterie du capteur                                                                           |
+| **Gestionnaire**       | Utilisateur prévenu par email en cas de batterie faible ou d'absence de message depuis un certain temps |
 
-Cliquer sur <mark style="background-color:blue;">**Provisionner un capteur**</mark>.  Une modale s'ouvre, cherchez votre capteur dans la liste déroulante du champ Code, les informations sur son type et profil s'affiche, ensuite renseignez son Nom, le Gestionnaire et si besoin un champ libre. <mark style="background-color:blue;">**Enregistrer**</mark>.
+Le menu ⋮ d'une ligne propose :
+
+* **Voir les messages** : toutes les remontées d'information du capteur ;
+* **Voir les objets associés** : éléments associés au capteur, avec dates de début et de fin d'association. Le menu ⋮ d'un objet donne accès à l'**historique des données** ;
+* **Modifier** : nom ou gestionnaire ;
+* **Supprimer**.
+
+### Provisionner un capteur
+
+1. Cliquez sur **Provisionner un capteur**.
+2. Choisissez le capteur dans la liste du champ **Code** : son type et son profil s'affichent.
+3. Renseignez le **Nom**, le **Gestionnaire** et, si besoin, les champs libres.
+4. Cliquez sur **Enregistrer**.
 
 {% embed url="https://www.screencast.com/t/S7ok9OPI6t" %}

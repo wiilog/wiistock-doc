@@ -1,43 +1,38 @@
 # Configurations
 
-* **Vider et rester sur la modale de création de mouvement** : si ce paramétrage est coché, lorsque vous créez des mouvements via la supervision, la modale de création de mouvement restera toujours ouverte à la création d'un mouvement et se videra
-* **Afficher le champ "Début de délai manuel" :** si coché, vous pourrez lors de vos mouvements, modifier le T0 de vos chrono sur vos UL. Ne fonctionne que si vous utilisez des chrono sur vos flux d'UL.
-* **Dépose des groupes automatiquement sur l'emplacement des ULs du groupage et association de la nature de l'UL sur le groupe :** lors de la création d'un groupe sur mouvement de groupage, si au moins une UL a un délai de traitement en cours, le groupe est déposé sur l'emplacement de l'UL dont le chrono est le plus court ou en retard et prend sa nature.
-* **Remontée des délais de traitement des unités logistique sur leur groupe :** La nature et le délai de traitement d'une UL remontent sur le groupe si cette UL a le délai le plus court des ULs présentes dans ce groupe.
-* **Groupage d'un groupe autorisé** : Ce paramétrage permet d'intégrer un groupe contenant des UL, à un autre groupe. Par exemple : le _**groupe\_1**_ contenant _**UL\_1**_ et _**UL\_2**_ Si on créé un _**groupe\_2**_ on peut alors grouper le _**groupe\_1**_ dans le _**groupe\_2**_, les _**UL\_1**_ et _**UL\_2**_ seront alors contenues dans le _**groupe\_2**_, et le _**groupe\_1**_ se transformera en unité logistique et sera contenue dans le _**groupe\_2**_.
-* **Transformer un groupe en UL lorsqu'il est vide** : Ce paramétrage permet comme il l'indique de transformer un groupe en unité logistique dès qu'il devient vide. Dès qu'on sort la dernière unité logistique, legroupe se transforme en unité logistique, ce changement apparaît dans l'historique de traçabilité du groupe/UL.&#x20;
+### Mouvements
 
+| Option                                                                                        | Effet                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vider et rester sur la modale de création de mouvement**                                    | Sur le web, la modale de création reste ouverte et se vide après chaque mouvement.                                                                                                                                                                                      |
+| **Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement** | Web et nomade : un message prévient l'opérateur s'il prend une UL sur un autre emplacement que celui où elle a été déposée. _Exemple : UL déposée sur RECEPTION puis prise sur un autre emplacement._ Pour des contrôles plus fins, voir [Détrompeurs](detrompeurs.md). |
+| **Afficher le champ « Début de délai manuel »**                                               | Permet de modifier le T0 du chrono d'une UL lors d'un mouvement. Ne sert que si vous utilisez des chronos sur vos flux d'UL.                                                                                                                                            |
+| **Utilisation RFID Prise / Dépose mobile**                                                    | Permet de scanner des tags RFID en prise et en dépose sur le nomade. Les terminaux doivent être compatibles RFID : contactez Wiilog.                                                                                                                                    |
 
+### Groupage / Dégroupage
 
-**Mails de relance** :&#x20;
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2F4ddrovgtkYmdXz13WL8Q%2FCapture%20d%E2%80%99e%CC%81cran%202026-03-24%20a%CC%80%2009.42.25.png?alt=media&#x26;token=a97a48ae-c126-4825-ae09-b7294916acbd" alt=""><figcaption></figcaption></figure>
 
-* **Déclencher un mail de relance si colis sur point de livraison dropzone à 7j, 15j, 30j, et 42j** :
+| Option                                                                                                  | Effet                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Dépose des groupes automatiquement sur l'emplacement des UL du groupage et association de la nature** | À la création d'un groupe, si au moins une UL a un délai de traitement en cours, le groupe est déposé sur l'emplacement de l'UL au chrono le plus court (ou en retard) et prend sa nature.                                     |
+| **Remontée des délais de traitement des UL sur leur groupe**                                            | Le groupe prend la nature et le délai de l'UL qui a le délai le plus court.                                                                                                                                                    |
+| **Transformer un groupe en UL lorsqu'il est vide**                                                      | Dès que la dernière UL sort du groupe, le groupe devient une UL. Ce changement apparaît dans son historique de traçabilité.                                                                                                    |
+| **Groupage d'un groupe autorisé**                                                                       | Un groupe peut être groupé dans un autre. _Exemple : groupe\_1 contient UL\_1 et UL\_2. Si vous groupez groupe\_1 dans groupe\_2, UL\_1 et UL\_2 passent dans groupe\_2, et groupe\_1 devient une UL contenue dans groupe\_2._ |
 
-Si&#x20;
+### Mails de relance
 
-1. Ce paramétrage est coché;
-2. L'emplacement de dépose du colis est paramétré comme "Point de livraison";
-3. Le colis est associé à un destinataire dans l'arrivage d'unités logistiques;
-4. Un colis reste un certain temps sur un emplacement "point de livraison".
-5. Si le colis est sur un emplacement appartenant au même groupe que l'emplacement de dépose initial "point de livraison".
+**Déclencher un mail de relance si colis sur point de livraison dropzone à 7 j, 15 j, 30 j et 42 j**
 
-5.5 Ainsi :&#x20;
+Quand cette option est cochée, le destinataire d'un colis reçoit un mail de relance après 7, 15, 30 puis 42 jours, tant que le colis reste sur le groupe d'emplacements de son emplacement de dépose. Aucun mail n'est envoyé après 42 jours.
 
-• Le colis est sur **le groupe d'emplacement de l'emplacement de dépose** depuis 7 jours : on envoi un 1er mail de relance
+Conditions :
 
-• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 15 jours : on envoi un 2ème mail de relance
+* l'emplacement de dépose est paramétré comme **Point de livraison** ;
+* le colis est associé à un destinataire dans l'arrivage d'unités logistiques.
 
-• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 30 jours : on envoi un 3ème mail de relance
+Les groupes d'emplacements se gèrent dans **Référentiel | Emplacements | Groupes**.
 
-• Le colis est sur le groupe d'emplacement de l'emplacement de dépose depuis 42 jours : on envoi un 4ème mail de relance
+Le bouton **Déclencher les mails de relance** envoie les relances immédiatement, sans cocher l'option.
 
-• Après 42 jours : plus d'envoi de mail
-
-Alors ce destinataire recevra des mails aux intervalles décrits pour venir récupérer son colis, tant que le colis sera sur cet emplacement.
-
-Vous pouvez gérer les groupes d'emplacements depuis : Référentiel > Emplacements > Groupes.
-
-* Bouton **Déclencher les mails de relance** : ce bouton sert à lancer les mails de relance en un coup sans avoir à cocher le paramétrage.
-
-<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FRiyLAkcW6ToWIKoW0PXN%2FCapture%20d%E2%80%99e%CC%81cran%202025-08-14%20a%CC%80%2014.54.51.png?alt=media&#x26;token=a566bff6-ae10-4a26-ba10-c9e3842c06fb" alt=""><figcaption></figcaption></figure>

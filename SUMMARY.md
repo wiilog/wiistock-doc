@@ -2,9 +2,8 @@
 
 ## Général
 
-* [Wiilog & Follow  : Les fondamentaux](README.md)
+* [Wiilog & Follow GT : les fondamentaux](README.md)
 * [Premiers pas](general/premiers-pas.md)
-* [Récapitulatif des grandes fonctionnalités par brique](general/recapitulatif-des-grandes-fonctionnalites-par-brique.md)
 * [Support Wiilog/Follow GT](general/support-wiilog-follow-gt.md)
 * [Politique RGPD Wiilog](general/politique-rgpd-wiilog.md)
 * [Vidéos explicatives](general/videos-explicatives/README.md)
@@ -159,7 +158,6 @@
 ## URGENCES
 
 * [Paramétrage](urgences/parametrage/README.md)
-  * [Trace | Urgences](urgences/parametrage/trace-or-urgences.md)
   * [Stock | Urgences](urgences/parametrage/stock-or-urgences.md)
 * [Urgences](urgences/urgences.md)
 
@@ -301,6 +299,8 @@
     * [Paramétrage](parametrages/utilisateurs/roles/parametrage.md)
     * [Dashboard](parametrages/utilisateurs/roles/dashboard.md)
   * [Utilisateurs](parametrages/utilisateurs/utilisateurs.md)
+  * [Connexion SSO](parametrages/utilisateurs/connexion-sso.md)
+  * [Licences](parametrages/utilisateurs/licences.md)
 * [Données](parametrages/donnees/README.md)
   * [Encodage des exports CSV](parametrages/donnees/encodage-des-exports-csv.md)
   * [Export CSV](parametrages/donnees/export-csv.md)
@@ -350,6 +350,10 @@
 * [Cas d'usage "Surveillance des délais de livraison"](cas-dusage-client/cas-dusage-aia-cf.md)
 * [Cas d'usage "Tournée automatisée"](cas-dusage-client/cas-dusage-tournee-automatisee.md)
 
+## Interfaçage
+
+* [API de création d'articles](interfacage/api-creation-articles.md)
+
 ## Référentiel
 
 * [Fournisseurs](referentiel/fournisseurs.md)
@@ -357,14 +361,14 @@
 * [Chauffeurs](referentiel/chauffeurs.md)
 * [Transporteurs](referentiel/transporteurs.md)
 * [Natures](referentiel/natures.md)
-* [Clients](referentiel/clients.md)
+* [Contacts](referentiel/contacts.md)
 * [Véhicules](referentiel/vehicules.md)
 * [Projets](referentiel/projets.md)
-* [Clients](referentiel/clients-1.md)
 
 ## Entrepôt de données
 
 * [Cartographie des données](entrepot-de-donnees/cartographie-des-donnees.md)
+* [Dictionnaire des tables](entrepot-de-donnees/dictionnaire-des-tables.md)
 
 ## Services externes
 

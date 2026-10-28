@@ -141,3 +141,9 @@ Suite à la validation de la préparation, il va alors se passer :&#x20;
 * Si l'**ordre de préparation** de base est au statut _**Partiellement préparé**_, un **ordre de préparation** est généré au statut _**A traiter**_ contenant les références dans les quantités non préparées&#x20;
 * Un **mouvement de transfert** est créé pour chaque référence/article de l'ordre de préparation allant de l'emplacement de stockage de la référence ou de l'article, jusqu'à l'emplacement de préparation indiqué (Ordre > mouvement de stock)
 
+### Générer un bon de préparation
+
+Depuis un ordre de préparation, vous pouvez générer un **bon de préparation**. Il rappelle le contenu de la préparation, ses articles et la livraison associée, ce qui facilite le contrôle avant livraison.
+
+Le modèle se paramètre par type de demande de livraison dans **Paramétrage | Modèles de documents | Livraison | Bon de préparation**. Voir [Modèles de document](../../../parametrages/modeles-de-document.md#livraison-bon-de-preparation).
+

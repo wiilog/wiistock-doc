@@ -30,7 +30,7 @@ Sur cet écran, scannez les codes barres ou les QR Codes des unités logistiques
 
 De même que pour la sélection de l'emplacement, vous pouvez scanner avec l'appareil photo en appuyant sur l'icône avec l'appareil photo et le code barre, ou taper à la main le nom de l'unité logistique souhaitée dans la zone "_Entrée manuelle ..._".
 
-La traçabilité Wiilog est une traçabilité libre : l'unité logistique n'est pas obligée d'être connue par l'application pour être scanné. De plus, il n'y pas de contrôle effectué entre l'emplacement de prise de l'unité logistique et le dernier emplacement connue de celle-ci.&#x20;
+La traçabilité Wiilog est une traçabilité libre : une unité logistique n'a pas besoin d'être connue de l'application pour être scannée. Par défaut, aucun contrôle n'est fait entre l'emplacement de prise et le dernier emplacement connu de l'UL. Vous pouvez ajouter des contrôles avec les [Détrompeurs](../../../parametrage/mouvements/detrompeurs.md) ou l'option « Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement » ([Configurations](../../../parametrage/mouvements/configurations.md)).
 
 Lorsqu'une unité logistique est scannée, elle apparaît dans une rectangle avec les informations suivantes :&#x20;
 
@@ -125,6 +125,16 @@ Lorsque vous avez scanné tous les objets souhaités, appuyez sur <mark style="b
 Le numéro sur l'écran _**Mouvements**_ dans _Produits en prise_ s'incrémentera alors.&#x20;
 
 Vous pouvez retrouvez les mouvements créés sur la supervision sur la page _**Traçabilité | Mouvements**_
+
+## Prise et dépose en une page
+
+Un menu permet de faire la prise et la dépose sur un seul écran. Pour l'afficher, activez-le dans le paramétrage du rôle de l'opérateur (Paramétrages | Utilisateurs | Rôles | Nomade).
+
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FIX94ThdbrLH50FgmKYec%2Fimage.png?alt=media&#x26;token=08c409e6-1409-4f41-83bf-7316bdbcc34f" alt="Menu prise et dépose en une page"><figcaption></figcaption></figure>
+
+## Transformer une UL en groupe
+
+Une UL créée par des mouvements de traçabilité (et non par un arrivage ou une autre fonctionnalité) peut être transformée en groupe, sur le web comme sur le nomade. Voir aussi [Groupage/Dégroupage](../groupage-degroupage.md).
 
 ## **Dépose**
 

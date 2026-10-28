@@ -1,7 +1,5 @@
 # Premiers pas
 
-## Premiers pas
-
 ### 1. Accéder à vos instances
 
 Wiilog crée deux instances pour vous :
@@ -11,23 +9,25 @@ Wiilog crée deux instances pour vous :
 | Production | `https://abc1-prod.follow-gt.fr` | Utilisation quotidienne      |
 | Recette    | `https://abc1-rec.follow-gt.fr`  | Tests des nouvelles versions |
 
-Pour créer votre premier compte, cliquez sur **Créer un compte** sur la page de connexion, puis demandez à Wiilog de vous attribuer un rôle. Les rôles se paramètrent ensuite avec Wiilog, selon les fonctionnalités que vous utilisez.
+Sur le web, l'identifiant est votre **adresse email**. Sur l'application nomade, c'est votre **nom d'utilisateur**.
+
+{% hint style="info" %}
+**Connexion SSO** : si votre entreprise utilise un fournisseur d'identité, saisissez votre adresse email : vous êtes redirigé vers sa page de connexion. La création de compte et le « mot de passe oublié » sont alors gérés par votre fournisseur d'identité. Voir [Connexion SSO](../parametrages/utilisateurs/connexion-sso.md).
+{% endhint %}
+
+Pour votre premier compte (hors SSO), cliquez sur **Créer un compte** sur la page de connexion, puis demandez à Wiilog de vous attribuer un rôle.
 
 {% embed url="https://www.screencast.com/t/qqKcGidIT" %}
 
 ### 2. Créer des utilisateurs
 
-Choisissez la méthode qui vous convient :
+| Méthode                                                 | Quand l'utiliser                                                                                                              |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Créer un compte** sur la page de connexion (hors SSO) | L'utilisateur crée lui-même son compte. Il reçoit le rôle _Aucun accès_ jusqu'à ce qu'un administrateur lui attribue un rôle. |
+| **Paramétrage › Utilisateurs › Nouvel utilisateur**     | Création d'un seul utilisateur                                                                                                |
+| **Paramétrage › Données › Imports & mises à jour**      | Création en masse (fichier CSV encodé en UTF-8)                                                                               |
 
-| Méthode                                            | Quand l'utiliser                       | Procédure                                                                                                                                                                                    |
-| -------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Page de connexion**                              | L'utilisateur crée lui-même son compte | 1. L'utilisateur clique sur **Créer un compte**. 2. Un administrateur lui attribue un rôle et valide son compte.                                                                             |
-| **Paramétrage › Utilisateurs**                     | Création d'un seul utilisateur         | 1. Cliquez sur **Nouvel utilisateur**. 2. Remplissez le formulaire. 3. Cochez **Statut actif** et attribuez un rôle.                                                                         |
-| **Paramétrage › Données › Imports & mises à jour** | Création en masse                      | 1. Cliquez sur **+ Nouvel import**. 2. Choisissez le type de données **Utilisateur**. 3. Téléchargez le modèle avec **Télécharger**, remplissez-le, puis importez-le en CSV encodé en UTF-8. |
-
-{% hint style="info" %}
-Les méthodes 2 et 3, ainsi que la validation des comptes, nécessitent un rôle disposant des droits correspondants.
-{% endhint %}
+Le détail des champs et des procédures se trouve dans [Utilisateurs](../parametrages/utilisateurs/utilisateurs.md).
 
 ### 3. Installer et mettre à jour l'application nomade (Android Zebra)
 
@@ -35,10 +35,10 @@ Les méthodes 2 et 3, ainsi que la validation des comptes, nécessitent un rôle
 
 Quand une mise à jour est nécessaire, un écran dédié s'affiche à la connexion.
 
+<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FzXyLTrXiXClbtMv7l0Kv%2FCapture%20d&#x27;%C3%A9cran%202023-08-23%20113102.png?alt=media&#x26;token=0ebb04b7-a96e-4623-9d97-3a1baf70dd75" alt="Écran de mise à jour"><figcaption></figcaption></figure>
+
 1. Lancez le téléchargement. Si l'application a déjà été mise à jour sur ce terminal, cliquez sur **Retélécharger**.
 2. À la fin du téléchargement, cliquez sur **Ouvrir**, puis **Installer** et **Ouvrir**.
-
-\[capture : écran de mise à jour]
 
 {% hint style="info" %}
 La fenêtre de téléchargement a disparu ? Ouvrez le menu **⋮** en haut à gauche, puis **Téléchargements**, et ouvrez le fichier.
@@ -52,12 +52,11 @@ La fenêtre de téléchargement a disparu ? Ouvrez le menu **⋮** en haut à ga
 
 #### Passer de la recette à la production
 
-1. Désinstallez l'application de recette.
-2. Installez l'application de production en suivant l'installation manuelle avec l'adresse `https://abc1-prod.follow-gt.fr/telecharger/nomade.apk`.
+1. [Désinstallez](premiers-pas.md#desinstaller-lapplication) l'application de recette.
+2. Suivez l'[installation manuelle](premiers-pas.md#installation-manuelle) avec l'adresse `https://abc1-prod.follow-gt.fr/telecharger/nomade.apk`.
 
 #### Désinstaller l'application
 
 1. Ouvrez le menu des applications du terminal.
 2. Faites un appui long sur l'icône Follow GT / Wiilog.
 3. Appuyez sur **Désinstaller**.
-
