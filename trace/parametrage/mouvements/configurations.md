@@ -2,12 +2,10 @@
 
 ### Mouvements
 
-| Option                                                                                        | Effet                                                                                                                                                                                                                                                                   |
-| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Vider et rester sur la modale de création de mouvement**                                    | Sur le web, la modale de création reste ouverte et se vide après chaque mouvement.                                                                                                                                                                                      |
-| **Afficher le détrompeur sur les mouvements de prise si UL non disponible sur l'emplacement** | Web et nomade : un message prévient l'opérateur s'il prend une UL sur un autre emplacement que celui où elle a été déposée. _Exemple : UL déposée sur RECEPTION puis prise sur un autre emplacement._ Pour des contrôles plus fins, voir [Détrompeurs](detrompeurs.md). |
-| **Afficher le champ « Début de délai manuel »**                                               | Permet de modifier le T0 du chrono d'une UL lors d'un mouvement. Ne sert que si vous utilisez des chronos sur vos flux d'UL.                                                                                                                                            |
-| **Utilisation RFID Prise / Dépose mobile**                                                    | Permet de scanner des tags RFID en prise et en dépose sur le nomade. Les terminaux doivent être compatibles RFID : contactez Wiilog.                                                                                                                                    |
+| Option                                                     | Effet                                                                                                                        |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Vider et rester sur la modale de création de mouvement** | Sur le web, la modale de création reste ouverte et se vide après chaque mouvement.                                           |
+| **Afficher le champ « Début de délai manuel »**            | Permet de modifier le T0 du chrono d'une UL lors d'un mouvement. Ne sert que si vous utilisez des chronos sur vos flux d'UL. |
 
 ### Groupage / Dégroupage
 
