@@ -47,7 +47,12 @@ Pour imprimer les étiquettes, 2 accès :
 * A partir de la liste des demandes de transport (Demande | Transport) : sur la demande de livraison pour laquelle vous souhaitez imprimer les étiquettes, cliquez sur les<img src="../../../.gitbook/assets/3-points.png" alt="" data-size="line">et sur <mark style="background-color:blue;">**Imprimer les étiquettes**</mark>
 *   A partir du détail de la demande de transport (Demande | Transport | Détails) : dans la partie colis, cliquez sur <mark style="background-color:blue;">**Imprimer les étiquettes**</mark>
 
-    Au clic sur le bouton, une modale de colisage va s’ouvrir. Vous devez alors renseigner le nombre de colis pour chaque nature indiquée à la création de la livraison. Cliquez ensuite sur <mark style="background-color:blue;">**Imprimer**</mark>. Les étiquettes vont alors se générer et se télécharger sous la forme d’un fichier PDF. Vous pouvez réimprimer les étiquettes en cliquant à nouveau sur le bouton.
+    Au clic sur le bouton, une modale de colisage va s’ouvrir. Son contenu dépend de la demande :
+
+    * **La demande contient des natures de colis** : la modale n’affiche que ces natures. Renseignez le nombre de colis pour chacune.
+    * **La demande ne contient aucune nature** : la modale affiche toutes les natures disponibles pour le type de la demande. Cliquez sur les natures à livrer et renseignez la quantité de chacune, ainsi que la température de conservation lorsque le type de demande en propose. Au moins une nature doit être sélectionnée.
+
+    Cliquez ensuite sur <mark style="background-color:blue;">**Imprimer**</mark>. Les unités logistiques sont créées, la demande passe au statut « À livrer » et les étiquettes se génèrent et se téléchargent sous la forme d’un fichier PDF. Vous pouvez réimprimer les étiquettes en cliquant à nouveau sur le bouton.
 
 {% embed url="https://www.screencast.com/t/wQgVs19B" %}
 Impression d'étiquette depuis le détail d'une demande

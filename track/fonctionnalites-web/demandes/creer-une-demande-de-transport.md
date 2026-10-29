@@ -16,6 +16,7 @@ Le formulaire est distingué en 5 parties (les champs obligatoires sont indiqué
 
 * &#x20;Si vos colis sont déjà préparés, cochez « Imprimer les étiquettes » pour être redirigé vers la modale de colisage pour indiquer le nombre de colis de chaque nature et avoir les étiquettes correspondantes.
 * Si vos colis ne sont pas préparés, ne cochez pas « Imprimer les étiquettes ». Vous pourrez indiquer le nombre de colis par nature et imprimer les étiquettes plus tard
+* Si vous ne sélectionnez aucune nature à la création d’une livraison, vous choisirez les natures et leurs quantités directement dans la modale de colisage
 
 **Autres informations** : informations complémentaires sur la livraison. Complétez les champs. Ils ne sont pas tous obligatoires. (selon ce que vous avez renseigné dans votre [paramétrage](../../parametrage/demandes/livraison-types-and-champs-libres.md)).
 

@@ -132,7 +132,7 @@ Vous avez la possibilité jusqu’au dernier moment avant que le livreur commen
 
 #### Pour les **livraisons** :
 
-* Vous n’avez pas encore fait le colisage et souhaitez ajouter une nouvelle nature : accédez au formulaire de modification et sélectionnez une nouvelle nature de colis. Enregistrez vos modifications
+* Vous n’avez pas encore fait le colisage et souhaitez ajouter une nouvelle nature : accédez au formulaire de modification et sélectionnez une nouvelle nature de colis. Enregistrez vos modifications. Si la demande ne contient aucune nature, vous pouvez aussi les choisir directement au moment du colisage
 *   Vous avez fait le colisage et souhaitez ajouter des nouveaux colis : accédez au formulaire de modification et venez modifier la quantité pour une nature déjà sélectionnée, ou cliquez sur une nature et renseignez la quantité pour un colis d’une nouvelle nature. Cliquez sur Imprimer les étiquettes pour générer les étiquettes dans la foulée
 
     Vous ne pouvez pas supprimer un code colis déjà généré. Le livreur devra l’écarter de la livraison s’il n’est plus à livrer.
