@@ -71,6 +71,7 @@ Afin de créer une nouvelle demande d'acheminement, il suffit cliquer sur le bou
 * Le **numéro de commande**
 * Le **numéro de projet**
 * Le(s) **destinataire(s)**
+* Le **client**
 * Le **business unit**
 * La/les **date(s) d'échéance**
 * Les **champs libres**
@@ -79,6 +80,10 @@ Afin de créer une nouvelle demande d'acheminement, il suffit cliquer sur le bou
 
 {% hint style="info" %}
 Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu **Paramétrage** > **Trace** > **Acheminements**, puis **Statuts**.
+{% endhint %}
+
+{% hint style="info" %}
+Le champ **Client** est alimenté par le référentiel **Contacts**. Si le client n'existe pas encore, il suffit de saisir son nom puis de sélectionner l'option **Nouveau contact** : le contact sera automatiquement créé dans le référentiel lors du clic sur **Enregistrer**, avec le téléphone, l'adresse et le destinataire (« À l'attention de ») saisis dans la modale. Cette option est également disponible lors de la modification d'une demande. Elle n'est proposée qu'aux utilisateurs disposant du droit de création sur le **Référentiel** ; les autres utilisateurs doivent sélectionner un contact existant. Pour un contact existant, modifier le téléphone ou l'adresse dans la modale n'a aucun effet sur le contact du référentiel.
 {% endhint %}
 
 Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouton **Enregistrer**, ce qui créera la demande d'acheminement. Il sera possible de retrouver cette dernière dans le tableau présent sur la page.
