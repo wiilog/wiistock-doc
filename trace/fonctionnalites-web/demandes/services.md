@@ -1,106 +1,72 @@
+---
+description: >-
+  Demander une intervention sur le site logistique (réparation, manutention,
+  assistance…) et suivre son traitement.
+---
+
 # Services
 
-La demande de service permet de générer une demande indépendante du stock, et a pour objectif de réaliser des opérations au sein du site logistique. Cette dernière peut-être sous la forme d'une demande de réparation, pour du mobilier ou des machine, par exemple.
+**Chemin :** Demande › Service · création avec le bouton **+** du bandeau, puis **Service**
 
-Cette fonctionnalité est disponible dans l'onglet **Demande**, puis **Services**. Cette page contient plusieurs éléments :&#x20;
+Une demande de service sert à demander une opération qui ne concerne pas le stock : réparer du mobilier, déplacer une machine, demander de l'aide… L'équipe concernée la traite (sur le web ou le nomade) et fait avancer son statut.
 
-* Une **barre de filtre**, permettant de filtrer les données qui sont affichées dans le tableau
-* Une **recherche rapide**, permettant également de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
-* Un bouton <mark style="background-color:blue;">**Gestion des colonnes**</mark>, permettant de choisir les colonnes à afficher dans le tableau
-* Un **tableau**, regroupant les différentes demandes de services créées
+## Créer une demande de service
+
+{% stepper %}
+{% step %}
+### Ouvrir le formulaire
+
+Cliquez sur le bouton **+** du bandeau, puis sur **Service**.
+
+<figure><img src="../../../.gitbook/assets/image (34).png" alt="Menu de création rapide"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Renseigner la demande
+
+Les champs obligatoires sont : **Type**, **Statut** et **Date attendue**. Les statuts proposés dépendent du type choisi.
+
+Complétez si besoin : **Objet**, **Urgences**, **Chargement**, **Déchargement**, **Nombre d'opération(s) réalisée(s)**, **Destinataires**, champs libres, commentaire et pièces jointes. Le champ **Créé par** est prérempli avec votre nom.
+{% endstep %}
+
+{% step %}
+### Enregistrer
+
+Cliquez sur **Enregistrer** : la demande apparaît dans la liste.
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
-A contrario des autres pages de l'application, le bouton de création d'une demande de service se situe dans le menu d'action rapide
-
-![](<../../../.gitbook/assets/image (34).png>)
+Les types, statuts et champs se paramètrent dans [Paramétrage › Trace › Services](../../parametrage/services/).
 {% endhint %}
 
-### Contenu des filtres
+## Suivre une demande et changer son statut
 
-| Filtre            | Description                                                                                                                                               |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Du**            | La tranche basse filtrant sur la date de création, la date attendue ou la date de réalisation de la demande de service (ce choix est fait via la flèche ) |
-| **Au**            | La tranche haute filtrant sur la date de création, la date attendue ou la date de réalisation de la demande de service (ce choix est fait via la flèche ) |
-| **Type**          | Le type des demandes de services à filtrer                                                                                                                |
-| **Statuts**       | Le(s) statut(s) des demandes de services à filtrer, si vous indiquez un type les statuts affichés seront ceux paramétré pour ce type                      |
-| **Demandeurs**    | Le(s) demandeur(s) des demandes de services à filtrer. Il s'agit du référentiel **Utilisateurs**.                                                         |
-| **Objet**         | L'objet des demandes de services à filtrer                                                                                                                |
-| **Destinataires** | Le(s) destinataire(s) des demandes de services à filtrer. Il s'agit du référentiel **Utilisateurs**.                                                      |
-| **Urgences**      | Le(s) urgence(s) des demandes de services à filtrer. Il s'agit d'un paramétrage présent dans le **Paramétrage**.                                          |
+Cliquez sur une ligne de la liste pour ouvrir la demande :
 
-### Contenu du tableau
+* **à gauche** : les informations de la demande, l'urgence, les pièces jointes et le commentaire ;
+* **à droite** : la **timeline des statuts** et les dates (attendue, de réalisation).
 
-| Colonne                               | Description                                                            |
-| ------------------------------------- | ---------------------------------------------------------------------- |
-| **Numéro de demande**                 | Le numéro de la demande de service                                     |
-| **Date demande**                      | La date à laquelle la demande a été créée                              |
-| **Type**                              | Le type de la demande de service                                       |
-| **Demandeur**                         | L'utilisateur ayant créé la demande de service                         |
-| **Objet**                             | L'objet de la demande                                                  |
-| **Date attendue**                     | La date à laquelle la demande est attendue                             |
-| **Date de réalisation**               | La date à laquelle la demande a été réalisée                           |
-| **Statut**                            | Le statut de la demande                                                |
-| **Urgence**                           | Le niveau d'urgence de la demande                                      |
-| **Nombre d'opération(s) réalisée(s)** | Le nombre d'opérations qui ont été réalisées concernant cette demande  |
-| **Traité par**                        | L'utilisateur ayant traité la demande                                  |
-| **Destinataires**                     | Les destinataires de la demande, séparés par des virgules              |
+Pour faire avancer la demande, cliquez sur **Changer le statut**, choisissez le nouveau statut, puis cliquez sur **Enregistrer**. La timeline se met à jour.
 
-### Créer une nouvelle demande de service
-
-Afin de créer une nouvelle demande de service, il suffit cliquer sur le bouton <mark style="background-color:blue;">**Service**</mark> présent dans le menu d'action rapide. Une modale va alors s'ouvrir, permettant ainsi de renseigner plusieurs champs :&#x20;
-
-* Le **type**
-* Le **statut**
-* L'**objet**
-* La **date attendue**
-* L'**urgence**
-* Le **lieu de chargement**
-* Le **lieu de déchargement**
-* Le **nombre d'opérations réalisées**
-* Le(s) **destinataire(s)**
-* Les **champs libres**
-* Le **commentaire**
-* Les **pièces jointes**
-
-{% hint style="danger" %}
-Le choix des statuts est conditionné par le champ **Type**. Il s'agit d'un paramétrage modifiable dans le menu [Paramétrage > Trace > Services > Statuts](../../parametrage/services/statuts.md).
+{% hint style="warning" %}
+Une fois la demande traitée, son statut ne peut plus être changé.
 {% endhint %}
 
-Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark>, ce qui créera la demande de service. Il sera possible de retrouver cette dernière dans le tableau présent sur la page.
+## Modifier ou supprimer une demande
 
-### Visualiser une demande de service et changer son statut
+* **Modifier** : depuis le menu **⋮** de la liste, ou avec le bouton **Modifier** du détail. Le type, le statut et la date de réalisation ne sont pas modifiables. Il faut avoir le droit de modification.
+* **Supprimer** : depuis le menu **⋮** de la liste ou du détail, après confirmation.
 
-Cliquez sur la ligne du service, vous allez arriver sur une page avec 2 colonnes. Sur la 1er, vous avez en haut le numéro de la demande et la personne qui l'a créé. Ensuite, vous avez les différents champs ([gestions des champs fixes](../../parametrage/services/champs-fixes.md)) que vous avez remplis lors de la création de votre demande, puis en dessous se situe une catégorie champs libres ([gestion des champs libres](../../parametrage/services/types-et-champs-libres.md)).
+## Retrouver une demande
 
-Sur la 2e colonne, vous avez une timeline qui reprend les différents statuts par lesquels est passé votre demande. Pour modifier le statut de votre demande cliqué sur <mark style="background-color:blue;">**Changer le statut**</mark>, une fenêtre va s'ouvrir et vous allez pouvoir sélectionner un nouveau statut. La liste des statuts proposés sont ceux renseigner dans le paramétrage ([gestion des statuts](../../parametrage/services/statuts.md)). <mark style="background-color:blue;">**Enregistrer**</mark> et la timeline va automatiquement s'actualiser. Une fois la demande traité, il est impossible de changer son statuts.
+* **Filtres** : période (la flèche permet de choisir la date de création, la date attendue ou la date de réalisation), **Type**, **Statuts**, **Créé par**, **Destinataires**, **Objet**.
+* La flèche à côté de **Exporter au format CSV** donne accès à **Gestion des colonnes**.
 
-{% embed url="https://www.screencast.com/t/SrtUV3N9" %}
-Visualisation et changement de statut
-{% endembed %}
+<details>
 
-### Modifier une demande de service
+<summary>Colonnes disponibles</summary>
 
-Pour modifier une demande de service, 2 chemins :&#x20;
+Numéro de demande, Date demande, Type, Créé par, Objet, Date attendue, Date de réalisation, Statut, Urgent, Nombre d'opération(s) réalisée(s), Traité par, Destinataires.
 
-* Dans la liste des services, cliquez sur les<img src="../../../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16 (1).png" alt="" data-size="line">d'une ligne de référence et cliquez sur le bouton <mark style="background-color:blue;">**Modifier**</mark> pour être redirigé vers la page de modification de service.
-* Sur la visualisation d'une demande de service, cliquez sur <mark style="background-color:blue;">**Modifier**</mark> pour que la page passe en mode modification.
-
-Vous pouvez modifier plusieurs champs de la demande, cela dépendra du paramétrage des champs fixes.
-
-Néanmoins, il n'est pas possible de modifier les informations suivantes :&#x20;
-
-* Le **type**
-* Le **statut**
-* La **date de réalisation**
-
-L'utilisateur doit avoir le droit de modification pour voir apparaître les boutons <mark style="background-color:blue;">**Modifier**</mark>.&#x20;
-
-{% embed url="https://www.screencast.com/t/HFeTu6e0" %}
-Modifier une demande
-{% endembed %}
-
-### Supprimer une demande de service
-
-Il est également possible de supprimer une demande de service en cliquant sur<img src="../../../.gitbook/assets/Capture d’écran 2023-02-06 à 12.07.16 (1).png" alt="" data-size="line">à gauche d'une ligne, puis <mark style="background-color:blue;">**Supprimer**</mark>. Une modale de confirmation va apparaitre, nécessitant l'approbation de la suppression de la demande. Lors du clic sur <mark style="background-color:blue;">**Supprimer**</mark>, la demande de service sera retirée du tableau. Il en va de même, dans le détails d'une demande de service.
-
+</details>
