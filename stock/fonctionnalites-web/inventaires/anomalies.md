@@ -1,31 +1,25 @@
 ---
-description: Page utilisée pour gérer les anomalies détectées lors des inventaires
+description: Traiter sur le web les écarts de quantité détectés lors des inventaires.
 ---
 
 # Anomalies
 
-Cette page est disponible dans le menu **Stock**, puis **Inventaire**  sous le bouton  <mark style="background-color:blue;">**Ajouter une mission**</mark>. Cette page contient plusieurs éléments :&#x20;
+**Chemin :** Stock › Inventaire › flèche à côté de **Ajouter une mission** › **Gérer les anomalies**
 
-* Une **recherche rapide**, permettant également de filtrer les données affichées dans le tableau
-* Un **tableau**, regroupant les différentes anomalies
+Cette page liste les écarts de quantité trouvés pendant les inventaires et qui restent à traiter.
 
-## Contenu du tableau
+## Traiter une anomalie
 
-<table><thead><tr><th width="225">Colonne</th><th>Description</th></tr></thead><tbody><tr><td><strong>Référence article</strong></td><td>Code de référence en anomalie</td></tr><tr><td><strong>Libellé</strong></td><td>Libellé de la référence</td></tr><tr><td><strong>Code barre</strong></td><td>Code barre référence ou article</td></tr><tr><td><strong>Date de saisie</strong></td><td>Date de l'inventaire de la référence/ de l'article</td></tr><tr><td><strong>Emplacement</strong></td><td>Emplacement de l'article ou de la référence</td></tr><tr><td><strong>Quantité</strong></td><td>Quantié compté par l'opérateur qui à fait l'inventaire</td></tr></tbody></table>
+1. Cliquez sur la ligne concernée. La fenêtre **Traiter une anomalie** s'ouvre avec l'article ou la référence, la quantité en stock et l'emplacement.
+2. Recomptez, puis saisissez la **Quantité relevée**. Ajoutez un commentaire si besoin.
+3. Cliquez sur **Valider**.
 
-Pour résoudre l'anomalie cliquée sur la ligne de la référence concerné, la modale **Traiter une anomalie** s'ouvre, elle contient plusieurs champs :
+L'anomalie disparaît de la liste et la mission d'inventaire est mise à jour. Si la quantité relevée diffère du stock, la quantité est corrigée par un mouvement d'inventaire.
 
-* **Article** : Code barre référence ou article&#x20;
-* **Référence article** : Code de référence en anomalie
-* **Quantité** : Quantité en stock
-* **Emplacement** : Emplacement de l'article ou de la référence
-* **Quantité relevée\*** : Indiquer la quantité comptée après avoir re-compté
-* **Commentaire** : Information en plus&#x20;
+<details>
 
-Cliquer sur <mark style="background-color:blue;">**Valider**</mark> pour traiter l'anomalie.
+<summary>Colonnes du tableau</summary>
 
-{% embed url="https://www.screencast.com/t/DxUL2dlyAj9I" %}
-Traiter une anomalie
-{% endembed %}
+Référence article, Libellé, Code barre, Date de saisie, Emplacement, Quantité comptée.
 
-Une fois l'anomalie traitée, elle disparaît de la liste. Dans le détail de l'inventaire la ligne de la référence/article se met à jour avec la nouvelle quantité.
+</details>
