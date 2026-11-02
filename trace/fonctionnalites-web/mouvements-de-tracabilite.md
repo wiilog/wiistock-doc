@@ -42,6 +42,10 @@ Renseignez les champs demandés, et si besoin un commentaire, des pièces jointe
 | **Dépose dans UL**    | Déposer un ou plusieurs articles dans une UL.                        | UL, article(s), emplacement                               |
 
 {% hint style="info" %}
+Le type **Division** apparaît aussi dans la liste : c'est un mouvement créé automatiquement sur le **nomade**, lorsqu'on groupe une UL qui se trouve déjà dans un autre groupe. Il n'est pas à utiliser depuis le web.
+{% endhint %}
+
+{% hint style="info" %}
 Pour une prise, le champ **Début de délai manuel** permet de fixer vous-même le point de départ du délai suivi dans les [Encours](encours.md).
 {% endhint %}
 

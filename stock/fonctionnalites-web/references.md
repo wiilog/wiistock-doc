@@ -74,7 +74,7 @@ Complétez si besoin les autres blocs (voir ci-dessous), puis cliquez sur **Enre
 
 | Bloc                 | Champs                                                                                                                                                                                                                                                     |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Informations**     | **Groupe de visibilité** (seuls les utilisateurs de ce groupe voient la référence, voir [Groupes de visibilité](../parametrage/groupes-de-visibilite.md)), **Code NDP**, **Pièces jointes**, **Commentaire**.                                              |
+| **Informations**     | **Groupe de visibilité** (seuls les utilisateurs de ce groupe voient la référence, voir [Groupes de visibilité](../parametrage/groupes-de-visibilite.md)), **Code NDP**, **Pièces jointes**, **Nomenclature**.                                             |
 | **Description**      | **Matériel hors format** (Oui / Non), **Code fabriquant**, **Poids**, **Longueur**, **Largeur**, **Hauteur**. Le **Volume** est calculé automatiquement.                                                                                                   |
 | **Données sécurité** | **Marchandise dangereuse** (Oui / Non) et **Fiche** de sécurité. Si vous répondez **Oui**, le **Code ONU** et la **Classe produit** deviennent obligatoires.                                                                                               |
 | **Inventaires**      | **Catégorie d'inventaire** : la référence (ou ses articles) sera ajoutée automatiquement aux missions d'inventaire selon la fréquence de la catégorie. Les missions sont générées chaque dimanche soir. Voir [Inventaires](../parametrage/inventaires.md). |
@@ -93,7 +93,7 @@ Cliquez sur une ligne pour ouvrir la fiche. En plus des informations saisies, vo
 * la **quantité disponible** (non réservée par une demande de livraison ou de transfert) et la **quantité en stock** ;
 * les dates de **création**, de **dernière modification**, de **dernière entrée** et de **dernière sortie** ;
 * les **fournisseurs** et la **règle de stockage** (blocs repliables) ;
-* la **Prévision stock** : l'évolution prévue de la quantité à 1, 3 ou 6 mois, selon les demandes et les réceptions en cours.&#x20;
+* la **Prévision stock** : l'évolution prévue de la quantité à 1, 3 ou 6 mois, selon les demandes et les réceptions en cours ;
 * le bouton **Ajouter au panier**.
 
 {% hint style="info" %}
