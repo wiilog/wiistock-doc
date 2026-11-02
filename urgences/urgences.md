@@ -10,10 +10,10 @@ description: >-
 
 Une urgence prévient vos équipes dès qu'une marchandise attendue en priorité arrive. Il en existe deux familles, et le **type** choisi à la création détermine laquelle :
 
-| Famille           | Se déclenche sur                                                             | Déclencheur                     | Paramétrage                                                        |
-| ----------------- | ---------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------ |
-| **Urgence Trace** | un [arrivage UL](../trace/fonctionnalites-web/arrivages-unites-logistiques/) | le numéro de commande           | [Paramétrage › Trace › Urgences](../trace/parametrage/urgences/)   |
-| **Urgence Stock** | une [réception](../stock/fonctionnalites-web/ordres/receptions/)             | une référence ou un fournisseur | [Paramétrage › Stock › Urgences](../stock/parametrage/urgences.md) |
+| Famille           | Se déclenche sur                                                             | Déclencheur                                                                         | Paramétrage                                                        |
+| ----------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Urgence Trace** | un [arrivage UL](../trace/fonctionnalites-web/arrivages-unites-logistiques/) | le numéro de commande (ou le fournisseur, ou le transporteur, selon le paramétrage) | [Paramétrage › Trace › Urgences](../trace/parametrage/urgences/)   |
+| **Urgence Stock** | une [réception](../stock/fonctionnalites-web/ordres/receptions/)             | une référence ou un fournisseur                                                     | [Paramétrage › Stock › Urgences](../stock/parametrage/urgences.md) |
 
 ## Créer une urgence Trace
 
@@ -23,7 +23,7 @@ Une urgence prévient vos équipes dès qu'une marchandise attendue en priorité
 4. Cliquez sur **Enregistrer**.
 
 {% hint style="info" %}
-**Quand se déclenche-t-elle ?** Lorsqu'un arrivage UL est enregistré entre la date de début et la date de fin, et que ses informations (n° de commande, fournisseur, transporteur, acheteur) correspondent à celles de l'urgence.
+**Quand se déclenche-t-elle ?** Lorsqu'un arrivage UL est enregistré entre la date de début et la date de fin, et que le champ déclencheur de l'arrivage correspond à celui de l'urgence. Par défaut, c'est le **numéro de commande** ; vous pouvez choisir le fournisseur ou le transporteur dans [Paramétrage › Trace › Urgences › Configurations](../trace/parametrage/urgences/configurations.md).
 
 Un message signale alors l'arrivage urgent, avec le n° de poste concerné. Les acheteurs reçoivent un mail.
 {% endhint %}

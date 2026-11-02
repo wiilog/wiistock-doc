@@ -38,7 +38,7 @@ Dans **Nombre d'unités logistiques à ajouter**, saisissez une quantité pour c
 {% step %}
 ### Enregistrer
 
-Cliquez sur **Enregistrer**. Si la case **Impression UL** est cochée, les étiquettes des UL sont générées automatiquement. Avec [WiiSpool](../../../services-externes/wiispool-v3.md) installé sur votre poste, elles partent directement à l'impression.
+Cliquez sur **Enregistrer**. Les étiquettes sont générées automatiquement selon les cases cochées : **Impression UL** pour les étiquettes des UL, et **Imprimer arrivage** (si ce champ est affiché sur votre instance) pour l'étiquette de l'arrivage lui-même. Avec [WiiSpool](../../../services-externes/wiispool-v3.md) installé sur votre poste, elles partent directement à l'impression.
 {% endstep %}
 {% endstepper %}
 
@@ -57,28 +57,31 @@ Ces règles se définissent dans [Référentiel › Fournisseurs](../../../refer
 
 Les champs affichés et obligatoires se règlent dans [Paramétrage › Trace › Arrivages UL › Champs fixes](../../parametrage/arrivages-ul/champs-fixes.md).
 
-| Champ                                     | À quoi il sert                                                                                                                                                                                     |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fournisseur**                           | Fournisseur de la marchandise, issu du [référentiel Fournisseurs](../../../referentiel/fournisseurs.md).                                                                                           |
-| **Transporteur**                          | Transporteur qui a livré, issu du [référentiel Transporteurs](../../../referentiel/transporteurs.md).                                                                                              |
-| **Chauffeur**                             | Chauffeur qui a livré, issu du [référentiel Chauffeurs](../../../referentiel/chauffeurs.md).                                                                                                       |
-| **N° tracking transporteur**              | Numéro de suivi du transporteur.                                                                                                                                                                   |
-| **N° arrivage camion**                    | Rattache l'arrivage UL à un [arrivage camion](../../parametrage/arrivages-camion/) existant.                                                                                                       |
-| **N° commande / BL**                      | Un ou plusieurs numéros de commande ou de bon de livraison. Validez chaque numéro avec **Entrée**.                                                                                                 |
-| **Type** \*                               | Type d'arrivage. Il est prérempli s'il n'en existe qu'un. Voir [Types et champs libres](../../parametrage/arrivages-ul/types-et-champs-libres.md).                                                 |
-| **Statut** \*                             | Statut de l'arrivage, qui dépend du type. Voir [Statuts](../../parametrage/arrivages-ul/statuts.md).                                                                                               |
-| **Emplacement de dépose** \*              | Emplacement où les UL sont déposées automatiquement. Par défaut, c'est celui défini dans [Configurations](../../parametrage/arrivages-ul/configurations.md).                                       |
-| **Destinataire(s)**                       | Personnes à qui les UL sont destinées. Elles peuvent recevoir un mail à la création de l'arrivage, puis à la dépose sur un point de livraison.                                                     |
-| **Acheteur(s)**                           | Acheteurs concernés, notamment utiles en cas de litige.                                                                                                                                            |
-| **Numéro de projet**                      | Texte libre.                                                                                                                                                                                       |
-| **Business unit**                         | Liste de valeurs définie dans les champs fixes.                                                                                                                                                    |
-| **Douane**                                | Signale des colis à dédouaner. Selon votre paramétrage, les UL vont sur un emplacement dédié et leurs étiquettes portent une mention spéciale.                                                     |
-| **Congelé**                               | Signale des colis congelés.                                                                                                                                                                        |
-| **Impression UL**                         | Imprime les étiquettes des UL dès l'enregistrement. Pour la cocher par défaut : option **Impressions cochées par défaut** dans [Configurations](../../parametrage/arrivages-ul/configurations.md). |
-| **Nombre d'unités logistiques à ajouter** | Une quantité par nature d'UL. Voir [Natures](../../../referentiel/natures.md).                                                                                                                     |
-| **Projet**                                | Projet issu du [référentiel Projets](../../../referentiel/projets.md).                                                                                                                             |
-| **Champs libres**                         | Champs propres à votre activité, définis par type d'arrivage.                                                                                                                                      |
-| **Commentaire**, **Pièces jointes**       | Informations complémentaires et documents. Une photo peut être prise directement.                                                                                                                  |
+| Champ                                     | À quoi il sert                                                                                                                                               |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Fournisseur**                           | Fournisseur de la marchandise, issu du [référentiel Fournisseurs](../../../referentiel/fournisseurs.md).                                                     |
+| **Transporteur**                          | Transporteur qui a livré, issu du [référentiel Transporteurs](../../../referentiel/transporteurs.md).                                                        |
+| **Chauffeur**                             | Chauffeur qui a livré, issu du [référentiel Chauffeurs](../../../referentiel/chauffeurs.md).                                                                 |
+| **N° tracking transporteur**              | Numéro de suivi du transporteur.                                                                                                                             |
+| **N° arrivage camion**                    | Rattache l'arrivage UL à un [arrivage camion](../../parametrage/arrivages-camion/) existant.                                                                 |
+| **N° commande / BL**                      | Un ou plusieurs numéros de commande ou de bon de livraison. Validez chaque numéro avec **Entrée**.                                                           |
+| **Type** \*                               | Type d'arrivage. Il est prérempli s'il n'en existe qu'un. Voir [Types et champs libres](../../parametrage/arrivages-ul/types-et-champs-libres.md).           |
+| **Statut** \*                             | Statut de l'arrivage, qui dépend du type. Voir [Statuts](../../parametrage/arrivages-ul/statuts.md).                                                         |
+| **Emplacement de dépose** \*              | Emplacement où les UL sont déposées automatiquement. Par défaut, c'est celui défini dans [Configurations](../../parametrage/arrivages-ul/configurations.md). |
+| **Destinataire(s)**                       | Personnes à qui les UL sont destinées. Elles peuvent recevoir un mail à la création de l'arrivage, puis à la dépose sur un point de livraison.               |
+| **Acheteur(s)**                           | Acheteurs concernés, notamment utiles en cas de litige.                                                                                                      |
+| **Numéro de projet**                      | Texte libre.                                                                                                                                                 |
+| **Business unit**                         | Liste de valeurs définie dans les champs fixes.                                                                                                              |
+| **Douane**                                | Signale des colis à dédouaner. Selon votre paramétrage, les UL vont sur un emplacement dédié et leurs étiquettes portent une mention spéciale.               |
+| **Congelé**                               | Signale des colis congelés.                                                                                                                                  |
+| **Impression UL**                         | Imprime les étiquettes des UL dès l'enregistrement.                                                                                                          |
+| **Imprimer arrivage**                     | Imprime aussi l'étiquette du numéro d'arrivage. Ce champ n'apparaît que s'il est affiché dans les champs fixes.                                              |
+| **Nombre d'unités logistiques à ajouter** | Une quantité par nature d'UL. Voir [Natures](../../../referentiel/natures.md).                                                                               |
+| **Projet**                                | Projet issu du [référentiel Projets](../../../referentiel/projets.md).                                                                                       |
+| **Champs libres**                         | Champs propres à votre activité, définis par type d'arrivage.                                                                                                |
+| **Commentaire**, **Pièces jointes**       | Informations complémentaires et documents. Une photo peut être prise directement.                                                                            |
+
+Pour que **Impression UL** et **Imprimer arrivage** soient cochées par défaut, activez **Impressions cochées par défaut** dans [Configurations](../../parametrage/arrivages-ul/configurations.md).
 
 </details>
 
