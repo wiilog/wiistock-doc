@@ -1,5 +1,11 @@
+---
+description: Plages de température pour contrôler la conservation des UL.
+---
+
 # Températures
 
-**Plages de température** : Si vous avez besoin d'un contrôle de la température de vos colis, paramétrer des plages de température ici. Vous retrouvez ces températures sur les emplacements et sur des natures de colis, ainsi un colis ne pourra allez que sur des emplacements avec la même plage de température.
+**Chemin :** Paramétrage › Track › Températures
 
-{% embed url="https://www.screencast.com/t/nH3AtCgw" %}
+**Plages de température** : saisissez les plages utilisées (ex. : 2-8, 16-24), puis cliquez sur **Enregistrer**.
+
+Ces plages s'attribuent ensuite aux **emplacements** et aux **natures** : une UL ne peut aller que sur un emplacement de la même plage de température.

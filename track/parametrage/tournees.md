@@ -1,49 +1,43 @@
 ---
 description: >-
-  Cette page de paramétrage va avoir un impact sur l'ensemble du processus d'une
-  tourné du l'heure de départ des livres jusqu'au motif de fin d'une livraison
-  ou collecte.
+  Paramètres des tournées : calcul des kilomètres et horaires, motifs,
+  conditions de fin de tournée et emplacements de retour.
 ---
 
 # Tournées
 
+**Chemin :** Paramétrage › Track › Tournées
+
 ### Calcul kilométrage et durée
 
-Vous pouvez renseigner différentes adresses (ou la même) sur les 3 points. Cela peut être intéressant pour votre facturation.&#x20;
+| Paramètre                               | Description                                                                                                |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Point de départ km**                  | Adresse à partir de laquelle on compte les kilomètres de la tournée.                                       |
+| **Point de départ calcul des horaires** | Adresse à partir de laquelle on calcule les horaires de passage.                                           |
+| **Point d'arrivée**                     | Dernier point de la tournée.                                                                               |
+| **Heure(s) de départ**                  | Heure (HH:MM) et livreur(s) associés : sert à estimer les heures de passage. Ajoutez une ligne avec **+**. |
+| **Temps de passage moyen (minutes)**    | Temps passé chez le patient, pour une livraison, une collecte et une livraison/collecte.                   |
 
-* **Point de départ km** : le point à partir duquel le calcule kilométrique de la tourné va commencer&#x20;
-* **Point de départ calcul des horaires** : le point à partir duquel le calcule du temps passé sur la tournée va commencer&#x20;
-* **Point d'arrivée** : Le dernier point de la livraison
+{% hint style="info" %}
+Les 3 adresses peuvent être identiques ou différentes (utile pour la facturation).
+{% endhint %}
 
-**Heure(s) de départ** : correspond à l'heure de départ des livreurs pour débuter la tournée, cela donnera alors une estimation de passage chez les clients lors de la création de la tournée.&#x20;
+### Motifs
 
-Dans le tableau, vous renseignez **l'heure** (HH:MM) et le(s) **livreur(s)** associé(s). Pour ajouter une ligne cliquée sur le <mark style="background-color:blue;">**+**</mark>. Pour modifier une valeur cliquée dans le tableau.
+| Paramètre                                    | Effet                                                                                                     |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Motifs d'écartement**                      | Raisons proposées au livreur quand il écarte une UL au chargement (ex. : mauvais état, manque étiquette). |
+| **Motifs de non livraison**                  | La livraison passe au statut _Non livrée_.                                                                |
+| **Motifs de non collecte**                   | La collecte repasse en _Patient à contacter_ pour être replanifiée.                                       |
+| **Fin du workflow collecte pour les motifs** | Pour ces motifs, la collecte passe au statut _Non collectée_ (pas de replanification).                    |
 
-{% embed url="https://www.screencast.com/t/ciNudUVteT" %}
-Ajout d'une heure de départ
-{% endembed %}
+### Fin de tournée
 
-**Temps de passage moyen (minutes)** : indiquez le temps que passera votre livreur pour déposer ou récupérer des colis, pour les livraisons, les collectes et les livraisons/collectes.
+| Paramètre                                       | Effet                                                                                            |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Emplacements de fin de tournée**              | Le livreur doit flasher l'un de ces emplacements pour terminer la tournée.                       |
+| **Natures obligatoires à déposer**              | Natures d'UL non livrées que le livreur doit déposer à son retour pour pouvoir finir la tournée. |
+| **Emplacements de dépose des objets collectés** | Où le livreur dépose les objets collectés.                                                       |
+| **Emplacements de retour des UL non livrées**   | Où le livreur dépose les UL non livrées.                                                         |
 
-### Colis écartés
-
-**Motifs d'écartement** : lors du chargement des colis dans le camion un livreur peut écarter des colis, c'est à dire qu'il ne va pas prendre certains colis. Il devra indiquer la raison, c'est dans ce paramétrage que vous indiquez les différents choix qu'il peut avoir. _Par exemple : Colis non conforme, colis abîmé, colis absent._
-
-### Collectes / Livraisons
-
-* **Motifs de non livraison** : indiquez les motifs que pourra choisir le livreur s'il n'a pas pu effectuer la livraison, la liste sera la même pour les livraisons/collectes. La livraison passera alors au statut Non livrée.&#x20;
-* **Motifs de non collecte** : indiquez les motifs que pourra choisir le livreur s'il n'a pas pu effectuer la collecte, la liste sera la même pour les livraisons/collectes. La collecte repassera au statut patient à contacter pour que ce transport soit à nouveau placé sur une tournée.&#x20;
-* **Fin du workflow collecte pour les motifs** : indiquez les motifs que pourra choisir le livreur s'il n'a pas pu effectuer la collecte, la liste sera la même pour les livraisons/collectes. La collecte passera au statut Non collecté.
-
-### Conditions de fin de tournée
-
-* **Emplacements de fin de tournée** : Pour valider la fin d'une tournée, le livreur doit flasher un (ou des) emplacement que vouas avez paramétré. (Emplacements issus du référentiel)
-* **Natures de colis obligatoires à déposer** : au cours de sa tournée, un livreur peut avoir des colis qu'il n'a pas pu livrer, vous pouvez décider quelle nature de colis il doit obligatoirement déposer à son retour. S'il ne les dépose pas, il ne pourra pas finir la tournée. (Nature issus du référentiel)
-
-### Dépose des objets collectés
-
-**Emplacements de dépose des objets collectés** : Pour les colis collectés, vous pouvez paramétrer un (ou des) emplacement sur lequel le livreur va déposer les colis collectés à la fin de sa tournée. (Emplacements issus du référentiel)
-
-### Dépose des colis non livrés
-
-Emplacements de retour des colis non livrés :  Pour les colis non livrés, vous pouvez paramétrer un (ou des) emplacement sur lequel le livreur va déposer ces colis à la fin de sa tournée. (Emplacements issus du référentiel)
+Cliquez sur **Enregistrer** pour valider.
