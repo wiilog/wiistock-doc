@@ -1,7 +1,13 @@
+---
+description: Choisir quels rôles peuvent voir chaque dashboard.
+---
+
 # Accès selon les rôles
 
-Lorsque vous avez enregistré un Dashboard, afin de pouvoir le voir et le rendre visible aux autres utilisateurs, il faut aller l'autoriser sur les différents rôles habilités à le voir.
+**Chemin :** Paramétrage › Utilisateurs › Rôles › section **Dashboard**
 
-Pour cela, allez dans [Paramétrage > Utilisateurs > Rôles](../parametrages/utilisateurs/roles/), cliquez sur le rôle souhaité, et allez dans la section Dashboard.&#x20;
+Un dashboard enregistré n'est visible que par les rôles autorisés, vous compris.
 
-Cochez ensuite les Dashboards que le rôle peut voir et enregistrez.
+1. Ouvrez [Rôles](../parametrages/utilisateurs/roles/) et cliquez sur le rôle voulu.
+2. Dans la section **Dashboard**, cochez les dashboards que ce rôle peut voir.
+3. Cliquez sur **Enregistrer**.

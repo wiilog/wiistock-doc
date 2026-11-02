@@ -1,11 +1,17 @@
+---
+description: Afficher un dashboard en permanence sur un écran, sans connexion.
+---
+
 # Dashboards externes
 
-Vous pouvez afficher ce qu'on appelle un dashboard externe : il s'agit d'un lien qui affiche un dashboard de l'application sans qu'il y ait besoin de se connecter à l'application.&#x20;
+**Chemin :** Paramétrage › Dashboards › Paramétrage complet › écrou du dashboard › **Dashboard externe**
 
-Ainsi, vous pouvez afficher en permanence certains dashboards sur un écran externe par exemple pour qu'il soit en permanence sous les yeux des opérateurs.&#x20;
+Un dashboard externe est un lien qui affiche un dashboard **sans se connecter** à FollowGT. C'est idéal pour un écran d'atelier ou de quai, toujours sous les yeux des opérateurs.
 
-Pour cela, allez dans le paramétrage des dashboard, et cliquez sur l'écrou du dashboard qui vous intéresse. Cliquez ensuite sur <mark style="background-color:blue;">**Dashboard externe**</mark>.
+1. Cliquez sur l'écrou à côté du nom du dashboard.
+2. Cliquez sur **Dashboard externe** : le dashboard s'ouvre dans une nouvelle fenêtre.
+3. Copiez le lien et ouvrez-le sur l'écran voulu.
 
-Une fenêtre s'ouvrira alors avec le dashboard en format dashboard externe. Vous pouvez ensuite copier-coller ce lien pour le mettre sur un écran externe.&#x20;
-
-{% embed url="https://www.screencast.com/t/li3N0lBpj5" %}
+{% hint style="warning" %}
+Toute personne qui a le lien peut voir le dashboard : ne le diffusez qu'aux écrans prévus.
+{% endhint %}
