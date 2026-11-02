@@ -1,55 +1,51 @@
 ---
 description: >-
-  L'objectif de l'association BR est de lier une ou plusieurs unités logistiques
-  à des numéros de réceptions provenant d'un ERP.
+  Lier une ou plusieurs unités logistiques à des numéros de réception provenant
+  de votre ERP.
 ---
 
 # Association BR
 
-L'association BR est une fonctionnalité permettant d'associer une ou plusieurs **unités logistiques** à un ou plusieurs **bon(s) de réception provenant d'un ERP**. Après la réalisation de l'association BR, les opérateurs pourrons effectuer des mouvements de traçabilité directement sur les numéros de réceptions de l'ERP.&#x20;
+**Chemin :** Traçabilité › Association BR
 
-<figure><img src="../../.gitbook/assets/association BR.png" alt=""><figcaption><p>Schéma de l'association BR si paramétré tel quel</p></figcaption></figure>
+L'association BR rattache des unités logistiques (UL) à un ou plusieurs **bons de réception de votre ERP**. Ensuite, vos opérateurs peuvent faire leurs mouvements de traçabilité directement avec le numéro de réception de l'ERP.
 
-La fonctionnalité Association BR est disponible dans l'onglet **Traçabilité**, puis **Association BR**. Cette page contient plusieurs éléments :&#x20;
+<figure><img src="../../.gitbook/assets/association BR.png" alt="Schéma de l&#x27;association BR"><figcaption><p>Exemple de fonctionnement de l'association BR</p></figcaption></figure>
 
-* Une **barre de filtre**, permettant de filtrer les données qui sont affichées dans le tableau
-* Une **recherche rapide**, permettant également de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Association/BR**</mark>, destiné à la création d'une association BR
-* Un bouton <mark style="background-color:blue;">**Exporter au format CSV**</mark>, destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
-* Un **tableau**, regroupant les différentes associations BR créées
+## Créer une association BR
 
-### Contenu des filtres
+{% stepper %}
+{% step %}
+### Ouvrir le formulaire
 
-| Filtre               | Description                                                        |
-| -------------------- | ------------------------------------------------------------------ |
-| **Du**               | La tranche basse filtrant sur la date de création de l'association |
-| **Au**               | La tranche haute filtrant sur la date de création de l'association |
-| **Unité logistique** | Le(s) numéro(s) d'unité logistique à afficher                      |
-| **Réceptions**       | Le(s) numéro(s) de réception à afficher                            |
-| **Utilisateurs**     | Le(s) utilisateur(s) ayant créé l'association                      |
+Cliquez sur **Association BR**. La fenêtre **Enregistrer une réception** s'ouvre.
+{% endstep %}
 
-### Contenu du tableau
+{% step %}
+### Indiquer s'il existe déjà des UL
 
-| Colonne              | Description                                                            |
-| -------------------- | ---------------------------------------------------------------------- |
-| **Date**             | La date de l'association                                               |
-| **Unité logistique** | Les UL contenus dans l'association, séparés par des virgules           |
-| **Réception**        | Les réceptions contenues dans l'association, séparées par des virgules |
-| **Utilisateur**      | L'utilisateur ayant réalisé l'association                              |
+À **Unité(s) logistique(s) existante(s)** :
 
-### Créer une nouvelle association
+* **Oui** : saisissez ou scannez les **Unité(s) logistique(s)** à associer ;
+* **Non** : l'association est créée sans UL, uniquement avec les numéros de réception.
+{% endstep %}
 
-Afin de créer une nouvelle association BR, il suffit cliquer sur le bouton <mark style="background-color:blue;">**Association/BR**</mark>. Une modale va alors s'ouvrir, permettant ainsi de renseigner plusieurs champs :&#x20;
+{% step %}
+### Saisir les numéros de réception
 
-* Le(s) **association(s) UL**, contenant les différentes unités logistiques à associer. Une UL correspond à une ligne (à ajouter avec le bouton +)
-* Le(s) **numéro(s) de réception**, contenant les différentes réceptions à associer. Une réception correspond à une ligne (à ajouter avec le bouton +)
+Renseignez un ou plusieurs **Numéro(s) de réception** de votre ERP.
+{% endstep %}
 
-{% hint style="info" %}
-Il est possible de créer une association BR sans UL à l'aide du bouton <mark style="background-color:blue;">**Sans arrivage**</mark><mark style="background-color:blue;">.</mark>
-{% endhint %}
+{% step %}
+### Enregistrer
 
-Lorsque tous les champs ont été renseignés, il suffit de cliquer sur le bouton <mark style="background-color:blue;">**Enregistrer**</mark>, ce qui créera l'association BR. Il sera possible de retrouver cette dernière dans le tableau présent sur la page.
+Cliquez sur **Enregistrer** : l'association apparaît dans le tableau.
+{% endstep %}
+{% endstepper %}
 
-### Supprimer une association
+## Retrouver ou supprimer une association
 
-Afin de supprimer une association BR, il suffit de cliquer sur les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">à gauche d'une ligne, puis <mark style="background-color:blue;">**Supprimer**</mark>. Une modale de confirmation va apparaitre, nécessitant l'approbation de la suppression de l'association. Lors du clic sur <mark style="background-color:blue;">**Supprimer**</mark>, l'association sera retirée du tableau.
+* **Filtres** : dates **Du** / **Au**, **Unité(s) logistique(s)**, **Réception**, **Créé par**.
+* **Tableau** : date, UL associées, date du dernier mouvement, dernier emplacement, réception et utilisateur.
+* **Exporter au format CSV** : via la flèche à côté de **Association BR**.
+* **Supprimer** : via le menu **⋮** de la ligne, après confirmation.
