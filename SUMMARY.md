@@ -188,6 +188,7 @@
   * [Inventaires](stock/parametrage/inventaires.md)
   * [Urgences](stock/parametrage/urgences.md)
   * [Réceptions](stock/parametrage/receptions.md)
+  * [Borne tactile](stock/parametrage/borne-tactile.md)
 * [Fonctionnalités web](stock/fonctionnalites-web/README.md)
   * [Demandes](stock/fonctionnalites-web/demandes/README.md)
     * [Collectes](stock/fonctionnalites-web/demandes/collectes.md)
@@ -230,6 +231,7 @@
   * [Stock I Inventaire](stock/fonctionnalites-mobile/stock-i-inventaire.md)
 * [Fonctionnalités borne / tablette](stock/fonctionnalites-borne-tablette/README.md)
   * [Demande collecte et création référence](stock/fonctionnalites-borne-tablette/demande-collecte-et-creation-reference.md)
+  * [Demande de livraison rapide](stock/fonctionnalites-borne-tablette/demande-de-livraison-rapide.md)
 
 ## IoT
 
