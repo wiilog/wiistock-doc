@@ -233,10 +233,7 @@
 ## IoT
 
 * [Paramétrage](iot/parametrage/README.md)
-  * [Types et champs libre](iot/parametrage/types-et-champs-libre.md)
-  * [Modèles de notifications](iot/parametrage/modeles-de-notifications/README.md)
-    * [Alertes](iot/parametrage/modeles-de-notifications/alertes.md)
-    * [Notifications push](iot/parametrage/modeles-de-notifications/notifications-push.md)
+  * [Types et champs libres](iot/parametrage/types-et-champs-libre.md)
 * [Capteurs](iot/capteurs.md)
 * [Actionneurs](iot/actionneurs.md)
 * [Associations](iot/associations.md)
@@ -306,6 +303,9 @@
   * [Imports & mises à jour](parametrages/donnees/imports-and-mises-a-jour.md)
   * [Imports d'inventaire](parametrages/donnees/imports-dinventaire.md)
 * [Modèles de document](parametrages/modeles-de-document.md)
+* [Notifications](parametrages/notifications/README.md)
+  * [Alertes](parametrages/notifications/alertes.md)
+  * [Notifications push](parametrages/notifications/notifications-push.md)
 
 ## Dashboards
 

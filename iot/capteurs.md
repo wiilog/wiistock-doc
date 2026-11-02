@@ -1,50 +1,69 @@
+---
+description: Provisionner et suivre les capteurs connectés.
+---
+
 # Capteurs
 
+**Chemin :** IoT › Capteurs
+
 {% hint style="info" %}
-Un capteur doit d'abord être paramétré par Wiilog avant de pouvoir être ajouté dans Follow GT.
+Un capteur doit d'abord être paramétré par Wiilog avant de pouvoir être ajouté dans FollowGT.
 {% endhint %}
 
-Les capteurs sont consultables dans le menu **IoT | Capteurs**. La page contient une recherche rapide, le bouton **Provisionner un capteur** et le tableau des capteurs de l'instance.
+## Provisionner un capteur
 
-{% embed url="https://www.screencast.com/t/A2l5mOXmgRd" %}
-Page capteurs
-{% endembed %}
+{% stepper %}
+{% step %}
+### Choisir le capteur
 
-### Types de capteurs
+Cliquez sur **Provisionner un capteur**, puis choisissez le capteur dans le champ **Code** : son type et son profil s'affichent.
+{% endstep %}
 
-| Type            | Usage                                                                                                                                       |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Action**      | Capteur qui déclenche une action                                                                                                            |
-| **Température** | Suivi de la température                                                                                                                     |
-| **Hygrométrie** | Suivre l'humidité. Des capteurs température et hygrométrie **étalonnables** (Symes) sont disponibles sur commande.                          |
-| **GPS**         | Suivre le trajet d'un véhicule. Le capteur, équipé d'une carte SIM, se branche sur la prise OBD du véhicule et remonte ses coordonnées GPS. |
+{% step %}
+### Le décrire
+
+Renseignez le **Nom**, le **Gestionnaire** et, si besoin, les champs libres du type.
+{% endstep %}
+
+{% step %}
+### Enregistrer
+
+Cliquez sur **Enregistrer** : le capteur apparaît dans la liste.
+{% endstep %}
+{% endstepper %}
+
+## Types de capteurs
+
+| Type                                                            | Usage                                                                                                 |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Température**, **Hygrométrie**, **Température & Hygrométrie** | Suivi de la température et/ou de l'humidité. Des capteurs étalonnables sont disponibles sur commande. |
+| **Action**                                                      | Bouton connecté qui déclenche une action (alerte ou demande).                                         |
+| **GPS**                                                         | Suivi du trajet d'un véhicule (boîtier avec carte SIM branché sur la prise OBD).                      |
+| **Tracer**, **Zone**, **Gateway**, **Extender**                 | Équipements de localisation et de réseau des objets connectés.                                        |
 
 <figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FugJjg9oXsF0p6jVVX5DQ%2Fimage.png?alt=media&#x26;token=a2df5922-a6b5-4b33-b63a-ad46a4e0be06" alt="Trajet d&#x27;un véhicule suivi par capteur GPS"><figcaption><p>Trajet d'un véhicule suivi par capteur GPS</p></figcaption></figure>
 
-### Contenu du tableau
+## Actions sur un capteur
 
-| Colonne                | Description                                                                                             |
-| ---------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Type**               | Type de capteur (voir ci-dessus)                                                                        |
-| **Profil**             | Dépend du type de capteur et du fabricant                                                               |
-| **Nom**                | Nom unique donné au capteur                                                                             |
-| **Code**               | Code du capteur (non modifiable)                                                                        |
-| **Dernière remontée**  | Date et heure du dernier message reçu                                                                   |
-| **Niveau de batterie** | Niveau de batterie du capteur                                                                           |
-| **Gestionnaire**       | Utilisateur prévenu par email en cas de batterie faible ou d'absence de message depuis un certain temps |
+Menu **⋮** de la ligne :
 
-Le menu ⋮ d'une ligne propose :
-
-* **Voir les messages** : toutes les remontées d'information du capteur ;
-* **Voir les objets associés** : éléments associés au capteur, avec dates de début et de fin d'association. Le menu ⋮ d'un objet donne accès à l'**historique des données** ;
-* **Modifier** : nom ou gestionnaire ;
+* **Voir les messages** : toutes les remontées du capteur ;
+* **Voir les éléments associés** : éléments associés, avec dates de début et de fin. Le **⋮** d'un élément donne accès à l'historique des données ;
+* **Modifier** : nom, gestionnaire, seuil d'inactivité ;
 * **Supprimer**.
 
-### Provisionner un capteur
+<details>
 
-1. Cliquez sur **Provisionner un capteur**.
-2. Choisissez le capteur dans la liste du champ **Code** : son type et son profil s'affichent.
-3. Renseignez le **Nom**, le **Gestionnaire** et, si besoin, les champs libres.
-4. Cliquez sur **Enregistrer**.
+<summary>Colonnes du tableau</summary>
 
-{% embed url="https://www.screencast.com/t/S7ok9OPI6t" %}
+| Colonne                                   | Description                                                                                    |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Type** / **Profil**                     | Type de capteur et profil (selon le fabricant).                                                |
+| **Nom** / **Code**                        | Nom unique donné au capteur, code non modifiable.                                              |
+| **Adresse MAC Clover-Net**                | Adresse réseau du capteur, si concerné.                                                        |
+| **Dernière remontée**                     | Date et heure du dernier message reçu.                                                         |
+| **Niveau de batterie**                    | Batterie restante.                                                                             |
+| **Gestionnaire**                          | Utilisateur prévenu par email si la batterie est faible ou si le capteur ne remonte plus rien. |
+| **Seuil d'alerte d'inactivité (minutes)** | Durée sans message au-delà de laquelle le gestionnaire est alerté.                             |
+
+</details>
