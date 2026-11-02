@@ -1,120 +1,67 @@
 ---
 description: >-
-  La page des articles regroupent tous les articles des références en gestion
-  quantité par article.
+  Retrouver et gérer les articles, c'est-à-dire les pièces uniques des
+  références gérées en quantité à l'article.
 ---
 
 # Articles
 
-Cette page est disponible dans le menu **Stock**, puis **Articles**. Cette page contient plusieurs éléments :&#x20;
+**Chemin :** Stock › Articles
 
-* Une **recherche rapide**, permettant de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Nouvel article**</mark> pour créer un nouvel article&#x20;
-* Un bouton <mark style="background-color:blue;">**Impression des étiquettes**</mark>, sous le bouton Nouvel article, pour imprimer les étiquettes des articles. Ce bouton n'est disponible qu'après une recherche rapide
-* Un bouton <mark style="background-color:blue;">**Gestion des colonnes**</mark>, sous le bouton Nouvel article, pour gérer les colonnes affichées à l'écran
-* Un bouton <mark style="background-color:blue;">**Recherche rapide**</mark>, pour choisir dans quelles colonnes la recherche rapide va chercher
-* Un bouton <mark style="background-color:blue;">**Articles actifs seulement**</mark>, sous le bouton Nouvel article, pour afficher seulement les articles en statut _disponible_, _en transit_, et _en litige_
-* Un **tableau**, regroupant les différents articles&#x20;
-
-{% embed url="https://www.screencast.com/t/Pbsx8lF6u7P" %}
-Page article
-{% endembed %}
-
-### Contenu du tableau
-
-Toutes les colonnes sont décrites, à vous de choisir celles qui vous souhaitez avoir à l'écran via la gestion des colonnes
-
-| Colonne                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Libellé**                | Libellé de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Référence article**      | Nom de la référence à laquelle appartient l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Référence fournisseur**  | Référence de l'article chez votre fournisseur                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Code barre**             | Code barre de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Type**                   | Type de la référence de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Statut**                 | <p>Statut de l'article. L'article peut avoir ces statuts : <br>- <em>disponible</em> : l'article est en stock et disponible. Il peut être solliciter dans les demandes<br>- <em>en transit</em> : l'article est encore en stock mais dans une demande. Il ne peut pas être ajouté à une demande<br>- <em>en litige</em> : l'article est sur un litige non traité dans une réception. Il est en stock mais ne peut pas être ajouté à une demande<br>- <em>consommé</em> : l'article n'est plus en stock</p> |
-| **Quantité**               | Quantité de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Emplacement**            | Emplacement où se situe l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Prix unitaire**          | Prix unitaire de chaque article                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Dernier inventaire**     | Date de dernier inventaire de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Lot**                    | Lot de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Date d'entrée en stock** | Date à laquelle l'article est entré en stock                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Date d'expiration**      | Date de péremption de l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Commentaire**            | Commentaire sur l'article                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-
-Dans ce tableau vous pouvez également accéder aux boutons suivants en cliquant sur les<img src="../../.gitbook/assets/3points" alt="" data-size="line">de chaque ligne :&#x20;
-
-* Bouton <mark style="background-color:blue;">**Imprimer**</mark> : pour imprimer l'étiquette de l'article
-* Bouton <mark style="background-color:blue;">**Accéder à la demande**</mark> : ce bouton apparait si l'article est dans une demande. Cliquez sur le bouton pour accéder au détail de la demande
-* Bouton <mark style="background-color:blue;">**Voir mouvements de traçabilité**</mark> : cliquez sur ce bouton pour être redirigé vers la page des mouvements de traçabilité filtré sur l'article. Vous verrez alors tous les mouvements de traçabilité de l'article
-* Bouton <mark style="background-color:blue;">**Historique des données**</mark> : ce bouton apparaît si l'article a été associé à un objet connecté. Si c'est le cas, la ligne de l'article aura un logo wifi. Cliquez sur le bouton pour voir toutes les données qui ont été associées à l'article via un objet connecté
-
-### Ajouter un nouvel article
+Un **article** est une pièce ou un conditionnement unique d'une [référence](references.md) gérée en quantité **à l'article**. Chaque article a son propre code-barre, son emplacement, et éventuellement un lot et une date de péremption.
 
 {% hint style="info" %}
-L'ajout d'article doit se faire habituellement via une réception, mais il est possible de créer un article sur cette page.
+Les articles sont normalement créés lors d'une [réception](ordres/receptions/). La création manuelle depuis cette page ou un import reste possible.
 {% endhint %}
 
-Cliquez sur <mark style="background-color:blue;">**Nouvel article**</mark> et remplissez les champs suivants :&#x20;
+## Les statuts d'un article
 
-* **Référence\*** : champ à remplir pour faire apparaître le champ suivant. Référence de l'article à ajouter
-* **Fournisseur\*** : champ à remplir pour faire apparaître tous les autres champs. Fournisseur de l'article. Le choix des fournisseurs se fait parmi les fournisseurs renseignés de la référence choisie
-* **Référence fournisseur\*** : nom de la référence chez le fournisseur, soit l'article fournisseur dans l'application. Le choix de l'article fournisseur se fait dans la liste des articles fournisseurs de la référence chez le fournisseur déjà renseignés
-* **Libellé\*** : libellé de l'article
-* **Type** : champ indisponible, type de la référence
-* **Quantité\*** : quantité de l'article
-* **Prix unitaire (€)** : prix de l'article
-* **Emplacement\*** : emplacement de stockage de l'article, à sélectionner parmi la liste des emplacements de l'application
-* **Statut** : champ renseigné automatiquement en disponible. Il ne peut pas être changé
-* **Anomalie** : pour indiquer que l'article est en anomalie
-* **Lot** : lot de l'article
-* **Date de péremption** : date de péremption de l'article
-* **Commentaire** : commentaire sur l'article
-* **Champs libres** : champs libres sur les articles du type de la référence
+| Statut         | Signification                                                |
+| -------------- | ------------------------------------------------------------ |
+| **Disponible** | En stock et utilisable dans une demande.                     |
+| **En transit** | En stock, mais déjà réservé dans une demande.                |
+| **En litige**  | En stock, mais bloqué par un litige de réception non traité. |
+| **Consommé**   | Sorti du stock.                                              |
 
-{% embed url="https://www.screencast.com/t/ovgLPfW7PXtH" %}
-Ajout d'un nouvelle article
-{% endembed %}
+## Retrouver un article
 
-### Modifier un article
+* Utilisez le champ **Rechercher**. Le choix des colonnes où il cherche se fait dans **Recherche rapide**, via la flèche à côté de **Nouvel article**.
+* La même flèche donne accès à **Gestion des colonnes**, à **Impression des étiquettes** (après une recherche) et à **Articles actifs seulement** (statuts disponible, en transit et en litige).
 
-Pour modifier un article cliquez sur la ligne de l'article que vous souhaitez modifier.&#x20;
+## Créer un article
 
-La modale de modification d'article est différente de celle de création d'article. Vous avez les champs suivants :&#x20;
+1. Cliquez sur **Nouvel article**. Une page de création s'ouvre.
+2. Choisissez la **Référence**, puis le **Fournisseur** et la **Référence fournisseur** parmi ceux de la référence. Le **Type** est repris de la référence, et le **Code barre** est généré automatiquement.
+3. Renseignez le **Libellé**, la **Quantité** et l'**Emplacement** (obligatoires).
+4. Complétez si besoin : **Anomalie**, **Projet**, **Commentaire**, **Tag RFID**, **Lot**, **Date de péremption**, **Prix unitaire**.
+5. Cliquez sur **Enregistrer**.
 
-* **Libellé\***, _champ modifiable_ : libellé de l'article&#x20;
-* **Type**, _champ non modifiable_ : type de la référence de l'article
-* **Quantité**, _champ non modifiable_ : quantité de l'article
-* **Prix unitaire (€)**, _champ modifiable_ : prix de l'article
-* **Emplacement**, _champ non modifiable_ : emplacement sur lequel se trouve l'article
-* **Statut**, _champ non modifiable_ : statut de l'article
-* **Anomalie**, _champ modifiable_ : pour indiqué qu'il y a une anomalie sur l'article
-* **Gestionnaires**, _champ non modifiable_ : gestionnaires de la référence de l'article. A modifier directement sur la référence
-* **Lot**, _champ modifiable_ : lot de l'article
-* **Catégorie d'inventaire**, _champ non modifiable_ : catégorie d'inventaire de la référence de l'article. A modifier directement sur la référence
-* **Date dernier inventaire**, _champ non modifiable_ : date de dernier inventaire de l'article
-* **Date de péremption**, _champ modifiable_ : date de péremption de l'article
-* **Commentaire**, _champ modifiable_ : commentaire sur l'article
-* **Champs libres** : tous les champs libres sur l'article sont modifiables
-* **Articles fournisseurs**, _champs non modifiables_ : ensemble des articles fournisseurs lié à l'article
+## Le détail d'un article
 
-Modifiez les champs souhaitez et cliquez sur <mark style="background-color:blue;">**Enregistrer**</mark>.
+Cliquez sur une ligne pour ouvrir la fiche de l'article. Elle affiche notamment :
 
-{% embed url="https://www.screencast.com/t/3BED8IhYCYI" %}
-Modification d'un article
-{% endembed %}
+* la date d'entrée en stock, l'anomalie, le projet, le lot, la date de péremption, le prix unitaire ;
+* le gestionnaire et la catégorie d'inventaire, repris de la référence ;
+* la date du dernier inventaire, la **date de disponibilité constatée** et la **date d'épuisement constatée** ;
+* les champs libres ;
+* un lien **Ouvrir la page** vers ses mouvements de traçabilité.
 
-### Supprimer un article
+Cliquez sur **Modifier** pour changer le libellé, le prix, l'anomalie, le lot, la date de péremption, le commentaire ou les champs libres. La quantité, l'emplacement et le statut ne se modifient pas ici : ils évoluent avec les mouvements de stock.
 
-Pour supprimer un article, cliquez sur les<img src="../../.gitbook/assets/3points" alt="" data-size="line">de la ligne de l'article à supprimer et cliquez sur <mark style="background-color:blue;">**Supprimer**</mark>.&#x20;
+## Agir sur un article
 
-Une modale de confirmation s'ouvrira alors. Cliquez sur <mark style="background-color:blue;">**Supprimer**</mark> pour confirmer la suppression.
+Le menu **⋮** d'une ligne propose :
 
-Vous ne pourrez pas supprimer un article si :&#x20;
+* **Imprimer** : imprimer l'étiquette de l'article ;
+* **Accéder à la demande** : si l'article est dans une demande ;
+* **Voir mouvements de traçabilité** ;
+* **Historique des données** : si l'article est associé à un objet connecté (icône wifi) ;
+* **Supprimer** : impossible si l'article est consommé ou lié à un inventaire, un mouvement ou une demande.
 
-* il est consommé
-* il est lié à des missions d'inventaire
-* il est lié à des mouvements de stock
-* il est lié à des mouvements de traçabilité
-* il est lié à une demande de livraison
-* il est lié à une demande de collecte
-* il est lié à une demande de transfert
+<details>
+
+<summary>Colonnes disponibles</summary>
+
+Libellé, Référence article, Référence fournisseur, Code barre, Type, Statut, Quantité, Emplacement, Prix unitaire, Dernier inventaire, Lot, Date d'entrée en stock, Date d'expiration, Commentaire, et les champs libres.
+
+</details>
