@@ -1,29 +1,25 @@
 ---
-description: >-
-  Depuis le chemin Paramétrage | Production | Paramétrage complet | Champs
-  fixes, vous pouvez paramétrer les champs fixes des demandes de production.
+description: Champs fixes des demandes de production.
 ---
 
 # Champs fixes
 
-## Choix des champs fixes
+**Chemin :** Paramétrage › Production › Paramétrage complet › Champs fixes
 
-Vous pouvez choisir les champs qui seront demandées pour la création ou la modification d'une demande de production.&#x20;
+Pour chaque champ, cochez **Afficher** / **Obligatoire** sur le formulaire de création et sur celui de modification.
 
-Ces champs peuvent, comme dans toute l'application, être obligatoires ou pas.&#x20;
+| Champ                          | Description                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- |
+| **Numéro d'OF**                | Identifiant de l'ordre de fabrication.                                                            |
+| **Urgence**                    | Cliquez sur le champ pour définir les valeurs d'urgence.                                          |
+| **Date attendue**              | Place la demande sur le planning. Cliquez sur le champ pour imposer un délai par type de demande. |
+| **Numéro projet**              | Projet correspondant.                                                                             |
+| **Code produit/article**       | Produit concerné par l'OF.                                                                        |
+| **Emplacement de dépose**      | Où déposer l'OF une fois terminé (valeur par défaut possible par type).                           |
+| **Emplacement de destination** | Où l'opérateur doit poser le kit.                                                                 |
+| **Commentaire**                | Consignes (texte ou image).                                                                       |
+| **Pièces jointes**             | Fichiers joints.                                                                                  |
+| **Quantité**                   | Quantité à produire.                                                                              |
+| **Nombre de lignes**           | Nombre de lignes à prélever pour l'OF.                                                            |
 
-<figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2025-04-17 151255.png" alt=""><figcaption><p>Paramétrage | Production | Paramétrage complet | Champs fixes</p></figcaption></figure>
-
-Les champs sont les suivants  :&#x20;
-
-* **Numéro d'OF :** Identifiant de l'ordre de fabrication. _(alphanumérique)_
-* **Urgence :** Le champ est cliquable pour définir les différentes typologies d'urgences. _(texte)_
-* **Date attendue :** Ce champ est clicable et permet l'affichage sur la vue planning de la demande de production. _(date et heure)_ Il permet également de bloquer la date attendue avec un délai fixé par type de demande de production.&#x20;
-* **Numéro de projet** : Numéro de projet correspondant. _(numérique)_
-* **Code produit/article** : Code du produit auquel correspond l'OF. _(alphanumérique)_
-* **Emplacement de dépose :** Emplacement de dépose de l'OF quand finalisé. (Peut être défini par défaut). _(Référentiel emplacement)_
-* **Emplacement de destination :** Emplacement du demandeur pour signaler où l'opérateur doit poser le kit.&#x20;
-* **Commentaire :** Champs libre textuel ou image pour donner des consignes supplémentaires.&#x20;
-* **Quantité :** Quantité de la demande de production à produire. _(numérique)_
-* **Nombre de lignes :** Nombre de lignes à prendre pour l'OF. _(numérique)_
-
+<figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2025-04-17 151255.png" alt=""><figcaption></figcaption></figure>
