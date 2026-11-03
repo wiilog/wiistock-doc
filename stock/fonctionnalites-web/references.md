@@ -68,6 +68,10 @@ Complétez si besoin les autres blocs (voir ci-dessous), puis cliquez sur **Enre
 **Référence en brouillon** : elle ne peut pas être utilisée tant qu'un valideur ne l'a pas passée en **Actif**. Les utilisateurs qui ont le droit _Valideur de références_ reçoivent un mail, puis le créateur est prévenu de la validation. Une référence sortie du statut Brouillon ne peut plus y revenir.
 {% endhint %}
 
+{% hint style="info" %}
+**Référence en gestion quantité Référence, statut Actif et quantité supérieure à 0** : la création génère automatiquement un mouvement de stock d'entrée dans l'emplacement saisi et un mouvement de traçabilité de type _Dépose_ lié à ce mouvement de stock. Pour une référence créée en brouillon, ces mouvements sont générés lors de son passage en **Actif**.
+{% endhint %}
+
 <details>
 
 <summary>Les autres blocs du formulaire</summary>
