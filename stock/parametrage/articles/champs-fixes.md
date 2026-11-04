@@ -1,11 +1,23 @@
+---
+description: Afficher ou rendre obligatoires les champs fixes des articles.
+---
+
 # Champs fixes
 
-Contrairement aux champs libres, les champs fixes ne peuvent ni être supprimés, ni ajoutés. Vous pouvez paramétrer leur visibilité ou leur caractère obligatoire.
+**Chemin :** Paramétrage › Stock › Articles › Champs fixes
 
-Lorsque vous créez ou éditez un article, vous pouvez choisir d'afficher ou de rendre obligatoires les champs fixes. Vous pouvez paramétrer ces comportements séparément pour la création et l'édition d'un article.
+Contrairement aux champs libres, les champs fixes ne peuvent être ni ajoutés ni supprimés. Pour chacun, vous choisissez :
 
-Pour chaque champ, vous pouvez sélectionner l'option "Afficher" si vous souhaitez simplement afficher le champ dans la fiche article, ou l'option "Obligatoire" si vous souhaitez que le champ soit rempli avant de pouvoir enregistrer l'article.
+* **Formulaire de création** : _Afficher_ et/ou _Obligatoire_ ;
+* **Formulaire d'édition** : _Afficher_ et/ou _Obligatoire_ ;
+* **Sur les filtres** : _Afficher_ (quand le champ peut servir de filtre).
 
-Cette fonctionnalité vous permet de personnaliser les champs affichés dans les fiches articles en fonction de vos besoins et de vous assurer que les informations importantes sont toujours saisies. Vous pouvez ainsi adapter les champs à votre processus de gestion des articles et améliorer la qualité de vos données.
+Champs concernés : Prix unitaire, Lot, Anomalie, Date de péremption, Commentaire, Ligne bon de livraison, Date de fabrication, Date de production, Ligne commande d'achat, Pays d'origine, Projet.
+
+{% hint style="info" %}
+Les valeurs du champ **Pays d'origine** se gèrent dans [Pays d'origine](pays-dorigine.md).
+{% endhint %}
+
+Cliquez sur **Enregistrer** pour valider.
 
 <figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>

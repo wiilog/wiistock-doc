@@ -1,10 +1,8 @@
 # Wiilog & Follow GT : les fondamentaux
 
-
-
-<figure><img src=".gitbook/assets/site industriel-vidéo (1).jpg" alt=""><figcaption></figcaption></figure>
-
 Follow GT est l'application web et mobile de Wiilog pour la traçabilité, le stock, la production et les tournées. Vous n'activez que les modules dont vous avez besoin.
+
+<figure><img src=".gitbook/assets/wiilog-site-industriel (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Les modules
 

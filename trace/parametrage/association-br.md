@@ -1,8 +1,8 @@
 # Association BR
 
-L'activation de ce paramétrage vous permet de créer des mouvements de traçabilité lorsque vous créez une association BR WEB ou NOMADE.
+Cochez **Créer des mouvements de dépose à la création d'une association BR** pour qu'un mouvement de traçabilité soit créé à chaque association BR, sur le web comme sur le nomade. Deux champs apparaissent alors :
 
-* **Emplacement de dépose des unités logistiques**: Emplacement par défaut pour le mouvement issu de l'association BR, pour les ULs
-* **Emplacement de dépose des numéros de réception**: Emplacement par défaut pour le mouvement issu de l'association BR, pour la/ les réceptions
+* **Emplacement de dépose des unités logistiques** : emplacement par défaut du mouvement de dépose des UL associées ;
+* **Emplacement de dépose des numéros de réception** : emplacement par défaut du mouvement de dépose des numéros de réception.
 
 <figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 15.58.53.png" alt=""><figcaption></figcaption></figure>

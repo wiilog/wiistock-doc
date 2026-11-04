@@ -1,39 +1,40 @@
 ---
-description: >-
-  Depuis le chemin Paramétrage | Production | Paramétrage complet | Types &
-  champs libres, vous pouvez paramétrer les types de demande de production.
+description: Types de demandes de production et champs libres associés.
 ---
 
 # Types & champs libres
 
-## Visualisation des types et & création d'un nouveau type
+**Chemin :** Paramétrage › Production › Paramétrage complet › Types & champs libres
 
-&#x20;Depuis cette page, vous pouvez créer différentes typologies de demande de production afin de différencier le travail à effectuer ou les équipes qui le prendront en charge. Vous pouvez choisir un code couleur pour chacune de vos demandes, cette couleur s'affichera particulièrement sur la vue planning.&#x20;
+Les types distinguent le travail à effectuer ou les équipes qui le prennent en charge.
 
-### **Ajouter un type**&#x20;
+### 1. Créer les champs libres
 
-Pour ajouter un type, cliquez sur le bouton <mark style="background-color:blue;">**Ajouter un type**</mark>, à droite de la liste des types.
+Dans l'encadré **Champs libres**, cliquez sur **Modifier**, puis sur la ligne **+** :
 
-Remplissez ensuite les champs des caractéristiques de cette façon :&#x20;
+| Colonne                       | Description                                                            |
+| ----------------------------- | ---------------------------------------------------------------------- |
+| **Libellé\***                 | Nom du champ (unique dans l'application).                              |
+| **Typage\***                  | Texte, Nombre, Oui/Non, Date, Date et heure, Liste ou Liste multiple.  |
+| **Éléments**                  | Valeurs de la liste, séparées par des « ; » (Liste et Liste multiple). |
+| **Nb caractères (Min / Max)** | Longueur minimale et maximale autorisée.                               |
+| **Valeur par défaut**         | Valeur pré-remplie à la création.                                      |
 
-* **Libellé\*** : nom du type, apparaîtra partout dans l'application
-* **Description** : description du type, non obligatoire
-* **Couleur :** Permet de définir une couleur spécifique à un type de production. Cette couleur sera utilisée sur l'interface web sous forme de badge dans le détail de chaque demande de production.&#x20;
-* **Emplacement de dépose par défaut** : vous pouvez renseigner pour ce type l'emplacement de dépose systématique de ce flux
-* **Emplacements de dépose suggéré(s)** :  vous permet de définir une liste exhaustive d'emplacements. L'utilisateur ne pourra sélectionner que les emplacements renseignés dans les paramétrages "Emplacement de dépose suggérés"
-* **Création d'un mouvement de dépose de l'identifiant :** permet de créer un mouvement de dépose sur l'identifiant sélectionné : OF, numéro de demande de production.
-* **Nature de l'identifiant créé :** Permet de créer une UL avec une nature.&#x20;
-* **Temps moyen :** Temps à titre indicatif de ce type de demande.
-* **Actif :** Si cette coche n'est pas active ce type de demande ne pourra pas être utilisé.
+### 2. Paramétrer les types
 
+Cliquez sur un type ou sur **Ajouter un type**, puis sur **Modifier** :
 
+| Champ                                                  | Description                                                                                    |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| **Libellé\*** / **Description**                        | Nom et description du type.                                                                    |
+| **Couleur**                                            | Badge du type dans le détail et sur le planning.                                               |
+| **Emplacement de dépose par défaut**                   | Emplacement pré-rempli pour ce flux.                                                           |
+| **Emplacement(s) de dépose suggéré(s)**                | Liste fermée : seuls ces emplacements pourront être choisis.                                   |
+| **Création d'un mouvement de dépose de l'identifiant** | Crée un mouvement de dépose sur l'identifiant choisi (N° d'OF ou N° de demande de production). |
+| **Nature de l'identifiant créé**                       | Nature de l'UL créée.                                                                          |
+| **Temps moyen**                                        | Durée indicative de ce type de demande.                                                        |
+| **Actif**                                              | Un type inactif n'est plus proposé.                                                            |
+
+Dans **Champs pour ce type**, ajoutez les champs libres avec **+** et cochez _Affiché / Obligatoire_ à la création et à la modification. Cliquez sur **Enregistrer**.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-Vous pouvez également ajouter les champs libres qui vous semblent pertinents.&#x20;
-
-<figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2025-04-17 151026.png" alt=""><figcaption><p>Paramétrage | Production | Paramétrage complet | Types et champs libres</p></figcaption></figure>

@@ -1,48 +1,94 @@
 ---
 description: >-
-  L'arrivage camion est une fonctionnalité de base de la traçabilité dans Wiilog
-  permettant de suivre l'arrivée de colis/livraison dès la sortie du camion.
+  Enregistrer l'arrivée d'un camion et ses numéros de tracking transporteur dès
+  le déchargement, avec d'éventuelles réserves.
 ---
 
 # Arrivages Camion
 
-La fonctionalité "Arrivage camion" version Web est accessible via le menu Traçabilité | Arrivages camion.
+**Chemin :** Traçabilité › Arrivages camion · Web et nomade
+
+L'arrivage camion trace une livraison dès la sortie du camion : quel transporteur est venu, avec quel chauffeur et quels numéros de tracking. Ensuite, chaque numéro de tracking est rattaché à un [arrivage UL](arrivages-unites-logistiques/).
+
+<figure><img src="../../.gitbook/assets/liste_arrivage_camion.png" alt="Liste des arrivages camion"><figcaption></figcaption></figure>
 
 ## Créer un arrivage camion
 
-La création d'un arrivage camion sur le module Web peut être découpé en 2 parties :&#x20;
+{% stepper %}
+{% step %}
+### Ouvrir le formulaire
 
-1. **Créer l'arrivage camion**
+Cliquez sur **Créer arrivage camion**.
+{% endstep %}
 
-Pour identifier un arrivage camion, vous devez remplir les champs obligatoires paramétrés en amont, soit le transporteur, le chauffeur, la plaque d 'immatriculaion du camion, le fournisseur, le numéro de commande et l'emplacement de déchargement.&#x20;
+{% step %}
+### Identifier le camion
 
-Vous pouvez ensuite scanner l'ensemble des numéros de tracking transporteur. Un compteur vous aidera à vérifier que l'ensemble des numéros à été scanné.
+Renseignez le **Transporteur** (obligatoire), puis selon votre paramétrage : **Chauffeur**, **Fournisseur**, **N° de commande**, **Immatriculation** et **Emplacement de déchargement**.
 
-Enfin, vous pouvez identifier une réserve générale ou une réserve quantité sur l'arrivage dans sa globalité.&#x20;
+Le transporteur, le chauffeur ou le fournisseur n'existe pas encore ? Cliquez sur **Créer** à côté du champ.
+{% endstep %}
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 09.39.08.png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Saisir les numéros de tracking
 
-Pour finir l'enregistrement de l'arrivage camion, vous avez deux options,
+Scannez ou saisissez chaque **numéro de tracking transporteur**. Le compteur **Total** permet de vérifier qu'aucun n'a été oublié.
 
-* Si vous cliquez sur le bouton "<mark style="background-color:blue;">Enregistrer</mark>", la pop up de création de l'arrivage camion se fermera et vous verrez qu"une nouvelle ligne d'arrivage camion s'est ajouté à votre tableau récapitulatif des arrivages camions. Pour modifier des informations sur cet arrivage camion, il faudra cliquer sur la ligne et vous aurez accès aux détails de cet arrivage camion.
-* Si vous cliquez sur le bouton "<mark style="background-color:blue;">Aller vers Arrivage UL</mark>", vous serez rediriger vers la page d'arrivage UL préremplie avec les informations de cet arrivage camion.&#x20;
+Certains objets n'ont pas de numéro de tracking ? Indiquez leur nombre dans **Objets sans numéros de tracking transporteur** avec les boutons **−** et **+**.
+{% endstep %}
 
-2. **Identifier des réserves sur numéro de tracking**
+{% step %}
+### Signaler une réserve (si besoin)
 
-Pour identifier des réserves sur numéros de tracking, il faut cliquer sur la ligne de l'arrivage camion qui concerne votre réserve. Puis, cliquer sur le bouton "<mark style="background-color:blue;">Ajouter une réserve</mark>" dans l'encars "Gestion des réserves". Vous devrez alors choisir le numéro de tracking concerné par la réserve, puis le type de réserve. Vous pourrez également ajouter un commentaire et une pièce jointe pour expliciter la réserve.&#x20;
+Cochez **Réserve général** ou **Réserve quantité +/-** pour une réserve qui porte sur tout l'arrivage.
+{% endstep %}
 
-<figure><img src="../../.gitbook/assets/reserve_sur_tracking.png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Enregistrer
 
-## Voir et filtrer la liste d'arrivages camion
+* **Enregistrer** : l'arrivage camion s'ajoute au tableau.
+* **Aller vers Arrivage UL** : ouvre un nouvel arrivage UL prérempli avec les informations du camion.
+{% endstep %}
+{% endstepper %}
 
-L'intégralité des arrivages camions créés sur web ou nomade est visible dans le tableau de la page Arrivage camion. Ce tableau est filtrable via :&#x20;
+{% hint style="info" %}
+Les champs affichés et obligatoires se règlent dans [Paramétrage › Trace › Arrivages camion](../parametrage/arrivages-camion/).
+{% endhint %}
 
-* "Du" "Au" => Date de création de l'arrivage camion
-* Numéro de l'arrivage camion => Identifiant de l'arrivage camion créé à chaque création d'arrivage camion
-* Numéro de tracking transporteur
-* Transporteur
-* Chauffeur
-* Immatriculation&#x20;
-* Numéro de tracking non attribué => Tout numéro de tracking n'ayant pas fait l'objet d'un arrivage UL (association numéro de tracking - unité logistique).&#x20;
+## Ajouter une réserve sur un numéro de tracking
 
-<figure><img src="../../.gitbook/assets/liste_arrivage_camion.png" alt=""><figcaption></figcaption></figure>
+1. Cliquez sur la ligne de l'arrivage camion pour ouvrir son détail.
+2. Dans **Gestion des réserves**, cliquez sur **Ajouter une réserve**.
+3. Choisissez le **N° de tracking transporteur** et le **Type de réserve**, puis ajoutez si besoin un commentaire et une pièce jointe.
+
+<figure><img src="../../.gitbook/assets/reserve_sur_tracking.png" alt="Ajout d&#x27;une réserve"><figcaption></figcaption></figure>
+
+## Le détail d'un arrivage camion
+
+Cliquez sur une ligne du tableau pour ouvrir le détail. Vous y trouvez :
+
+* les boutons **Créer arrivage UL**, **Modifier**, **Imprimer** et **Supprimer** ;
+* la liste des numéros de tracking, avec pour chacun l'arrivage UL qui lui est associé. Pour en ajouter un, cliquez sur **Ajouter un n°tracking transporteur** ;
+* la **Gestion des réserves** : réserves générales, réserves de quantité et réserves par numéro de tracking.
+
+## Retrouver un arrivage camion
+
+Le tableau liste tous les arrivages camion, qu'ils aient été créés sur le web ou sur le nomade. La colonne **Nombre de n° de tracking associés** (par exemple 1/4) montre combien de numéros sont déjà rattachés à un arrivage UL.
+
+<details>
+
+<summary>Filtres disponibles</summary>
+
+| Filtre                                               | Description                                                                    |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Du** / **Au**                                      | Date de création.                                                              |
+| **Numéro d'arrivage camion**                         | Identifiant généré à la création.                                              |
+| **N° de tracking transporteur**                      | Numéro de suivi du transporteur.                                               |
+| **Emplacement de déchargement**                      | Lieu de déchargement du camion.                                                |
+| **Transporteur**, **Chauffeur**, **Immatriculation** | Informations du camion.                                                        |
+| **N° de tracking transporteur non attribué(s) ?**    | Affiche les arrivages qui ont encore des numéros de tracking sans arrivage UL. |
+| **N° de commande**, **Fournisseurs**                 | Informations de la commande.                                                   |
+
+</details>
+
+Le menu **⋮** d'une ligne propose **Imprimer**, **Créer arrivage UL** et **Supprimer**. Pour choisir les colonnes affichées, ouvrez la flèche à côté de **Créer arrivage camion**, puis **Gestion des colonnes**.

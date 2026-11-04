@@ -1,55 +1,48 @@
+---
+description: Configuration RFID, fréquences, catégories et planification des inventaires.
+---
+
 # Inventaires
+
+**Chemin :** Paramétrage › Stock › Inventaires
+
+## Configuration
+
+| Paramètre                     | Description                                                                                                 |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Préfixe RFID**              | Si rempli, les scans RFID du module inventaire ne gardent que les étiquettes qui commencent par ce préfixe. |
+| **Tranche pourcentage KPI 1** | Seuil (en %) qui met en avant les emplacements à rescanner en RFID.                                         |
 
 ## Fréquences
 
-Une fréquence permet d'indiquer tous les combiens de mois une référence/un article est à inventorier. Elle est à associer à une catégorie ensuite.
+Une fréquence indique tous les combien de mois une référence ou un article doit être inventorié. Cliquez dans le tableau, puis ajoutez une ligne avec **+** :
 
-### Ajouter / Modifier une fréquence
+* **Libellé\*** ;
+* **Nombre de mois\*** (chiffres uniquement).
 
-Cliquez dans le tableau pour le passer en mode modification et ajout.&#x20;
-
-Vous pouvez modifier les lignes déjà remplies.
-
-Pour ajouter une fréquence, cliquez sur la dernière ligne avec le +, et remplissez les champs suivants :&#x20;
-
-* **Libellé\*** : nom de la fréquence
-* **Nombre de mois\*** : périodicité de la fréquence, vous pouvez seulement mettre des chiffres.
-
-Une fois que vous avez fini vos modifications et ajouts, n'oubliez pas de cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark>.
-
-{% embed url="https://www.screencast.com/t/l7hOISKGwbS" %}
-Ajouter et modifier une fréquence
-{% endembed %}
-
-### Supprimer une fréquence
-
-Pour supprimer une fréquence, cliquez sur la poubelle de la ligne de la fréquence à modifier, que ce soit en mode visualisation ou modification/ajout.
-
-Vous ne pouvez pas supprimer une fréquence si elle est utilisée sur une catégorie
+Une fréquence utilisée par une catégorie ne peut pas être supprimée.
 
 ## Catégories
 
-L'inventaire fonctionne via un système de génération automatique de missions suivant une catégorisation ABC. Les catégories sont associées aux fréquences et permettent de générer automatiquement les missions toutes les semaines qui suivront la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantité retenue)
+Les catégories (ex. : classement ABC) sont associées à une fréquence. Elles permettent de générer automatiquement les missions d'inventaire selon la date du dernier inventaire de la référence ou de l'article.
 
-### Ajouter / Modifier une catégorie
+* **Libellé\*** : catégorie à associer aux références ;
+* **Fréquence\*** : à choisir parmi les fréquences paramétrées.
 
-Cliquez dans le tableau pour le passer en mode modification et ajout.&#x20;
+Une catégorie utilisée sur une référence ne peut pas être supprimée.
 
-Vous pouvez modifier les lignes déjà remplies.
+## Planificateur d'inventaire
 
-Pour ajouter une catégorie, cliquez sur la dernière ligne avec le +, et remplissez les champs suivants :&#x20;
+Le planificateur crée automatiquement des missions d'inventaire. Cliquez sur **Planifier un inventaire** :
 
-* **Libellé\*** : nom de la catégorie à associer à une référence
-* **Fréquence\*** : fréquence à associer à la catégorie, à sélectionner parmi les fréquences paramétrées
+| Champ                                         | Description                                                                                                                                                                                                                                          |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Type de mission\***                         | **Quantité article** : inventaire des références/articles des **Catégories\*** choisies. **Article sur emplacement** : inventaire d'emplacements, ajoutés par zone (**Ajout des emplacements des zones**) ou un par un (**Ajout des emplacements**). |
+| **Libellé de la tâche\*** / **Description\*** | Nom et description de la mission.                                                                                                                                                                                                                    |
+| **Durée\***                                   | Durée de la mission.                                                                                                                                                                                                                                 |
+| **Créé par\***                                | Auteur de la planification.                                                                                                                                                                                                                          |
+| **Fréquence**                                 | Une fois, chaque heure, chaque jour, chaque semaine ou chaque mois.                                                                                                                                                                                  |
 
-Une fois que vous avez fini vos modifications et ajouts, n'oubliez pas de cliquer sur <mark style="background-color:blue;">**Enregistrer**</mark>.&#x20;
+Le tableau liste les planifications (type, périodicité, catégories, durée, dernière exécution, actif). Les **⋮** en début de ligne donnent accès aux actions.
 
-{% embed url="https://www.screencast.com/t/4kPBtjka" %}
-Ajouter et modifier des fréquences
-{% endembed %}
-
-### Supprimer une catégorie
-
-Pour supprimer une catégorie, cliquez sur la poubelle de la ligne de la catégorie à modifier, que ce soit en mode visualisation ou modification/ajout.
-
-Vous ne pouvez pas supprimer une catégorie si elle est utilisée sur une référence.
+Cliquez sur **Enregistrer** pour valider.

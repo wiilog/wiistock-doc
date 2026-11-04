@@ -1,30 +1,36 @@
 # Configurations
 
-## Configurations&#x20;
+## Configurations
 
-Cette section sert à paramétrer les comportements lors de la création d'un arrivage :&#x20;
+Cette section règle le comportement à la création d'un arrivage UL.
 
-* **Redirection vers l'arrivage UL créé** **:** cochez ce paramétrage pour être redirigé vers le détail d'un arrivage lorsque que vous créez un arrivage. Si le paramétrage n'est pas coché, la modale reste ouverte et se vide
-* **Envoyer un mail après nouvel arrivage UL :** si le paramétrage est coché, un mail est envoyé au destinataire renseigné sur l'arrivage à la création de l'arrivage
-* **Impressions cochées par défaut :** si le paramétrage est activé, les switch "Imprimer arrivage" et "Imprimer colis" sera tout le temps cochés par défaut à l'ouverture du formulaire de création d'arrivage
-* **Impression en double de l'étiquette de colis d'arrivage si champ "Douane" coché :** si le paramétrage est activé, lorsque le switch "Douane" est coché sur le formulaire de création d'un arrivage, à l'impression des étiquettes, celles-ci seront imprimées en double
-* **Utilisation des arrivages camion** : Pour utiliser les numéros de tracking transporteur issus des arrivage camion.
-* **Emplacement de destination des arrivages UL :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la validation du formulaire des arrivages
-* **Emplacement de dépose des arrivages UL si champ "douane" coché :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la validation d'un formulaire de création des arrivages sur lequel le switch "Douane" est coché
-* **Emplacement de dépose des arrivages UL si urgence détectée :** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la création d'un arrivage détecté comme urgent
-* **Emplacement de dépose des arrivages UL si destinataire renseigné:** paramétrez ici l'emplacement de dépose automatique des unités de manutention créés suite à la création d'un arrivage qui a le champ "Destinataire" rempli.
+| Option                                                                          | Effet                                                                                                                                    |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Redirection vers l'arrivage UL créé**                                         | Après la création, vous êtes redirigé vers le détail de l'arrivage. Si l'option n'est pas cochée, le formulaire reste ouvert et se vide. |
+| **Envoyer un email après nouvel arrivage UL**                                   | Un mail est envoyé au destinataire de l'arrivage dès sa création.                                                                        |
+| **Impressions cochées par défaut**                                              | Les cases **Impression UL** et **Imprimer arrivage** (si ce champ est affiché) sont cochées par défaut à l'ouverture du formulaire.      |
+| **Impression en double de l'étiquette d'UL d'arrivage si champ "Douane" coché** | Les étiquettes sont imprimées en double quand **Douane** est coché.                                                                      |
+| **Utilisation des arrivages camion**                                            | Permet d'utiliser les numéros de tracking transporteur issus des arrivages camion.                                                       |
 
-Voici l'ordre de priorité des différents emplacements par défaut:
+## Emplacements de dépose automatique
 
-* Prio 1 : Douane
-* Prio 2 : Urgence
-* Prio 3 : Dernier élément rempli sur la modale (si emplacement affiché sur la modale)
-* Prio 4 : Destinataire
-* Prio 5 : Emplacement par défaut
+À la validation de l'arrivage, les UL sont déposées automatiquement sur l'un des emplacements suivants :
 
+| Option                                                               | Utilisé quand…                           |
+| -------------------------------------------------------------------- | ---------------------------------------- |
+| **Emplacement de destination des arrivages UL**                      | Cas par défaut.                          |
+| **Emplacement de dépose des arrivages UL si champ "douane" coché**   | **Douane** est coché.                    |
+| **Emplacement de dépose des arrivages UL si urgence détectée**       | L'arrivage est détecté comme urgent.     |
+| **Emplacement de dépose des arrivages UL si destinataire renseigné** | Le champ **Destinataire(s)** est rempli. |
 
+Si plusieurs cas s'appliquent, l'ordre de priorité est le suivant :
 
-**Format du numéro d'arrivage UL** : Paramétrez le format du numéro généré pour l'arrivage UL.
+1. Douane
+2. Urgence
+3. Emplacement saisi sur le formulaire (si le champ est affiché)
+4. Destinataire
+5. Emplacement par défaut
 
-Ex : aammjjhhmmxx&#x20;
+## Format du numéro
 
+**Format du numéro généré pour l'arrivage UL** : choisissez le format des numéros d'arrivage, par exemple `aammjjhhmmss-xx`.

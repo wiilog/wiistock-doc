@@ -1,19 +1,29 @@
 ---
-description: >-
-  Visualisation et mise à jour de demandes de production ou suivi d'ordre de
-  fabrication.
+description: Organiser et faire avancer les demandes de production sur un planning.
 ---
 
 # Vue planning
 
-## Réorganisation des demandes par un ordonnanceur
+**Chemin :** Production › Planning - Modulaire
 
-En tant ordonnanceur, des droits supplémentaires peuvent être données afin de déplacer en drag and drop les cartes de demandes depuis la page "Planning" afin d'organiser l'ordre des demandes.&#x20;
+## Deux affichages
+
+| Vue           | Colonnes                                                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Planning**  | Une colonne par jour (date attendue), avec le nombre de demandes et de lignes. Naviguez avec **Du / Au**, **Cette semaine** et les flèches. |
+| **Modulaire** | Une colonne par état de statut : À traiter, En cours, Partiel, Traité.                                                                      |
+
+Seules les demandes dont le statut a **Affichage sur planning** apparaissent. Filtrez par numéro de demande, créateur, type ou statut.
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-## Avancement d'une demande
+## Utiliser les cartes
 
-Pour les opérateurs, il est possible de mettre à jour les statuts des demandes en cliquant sur le statut en cours. Il est également possible de voir l'intégralité des informations portées par une demande en cliquant sur la flèche en bas de chaque carte. Les cartes affichées sont déterminées par les paramétrages des types et statuts des demandes.&#x20;
+* **Opérateur** : cliquez sur le statut de la carte pour faire avancer la demande, et sur la flèche **⌄** pour voir toutes ses informations.
+* **Ordonnanceur** (droit dédié) : déplacez les cartes par glisser-déposer pour réorganiser les demandes.
 
 <figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+
+## Lien externe (écran d'atelier)
+
+**Lien externe** génère un lien vers le planning en lecture seule, consultable sans connexion : idéal pour un écran en atelier. La flèche › **Gestion des champs** permet de choisir les informations affichées sur les cartes.

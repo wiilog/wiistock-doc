@@ -1,18 +1,21 @@
 ---
 description: >-
-  Le référentiel véhicules permet de remplir les demandes de transports. Un
-  livreur doit forcément avoir un véhicule associé pour pouvoir être associé à
-  un ordre de transport.
+  Les véhicules des livreurs. Un livreur doit avoir un véhicule pour être
+  affecté à un ordre de transport.
 ---
 
 # Véhicules
 
-Ces derniers sont consultables dans l'onglet **Référentiel**, puis **Véhicules**. Cette page contient plusieurs éléments :&#x20;
+**Chemin :** Référentiel › Véhicules
 
-* Une **recherche rapide**, permettant de filtrer les données affichées dans le tableau
-* Un bouton <mark style="background-color:blue;">**Nouveau véhicule**</mark>, pour créer un nouveau client
-* Un **tableau modifiable**, regroupant les différentes données renseignées dans l'ajout du client.
+Cliquez sur **Nouveau véhicule** et renseignez :
 
-### Contenu du tableau
+* **Immatriculation\*** ;
+* **Livreur** : utilisateur qui conduit le véhicule ;
+* **Emplacements associés** : emplacements du véhicule (par exemple ses frigos, utiles pour le suivi de température).
 
-<table><thead><tr><th>Colonne</th><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Immatriculation</strong></td><td></td><td></td><td></td></tr><tr><td><strong>Livreur</strong></td><td></td><td></td><td></td></tr><tr><td><strong>Emplacement</strong></td><td></td><td></td><td></td></tr></tbody></table>
+Cliquez sur **Enregistrer**. Modifiez un véhicule en cliquant sur sa ligne, supprimez-le depuis le menu **⋮**.
+
+{% hint style="info" %}
+Un livreur sans véhicule ne peut pas être affecté à un ordre de transport.
+{% endhint %}

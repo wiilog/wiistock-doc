@@ -1,37 +1,34 @@
 # Étiquettes
 
-## Etiquettes
-
-Cette section sert à paramétrer ce qui s'affiche sur les étiquettes des unités de manutention générées suite à un arrivage.&#x20;
+Cette page règle les informations imprimées sur les étiquettes des unités logistiques (UL) créées par un arrivage. Le format de l'étiquette se règle, lui, dans le paramétrage **Global**.
 
 <figure><img src="../../../.gitbook/assets/Capture d’écran 2025-08-14 à 14.45.13.png" alt=""><figcaption></figcaption></figure>
 
-* **Afficher le destinataire** : si ce paramétrage est activé et qu'un destinataire est mis sur un arrivage, le nom de ce destinataire sera renseigné sur l'étiquette des unités de manutention de l'arrivage
-* **Afficher le numéro de l'unité logistique dans l'arrivage** : activez ce paramétrage pour que sur chaque étiquette soit affiché le numéro du l'unité logistique sur le numéro total d'unité logistique de l'arrivage (1/3,2/3,3/3,...)
-* **Afficher l'emplacement de dropzone** : si ce paramétrage est activé, que l'arrivage a un destinataire, et que ce destinataire à une dropzone associée, cette dropzone sera affichée sur les étiquettes des unités de manutention de l'arrivage
-* **Afficher les numéros de commande et le numéro de projet** : si ce paramétrage est activé et qu'un numéro de commande et/ou de projet sont renseignés sur un arrivage, ces numéros apparaîtront sur les étiquettes
-* **Afficher le type** : activez ce paramétrage pour afficher le type de l'arrivage sur les étiquettes de colis
-* **Afficher la business unit** : activez ce paramétrage pour afficher la business unit sur les étiquettes de colis
-* **Afficher le projet :** activez ce paramétrage pour afficher le projet associé a l'unité logistique sur l'étiquette.&#x20;
-* **Afficher la date et l'heure de l'arrivage UL :** activez ce paramétrage pour afficher la date et l'heure de l'arrivage de l'unité logistique.
-* **Afficher l'icône du type**: affichera sur l'étiquette l'icône préalablement paramétrée sur le type
-* **Afficher la date et heure de l'arrivage camion**: pour inclure sur l'étiquette ces informations issues de l'arrivage camion
-* **Afficher la date et heure de l'arrivage camion scannable**: ajoutera un QR code avec la date et heure de l'arrivage camion
-* **Afficher nature UL**: pour imprimer la nature de chaque UL
-* **Afficher la date limite de traitement**: Si un délai de traitement a été activé sur la nature de cette unité logistique, sa date limite de traitement (calculée selon les heures travailées de l'instance) sera affichée sur l'étiquette
+| Option                                                         | Ce qui s'affiche sur l'étiquette                                                                                                          |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Afficher le destinataire**                                   | Le nom du destinataire de l'arrivage.                                                                                                     |
+| **Afficher le numéro de l'UL dans l'arrivage**                 | La position de l'UL dans l'arrivage : 1/3, 2/3, 3/3…                                                                                      |
+| **Afficher l'emplacement de dropzone**                         | La dropzone associée au destinataire, s'il en a une.                                                                                      |
+| **Afficher les numéros de commande et le numéro de projet**    | Les numéros renseignés sur l'arrivage.                                                                                                    |
+| **Afficher le type**                                           | Le type de l'arrivage.                                                                                                                    |
+| **Afficher la business unit**                                  | La business unit de l'arrivage.                                                                                                           |
+| **Afficher le projet**                                         | Le projet associé à l'UL.                                                                                                                 |
+| **Afficher la date et l'heure d'un arrivage UL**               | La date et l'heure de l'arrivage UL.                                                                                                      |
+| **Afficher l'icône du type**                                   | L'icône paramétrée sur le type.                                                                                                           |
+| **Afficher la date et l'heure d'un arrivage camion**           | La date et l'heure de l'arrivage camion lié.                                                                                              |
+| **Afficher la date et l'heure de l'arrivage camion scannable** | Un QR code contenant la date et l'heure de l'arrivage camion.                                                                             |
+| **Afficher la nature de l'UL**                                 | La nature de chaque UL.                                                                                                                   |
+| **Afficher la date limite de traitement**                      | La date limite de traitement de l'UL, si un délai est activé sur sa nature. Elle est calculée selon les heures travaillées de l'instance. |
 
 <figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
 
-* **Afficher "Urgence" si une urgence est détectée dans un arrivage** : activez ce paramétrage pour ajouter des indications visuelles d'urgence sur les étiquettes des colis d'arrivage en urgence, à paramétrer :&#x20;
-  * **Intitulé urgence sur étiquette** : libellé à afficher sur l'étiquette&#x20;
-  * **Zone logo** : logo à afficher
-*   **Afficher "Douane" si la douane est cochée dans un arrivage** : activez ce paramétrage pour ajouter des indications visuelles sur les étiquettes provenant d'un arrivage identifié comme douane, à paramétrer :&#x20;
+## Mentions Urgence et Douane
 
-    * **Intitulé douane sur étiquette** : libellé à afficher sur l'étiquette
-    * **Zone logo** : logo à afficher
-
-
+* **Afficher "Urgence" si une urgence est détectée dans un arrivage UL** : ajoute une indication d'urgence sur les étiquettes. Une fois la case cochée, vous réglez :
+  * **Intitulé urgence sur étiquette** : le texte affiché ;
+  * le **logo** : l'image affichée (bouton crayon pour l'ajouter, corbeille pour la retirer).
+* **Afficher "Douane" si la douane est cochée dans un arrivage UL** : ajoute une indication douane sur les étiquettes. Une fois la case cochée, vous réglez :
+  * **Intitulé douane sur étiquette** : le texte affiché ;
+  * le **logo** : l'image affichée.
 
 <figure><img src="../../../.gitbook/assets/etiquette_QRcode (1).png" alt=""><figcaption><p>Exemple d'étiquette d'unité logistique</p></figcaption></figure>
-
-## Statuts

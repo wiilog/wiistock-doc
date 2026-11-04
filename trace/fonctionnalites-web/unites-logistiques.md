@@ -1,82 +1,87 @@
+---
+description: >-
+  Retrouver toutes les unités logistiques (UL) et les groupes d'UL, savoir où
+  ils se trouvent et consulter leur historique.
+---
+
 # Unités logistiques
 
-La page des unités logistiques récapitule tous les UL créés sur l'application Wiilog, ainsi que les groupes d'UL.
+**Chemin :** Traçabilité › Unités logistiques
 
-Pour accéder à la page, vous devez aller dans le menu **Traçabilité**, puis choisir **Unités logistiques**.
+Cette page liste toutes les unités logistiques (UL) créées dans Follow GT, ainsi que les groupes d'UL. Une UL peut provenir d'un arrivage, d'un acheminement, d'un mouvement ou d'une réception.
 
-La page des unités logistiques contient plusieurs éléments :&#x20;
+## Retrouver une UL
 
-* Une **barre de filtre**, permettant de filtrer les données qui sont affichées dans les tableaux
-* Une **recherche rapide**, permettant également de filtrer les données affichées dans les colonnes du tableau
-* Un bouton **Exporter au format CSV** destiné à exporter l'ensemble des données filtrées (suivant les dates renseignées) au format CSV
-* Une **gestion des colonnes** pour afficher ou non les colonnes choisies.&#x20;
-* Un bouton **"Loupe"** par UL pour visualiser l'historique des mouvements de l'unité logistique.&#x20;
+1. Renseignez un ou plusieurs filtres, puis cliquez sur **Filtrer**. Vos filtres sont conservés d'une session à l'autre.
+2. Cliquez sur la **loupe** d'une ligne pour voir directement l'historique des mouvements de l'UL.
 
-### Contenu des filtres
+<details>
 
-Une fois que vous avez renseigné vos filtres, cliquez sur <mark style="background-color:blue;">**Filtrer**</mark>. Les filtres sont conservés d'une session à l'autre (ils seront toujours actifs si vous changez de page ou que vous vous déconnectez et reconnectez).
+<summary>Filtres disponibles</summary>
 
-| Filtre                  | Description                                                                                                                                                                                                                                                           |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Du**                  | La tranche basse filtrant sur la date de dernier mouvement du colis                                                                                                                                                                                                   |
-| **Au**                  | La tranche haute filtrant sur la date de dernier mouvement du colis                                                                                                                                                                                                   |
-| **Unités logistiques**  | Tapez le numéro d'UL sur lequel vous souhaitez faire une recherche                                                                                                                                                                                                    |
-| **Natures**             | Sélectionnez les natures d'UL sur lesquelles vous souhaitez filtrer la liste des unités logistiques                                                                                                                                                                   |
-| **Emplacement**         | <p>Renseignez ici un emplacement pour voir tous les UL dont le dernier emplacement connu est cet emplacement<br><em><mark style="color:orange;">Attention, cela ne signifie pas que l'UL est à cet emplacement si son dernier mouvement est une prise</mark></em></p> |
-| **n° d'arrivage**       | Tapez ici un numéro d'arrivage pour avoir tous les UL issus de cet arrivage                                                                                                                                                                                           |
-| **Projet**              | Tapez le nom d'un projet provenant du référentiel Projet                                                                                                                                                                                                              |
-| **Association**         | Tapez le nom d'un bon de réception associé à votre UL pour la retrouver.                                                                                                                                                                                              |
-| **Type**                | Sélectionner si vous voulez voir des UL uniquement ou des groupes uniquement. Si vide, vous visulaiser les deux dans le même tableau.                                                                                                                                 |
-| **Délai de traitement** | Case à cocher pour filtrer des UL uniquement avec des délais de traitement                                                                                                                                                                                            |
+| Filtre                  | Description                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Du** / **Au**         | Période. La flèche à côté permet de choisir la date sur laquelle filtrer : **Dernier mouvement** ou **Date de création**. |
+| **Unité logistique**    | Numéro de l'UL.                                                                                                           |
+| **Natures**             | Une ou plusieurs natures d'UL.                                                                                            |
+| **Dernier emplacement** | UL dont le dernier mouvement a eu lieu sur cet emplacement.                                                               |
+| **N° d'arrivage UL**    | UL issues de cet arrivage.                                                                                                |
+| **Projet**              | Projet issu du référentiel Projets.                                                                                       |
+| **Association**         | Numéro de bon de réception associé à l'UL.                                                                                |
+| **Type**                | Afficher uniquement les UL, ou uniquement les groupes.                                                                    |
+| **Délai de traitement** | Afficher uniquement les UL soumises à un délai de traitement.                                                             |
 
-### Contenu du tableau
+</details>
 
-| Colonne                       | Description                                                                                                                                                                                                                                              |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Numéro UL**                 | Numéro du colis. Ce numéro peut être un numéro résultant de la création d'un arrivage, d'une unité de manutention ajoutée sur un acheminement, ou sur une prise/dépose, ou de la création d'une réception (numéro d'article ou de référence dans ce cas) |
-| **Nature**                    | Nature associée au UL. Pour le cas des unités logistiques  résultants de réception, il n'y aura pas de nature d'UL                                                                                                                                       |
-| **Quantité**                  | Quantité dans l'unité logistique                                                                                                                                                                                                                         |
-| **Date du dernier mouvement** | Date et heure du dernier mouvement de l'UL                                                                                                                                                                                                               |
-| **Issu de**                   | Lien vers l'arrivage, l'acheminement ou la réception dont est issu l'UL                                                                                                                                                                                  |
-| **Emplacement**               | Dernier emplacement du dernier mouvement connu de l'UL                                                                                                                                                                                                   |
-| **Arrivage camion**           | Numéro d'arrivage camion auquel l'UL est liée                                                                                                                                                                                                            |
-| **Délai de traitement**       | Temps de traitement de l'UL (chrono spécifique)                                                                                                                                                                                                          |
-| **Date limite de traitement** | Dernière date pour laquelle le traitement de l'UL sera valide (chrono spécifique)                                                                                                                                                                        |
-| **Groupe rattaché**           | Si l'UL est dans un groupe, nom du groupe                                                                                                                                                                                                                |
-| **Fournisseur**               | Fournisseur identifié lors de l'arrivage UL                                                                                                                                                                                                              |
-| **N° commande / BL**          | N° commande identifié lors de l'arrivage UL                                                                                                                                                                                                              |
-| **Projet**                    | Projet identifié lors de l'arrivage UL                                                                                                                                                                                                                   |
-| **Transporteur**              | Transporteur identifié lors de l'arrivage UL ou arrivage camion.                                                                                                                                                                                         |
-| **Association**               | Numéro d'association lié lors de l'association BR                                                                                                                                                                                                        |
+{% hint style="warning" %}
+**Dernier emplacement** ne garantit pas que l'UL s'y trouve : si son dernier mouvement est une prise, elle est en cours de déplacement.
+{% endhint %}
 
-Sur chaque ligne d'UL peut aussi apparaître un logo wifi si l'UL est lié ou a été lié à un objet connecté.&#x20;
+## Le détail d'une UL
 
-![](<../../.gitbook/assets/image (82).png>)
+Cliquez sur une ligne pour ouvrir la fiche de l'UL. Elle regroupe :
 
-Si la ligne a un logo wifi, un bouton <mark style="background-color:blue;">**Historique des données**</mark> est présent en plus sous les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">. Il ouvre une page permettant de suivre toutes les données remontées par les capteurs qui ont été associés à cette UL (Voir la partie [IoT](https://app.gitbook.com/s/id6mpmGgIXZ3CFWUO3AX/iot)).
+* **Description** : date de création, arrivage camion et arrivage UL d'origine, tracking associé, n° de commande, poids, volume, projet, fournisseur, transporteur, association IoT ;
+* **Historique de groupage** : groupes dans lesquels l'UL a été mise ou retirée ;
+* **Historique de traçabilité** : tous les mouvements de l'UL ;
+* **Projets assignés** et **Champs libres**.
 
-#### Modifier une unité logistique
+## Agir sur une UL
 
-Vous pouvez modifier les informations d'une UL en cliquant sur <mark style="background-color:blue;">**Modifier**</mark> dans les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">de la ligne souhaité. Une modale s'ouvrira alors avec les éléments suivants :&#x20;
+Les actions sont disponibles dans le menu **⋮** de la ligne ou en haut de la fiche :
 
-* **Numéro UL :** numéro de l'unité logistique, champ non modifiable
-* **Nature\* :** ce champ est modifiable et est obligatoire pour valider le formulaire
-* **Quantité :** quantité connue dans l'UL, champ modifiable
-* **Poids (kg) :** poids de l'UL, champ modifiable. Ce champ est pertinent dans le cadre d'un acheminement avec la génération de lettre de voiture
-* **Volume (m3) :** volume de l'UL, champ modifiable. Ce champ est pertinent dans le cadre d'un acheminement avec la génération de lettre de voiture
-* **Commentaire :** commentaire pour ajouter de l'information supplémentaire sur l'UL, champ modifiable
-* **Historique de groupage :** tableau permettant de connaitre dans quels groupes est passé l'UL avec les colonnes suivantes&#x20;
-  * **Groupe :** nom du groupe de l'UL dans lequel a été mis l'UL
-  * **Date :** date à laquelle l'UL a été mis ou enlevé du groupe
-  * **Type :** groupage/dégroupage. Groupage : l'UL a été mis dans le groupe. Dégroupage : l'UL a été enlevé du groupe
+| Action                           | Résultat                                                                                                                                                     |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Modifier**                     | Modifier la nature, la quantité, le poids, le volume et le commentaire. Le poids et le volume servent notamment pour la lettre de voiture des acheminements. |
+| **Voir les mouvements**          | Afficher l'historique des mouvements de l'UL.                                                                                                                |
+| **Recalculer le délai de traça** | Recalculer le délai de traitement de l'UL.                                                                                                                   |
+| **Supprimer**                    | Supprimer l'UL. Il faut d'abord supprimer ses mouvements et les éléments liés, sinon un message d'erreur s'affiche.                                          |
 
-N'oubliez pas d'enregistrer vos modifications.&#x20;
+{% hint style="info" %}
+Une icône **wifi** signale une UL qui est, ou a été, associée à un objet connecté. Le bouton **Historique des données** affiche alors les données remontées par les capteurs. Voir [IoT](https://app.gitbook.com/s/id6mpmGgIXZ3CFWUO3AX/iot).
+{% endhint %}
 
-#### Supprimer une unité logistique
+## Colonnes du tableau
 
-Vous pouvez supprimer une UL en cliquant sur les<img src="../../.gitbook/assets/3-points.png" alt="" data-size="line">de la ligne du colis souhaité et en cliquant sur <mark style="background-color:blue;">**Supprimer**</mark>.&#x20;
+Pour choisir les colonnes affichées, ouvrez la flèche à côté de **Exporter au format CSV**, puis **Gestion des colonnes**.
 
-Vous devez avoir au préalable supprimé tous les mouvements et éléments associés a l'UL avant de le supprimer. Si ce n'est pas le cas, vous obtiendrez un message d'erreur.
+<details>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<summary>Colonnes disponibles</summary>
 
+| Colonne                                                 | Description                                                                                         |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Numéro d'UL**                                         | Numéro de l'UL. Pour une UL issue d'une réception, c'est le numéro de l'article ou de la référence. |
+| **Nature**                                              | Nature de l'UL. Elle est vide pour les UL issues d'une réception.                                   |
+| **Quantité**                                            | Quantité contenue dans l'UL.                                                                        |
+| **Projet**, **Numéro de projet**                        | Projet rattaché à l'UL.                                                                             |
+| **Date dernier mouvement**, **Date de création**        | Dates clés de l'UL.                                                                                 |
+| **Issu de**                                             | Lien vers l'arrivage, l'acheminement ou la réception d'origine.                                     |
+| **Dernier emplacement**                                 | Emplacement du dernier mouvement connu.                                                             |
+| **Association**                                         | Numéro de l'association BR.                                                                         |
+| **Arrivage camion**                                     | Arrivage camion lié à l'UL.                                                                         |
+| **Délai de traitement**, **Date limite de traitement**  | Suivi du délai de traitement, si un délai s'applique.                                               |
+| **Groupe rattaché**                                     | Groupe dans lequel se trouve l'UL.                                                                  |
+| **Fournisseur**, **N° commande / BL**, **Transporteur** | Informations reprises de l'arrivage.                                                                |
+
+</details>
