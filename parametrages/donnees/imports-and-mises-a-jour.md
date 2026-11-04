@@ -12,7 +12,7 @@ La fonction d'import et de mise à jour permet soit d'importer de nouvelles donn
 * Utilisateurs
 * Livraisons
 * Emplacements
-
+* [Demandes de transport](imports-and-mises-a-jour.md#demande-de-transport)
 ## Création d'un nouvel import ou maj
 
 Commencez par cliquer sur le bouton "**Nouvel import"**, cela ouvrira la fenêtre Import d'un fichier. Sur cette fenêtre :
@@ -67,3 +67,38 @@ Le modèle d'import comporte 4 colonnes :&#x20;
 | **Référence\***                      | Ref article fournisseur    |                                     |
 | **Référence article de référence\*** | Code de Référence          | Référence de l'article de référence |
 | **Référence fournisseur\***          | Code fournisseur           |                                     |
+
+### Demande de transport
+
+Cet import permet de créer en masse des demandes de transport (livraisons et collectes). Chaque ligne du fichier crée une demande, qui suit les mêmes règles qu'une demande créée manuellement (statut, ordre de transport, sous-traitance, mail de validation).
+
+Le modèle d'import comporte 11 colonnes :
+
+| Colonne de l'import                               | Explications                                                                                                                                                                  |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Type demande\***                                | « Livraison » ou « Collecte ».                                                                                                                                                |
+| **Patient\***                                     | Nom du patient.                                                                                                                                                               |
+| **N° dossier\***                                  | Numéro de dossier du patient (uniquement des chiffres).                                                                                                                       |
+| **Adresse\***                                     | Adresse de livraison ou de collecte. Elle doit pouvoir être retrouvée par la géolocalisation.                                                                                 |
+| **Contact\***                                     | Numéro de téléphone du contact, saisi tel quel (le 0 initial est conservé).                                                                                                   |
+| **Personne à prévenir\***                         | Nom de la personne à prévenir.                                                                                                                                                |
+| **Remarque**                                      | Remarque libre.                                                                                                                                                               |
+| **Service\***                                     | Libellé d'un type de demande de transport existant : un type de livraison si le Type demande est « Livraison », un type de collecte s'il est « Collecte ».                    |
+| **Date et heure livraison (jj/mm/AAAA hh:MM)**    | Obligatoire pour une livraison, à laisser vide pour une collecte.                                                                                                             |
+| **Date de collecte souhaitée (jj/mm/AAAA)**       | Obligatoire pour une collecte, à laisser vide pour une livraison.                                                                                                             |
+| **Urgence**                                       | Uniquement pour une livraison. La valeur doit faire partie des valeurs du champ Urgence paramétrées dans Paramétrage > Track > Demande de transport.                          |
+
+Une ligne est refusée (et le motif est indiqué dans le fichier de trace) dans les cas suivants :
+
+* un champ obligatoire est vide ou le Type demande n'est ni « Livraison » ni « Collecte » ;
+* le N° dossier n'est pas numérique ;
+* le Service ne correspond à aucun type de livraison ou de collecte (selon le Type demande) ;
+* la date est absente, invalide ou ne respecte pas le format attendu ;
+* une urgence est renseignée pour une collecte, ou ne fait pas partie des valeurs paramétrées ;
+* la date de collecte est dans le passé ;
+* une collecte est déjà en cours pour le même N° dossier ;
+* l'adresse n'a pas pu être trouvée.
+
+{% hint style="info" %}
+Comme pour une création manuelle, une livraison hors des jours et horaires travaillés ou dans le passé est directement « Sous-traitée », et une demande prévue le jour même est « En attente de validation ». Un mail est alors envoyé pour les livraisons du jour.
+{% endhint %}
