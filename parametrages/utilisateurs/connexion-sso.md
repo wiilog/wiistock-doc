@@ -8,11 +8,11 @@ La connexion SSO permet à vos utilisateurs de se connecter à Follow GT avec le
 
 ### Se connecter
 
-| Votre domaine utilise le SSO                                                                                                                  | Votre domaine n'utilise pas le SSO                                  |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| 1. Saisissez votre adresse email dans le champ identifiant.                                                                                   | 1. Saisissez votre adresse email dans le champ identifiant.         |
-| 2. Vous êtes redirigé vers la page de connexion de votre fournisseur d'identité.                                                              | 2. Saisissez votre mot de passe Follow GT.                          |
-| La création de compte et le **mot de passe oublié** ne sont pas disponibles dans Follow GT : ils sont gérés par votre fournisseur d'identité. | **Créer un compte** et **Mot de passe oublié** restent disponibles. |
+| Votre domaine utilise le SSO                                                                                                                  | Votre domaine n'utilise pas le SSO                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1. Saisissez votre adresse email dans le champ identifiant.                                                                                   | 1. Saisissez votre adresse email dans le champ identifiant.            |
+| 2. Vous êtes redirigé vers la page de connexion de votre fournisseur d'identité.                                                              | 2. Saisissez votre mot de passe Follow GT.                             |
+| La création de compte et le **mot de passe oublié** ne sont pas disponibles dans Follow GT : ils sont gérés par votre fournisseur d'identité. | **Demander un compte** et **Mot de passe oublié** restent disponibles. |
 
 ### Demandes de compte (hors SSO)
 
