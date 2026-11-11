@@ -10,7 +10,7 @@ Si votre entreprise utilise la [connexion SSO](connexion-sso.md), la création d
 
 ### Créer un utilisateur
 
-Vous pouvez créer un utilisateur depuis le paramétrage, depuis la page de connexion, ou en masse par import depuis **Paramétrage | Données | Imports & mises à jour**.
+Vous pouvez créer un utilisateur depuis le paramétrage, depuis une demande sur la page de connexion, ou en masse par import depuis **Paramétrage | Données | Imports & mises à jour**.
 
 #### Depuis le paramétrage
 
@@ -20,14 +20,15 @@ Allez dans **Paramétrage | Utilisateurs | Utilisateurs** et cliquez sur **Nouve
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Statut**                                                                    | Actif ou inactif. Un utilisateur inactif ne peut plus se connecter.                                                                    |
 | **Rôle**                                                                      | Donne accès aux fonctionnalités.                                                                                                       |
-| **Identifiant utilisateur**                                                   | Identifiant de connexion sur le **nomade**. Doit être unique.                                                                          |
-| **Email**                                                                     | Identifiant sur le **web** et adresse de réception des notifications. Doit être unique.                                                |
+| **Identifiant utilisateur**                                                   | Identifiant de connexion sur le **web**. Doit être unique et format email.                                                             |
 | **Mot de passe / Confirmer le mot de passe**                                  | 8 caractères minimum, dont 1 caractère spécial, 1 chiffre et 1 majuscule.                                                              |
 | **Types de livraison, d'acheminement, de service, de tournée, de production** | Types de demandes visibles par l'utilisateur. Voir ci-dessous.                                                                         |
 | **Groupes de visibilité**                                                     | Limite les références du stock visibles. Sans groupe, l'utilisateur voit toutes les références.                                        |
 | **Business unit (acheminements)**                                             | Pré-remplit le champ Business unit des acheminements créés par l'utilisateur.                                                          |
 | **Livreur**                                                                   | Indique un chauffeur-livreur du module Track.                                                                                          |
 | **Connexion 14 jours**                                                        | Garde l'utilisateur connecté pendant 14 jours. Option inactive par défaut : pour l'activer, ouvrez un ticket auprès du support Wiilog. |
+
+
 
 <figure><img src="../../.gitbook/assets/parametrage-utilisateurs-nouvel-utilisateur.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,13 +42,12 @@ La clé de connexion nomade est générée automatiquement : vous n'avez pas à 
 
 Ces champs limitent les types de demandes que l'utilisateur voit. Quand un champ est vide :
 
-| Champ                            | Web                     | Nomade             |
-| -------------------------------- | ----------------------- | ------------------ |
-| Livraison, acheminement, service | Tous les types visibles | Aucun type visible |
-| Production                       | Tous les types visibles | Sans objet         |
-| Tournée                          | Tous les types visibles | Aucun type visible |
+| Champ                                     | Web                     | Nomade             |
+| ----------------------------------------- | ----------------------- | ------------------ |
+| Livraison, acheminement, service, tournée | Tous les types visibles | Aucun type visible |
+| Production                                | Tous les types visibles | Sans objet         |
 
-<figure><img src="../../.gitbook/assets/parametrage-utilisateurs-types-tournee.png" alt=""><figcaption></figcaption></figure>
+
 
 #### Depuis la page de connexion (hors SSO)
 
