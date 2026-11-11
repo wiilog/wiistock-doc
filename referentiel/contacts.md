@@ -17,16 +17,16 @@ Le référentiel Contacts permet de choisir des personnes dans les formulaires (
 
 Cliquez sur **Nouveau contact** et renseignez :
 
-| Champ                                                            | Description                                                   |
-| ---------------------------------------------------------------- | ------------------------------------------------------------- |
-| **Statut\***                                                     | Actif ou inactif.                                             |
-| **Nom d'affichage\***                                            | Nom visible dans les listes.                                  |
-| **Email** / **Emails secondaires** / **Téléphone** / **Adresse** | Coordonnées.                                                  |
-| **Trigramme signataire** / **Code signataire**                   | Utilisés pour la signature des documents.                     |
-| **Société** / **Service de l'entreprise**                        | Rattachement.                                                 |
-| **Dropzone**                                                     | Emplacement ou groupe où déposer les UL destinées au contact. |
-| **Langue\*** / **Format de date\***                              | Langue et format des emails reçus.                            |
+| Champ                                                            | Description                                                                                                                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statut\***                                                     | Actif ou inactif.                                                                                                                                                |
+| **Nom d'affichage\***                                            | Nom visible dans les listes.                                                                                                                                     |
+| **Email** / **Emails secondaires** / **Téléphone** / **Adresse** | Coordonnées.                                                                                                                                                     |
+| **Trigramme signataire** / **Code signataire**                   | Utilisés pour la signature des documents. Le code signataire est un code PIN à 4 caractères qui sert à signer les acheminements groupés.                         |
+| **Société** / **Service de l'entreprise**                        | Rattachement.                                                                                                                                                    |
+| **Dropzone**                                                     | Emplacement ou groupe où déposer les UL destinées au contact. Pour le contact d'un utilisateur acheteur, la dropzone figure sur l'étiquette d'unité de tracking. |
+| **Langue\*** / **Format de date\***                              | Langue et format des emails reçus.                                                                                                                               |
 
 Cliquez sur **Enregistrer**. Le menu à côté de **Nouveau contact** propose **Exporter au format CSV**, et le menu **⋮** d'une ligne **Supprimer**.
 
-<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FaNvk54e0V0tLyRMM7ZNr%2Fimage.png?alt=media&#x26;token=61ba7508-7edb-4112-a671-9672fe39e8a9" alt="Référentiel Contact"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/referentiel-contacts-nouveau-contact.png" alt="Référentiel Contact"><figcaption></figcaption></figure>

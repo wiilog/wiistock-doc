@@ -50,4 +50,4 @@ Tous les filtres sont actifs par défaut.
 | Noir           | Température entre 10 °C et 25 °C. |
 | Bleu clair     | Température en dessous de 10 °C.  |
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

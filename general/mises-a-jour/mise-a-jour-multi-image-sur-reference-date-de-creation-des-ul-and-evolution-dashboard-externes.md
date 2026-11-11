@@ -4,7 +4,7 @@ description: Mise en production du 28/02/2026
 
 # Mise à jour - Multi image sur référence, date de création des UL & évolution dashboard externes
 
-## Projet Multi images et zoom sur image&#x20;
+## Projet Multi images et zoom sur image
 
 Vous pouvez désormais tester :
 
@@ -19,20 +19,19 @@ Vous pouvez désormais tester :
 
 La date de création des unités logistiques est maintenant disponible directement depuis la page de liste des UL.
 
-* Si vos unités logistiques n'ont aucun mouvement de traçabilité (car supprimés ou autre), alors la date de création sera remplie avec la date de la montée de version.&#x20;
-* Si vos unités logistiques ont au moins un mouvement, la date de création de l'unité logistique sera remplie avec celle du mouvement le plus ancien.&#x20;
+* Si vos unités logistiques n'ont aucun mouvement de traçabilité (car supprimés ou autre), alors la date de création sera remplie avec la date de la montée de version.
+* Si vos unités logistiques ont au moins un mouvement, la date de création de l'unité logistique sera remplie avec celle du mouvement le plus ancien.
 
-<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
 
-Evolution Dashboards externes :&#x20;
+Evolution Dashboards externes :
 
-
-Les URLs des dashboards évoluent.\
+Les URLs des dashboards évoluent.\
 Désormais, le numéro indiqué après le # correspondra à l’identifiant de la page en base de données (ordre de création), et non plus à l’ordre d’affichage.
 
-Exemple :\
-Page 1 → #2\
-Page 2 → #3\
+Exemple :\
+Page 1 → #2\
+Page 2 → #3\
 Page 3 → #6
 
 Nous vous invitons à en tenir compte si vous utilisez des liens directs vers ces dashboards.

@@ -1,6 +1,6 @@
 # Acheminements
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption><p>Paramétrage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption><p>Paramétrage</p></figcaption></figure>
 
 Dans Paramétrage > Terminal mobile > Acheminements, vous pouvez venir régler la couleur des entêtes des vignettes acheminements dans la listes des acheminements à traiter.
 
