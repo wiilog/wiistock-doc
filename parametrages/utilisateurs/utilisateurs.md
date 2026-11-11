@@ -51,9 +51,13 @@ Ces champs limitent les types de demandes que l'utilisateur voit. Quand un champ
 
 #### Depuis la page de connexion (hors SSO)
 
-Le bouton **Créer un compte** ouvre un formulaire limité : nom d'utilisateur, adresse email, mot de passe, langue et format de date.
+Sur la page de connexion, saisissez votre adresse email, puis cliquez sur le lien **Demandez-en un maintenant**. Le formulaire **Demander un compte** reprend l'adresse email saisie. Renseignez les champs obligatoires **Nom**, **Prénom** et **Message**, et si besoin les **Informations complémentaires** : **Adresse**, **Société**, **Emails secondaires** et **Téléphone**.
 
-Le compte créé reçoit le rôle **Aucun accès**. L'administrateur reçoit un email de demande de compte : le lien de cet email ouvre la fiche de l'utilisateur pour lui attribuer un rôle et compléter son paramétrage.
+Cliquez sur **Enregistrer** pour envoyer la demande. L'administrateur reçoit la demande par email et crée le compte.
+
+
+
+<figure><img src="../../.gitbook/assets/connexion-demander-un-compte.png" alt=""><figcaption></figcaption></figure>
 
 #### Par import
 
