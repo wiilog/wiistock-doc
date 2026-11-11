@@ -29,4 +29,4 @@ Pour les champs des lignes (Projet, Commentaire, Remarques) :
 
 Cliquez sur **Enregistrer** pour valider.
 
-<figure><img src="../../../../.gitbook/assets/image (124).png" alt=""><figcaption><p>Les champs fixes des demandes de livraison</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (123).png" alt=""><figcaption><p>Les champs fixes des demandes de livraison</p></figcaption></figure>

@@ -30,30 +30,22 @@ Parmi les fonctionnalités supplémentaires offertes par Wiispool V3, vous pouve
 
 Pour commencer à utiliser Wiispool V3 et améliorer la gestion de vos impressions, vous pouvez facilement télécharger le logiciel. Allez simplement dans les **Paramètres** de votre instance, dans la partie **Liens Pratiques** et cliquez sur "**Wiispool**" pour télécharger l'application.
 
-
-
 **Installation**
 
 Après avoir téléchargé le fichier Wiispool.exe, suivez les étapes suivantes pour l'installation et la configuration de votre système :
 
-* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
-* Lors de l'installation la fenêtre suivante peut apparaitre :&#x20;
+* Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+* Lors de l'installation la fenêtre suivante peut apparaitre :
 
-
-
-<figure><img src="../.gitbook/assets/image (110).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt="" width="266"><figcaption></figcaption></figure>
 
 _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un composant de sécurité intégré à Windows. Il a pour objectif de protéger votre ordinateur en empêchant l'exécution d'applications non reconnues ou potentiellement dangereuses. Ce message apparaît car Wiispool est récemment développé et n'est pas largement utilisé, et peut ne pas être reconnue par SmartScreen. Pour contourner cette alerte vous pouvez cliquer sur "Informations complémentaires" puis sélectionner "Exécuter quand même"._
 
-* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
-*   Création d'un raccourci sur le bureau Windows
+* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+* Création d'un raccourci sur le bureau Windows
+  * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)que vous avez précédemment exécuté.
 
-    * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)que vous avez précédemment exécuté.
-
-
-
-**Configuration Initiale**\
-&#x20;
+**Configuration Initiale**<br>
 
 Lors du premier lancement de Wiispool V3 l'interface est la suivante : ![](<../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
@@ -84,8 +76,6 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 
 * Cliquer sur "Ajouter un préfixe"
 
-
-
 <figure><img src="../.gitbook/assets/image (6).png" alt="" width="373"><figcaption></figcaption></figure>
 
 * Indiquer le nouveau préfixe à associer et sélectionner l'imprimante correspondante
@@ -98,15 +88,13 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 
 **Modification d'une association préfixe/imprimante**
 
-* Cliquer sur le champ préfixe ou imprimante  à modifier une fois la modification effectuer valider votre modification en cliquant sur <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">. La modale suivante vous confirme que l'enregistrement est terminé : <img src="../.gitbook/assets/image (11).png" alt="" data-size="original">
+* Cliquer sur le champ préfixe ou imprimante à modifier une fois la modification effectuer valider votre modification en cliquant sur <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">. La modale suivante vous confirme que l'enregistrement est terminé : <img src="../.gitbook/assets/image (11).png" alt="" data-size="original">
 
 **Lancer l'impression automatique**
 
 * Une fois le paramétrage terminé, pour lancer l'exécution de Wiispool, il vous suffit de cliquer sur <img src="../.gitbook/assets/image (12).png" alt="" data-size="original">
 
 A partir de la, dés que vous téléchargerez un document .PDF préfixé avec un des préfixes paramétrés, ce document sera automatiquement envoyé vers l'imprimante qui est associée avec ce préfixe et le document sera automatiquement supprimé de votre dossier de téléchargement.
-
-
 
 #### Historique des impressions
 
@@ -121,4 +109,3 @@ A partir de la, dés que vous téléchargerez un document .PDF préfixé avec un
 * L'option "Vider l'historique" dans Wiispool V3 vous permet de supprimer l'ensemble des entrées de l'historique d'impression en un seul clic. Cette fonctionnalité est particulièrement utile lorsque vous souhaitez libérer de l'espace, nettoyer votre journal d'impression ou préserver la confidentialité de vos activités d'impression. En utilisant cette option, vous pouvez effacer rapidement et facilement toutes les informations sur les documents imprimés précédemment, y compris le nom du fichier, la date et l'heure d'impression, le préfixe associé, ainsi que le statut de l'impression. Ainsi, l'option "Vider l'historique" vous offre un moyen simple et efficace de maintenir un environnement d'impression organisé et sécurisé.\
   \
   ![](<../.gitbook/assets/image (16).png>)<br>
-
