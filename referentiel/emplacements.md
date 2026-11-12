@@ -10,7 +10,7 @@ La page a 3 onglets :
 
 * **Emplacements** : lieux de prise, de dépose ou de stockage ;
 * **Groupes** : ensembles d'emplacements (dropzone d'un utilisateur, association à un capteur IoT) ;
-* **Zones** : par défaut « Activité standard ». D'autres zones peuvent être créées, notamment pour les inventaires RFID (contactez Wiilog).
+* **Zones** : par défaut « Activité standard ». D'autres zones peuvent être créées, notamment pour les inventaires RFID (voir ci-dessous).
 
 <figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ Cliquez sur **Nouvel Emplacement**. Les champs sont regroupés par thème :
 | **Traçabilité - emails**              | **Point de livraison** : mail au destinataire de l'arrivage quand ses UL sont déposées ici (et relances à 7, 15, 30 et 42 jours). **Emplacement de la tournée** : emplacement dédié aux tournées de traçabilité. **Envoi d'email à chaque dépose aux responsables** + **Responsable(s)**. |
 | **Typologie d'emplacement**           | **Prise initiale** (démarre le chrono de l'UL), **Dépose finale** (l'arrête), **Pause** (le met en pause). **Changement de nature à la prise / à la dépose** : la nature de l'UL change automatiquement pour la nouvelle nature choisie.                                                  |
 
-<figure><img src="../.gitbook/assets/Photo sélectionnée (1).jpg" alt=""><figcaption><p>Encours visible sur nomade, à la prise</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Photo sélectionnée (1).jpg" alt="" width="188"><figcaption><p>Encours visible sur nomade, à la prise</p></figcaption></figure>
 
 Cliquez sur **Enregistrer**.
 
@@ -46,6 +46,10 @@ Cliquez sur **Enregistrer**.
 Dans l'onglet **Groupes**, cliquez sur **Nouveau groupe** : **Nom du groupe\*** (différent de tout nom d'emplacement), **Description\***, **Statut\*** et **Emplacements\***.
 
 Une icône wifi signale un groupe lié à un objet connecté : le menu **⋮** propose alors **Historique des données** (voir [IoT](../iot/capteurs.md)).
+
+### Zones
+
+Dans l'onglet **Zones**, cliquez sur **Nouvelle zone** : **Code Zone\***, **Description\***, **Indicateur d'inventaire sur emplacement RFID** (taux de présence des tags RFID sur un emplacement inventorié) et **Statut\***. La zone peut ensuite être choisie dans le champ **Zone\*** d'un emplacement.
 
 {% hint style="info" %}
 Un emplacement ou un groupe déjà utilisé ne peut pas être supprimé : passez-le en inactif.

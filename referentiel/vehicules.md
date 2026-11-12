@@ -16,6 +16,8 @@ Cliquez sur **Nouveau véhicule** et renseignez :
 
 Cliquez sur **Enregistrer**. Modifiez un véhicule en cliquant sur sa ligne, supprimez-le depuis le menu **⋮**.
 
+<figure><img src="../.gitbook/assets/referentiel-vehicules-nouveau-vehicule.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Un livreur sans véhicule ne peut pas être affecté à un ordre de transport.
 {% endhint %}

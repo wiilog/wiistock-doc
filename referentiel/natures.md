@@ -32,6 +32,8 @@ Cliquez sur **Ajouter une nature** et renseignez :
 
 Cliquez sur **Enregistrer**.
 
+<figure><img src="../.gitbook/assets/referentiel-natures-creation-nature.png" alt=""><figcaption></figcaption></figure>
+
 ## Modifier, supprimer
 
 * **Modifier** : cliquez sur la ligne.

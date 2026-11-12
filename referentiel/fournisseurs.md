@@ -19,6 +19,8 @@ Cliquez sur **Nouveau fournisseur** et renseignez :
 
 Cliquez sur **Enregistrer**. Un fournisseur peut aussi être créé directement depuis le formulaire d'un arrivage ou d'une réception.
 
+<figure><img src="../.gitbook/assets/referentiel-fournisseurs-nouveau-fournisseur.png" alt=""><figcaption></figcaption></figure>
+
 ## Modifier, exporter, supprimer
 
 * **Modifier** : cliquez sur la ligne.

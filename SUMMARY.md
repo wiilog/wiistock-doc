@@ -39,7 +39,7 @@
   * [Mise à jour - Numéro de commande sur Encours, Traçabilité via RFID & nouveaux dashboards](general/mises-a-jour/mise-a-jour-numero-de-commande-sur-encours-tracabilite-via-rfid-and-nouveaux-dashboards.md)
   * [Mise à jour - Nouveau modèle de document pour les acheminements](general/mises-a-jour/mise-a-jour-nouveau-modele-de-document-pour-les-acheminements.md)
   * [Mise à jour - Evolution page des Unités logistiques / Groupes, acheminements & dashboard](general/mises-a-jour/mise-a-jour-evolution-page-des-unites-logistiques-groupes-acheminements-and-dashboard.md)
-  * [Mise à jour - Evolutions des demandes de production,  acheminements & vue planning.](general/mises-a-jour/mise-a-jour-evolutions-des-demandes-de-production-acheminements-and-vue-planning..md)
+  * [Mise à jour - Evolutions des demandes de production, acheminements & vue planning.](general/mises-a-jour/mise-a-jour-evolutions-des-demandes-de-production-acheminements-and-vue-planning..md)
   * [Mise à jour - Type de document sur demande d'acheminement, Prêt de matériel Stock, etc](general/mises-a-jour/mise-a-jour-type-de-document-sur-demande-dacheminement-pret-de-materiel-stock-etc.md)
   * [Mises à jour - Mouvements de stock rapides, dupliquer des exports planifiés et avertisseur MEP](general/mises-a-jour/mises-a-jour-mouvements-de-stock-rapides-dupliquer-des-exports-planifies-et-avertisseur-mep.md)
   * [Mises à jour - Champs libres mutualisés par type, vue modulaire sur les demandes de productions, ...](general/mises-a-jour/mises-a-jour-champs-libres-mutualises-par-type-vue-modulaire-sur-les-demandes-de-productions-....md)
@@ -56,7 +56,7 @@
   * [Mise à jour - Sortie de stock autonome & champ supplémentaire étiquette](general/mises-a-jour/mise-a-jour-sortie-de-stock-autonome-and-champ-supplementaire-etiquette.md)
   * [Mise à jour - Urgences sur arrivages UL & Gestion des licences](general/mises-a-jour/mise-a-jour-urgences-sur-arrivages-ul-and-gestion-des-licences.md)
   * [Mise à jour - Demandes d'achats sur références & évolution des demandes d'acheminements](general/mises-a-jour/mise-a-jour-demandes-dachats-sur-references-and-evolution-des-demandes-dacheminements.md)
-  * [Mise à jour - Evolution sur les réserves de l'arrivage camion, les IoT,  et autres](general/mises-a-jour/mise-a-jour-evolution-sur-les-reserves-de-larrivage-camion-les-iot-et-autres.md)
+  * [Mise à jour - Evolution sur les réserves de l'arrivage camion, les IoT, et autres](general/mises-a-jour/mise-a-jour-evolution-sur-les-reserves-de-larrivage-camion-les-iot-et-autres.md)
   * [Mise à jour - Mode hors ligne du traitement des acheminements par signature groupée](general/mises-a-jour/mise-a-jour-mode-hors-ligne-du-traitement-des-acheminements-par-signature-groupee.md)
   * [Mise à jour - Evolution sur les Livraisons et Expéditions](general/mises-a-jour/mise-a-jour-evolution-sur-les-livraisons-et-expeditions.md)
   * [Mise à jour - Evolution Association BR et Urgences](general/mises-a-jour/mise-a-jour-evolution-association-br-et-urgences.md)
@@ -359,9 +359,9 @@
 * [Chauffeurs](referentiel/chauffeurs.md)
 * [Transporteurs](referentiel/transporteurs.md)
 * [Natures](referentiel/natures.md)
-* [Contacts](referentiel/contacts.md)
 * [Véhicules](referentiel/vehicules.md)
 * [Projets](referentiel/projets.md)
+* [Contacts](referentiel/contacts.md)
 
 ## Entrepôt de données
 
