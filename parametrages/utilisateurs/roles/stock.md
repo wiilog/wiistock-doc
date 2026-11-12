@@ -1,40 +1,48 @@
+---
+description: Droits du menu Stock dans un rôle.
+---
+
 # Stock
+
+**Chemin :** Paramétrage › Utilisateurs › Rôles › rôle › **Stock**
+
+{% hint style="info" %}
+Les droits **Général** s'appliquent à toutes les pages du menu, sauf si un droit plus précis est coché dans une section.
+{% endhint %}
 
 ### Général
 
-Droit générique qui touche aux ordres, ces doits ont un impact sur toutes les pages ordres, si aucun droit spécifique n'est coché dans les sous menus.
-
-* **Créer** : Possibilité de créer des nouvelles entrée dans le stock.
-* **Modifier** : Possibilité de modifier des données de stock.
-* **Supprimer** : Possibilité de supprimer des données de stock.
-* **Exporter** : Possibilité d'exporter des données de stock.
+* **Créer** : Créer des éléments dans tout le menu (sauf droit plus précis ci-dessous).
+* **Modifier** : Modifier des éléments dans tout le menu (sauf droit plus précis ci-dessous).
+* **Supprimer** : Supprimer des éléments dans tout le menu (sauf droit plus précis ci-dessous).
+* **Exporter** : Exporter les listes du menu au format CSV.
 
 ### Références
 
-* **Afficher références** : Affiche le sous-menu Références. Si vous décochez ce droit, vos utilisateurs n'auront pas accès aux fonctionnalités liées aux références.
-* **Créer en brouillon** : Permet de créer des références au statut Brouillon (à la différence de Actif). Certains champs sont préremplis. Un rôle de valideur doit valider ces références avant qu'elles ne puissent être utilisées sur l'instance.
-* **Modifier partiellement** : Réduit le nombre de champs modifiables d'une référence (impossible de modifier : Code de référence, Statut, Groupe de visibilité, Gestionnaire et Acheteur).
-* **Valideur des références** : Permet de passer des références de Brouillon à Actif.
+* **Afficher références**
+* **Créer en brouillon** : Créer des références en brouillon, à faire valider.
+* **Modifier partiellement** : Modifier seulement une partie des champs d'une référence.
+* **Valideur des références** : Valider les références créées en brouillon.
+* **Afficher uniquement les références actives** : Masque les références inactives.
 
 ### Articles
 
-* **Afficher articles** : Affiche le sous-menu Articles. Si vous décochez ce droit, vos utilisateurs n'auront pas accès au menu Articles.
+* **Afficher articles**
 
-### **Articles fournisseurs** :
+### Articles fournisseur
 
-* **Afficher articles fournisseurs** : Affiche le sous-menu Articles fournisseurs. Si vous décochez ce droit, vos utilisateurs n'auront pas accès au sous-menu Articles fournisseurs.
+* **Afficher articles fournisseurs**
 
 ### Mouvements de stock
 
-* **Afficher mouvements de stock** : Affiche le sous-menu Mouvements de stock. Si vous décochez ce droit, vos utilisateurs n'auront pas accès au sous-menu Mouvements de stock.
+* **Afficher mouvements de stock**
 
 ### Alertes
 
-* **Afficher alertes** : Affiche le sous-menu Alertes. Si vous décochez ce droit, vos utilisateurs n'auront pas accès au sous-menu Alertes.
-* **Exporter alertes** : Permet d'afficher le bouton d'exportation sur la page Stock | Alertes.
+* **Afficher alertes**
+* **Exporter alertes**
 
 ### Inventaire
 
-* **Afficher inventaires** : Affiche le sous-menu Inventaires. Si vous décochez ce droit, vos utilisateurs n'auront pas accès au sous-menu Inventaires.
-* **Gestionnaire d'inventaire** : Si ce paramètre est activé, un utilisateur disposant du rôle paramétré peut consulter la liste des inventaires et en créer de nouveaux.
-
+* **Afficher inventaires**
+* **Gestionnaire d'inventaire** : Gérer les missions et les anomalies d'inventaire.

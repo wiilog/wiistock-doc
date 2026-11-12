@@ -1,12 +1,14 @@
+---
+description: Jours fériés et fermetures, exclus du calcul des délais.
+---
+
 # Jours non travaillés
 
-Le paramétrage des jours non travaillés a une incidence sur le calcul des en-cours et du délai sur emplacement.
+**Chemin :** Paramétrage › Global › Jours non travaillés
 
-Dans ce paramétrage, indiquez les jours où votre entreprise ne travaille pas (exemple : jours fériés, vacances...). Vous pouvez facilement les supprimer en cliquant sur la corbeille au début de la ligne, et faire une recherche.
+Ces jours (fériés, vacances…) sont exclus du calcul des encours et des délais sur emplacement.
 
-\
-Pour ajouter des jours, cliquez sur le bouton **Ajouter** et, à l'aide d'un calendrier, indiquez les jours qui vous conviennent. Pour en ajouter plusieurs à la fois, appuyer sur la touche "Entrée" de votre clavier ou sur la ligne vide avec le plus. Une fois fini, n'oubliez pas d'**enregistrer**.
+* **Ajouter** : choisissez le jour dans le calendrier. Pour en ajouter plusieurs, appuyez sur **Entrée** ou cliquez sur la ligne **+**.
+* **Supprimer** : poubelle en début de ligne.
 
-{% embed url="https://www.screencast.com/t/njGGDDfF33X7" %}
-Ajouter des jours non travaillés
-{% endembed %}
+Cliquez sur **Enregistrer** pour valider.

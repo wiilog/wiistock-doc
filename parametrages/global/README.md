@@ -1,14 +1,14 @@
 ---
-description: >-
-  Le paramétrage global regroupe tout ce qui peut être lié à des généralités sur
-  l'application ou à une gestion du temps de travail
+description: Réglages généraux de l'application et du temps de travail.
 ---
 
 # Global
 
-Ce paramétrage est ainsi structuré :
+**Chemin :** Paramétrage › Global
 
-* Apparence du site
-* Étiquettes
-* Heures travaillées
-* Jours non travaillés
+| Rubrique                                        | À quoi ça sert                                  |
+| ----------------------------------------------- | ----------------------------------------------- |
+| [Apparence du site](apparence-du-site.md)       | Logos, police, nom du client, durée de session. |
+| [Heures travaillées](heures-travaillees.md)     | Horaires de chaque jour et créneaux de passage. |
+| [Jours non travaillés](jours-non-travailles.md) | Jours fériés et fermetures.                     |
+| [Étiquettes](etiquettes.md)                     | Format des étiquettes et modèles spécifiques.   |

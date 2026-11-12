@@ -1,47 +1,61 @@
 ---
 description: >-
-  Un rôle permet de donner accés aux fonctionnalités de l'application. Un rôle
-  permet de manière générale de consulter / modifier / supprimer ou exporter une
-  donnée liée à une fonctionnalité.
+  Un rôle définit les fonctionnalités accessibles : consulter, créer, modifier,
+  supprimer ou exporter.
 ---
 
 # Rôles
 
-L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application.
-
-**Les cas d'utilisation des rôles :**
-
-* **Rôle super admin** : Rôle utilisé par les administrateurs de l'application de l'équipe Wiilog ou bien 1 ou 2 personnes de l'équipe portant la responsabilité de key user dans l'application.
-* **Rôle opérateur** : Rôle utilisé par les opérateurs permettant d'effectuer toutes les actions et traitements opérationnels dans l'application
-* **Rôle client** : Rôle utilisé par les demandeurs de stock ou bien un client acheteur permettant d'effectuer des demandes, création d'urgence et de consulter l'avancement des ordres
-
-### Créer un nouveau rôle&#x20;
-
-Depuis le menu Paramétrage, allez dans **Rôle** (sous-menu d'utilisateur) la liste des rôles déjà créée s'affiche.
+### Créer un nouveau rôle
 
 Cliquez sur le bouton <mark style="background-color:blue;">**Nouveau rôle**</mark>, vous allez être redirigé vers une nouvelle page. Sur celle-ci vous retrouver une liste de menus à gauche et les informations liées au rôle sur la droite.
-
-Renseignez le **libellé**, cela permet de donner un nom au rôle qui sera créé ou modifié.
-
-\
-Si sur votre instance vous utilisez les demandes de livraison et/ou de collecte, choisissez **l'ajout quantité** :
 
 * **Article** : lorsqu'un utilisateur effectuera une demande, il devra choisir précisément l'article à se faire livrer ou à collecter. L'opérateur qui traitera la demande devra prendre précisément l'article choisit pour clôturer la demande
 * **Référence** : l'utilisateur ne choisira pas précisément l'article à se faire livrer ou a collecter lorsqu'il effectuera sa demande. Il demandera seulement une quantité de la ou des références souhaitées. C'est l'opérateur qui sélectionnera précisément l'article lorsqu'il traitera la demande
 
-La coche **Réception mail création nouveau compte** vous permet de recevoir un mail à chaque fois qu'un utilisateur se créer un compte sur l'instance.
+**Chemin :** Paramétrage › Utilisateurs › Rôles
 
-Il faut ensuite choisir les droits à attribuer à ce rôle en allant cocher les droits dans les différents menus. Nous détaillerons dans des sous-menus de cette section l'impact de chaque droit.
+Un rôle est attribué à un ou plusieurs utilisateurs. Exemples courants :
 
-### Supprimer un rôle
+* **Administrateur** : équipe Wiilog ou 1-2 key users ;
+* **Opérateur** : toutes les actions opérationnelles ;
+* **Client / demandeur** : faire des demandes, créer des urgences, suivre l'avancement.
 
-Dans la liste des rôles, vous pouvez en supprimer un, en cliquant sur l'icône corbeille.
+## Créer un rôle
 
-{% hint style="info" %}
-Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut pas être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
-{% endhint %}
+Cliquez sur **Nouveau rôle**. La page affiche les menus à gauche et les droits à droite.
 
-### Modifier un rôle
+{% stepper %}
+{% step %}
+### Informations du rôle
 
-Pour modifier un rôle, cliquez sur la ligne du rôle à modifier pour passer en mode édition.
+| Champ                | Description                                                                                                                                                            |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Libellé\***        | Nom du rôle.                                                                                                                                                           |
+| **Ajout quantité\*** | **Article** : le demandeur choisit l'article précis à livrer ou collecter. **Référence** : il demande une quantité, et l'opérateur choisit les articles au traitement. |
+| **Accueil\***        | Page d'accueil après connexion : **Dashboard**, **Planning** ou **Demande de transport**.                                                                              |
+{% endstep %}
 
+{% step %}
+### Droits généraux
+
+Dans **Général** : Afficher les notifications, Afficher le panier, Choisir la langue, Réception email de demande de création de compte, Afficher la documentation, Afficher le support.
+{% endstep %}
+
+{% step %}
+### Droits par menu
+
+Cochez les droits de chaque menu : Production, Traçabilité, Qualité & Urgences, Demande, Ordre, Stock, Référentiel, IoT, Nomade, Paramétrage, Dashboard. Le détail est dans les sous-pages.
+{% endstep %}
+
+{% step %}
+### Enregistrer
+
+Cliquez sur **Enregistrer**.
+{% endstep %}
+{% endstepper %}
+
+## Modifier, supprimer
+
+* **Modifier** : cliquez sur la ligne du rôle.
+* **Supprimer** : poubelle de la ligne. Un rôle attribué à des utilisateurs ne peut pas être supprimé : retirez-le d'abord de ces utilisateurs.

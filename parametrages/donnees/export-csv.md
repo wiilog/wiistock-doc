@@ -1,9 +1,40 @@
+---
+description: Exporter des données une fois, ou automatiquement par email ou SFTP.
+---
+
 # Export CSV
 
-Les exports de données se trouvent en général sur les listes des demandes/ordres/mouvements ou autres entités de données.
+**Chemin :** Paramétrage › Données › Exports CSV
 
-Les 2 possibilités d'export sont pour des données liées aux références et aux articles présents dans le stock, cela inclut également les champs libres associés. Afin de lancer l'export des articles ou références, il faut cliquer sur le bouton "**Exporter au format CSV"** et ne pas quitter la page tant que l'export n'est pas terminé, car le fait de quitter ou de rafraichir la page annulera l'export. Le système de champ libre multiplie les requêtes dans la base de données, c'est pourquoi l'export total de la base peut prendre un certain temps.
+La plupart des listes ont leur propre bouton **Exporter au format CSV**. Cette page permet en plus de lancer des exports complets, **uniques** ou **planifiés**, et d'en suivre l'historique.
+
+## Créer un export
+
+{% stepper %}
+{% step %}
+### Choisir le mode
+
+Cliquez sur **Ajouter un export**, puis **Export CSV unique** ou **Export CSV planifié**.
+{% endstep %}
+
+{% step %}
+### Choisir les données
+
+**Type de données à exporter** : Références, Articles, Tournées, Arrivages, Référence emplacement, Acheminements, Productions, Mouvements, Unités logistiques, Arrivages camion, Associations BR, Litiges, Urgences, Emplacements ou Contacts.
+{% endstep %}
+
+{% step %}
+### Planifier (export planifié)
+
+* **Fréquence** : une fois, chaque heure, chaque jour, chaque semaine ou chaque mois ;
+* **Destination d'export** : **Envoi email** (utilisateurs FollowGT et/ou emails libres) ou **Envoi vers serveur SFTP** (serveur hôte, port, utilisateur, mot de passe, répertoire cible).
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
-Les références et articles exportés sont seulement ceux avec le groupe de visibilité rattaché à  l’utilisateur.
+Les références et articles exportés sont seulement ceux des groupes de visibilité de l'utilisateur.
 {% endhint %}
+
+## Suivre les exports
+
+Le tableau liste les exports (statut, dates de création, début et fin, prochaine exécution, fréquence, utilisateur, type, données exportées). Filtrez par dates, statut ou utilisateur.

@@ -1,7 +1,18 @@
+---
+description: Personnaliser les logos, la police et la durée de session.
+---
+
 # Apparence du site
 
-Dans un premier temps, vous pouvez personnaliser les logos sur des différents documents et application, notamment celui de l'en-tête, des mail et sur le terminal mobile. Des logos de base vous sont proposés.
+**Chemin :** Paramétrage › Global › Apparence du site
 
-Dans un second temps, le choix de police vous est proposé, vous avez le choix entre Myriad (typo par défaut), Tahoma et Montserra.
+| Paramètre                                             | Description                                                                                                                         |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Logos**                                             | Logo de l'en-tête web, de la page de connexion du nomade, des emails et de l'en-tête du nomade. Des logos par défaut sont proposés. |
+| **Choix de la police\***                              | Myriad (par défaut), Tahoma ou Montserrat.                                                                                          |
+| **Nom du client\***                                   | Nom affiché dans l'application.                                                                                                     |
+| **Nom d'expéditeur des emails\***                     | Nom qui apparaît comme expéditeur des emails envoyés par FollowGT.                                                                  |
+| **Temps de session en minutes**                       | Durée d'inactivité avant déconnexion (24 h maximum). Prise en compte à la prochaine connexion.                                      |
+| **Afficher le logo à la connexion sur l'application** | Oui / Non.                                                                                                                          |
 
-Vous pouvez également déterminer le temps d'inactivité maximum en minutes avant que l'utilisateur ne soit déconnecté. (Le paramétrage ne prendra effet qu'à la prochaine connexion de l'utilisateur.)<br>
+Cliquez sur **Enregistrer** pour valider.
