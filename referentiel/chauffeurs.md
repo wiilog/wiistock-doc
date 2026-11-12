@@ -6,9 +6,11 @@ description: Les chauffeurs, rattachés à un transporteur et utilisés sur les 
 
 **Chemin :** Référentiel › Chauffeurs
 
-Cliquez sur **Nouveau chauffeur** et renseignez : **Nom\***, **Prénom\***, **DocumentID\*** (n° de pièce d'identité) et **Transporteur** (voir [Transporteurs](transporteurs.md)). Cliquez sur **Enregistrer**.
+Cliquez sur **Nouveau chauffeur** et renseignez : **Nom\***, **Prénom\***, **DocumentID\*** (n° de pièce d'identité) et **Transporteur\*** (voir [Transporteurs](transporteurs.md)). Cliquez sur **Enregistrer**.
 
 Un chauffeur peut aussi être créé directement depuis le formulaire d'un arrivage.
+
+<figure><img src="../.gitbook/assets/referentiel-chauffeurs-nouveau-chauffeur.png" alt=""><figcaption></figcaption></figure>
 
 * **Modifier** : cliquez sur la ligne.
 * **Supprimer** : menu **⋮** de la ligne. Un chauffeur déjà utilisé sur un arrivage ne peut pas être supprimé.
