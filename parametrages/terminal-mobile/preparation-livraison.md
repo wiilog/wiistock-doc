@@ -1,15 +1,17 @@
+---
+description: Couleur des vignettes de préparation et livraison sur le nomade.
+---
+
 # Préparation / Livraison
 
-## Préparation / Livraison
+**Chemin :** Paramétrage › Terminal mobile › Préparations / Livraisons
 
-Vous pouvez venir régler la couleur des entêtes des vignettes de préparations et livraison sur le nomade. La couleur va dépendre de la date attendue que vous aurez renseigné sur la demande de livraison.
+La couleur de l'en-tête des vignettes dépend de la **date attendue** de la demande de livraison. Sans date attendue, l'en-tête est jaune.
 
-Si votre livraison n'a pas de date attendue, la couleur de l'entête sera par défaut en jaune.
+| Paramètre                 | Livraisons concernées        |
+| ------------------------- | ---------------------------- |
+| **Date attendue +1 jour** | Date attendue dans le futur. |
+| **Date attendue jour J**  | Date attendue aujourd'hui.   |
+| **Date attendue -1 jour** | Date attendue dépassée.      |
 
-* **Date attendue +1 jour :** sélectionnez ici la couleur de l'entête de la préparation et livraison pour les livraisons dont la date attendue est située dans le futur. 8 couleurs de base vous sont proposées. Cliquez sur autre pour personnaliser la couleur.
-* **Date attendue jour J :** sélectionner ici la couleur de l'entête de la préparation et livraison pour les livraisons dont la date attendue est située le jour même. 8 couleurs de base vous sont proposées. Cliquez sur autre pour personnaliser la couleur.
-* **Date attendue -1 jour :** sélectionnez ici la couleur de l'entête de la préparation et livraison pour les livraisons dont la date attendue est située dans le passé. 8 couleurs de base vous sont proposées. Cliquez sur autre pour personnaliser la couleur.
-
-{% embed url="https://www.screencast.com/t/UeFkf0cmBhD" %}
-Paramétrage des couleurs d'entête
-{% endembed %}
+Choisissez parmi les 8 couleurs proposées, ou **Autre** pour une couleur personnalisée. Cliquez sur **Enregistrer**.

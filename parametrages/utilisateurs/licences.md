@@ -1,13 +1,22 @@
 ---
-description: Suivre le nombre de connexions simultanées web et nomade.
+description: Suivre les connexions web et nomade.
 ---
 
 # Licences
 
-Chemin : **Paramétrages | Utilisateurs | Licences**
+**Chemin :** Paramétrage › Utilisateurs › Licences
 
-La page Licences affiche le nombre de **connexions simultanées**, en distinguant les connexions **web** et **nomade**.
+La page indique le nombre de **licences actives** (connexions simultanées) et liste l'historique des sessions :
 
-### Accès
+| Colonne                                         | Description                                             |
+| ----------------------------------------------- | ------------------------------------------------------- |
+| **Nom utilisateur**                             | Utilisateur connecté.                                   |
+| **Type de connexion**                           | Session web ou nomade.                                  |
+| **Date de connexion** / **Date de déconnexion** | Début et fin de la session (vide si elle est en cours). |
+| **Identifiant de la session**                   | Référence technique.                                    |
 
-Pour afficher cette page, le rôle de l'utilisateur doit avoir le droit **Afficher les licences** (Paramétrages | Utilisateurs | Rôles).
+**Exporter au format CSV** exporte l'historique.
+
+{% hint style="info" %}
+Le rôle doit avoir le droit **Afficher les licences** (voir [Rôles](roles/)).
+{% endhint %}

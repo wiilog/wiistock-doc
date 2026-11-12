@@ -1,9 +1,15 @@
+---
+description: Imports, exports et encodage des données.
+---
+
 # Données
 
-Cette section regroupe tous les menus permettant de manipuler les données de Follow GT.
+La partie **Imports d'inventaire** permet de mettre à jour rapidement les catégories d'inventaire sur les références.
 
-La partie **Exports CSV** va permettre de gérer l'encodage des exports, ainsi que d'accéder à des types d'export accessibles seulement dans cette partie de l'application.
+**Chemin :** Paramétrage › Données
 
-La partie **Imports & mises à jour** permet d'importer en masse des données.
-
-La partie **Imports d'inventaire** permet de mettre à jour rapidement les catégories d'inventaire sur les références.&#x20;
+| Rubrique                                                | À quoi ça sert                                                       |
+| ------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Encodage des exports CSV](encodage-des-exports-csv.md) | Éviter les caractères illisibles dans Excel.                         |
+| [Export CSV](export-csv.md)                             | Exporter des données une fois ou de façon planifiée (email ou SFTP). |
+| [Imports & mises à jour](imports-and-mises-a-jour.md)   | Importer ou mettre à jour des données depuis un fichier.             |

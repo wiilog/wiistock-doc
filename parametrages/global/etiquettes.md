@@ -1,11 +1,30 @@
+---
+description: Format des étiquettes et modèles d'étiquettes spécifiques.
+---
+
 # Étiquettes
 
-### Étiquettes
+**Chemin :** Paramétrage › Global › Étiquettes
 
-La configuration des étiquettes est commune aux étiquettes d'article et d'arrivage. Ici, vous paramétrez le type, les dimensions et le logo sur les étiquettes. Les paramètres spécifiques à l'étiquette d'article et d'arrivage se retrouvent respectivement dans le menu stock et trace.
+## Format par défaut
 
-**Le type d'étiquette** : Permet de spécifier le type de code généré sur les étiquettes, il y a 2 choix possibles : CODE128 \[1D] ou QR Code \[2D]
+Commun aux étiquettes d'article et d'arrivage. Le contenu propre à chacune se règle dans [Stock › Articles › Étiquettes](../../stock/parametrage/articles/etiquettes.md) et [Trace › Arrivages UL › Étiquettes](../../trace/parametrage/arrivages-ul/etiquettes.md).
 
-**Hauteur et largeur (mm)** : spécifie la hauteur et la largeur en millimètre de l'étiquette (entier)
+| Paramètre                  | Description                                                          |
+| -------------------------- | -------------------------------------------------------------------- |
+| **Type d'étiquette**       | **Code 128** (code-barres 1D) ou **QR Code** (2D).                   |
+| **Hauteur / Largeur (mm)** | Dimensions de l'étiquette (nombres entiers).                         |
+| **Logo sur étiquette**     | Image .png ou .jpg placée en haut à gauche de toutes les étiquettes. |
 
-**Logo sur l'étiquette** : Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées.
+## Modèles d'étiquette spécifiques
+
+Un modèle remplace l'étiquette par défaut pour les cas choisis. Ajoutez une ligne et renseignez :
+
+| Colonne                                                | Description                                                          |
+| ------------------------------------------------------ | -------------------------------------------------------------------- |
+| **Préfixe\***                                          | Préfixe des codes concernés.                                         |
+| **Type d'étiquette\*** / **Hauteur\*** / **Largeur\*** | Format de ce modèle.                                                 |
+| **Brique\***                                           | **Arrivage** ou **Article**.                                         |
+| **Nature(s) / Type(s)\***                              | Natures (arrivage) ou types (article) auxquels le modèle s'applique. |
+
+Cliquez sur **Enregistrer** pour valider.
