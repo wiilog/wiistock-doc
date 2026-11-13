@@ -27,6 +27,17 @@ Les articles sont normalement créés lors d'une [réception](ordres/receptions/
 
 * Utilisez le champ **Rechercher**. Le choix des colonnes où il cherche se fait dans **Recherche rapide**, via la flèche à côté de **Nouvel article**.
 * La même flèche donne accès à **Gestion des colonnes**, à **Impression des étiquettes** (après une recherche) et à **Articles actifs seulement** (statuts disponible, en transit et en litige).
+* La colonne **Imprimer** n'est pas affichée par défaut : activez-la dans **Gestion des colonnes**. Elle affiche un bouton **Imprimer** pour chaque article dont l'étiquette n'a pas encore été imprimée. Au clic, l'étiquette est imprimée et le bouton disparaît de la ligne, sans rechargement de la page.
+
+## L'impression de l'étiquette
+
+Un article est considéré comme « étiquette imprimée » dès que son étiquette a été imprimée depuis le bouton **Imprimer** de la colonne **Imprimer**. Cette information permet de repérer les articles dont l'étiquette reste à imprimer.
+
+Un article nouvellement créé a son étiquette à imprimer. Les articles existants avant la mise en place de cette fonctionnalité sont considérés comme déjà imprimés : le bouton n'apparaît donc que pour les nouveaux articles. Une étiquette déjà imprimée peut être réimprimée sans erreur.
+
+{% hint style="info" %}
+L'impression depuis le menu **⋮** de la ligne n'indique pas que l'étiquette est imprimée : le bouton de la colonne **Imprimer** reste alors disponible.
+{% endhint %}
 
 ## Créer un article
 
@@ -52,7 +63,7 @@ Cliquez sur **Modifier** pour changer le libellé, le prix, l'anomalie, le lot, 
 
 Le menu **⋮** d'une ligne propose :
 
-* **Imprimer** : imprimer l'étiquette de l'article ;
+* **Imprimer** : imprimer l'étiquette de l'article (sans la marquer comme imprimée, voir [L'impression de l'étiquette](#limpression-de-letiquette)) ;
 * **Accéder à la demande** : si l'article est dans une demande ;
 * **Voir mouvements de traçabilité** ;
 * **Historique des données** : si l'article est associé à un objet connecté (icône wifi) ;
@@ -62,6 +73,6 @@ Le menu **⋮** d'une ligne propose :
 
 <summary>Colonnes disponibles</summary>
 
-Libellé, Référence article, Référence fournisseur, Code barre, Type, Statut, Quantité, Emplacement, Prix unitaire, Dernier inventaire, Lot, Date d'entrée en stock, Date d'expiration, Commentaire, et les champs libres.
+Libellé, Référence article, Référence fournisseur, Code barre, Type, Statut, Quantité, Emplacement, Prix unitaire, Dernier inventaire, Lot, Date d'entrée en stock, Date d'expiration, Commentaire, Imprimer (masquée par défaut), et les champs libres.
 
 </details>

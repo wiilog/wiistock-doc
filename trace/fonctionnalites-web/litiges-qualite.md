@@ -44,7 +44,7 @@ Cliquez sur **Enregistrer**. Le litige apparaît sur l'arrivage et dans **Qualit
 Les types et les statuts se paramètrent dans [Litiges - Types](../parametrage/arrivages-ul/litiges-types.md) et [Litiges - Statuts](../parametrage/arrivages-ul/litiges-statuts.md). Selon ce paramétrage, un changement de statut peut envoyer un mail à l'acheteur et au déclarant.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 11.14.09 (1).png" alt="Création d&#x27;un litige"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-14 à 11.14.09.png" alt="Création d&#x27;un litige"><figcaption></figcaption></figure>
 
 ## Faire avancer un litige
 
