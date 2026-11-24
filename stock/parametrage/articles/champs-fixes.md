@@ -20,4 +20,4 @@ Les valeurs du champ **Pays d'origine** se gèrent dans [Pays d'origine](pays-do
 
 Cliquez sur **Enregistrer** pour valider.
 
-<figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>

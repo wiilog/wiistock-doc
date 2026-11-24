@@ -10,46 +10,54 @@ Si votre entreprise utilise la [connexion SSO](connexion-sso.md), la création d
 
 ### Créer un utilisateur
 
+Vous pouvez créer un utilisateur depuis le paramétrage, depuis une demande sur la page de connexion, ou en masse par import depuis **Paramétrage | Données | Imports & mises à jour**.
+
 #### Depuis le paramétrage
 
 Allez dans **Paramétrage | Utilisateurs | Utilisateurs** et cliquez sur **Nouvel utilisateur**.
 
-| Champ                                | Description                                                                                                                                                        |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Statut**                           | Actif ou inactif. Un utilisateur inactif ne peut plus se connecter.                                                                                                |
-| **Rôle**                             | Donne accès aux fonctionnalités.                                                                                                                                   |
-| **Nom d'utilisateur**                | Nom affiché dans l'application et identifiant sur le **nomade**. Doit être unique.                                                                                 |
-| **Email**                            | Identifiant sur le **web** et adresse de réception des notifications. Doit être unique. Le bouton « ajouter un mail » permet d'ajouter 2 adresses supplémentaires. |
-| **Mot de passe** / **Confirmer**     | 8 caractères minimum, dont 1 caractère spécial, 1 chiffre et 1 majuscule.                                                                                          |
-| **Clé de connexion nomade**          | Mot de passe de l'application nomade, entre 14 et 24 caractères.                                                                                                   |
-| **Numéro de téléphone**, **Adresse** | Coordonnées de l'utilisateur.                                                                                                                                      |
-| **Langue**                           | Langue de l'application (français ou anglais par défaut).                                                                                                          |
-| **Format de date**                   | jj/mm/aaaa, mm/dd/yyyy ou yyyy/mm/dd.                                                                                                                              |
-| **Types de demandes visibles**       | Types de livraison, d'acheminement, de service, de **production** et de **tournée** visibles par l'utilisateur. Voir ci-dessous.                                   |
-| **Groupe de visibilité**             | Limite les références du stock visibles. Sans groupe, l'utilisateur voit toutes les références.                                                                    |
-| **Dropzone**                         | Emplacement affecté à l'utilisateur pour les arrivages de traçabilité. Si l'utilisateur est acheteur, la dropzone figure sur l'étiquette d'unité de tracking.      |
-| **Code signataire**                  | Code PIN à 4 caractères pour signer les acheminements groupés.                                                                                                     |
-| **Livreur**                          | Indique un chauffeur-livreur du module Track.                                                                                                                      |
+| Champ                                                                         | Description                                                                                                                            |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statut**                                                                    | Actif ou inactif. Un utilisateur inactif ne peut plus se connecter.                                                                    |
+| **Rôle**                                                                      | Donne accès aux fonctionnalités.                                                                                                       |
+| **Identifiant utilisateur**                                                   | Identifiant de connexion sur le **web**. Doit être unique et format email.                                                             |
+| **Mot de passe / Confirmer le mot de passe**                                  | 8 caractères minimum, dont 1 caractère spécial, 1 chiffre et 1 majuscule.                                                              |
+| **Types de livraison, d'acheminement, de service, de tournée, de production** | Types de demandes visibles par l'utilisateur. Voir ci-dessous.                                                                         |
+| **Groupes de visibilité**                                                     | Limite les références du stock visibles. Sans groupe, l'utilisateur voit toutes les références.                                        |
+| **Business unit (acheminements)**                                             | Pré-remplit le champ Business unit des acheminements créés par l'utilisateur.                                                          |
+| **Livreur**                                                                   | Indique un chauffeur-livreur du module Track.                                                                                          |
+| **Connexion 14 jours**                                                        | Garde l'utilisateur connecté pendant 14 jours. Option inactive par défaut : pour l'activer, ouvrez un ticket auprès du support Wiilog. |
 
-<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FSsXo4sEAGNoC5Hmat3Rr%2Fimage.png?alt=media&#x26;token=d450edc5-abc8-4a93-b26e-17756fddbe43" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/parametrage-utilisateurs-nouvel-utilisateur.png" alt=""><figcaption></figcaption></figure>
+
+Un contact est créé automatiquement pour chaque utilisateur (l'inverse n'est pas vrai : un contact n'a pas forcément de compte utilisateur). Les autres champs de la partie **Informations contact** (nom d'affichage, emails secondaires, adresse, trigramme et code signataire, société, service de l'entreprise, téléphone, dropzone, langue et format de date) renseignent ce contact : voir [contacts.md](../../referentiel/contacts.md "mention").
+
+{% hint style="info" %}
+La clé de connexion nomade est générée automatiquement : vous n'avez pas à la renseigner.
+{% endhint %}
 
 **Filtrer les types de demandes visibles**
 
 Ces champs limitent les types de demandes que l'utilisateur voit. Quand un champ est vide :
 
-| Champ                            | Web                     | Nomade             |
-| -------------------------------- | ----------------------- | ------------------ |
-| Livraison, acheminement, service | Tous les types visibles | Aucun type visible |
-| Production                       | Tous les types visibles | Sans objet         |
-| Tournée                          | Tous les types visibles | Aucun type visible |
+| Champ                                     | Web                     | Nomade             |
+| ----------------------------------------- | ----------------------- | ------------------ |
+| Livraison, acheminement, service, tournée | Tous les types visibles | Aucun type visible |
+| Production                                | Tous les types visibles | Sans objet         |
 
-<figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FQkJaD4zCNSmyJq3kXqmN%2Fimage.png?alt=media&#x26;token=f6ff6a61-8249-44ef-9725-6b192fe61cbb" alt=""><figcaption></figcaption></figure>
+
 
 #### Depuis la page de connexion (hors SSO)
 
-Le bouton **Créer un compte** ouvre un formulaire limité : nom d'utilisateur, adresse email, mot de passe, langue et format de date.
+Sur la page de connexion, saisissez votre adresse email, puis cliquez sur le lien **Demandez-en un maintenant**. Le formulaire **Demander un compte** reprend l'adresse email saisie. Renseignez les champs obligatoires **Nom**, **Prénom** et **Message**, et si besoin les **Informations complémentaires** : **Adresse**, **Société**, **Emails secondaires** et **Téléphone**.
 
-Le compte créé reçoit le rôle **Aucun accès**. L'administrateur reçoit un email de demande de compte : le lien de cet email ouvre la fiche de l'utilisateur pour lui attribuer un rôle et compléter son paramétrage.
+Cliquez sur **Enregistrer** pour envoyer la demande. L'administrateur reçoit la demande par email et crée le compte.
+
+
+
+<figure><img src="../../.gitbook/assets/connexion-demander-un-compte.png" alt=""><figcaption></figcaption></figure>
 
 #### Par import
 

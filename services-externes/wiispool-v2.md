@@ -24,22 +24,19 @@ Après avoir téléchargé le fichier `wiispool.zip`, suivez les étapes suivant
 
 * Décompresser le fichier téléchargé.
 * Exécuter le programme d'installation pour installer Wiispool sur votre ordinateur, en exécutant le fichier ![](<../.gitbook/assets/image (101).png>)
-* Lors de l'installation la fenêtre suivante peut apparaitre :&#x20;
+* Lors de l'installation la fenêtre suivante peut apparaitre :
 
-
-
-<figure><img src="../.gitbook/assets/image (110).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt="" width="266"><figcaption></figcaption></figure>
 
 _Le message que vous voyez est généré par Microsoft Defender SmartScreen, un composant de sécurité intégré à Windows. Il a pour objectif de protéger votre ordinateur en empêchant l'exécution d'applications non reconnues ou potentiellement dangereuses. Ce message apparaît car Wiispool est récemment développé et n'est pas largement utilisé, et peut ne pas être reconnue par SmartScreen. Pour contourner cette alerte vous pouvez cliquer sur "Informations complémentaires" puis sélectionner "Exécuter quand même"._
 
-* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (102).png>)
+* Vous pouvez ajouter un lien vers Wiispool directement sur votre bureau en créant un raccourci vers le fichier ![](<../.gitbook/assets/image (101).png>)
 * Création d'un raccourci sur le bureau Windows
   * Clic droit sur un endroit vide sur votre bureau => Nouveau => Raccourci => Entrer l'emplacement vers le fichier ![](<../.gitbook/assets/image (104).png>)que vous avez précédemment décompressé.
-* **Configuration Initiale**\
-  &#x20;
+* **Configuration Initiale**<br>
 
 Lors du premier lancement de Wiispool l'interface est la suivante : ![](<../.gitbook/assets/image (105).png>)\
-&#x20; Vous devez sélectionner le dossier que Wiispool va écouter pour effectuer l'envoie des fichiers à imprimer vers la bonne imprimante. Cliquer sur "Parcourir" et renseigner le chemin vers le dossier ou vos téléchargements sont stocker par votre navigateur sur votre poste de travail.<br>
+Vous devez sélectionner le dossier que Wiispool va écouter pour effectuer l'envoie des fichiers à imprimer vers la bonne imprimante. Cliquer sur "Parcourir" et renseigner le chemin vers le dossier ou vos téléchargements sont stocker par votre navigateur sur votre poste de travail.<br>
 
 **Trouver où le navigateur enregistre les fichiers téléchargés**
 
@@ -58,11 +55,11 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 
 <figure><img src="../.gitbook/assets/image (111).png" alt="" width="263"><figcaption></figcaption></figure>
 
-* Dans la modale suivante&#x20;
+* Dans la modale suivante
 
 <figure><img src="../.gitbook/assets/image (113).png" alt="" width="238"><figcaption></figcaption></figure>
 
-* &#x20;Dans le champ "Ajouter un préfixe" renseignez le préfixe que vous voulez associer. _("ETQ" dans mon exemple)_
+* Dans le champ "Ajouter un préfixe" renseignez le préfixe que vous voulez associer. _("ETQ" dans mon exemple)_
 * Dans le champ _"Sélectionner un e imprimante", &#x73;_&#xE9;lectionnez l'imprimante que vous voulez associée au préfixe renseigné dans le champ du dessus._(L'imprimante doit déjà être accessible sur votre poste de travail)_
 * Enregistrer cette nouvelle association en cliquant sur "_Ajouter un préfixe_".
 
@@ -87,5 +84,4 @@ _(Dans cet exemple je montre la procédure en utilisant Chrome la procédure est
 **Lancer l'impression automatique**
 
 * Une fois le paramétrage terminé, pour lancer l'exécution de Wiispool, il vous suffit de cliquer sur Activer l'impression.
-* A partir de la dés que vous téléchargerez un document .PDF préfixé avec  un des préfixes paramétré, ce document sera automatiquement envoyé vers l'imprimante qui est associée avec ce préfixe et le document sera automatiquement supprimé de votre dossier de téléchargement.
-
+* A partir de la dés que vous téléchargerez un document .PDF préfixé avec un des préfixes paramétré, ce document sera automatiquement envoyé vers l'imprimante qui est associée avec ce préfixe et le document sera automatiquement supprimé de votre dossier de téléchargement.

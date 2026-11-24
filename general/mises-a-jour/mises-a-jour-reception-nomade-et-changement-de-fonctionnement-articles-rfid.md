@@ -9,18 +9,15 @@ description: Mise en production du 17/07/2024
 _Ce projet permet de compléter des attendus de réceptions crées depuis le web. Vous pourrez confirmer les réceptions et quantités des références depuis votre nomade._<br>
 
 * Nouveau droit nomade sur les rôles pour afficher le module Réception.
-* Nouveau menu nomade avec liste des réceptions à réceptionner.&#x20;
+* Nouveau menu nomade avec liste des réceptions à réceptionner.
   * Sélection de la référence.
-  * Confirmation de quantité.&#x20;
+  * Confirmation de quantité.
   * Validation pour finalisation réception.
 
-<figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2024-07-17 171743.png" alt=""><figcaption><p>Ecran liste des réceptions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96) (1).png" alt=""><figcaption><p>Ecran liste des réceptions</p></figcaption></figure>
 
+### Evolution création article RFID sur nomade
 
-
-### Evolution création article RFID sur nomade&#x20;
-
-_Ce projet permet l'autorisation de scan classique pour l'association de tags RFID à des articles._&#x20;
+_Ce projet permet l'autorisation de scan classique pour l'association de tags RFID à des articles._
 
 <figure><img src="../../.gitbook/assets/Capture d&#x27;écran 2024-07-17 171900.png" alt=""><figcaption><p>Page de scan</p></figcaption></figure>
-

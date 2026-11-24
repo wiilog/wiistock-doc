@@ -8,17 +8,15 @@ description: >-
 
 ## Fonctionnement général
 
-La borne va réaliser les actions suivantes sur Follow :&#x20;
+La borne va réaliser les actions suivantes sur Follow :
 
-* Créer une nouvelle référence en quantité 1, gérée à l'article avec 1 article dans la quantité choisie sur la borne au statut "consommé".&#x20;
-* Créer une demande de collecte au statut "validée" et un ordre de collecte au statut "A traiter".&#x20;
-* Génerer une étiquette d'article.&#x20;
+* Créer une nouvelle référence en quantité 1, gérée à l'article avec 1 article dans la quantité choisie sur la borne au statut "consommé".
+* Créer une demande de collecte au statut "validée" et un ordre de collecte au statut "A traiter".
+* Génerer une étiquette d'article.
 
-Les informations générales de la références et de la demande de collecte seront celles pré-remplies dans les paramétrages.&#x20;
+Les informations générales de la références et de la demande de collecte seront celles pré-remplies dans les paramétrages.
 
-Il faudra que l'opérateur traite l'ordre de collecte pour créer le mouvement d'entrée de stock de l'article et le faire passé au statut "disponible".&#x20;
-
-
+Il faudra que l'opérateur traite l'ordre de collecte pour créer le mouvement d'entrée de stock de l'article et le faire passé au statut "disponible".
 
 ## Step by step sur la borne
 
@@ -30,13 +28,13 @@ La borne a été développée pour créer des références gérées à l'article
 La quantité par défaut de la référence est 1.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/borneTact1 (1).png" alt=""><figcaption><p>Page principale de la borne tactile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/borneTact1.png" alt=""><figcaption><p>Page principale de la borne tactile</p></figcaption></figure>
 
 Après scan ou sélection de l'entrée manuelle, vous devrez rentrer les informations de la référence (Nom et libellé).
 
 <figure><img src="../../.gitbook/assets/borneTact2.png" alt=""><figcaption></figcaption></figure>
 
-Puis, vous devrez rentrer votre nom pour identifier la personne qui rentre la nouvelle réfréence dans le système mais aussi un utilisateur qui recevra un mail de confirmation de l'entrée en stock de cette référence.&#x20;
+Puis, vous devrez rentrer votre nom pour identifier la personne qui rentre la nouvelle réfréence dans le système mais aussi un utilisateur qui recevra un mail de confirmation de l'entrée en stock de cette référence.
 
 <figure><img src="../../.gitbook/assets/borneTact3.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,4 +49,3 @@ Pour la dernière étape, vous aurez un récapitulatif des informations renseign
 En cliquant sur <mark style="background-color:blue;">**"Valider"**</mark>, une étiquette article sera automatiquement téléchargée.
 
 <figure><img src="../../.gitbook/assets/etiquette.png" alt=""><figcaption></figcaption></figure>
-
