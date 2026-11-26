@@ -23,9 +23,15 @@ Il faudra que l'opérateur traite l'ordre de collecte pour créer le mouvement d
 Dès l'ouverture du lien de la borne, vous obtiendrez la page d'accueil de la borne tactile. Celle-ci vous propose de scanner votre référence pour la rentrée en stock. Vous pouvez également choisir de rentrer les informations de l'article ou référence manuellement via le bouton **"**<mark style="background-color:blue;">**Faire une entrée manuelle".**</mark>
 
 {% hint style="info" %}
-La borne a été développée pour créer des références gérées à l'article uniquement. Il est impossible de scanner une référence déjà connue du système.
+La borne permet de créer une nouvelle référence gérée à l'article. Vous pouvez également scanner une référence déjà connue du système, à condition qu'elle soit gérée à l'article, que sa quantité soit à 0 et qu'elle ait déjà eu au moins un article. La borne affiche alors un écran pour scanner l'article à rentrer en collecte.
 
 La quantité par défaut de la référence est 1.
+{% endhint %}
+
+{% hint style="warning" %}
+Les références gérées à la référence ne peuvent pas utiliser la borne de collecte.
+
+Une référence connue qui n'a jamais eu d'article ne peut pas non plus être utilisée : un article doit obligatoirement être scanné.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/borneTact1.png" alt=""><figcaption><p>Page principale de la borne tactile</p></figcaption></figure>
