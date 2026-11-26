@@ -21,6 +21,7 @@
   * [Nouvelles fonctionnalités - IoT](general/videos-explicatives/nouvelles-fonctionnalites-iot.md)
   * [Nouvelles fonctionnalités Mai 2021](general/videos-explicatives/nouvelles-fonctionnalites-mai-2021.md)
 * [Mises à jour](general/mises-a-jour/README.md)
+  * [Mise à jour - Evolution des demandes de transport, liste des articles et export de références](general/mises-a-jour/mise-a-jour-evolution-des-demandes-de-transport-liste-des-articles-et-export-de-references.md)
   * [Mise à jour - API de création d'articles et nouveau bon de préparation](general/mises-a-jour/mise-a-jour-api-de-creation-darticles-et-nouveau-bon-de-preparation.md)
   * [Mise à jour - Evolution sur l'arrivage camion, nouveau référentiel Contact et connexion SSO](general/mises-a-jour/mise-a-jour-evolution-sur-larrivage-camion-nouveau-referentiel-contact-et-connexion-sso.md)
   * [Mise à jour - Détrompeurs web, filtres sur type de production et tournées & IOT](general/mises-a-jour/mise-a-jour-detrompeurs-web-filtres-sur-type-de-production-et-tournees-and-iot.md)

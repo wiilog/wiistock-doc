@@ -21,6 +21,13 @@ Cliquez sur **Ajouter un export**, puis **Export CSV unique** ou **Export CSV pl
 ### Choisir les données
 
 **Type de données à exporter** : Références, Articles, Tournées, Arrivages, Référence emplacement, Acheminements, Productions, Mouvements, Unités logistiques, Arrivages camion, Associations BR, Litiges, Urgences, Emplacements ou Contacts.
+
+Pour les **Références**, vous pouvez limiter le contenu de l'export avec deux filtres facultatifs :
+
+* **Date de création (Du / Au)** : n'exporte que les références créées entre ces deux dates ;
+* **Statuts** : n'exporte que les références dans les statuts sélectionnés.
+
+Sans filtre, toutes les références sont exportées.
 {% endstep %}
 
 {% step %}
@@ -33,6 +40,10 @@ Cliquez sur **Ajouter un export**, puis **Export CSV unique** ou **Export CSV pl
 
 {% hint style="info" %}
 Les références et articles exportés sont seulement ceux des groupes de visibilité de l'utilisateur.
+{% endhint %}
+
+{% hint style="success" %}
+Si votre base contient un très grand nombre de références et que l'export complet n'aboutit pas, utilisez les filtres **Date de création** et **Statuts** pour découper l'export en plusieurs fichiers plus légers.
 {% endhint %}
 
 ## Suivre les exports
