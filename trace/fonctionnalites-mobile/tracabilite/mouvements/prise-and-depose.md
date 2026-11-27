@@ -126,6 +126,10 @@ Vous pouvez retrouvez les mouvements créés sur la supervision sur la page _**T
 
 Un menu permet de faire la prise et la dépose sur un seul écran. Pour l'afficher, activez-le dans le paramétrage du rôle de l'opérateur (Paramétrages | Utilisateurs | Rôles | Nomade).
 
+{% hint style="warning" %}
+Le menu Prise et dépose en une page ne fonctionne pas en mode hors ligne : le terminal mobile doit être connecté au réseau pour l'utiliser.
+{% endhint %}
+
 <figure><img src="https://806097355-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fid6mpmGgIXZ3CFWUO3AX%2Fuploads%2FIX94ThdbrLH50FgmKYec%2Fimage.png?alt=media&#x26;token=08c409e6-1409-4f41-83bf-7316bdbcc34f" alt="Menu prise et dépose en une page"><figcaption></figcaption></figure>
 
 ## Transformer une UL en groupe
